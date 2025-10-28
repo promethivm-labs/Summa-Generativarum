@@ -59,6 +59,27 @@ The 79 transcendental conditions do not exist in isolation but organize themselv
 Each regime presupposes its predecessors while remaining irreducible to them. The lattice structure permits multiple coherent architectures across different substrates—each satisfying the same regime hierarchy but instantiating it differently.[^1]
 
 
+## Formal Lattice-Theoretic Characterization
+
+Let **L** = (R, ≤, ∧, ∨) denote the Regime Lattice, where:
+
+- **R** = {R₀, R₁, R₂, R₃, R₄} is the set of regimes
+- **≤** is the presupposition order (Rᵢ ≤ Rⱼ iff Rᵢ presupposes Rⱼ)
+- **∧** (meet) represents the strongest common presupposition
+- **∨** (join) represents the weakest regime integrating both
+
+**Lattice Structure:**
+
+$$R_0 \wedge R_1 = R_0, \quad R_0 \vee R_1 = R_1$$
+$$R_1 \wedge R_2 = R_1, \quad R_1 \vee R_2 = R_2$$
+$$R_2 \wedge R_3 = R_2, \quad R_2 \vee R_3 = R_3$$
+$$R_3 \wedge R_4 = R_3, \quad R_3 \vee R_4 = R_4$$
+
+**Partial Order:** R₀ ≤ R₁ ≤ R₂ ≤ R₃ ≤ R₄, forming a **chain lattice** (distributive, modular).
+
+**Theorem (Completeness):** Every finite subset S ⊆ R has both ⋀S and ⋁S in L. L is a complete lattice with bottom element R₀ and top element R₄.
+
+
 ## Proof by Contradiction: Regime Dependencies
 
 **Theorem:** Each regime strictly presupposes all prior regimes in the lattice hierarchy. No regime can exist in coherent isolation from its predecessors.
