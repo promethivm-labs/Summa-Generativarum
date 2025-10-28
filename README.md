@@ -30,9 +30,8 @@ The **Conditions for the Possibility of Everything** constitute the minimal nece
 
 **Meta-Theorem (Universal Coherence):**[1][4]
 
-\[
-\text{CFPE} = \{C_1, C_2, \ldots, C_{79}\}, \quad \forall W: \text{Coherence}(W) \iff \bigwedge_{i=1}^{79} \text{Satisfied}(C_i, W)
-\]
+
+$$\text{CFPE} = \{C_1, C_2, \ldots, C_{79}\}, \quad \forall W: \text{Coherence}(W) \iff \bigwedge_{i=1}^{79} \text{Satisfied}(C_i, W)$$
 
 **Plain English:** A world is coherent if and only if all 79 conditions obtain simultaneously. Remove any one condition and the system collapses into unintelligibility, performative contradiction, or ontological incoherence[8].
 
