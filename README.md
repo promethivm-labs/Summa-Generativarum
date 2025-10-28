@@ -420,9 +420,7 @@ Apply XGI metrics to your domain. Test whether phenomena exhibit Scar-Bloom dyna
 
 ### **License:**
 
-© 2025 Avery Alexander Rijos. PROMETHIVM LLC. All Rights Reserved.
-
-Intellectual content (frameworks, terminology, operators, theorems) remains sole property of the author. Distribution/reproduction beyond fair scholarly use requires written permission.
+© 2025 PROMETHIVM LLC — Released for scholarly and research use under the Creative Commons BY-NC-SA 4.0 License. Intellectual content (frameworks, terminology, operators, theorems) remains sole property of the author. Distribution/reproduction beyond fair scholarly use requires written permission.
 
 **Contact:** averyarijos[at]outlook[dot]com  
 **GitHub:** [Repository URL]  
