@@ -117,6 +117,10 @@ $$
 w_t = e^{-\lambda(t - t_0)} \cdot w_0
 $$
 
+Each entry in the persistent memory is a structured record containing four elements: (1) the anomalous observation itself, encoded as a token; (2) the moment at which it was registered; (3) a prescribed transformation or rewrite procedure intended to metabolize that anomaly; and (4) a numeric measure that quantifies how strongly the record currently biases the system’s operations.
+
+The influence measure decreases over time according to exponential decay: an entry’s present weight is its initial weight multiplied by an exponential factor determined by a positive decay constant and the elapsed time since the record was created. As a result, recently recorded anomalies have the greatest effect on behavior, while older records continue to exert progressively smaller but nonzero influence. This formalizes the idea that past ruptures diminish yet never vanish entirely from the system’s operational profile.
+
 Recent scars weigh more heavily than distant ones, yet even ancient ruptures retain some influence. This captures how trauma shapes us: old wounds fade but never fully disappear.
 
 ### The Bloom Operator: Architectural Blooming
