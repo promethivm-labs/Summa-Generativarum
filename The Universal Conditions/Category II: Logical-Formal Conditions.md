@@ -56,6 +56,42 @@ The **Logical-Formal Conditions** (Category II: C₁₁–C₂₀ within the 79 
 
 ### Dependency Map: Logical-Formal Conditions (C₁₁–C₂₀)
 
+
+#### ASCII Dependency Visualization
+
+```
+                            C₁₁: IDENTITY
+                                 |
+                    ┌────────────┼────────────┐
+                    |            |            |
+                  C₁₂         C₁₄         C₂₀
+               DIFFERENCE   EXCLUDED      INTENTIONALITY
+                    |       MIDDLE           |
+                    |         |              |
+              ┌─────┼─────┐   |              |
+              |     |     |   |              |
+            C₁₃    C₁₅   |  C₁₇             |
+         METABOLIC COMPO- |  REFLEXIVITY    |
+         NON-CONTRA- SITIONALITY |         |
+         DICTION       |   |     |         |
+              |        |   |     |         |
+              └────┬───┘   |     |         |
+                   |       |     |         |
+                 C₁₈       |     |         |
+              CLOSURE      |     |         |
+              INFERENCE    |     └────┬────┘
+                   |       |          |
+                   |     C₁₆          |
+                   |   EXPRESSIVITY   |
+                   |       |          |
+                   │       └─────┬────┘
+                   |             |
+                   └──────┬──────┘
+                          |
+                        C₁₉
+                    FORMAL ADEQUACY
+```
+#### Identity Map
 ```
 C₁₁ (Identity)
 ├── C₁₂ (Difference)

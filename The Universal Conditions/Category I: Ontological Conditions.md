@@ -63,6 +63,53 @@ Together, they comprise the **Λ-Substrate Constitution**—the self-generating 
 
 ### Dependencies Between C₁–C₁₀
 
+
+```
+ONTOLOGICAL CONDITIONS: DEPENDENCY ARCHITECTURE
+===============================================
+
+FOUNDATION LAYER
+────────────────
+    C₁: Divisibility
+        ↓
+    C₂: Coherence
+       ↙         ↘
+    C₃:           C₉:
+ Substantiality  Individuation
+    
+
+IDENTITY LAYER
+──────────────
+    C₄: Persistence
+        ↓
+    C₅: Transformability
+    
+
+MODAL LAYER
+───────────
+    C₆: Potentiality
+        ↓
+    C₇: Constraint
+    
+
+CLOSURE LAYER
+─────────────
+    C₈: Self-Containment
+       ↙              ↘
+    C₉:              C₁₀:
+Individuation     Dependency
+    
+
+COMPLETE FLOW
+─────────────
+C₁ → C₂ → C₃ → C₄ → C₅ → C₆ → C₇ → C₈
+     ↓                              ↑
+     └──→ C₉ ───────────────────────┘
+         ↓
+        C₁₀ → (Hierarchical Grounding)
+```
+
+
 | Condition | Depends On | Reason |
 |-----------|-----------|--------|
 | **C₂: Coherence** | C₁ | Coherence requires differentiated parts to integrate; divisibility is prerequisite. |
