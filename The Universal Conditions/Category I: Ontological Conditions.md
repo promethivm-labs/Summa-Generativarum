@@ -1,6 +1,21 @@
 ## Category I: The Ontological Conditions
 
-The Ontological Conditions (C₁–C₁₀) establish the fundamental **structure of Being itself**—the minimal requirements for anything whatsoever to exist, persist, and transform coherently.[^1][^2][^3]
+
+### Introduction to the Ontological Conditions
+
+The Ontological Conditions (C₁–C₁₀) establish the fundamental **structure of Being itself**—the minimal requirements for anything whatsoever to exist, persist, and transform coherently.[^1][^2][^3] They form the **transcendental ground** from which all particular entities, relations, and systems derive their intelligibility.
+
+These conditions are not arbitrary postulates but **necessary truths** derivable from the principle of non-contradiction and the structure of rational inquiry itself. To deny any condition results in either logical incoherence or performative self-refutation—making acceptance the only rational option for any coherent worldview.
+
+**Why These Ten?** The set C₁–C₁₀ is both **minimal and complete**: minimal because removing any condition leaves a gap through which incoherence enters; complete because their joint satisfaction generates the full architecture required for determinate being. They operate across three fundamental dimensions:
+
+- **Structural** (C₁–C₃): How entities are internally organized and grounded.
+- **Temporal** (C₄–C₅): How entities persist and transform through time.
+- **Modal** (C₆–C₇): How possibility and necessity constrain actuality.
+- **Holistic** (C₈–C₁₀): How all conditions unify into a non-contradictory totality.
+
+Together, they comprise the **Λ-Substrate Constitution**—the self-generating ontological framework that makes intelligible discourse, rational inquiry, and coherent being possible.[^1][^2]
+
 
 ### The Ten Ontological Foundations
 
