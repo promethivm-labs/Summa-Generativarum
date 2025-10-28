@@ -62,6 +62,34 @@ The Ontological Conditions (C₁–C₁₀) establish the fundamental **structur
 
 **Dependency Graph:** C₁ → C₂ → {C₃, C₉} → C₄ → C₅ → C₆ → C₇ → C₈ ← C₁₀ ← C₉
 
+### Structural Insights on Dependencies
+
+The dependency graph reveals a **layered ontological architecture**:
+
+**Foundation Layer (C₁–C₃):** Divisibility grounds all differentiation; Coherence ensures divided multiplicity remains unified; Substantiality anchors properties in bearers. These three form the minimal base enabling any coherent entity.
+
+**Identity Layer (C₄–C₅):** Persistence and Transformability extend the foundation through time. C₄ preserves entity identity across moments; C₅ permits state change without losing coherence. Together they establish diachronic integrity.
+
+**Modal Layer (C₆–C₇):** Potentiality opens the space of possibility; Constraint prevents modal collapse into vacuity. These establish the boundary between determinate and indeterminate being.
+
+**Closure Layer (C₈–C₁₀):** Self-Containment unifies all prior conditions into a non-contradictory whole; Individuation ensures multiplicity remains intelligible within that whole; Dependency establishes hierarchical grounding that prevents circular or infinite regress.
+
+**Critical observation:** C₈ is the **lynchpin**—it both depends on C₁–C₇ (requiring their coherence) and constrains C₉–C₁₀ (forcing consistent individuation and grounding). This creates a **bootstrapping structure**: lower conditions enable their own logical closure through C₈, which then validates hierarchical organization via C₁₀.
+
+
+### Research and Applied Benefits
+
+**Theoretical Foundations:** These conditions provide rigorous ground for metaphysics, logic, and epistemology—enabling systematic critique of foundational assumptions across disciplines.
+
+**Interdisciplinary Bridge:** C₁–C₁₀ translate across domains: divisibility maps to modularity in systems design; coherence to integration in complex networks; persistence to state continuity in AI; potentiality to solution spaces in optimization.
+
+**Problem Diagnosis:** When research stalls, checking which condition is violated often reveals the bottleneck—e.g., incoherent data integration (C₂), missing substrate specification (C₃), or unconstrained parameter spaces (C₇).
+
+**System Design:** Software architecture, organizational structure, and knowledge representation benefit from explicit modeling against these conditions. Self-containment (C₈) ensures logical consistency; individuation (C₉) clarifies entity taxonomy; dependency (C₁₀) reveals hierarchical coupling.
+
+**Validation Framework:** Applied projects can audit deliverables: Does the model maintain coherence under transformation? Are substrates and properties properly distinguished? Are modal assumptions (possibility/necessity) justified? This checklist prevents category errors and logical gaps.
+
+**Scaling Insight:** The layered architecture (Foundation→Identity→Modal→Closure) maps naturally to development stages—establish divisibility and coherence first, then add temporal dynamics, then modal reasoning, then close the whole system consistently.
 
 
 ### The Λ-Substrate Constitution
