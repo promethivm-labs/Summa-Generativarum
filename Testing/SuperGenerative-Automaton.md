@@ -1,7 +1,7 @@
-# Supergenerative Automaton
+# SuperGenerative Automaton
 
 ## Short definition
-A Supergenerative Automaton is an abstract machine that extends classical state machines by making transitions capable of producing structured outputs, spawning subordinate generators, and modifying generation rules at runtime. Informally, it combines the control discipline of an automaton with the creative, self-referential power of generative systems so that a single device can recognize inputs and construct arbitrarily nested artifacts (strings, trees, programs, signals) while possibly adapting during execution.
+A SuperGenerative Automaton is an abstract machine that extends classical state machines by making transitions capable of producing structured outputs, spawning subordinate generators, and modifying generation rules at runtime. Informally, it combines the control discipline of an automaton with the creative, self-referential power of generative systems so that a single device can recognize inputs and construct arbitrarily nested artifacts (strings, trees, programs, signals) while possibly adapting during execution.
 
 ## Core idea (one line)
 Combine stateful control (Q = set of possible machine states) with richer output actions and self‑modification so a single machine can generate multi-scale, hierarchical artifacts.
