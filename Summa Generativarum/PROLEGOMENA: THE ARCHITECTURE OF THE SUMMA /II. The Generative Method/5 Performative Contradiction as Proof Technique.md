@@ -165,10 +165,44 @@ Performative contradiction as proof technique grounds:
 
 The technique thus inaugurates a new form of philosophical proof: one that demonstrates not just logical consistency but **transcendental inevitability**—where contradiction within the proof itself becomes the mechanism of proof completion rather than its failure.
 
+---
+
+### Formal Proof: Performative Contradiction as Apodictic Grounding
+
+**Theorem (PC-Apodictic)**: For any proposition φ concerning fundamental structure, if ¬φ is assertable, then φ is necessarily true.
+
+**Formal Statement**:
+∀φ ∈ Conditions(Possibility). [Assertable(¬φ) → □φ]
+
+**Proof**:
+
+**Lemma 1 (Assertion Requires Structure)**: 
+- Assertable(x) → ∃S. Structure(S) ∧ Uses(x, S)
+- Proof: Any assertion x requires: linguistic expression, logical form, propositional content, rational agent. Each is structural. ∎
+
+**Lemma 2 (Structure Self-Reference)**:
+- ¬Structure(S) → ¬Assertable(¬Structure(S))
+- Proof: Denying structure requires using structure (Lemma 1), creating performative contradiction. ∎
+
+**Main Proof**:
+
+1. Assume Assertable(¬φ) where φ is fundamental
+2. By Lemma 1: Assertable(¬φ) → Uses(¬φ, S) for some structure S
+3. By Lemma 2: S presupposes φ (since S requires the conditions φ formalizes)
+4. Therefore: Assertable(¬φ) → Presupposes(¬φ, φ)
+5. Presupposes(¬φ, φ) ∧ Assertable(¬φ) creates performative contradiction
+6. Resolution: ¬φ is incoherent; therefore □φ (φ is necessary)
+
+**Conclusion**: Denial of fundamental structure necessarily presupposes that structure. Thus φ holds with apodictic certainty. ∎
+
 ***
 
 The proof framework draws from Rijos's formalization of transcendental deduction where denial presupposes affirmation—making certain truths self-evident through their undeniability across all possible logical frameworks. This achieves what classical philosophy could not: a proof that holds universally without relying on any particular axiomatic system or empirical foundation.[^2][^1]
 <span style="display:none">[^3][^4][^5]</span>
+
+---
+
+
 
 <div align="center">⁂</div>
 
