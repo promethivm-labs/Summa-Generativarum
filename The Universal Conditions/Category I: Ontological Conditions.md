@@ -24,6 +24,29 @@ The Ontological Conditions (C₁–C₁₀) establish the fundamental **structur
 
 **C₁₀: Dependency** — Some entities ground others; ontological hierarchies unavoidable. Formally: $\exists x,y(\text{Entity}(x) \land \text{Entity}(y) \rightarrow \exists \text{Grounds}(x,y) \lor \text{Hierarchy})$, establishing foundational layering. (Plain English: There are entities such that one grounds or supports another, i.e., some things depend on others — ontological layers or grounding relations exist.)[^1][^2][^3]
 
+### Proofs by Contradiction
+
+**C₁ (Divisibility):** Assume Being lacks divisibility—all entities are wholly indivisible. Then no relations, properties, or distinctions can obtain. But the assumption itself asserts a distinction between divisible and indivisible states, contradicting its premise. ∴ Divisibility is necessary.
+
+**C₂ (Coherence):** Assume multiplicity without integration. Then parts exist but relate to nothing—yet "relating to nothing" is itself a relation (of isolation). This contradiction shows coherence is unavoidable.
+
+**C₃ (Substantiality):** Assume properties float without substrates. Then property P exists nowhere, instantiated by nothing. But "existing nowhere" is itself a property requiring a bearer—infinite regress or contradiction. ∴ Substrates are necessary.
+
+**C₄ (Persistence):** Assume entities lack identity across time. Then x at t₁ is wholly other than x at t₂. This makes causality, memory, and narrative unintelligible, including the claim itself across its utterance. Self-refuting. ∴ Persistence is necessary.
+
+**C₅ (Transformability):** Assume substrates cannot reconfigure; all states are frozen. Then development, learning, and becoming are impossible—yet intelligibility itself requires potential for conceptual shift. Contradiction. ∴ Transformability is necessary.
+
+**C₆ (Potentiality):** Assume pure actualism; only what is real exists, no possibilities. Then modal claims (possibility, necessity, counterfactuals) become meaningless. Yet reasoning about counterfactuals is unavoidable. ∴ Potentiality is necessary.
+
+**C₇ (Constraint):** Assume infinite possibilities with no bounds. Then any state could become anything without intelligible constraint—prediction, causality, and determination collapse. Incoherence. ∴ Constraint is necessary.
+
+**C₈ (Self-Containment):** Assume totality allows contradiction: both φ and ¬φ obtain in W. Then W can assert and deny any claim, making truth-value undecidable. The very assertion "totality exists" requires non-contradiction. ∴ Self-containment is necessary.
+
+**C₉ (Individuation):** Assume entities are wholly indistinguishable. Then no entity x is separable from y by any feature—they are identical. Yet multiplicity requires distinct entities. Contradiction. ∴ Individuation is necessary.
+
+**C₁₀ (Dependency):** Assume all entities are self-sufficient, mutually independent. Then each entity grounds itself, requiring infinite self-grounding loops with no foundation. Regress or incoherence ensues. ∴ Dependency (hierarchical grounding) is necessary.
+
+
 ### The Λ-Substrate Constitution
 
 Together, these ten conditions define the **Λ-Substrate**—the minimal ontological architecture enabling multiplicity, unity, and transformation. The Λ-Substrate is not a substance to which properties are added but the simultaneous satisfaction of ontological and logical conditions across all categories, constituting the generative ground of being.[^2][^1]
