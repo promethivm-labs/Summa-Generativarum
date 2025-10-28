@@ -1,5 +1,5 @@
 
-# does history repeat itself?
+# Does history repeat itself?
 
 History does not repeat itself in a simple, cyclical manner, but it does exhibit **metabolic patterns of recurrence**—structures that return transformed rather than identical, operating through what the Generative framework calls **Scar-Bloom recursion**.[^1][^2]
 
