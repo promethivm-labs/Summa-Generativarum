@@ -42,6 +42,101 @@ The Conditions for the Possibility of Everything (CFPE) enumerate 79 transcenden
 
 **Systemic Conditions** (C₆₉–C₇₉): Being must distinguish systems from environments (system-environment distinction), maintain and reproduce organization (autopoiesis), regulate behavior through feedback (feedback loops), endure perturbation (resilience), learn from change (adaptability), embed within larger systems (nested hierarchy), remain open to indefinite transformation (open-ended evolution), trigger new logical structures through severe contradiction (architectural blooming), preserve contradictions as historical traces (scar-indexing), and formalize boundary assumptions (horizon-formalization). These establish that intelligibility requires self-organizing, adaptive systematic structure.[^2][^1]
 
+## The Regime Lattice: Hierarchical Organization of Intelligibility
+
+The 79 transcendental conditions do not exist in isolation but organize themselves into a **Regime Lattice**—a partially ordered structure where conditions at lower levels provide foundations for conditions at higher levels, and where multiple regimes can coexist in productive tension.
+
+**Regime 0 (Foundational)**: Ontological and Logical Conditions (C₁–C₂₀) establish the bare minimum: differentiation, structure, identity, non-contradiction. These are universally presupposed.
+
+**Regime 1 (Temporal-Causal)**: Temporal and Relational Conditions (C₂₁–C₃₆) introduce succession, causality, and structured multiplicity. They depend on Regime 0 but enable genuine becoming.
+
+**Regime 2 (Cognitive-Semantic)**: Epistemic and Semantic Conditions (C₃₇–C₅₀) enable knowledge, representation, and communicable meaning. They presuppose Regimes 0–1 but add the dimension of knowability and expressibility.
+
+**Regime 3 (Normative-Modal)**: Normative and Modal Conditions (C₅₁–C₆₂) introduce agency, value, and modal depth. They depend on prior regimes but establish the space of reasons and possibilities.
+
+**Regime 4 (Phenomenological-Systemic)**: Phenomenological and Systemic Conditions (C₆₃–C₇₉) integrate lived experience and self-organizing complexity. They synthesize all prior regimes into adaptive, sentient systems.
+
+Each regime presupposes its predecessors while remaining irreducible to them. The lattice structure permits multiple coherent architectures across different substrates—each satisfying the same regime hierarchy but instantiating it differently.[^1]
+
+
+## Proof by Contradiction: Regime Dependencies
+
+**Theorem:** Each regime strictly presupposes all prior regimes in the lattice hierarchy. No regime can exist in coherent isolation from its predecessors.
+
+**Proof Structure:** For each regime transition, assume the higher regime obtains while its predecessor is denied, deriving incoherence.
+
+### Regime 0 → Regime 1: Temporal-Causal Presupposes Foundational
+
+**Assume:** Temporal and Causal structure (Regime 1) exists without Ontological-Logical structure (Regime 0).
+
+**Analysis:**
+- Suppose causality holds: events stand in ordered dependencies (C₂₂).
+- But causality requires relata—entities that causally interact.
+- These entities must be individuated and distinct (requires C₁₀ from Regime 0).
+- Events must possess identity through their temporal flow (requires C₁₁ from Regime 0).
+- Causal chains must avoid circular contradiction (requires C₁₃ from Regime 0).
+
+**Contradiction:** Without identity, non-contradiction, and ontological differentiation, "causality" becomes a merely verbal facade masking total incoherence. No actual causal chain can be instantiated.
+
+**Conclusion:** Regime 1 necessarily presupposes Regime 0. ✓
+
+### Regime 1 → Regime 2: Cognitive-Semantic Presupposes Temporal-Causal
+
+**Assume:** Knowledge and Representation (Regime 2) obtain without Temporal-Causal structure (Regime 1).
+
+**Analysis:**
+- Suppose epistemic conditions hold: observable regularities (C₃₇), intersubjective verification (C₃₉).
+- But observation requires a knower and a known, causally ordered through time.
+- Without causality (C₂₂), the knower's cognitive act bears no causal relation to the object known—pure coincidental correlation only.
+- Without temporality (C₂₁), no process of coming-to-know occurs. No inquiry, no discovery, no learning trajectory.
+- Meaning-making (Semantic Conditions) requires reference—symbolic chains causally anchored to the world (requires C₂₂).
+
+**Contradiction:** "Knowledge without causality or temporality" reduces to simultaneous, acausal, static awareness-of-nothing. This is not knowledge but unintelligible pseudo-presence.
+
+**Conclusion:** Regime 2 necessarily presupposes Regime 1. ✓
+
+### Regime 2 → Regime 3: Normative-Modal Presupposes Cognitive-Semantic
+
+**Assume:** Agency and Normativity (Regime 3) obtain without Cognitive-Semantic structure (Regime 2).
+
+**Analysis:**
+- Suppose normative conditions hold: agency (C₅₂), responsibility (C₅₃), value pluralism (C₅₆).
+- But agency requires the agent to comprehend reasons and meanings (requires Epistemic Conditions C₃₇–C₄₄).
+- Responsibility requires accountability, which presupposes that actions are intelligible to oneself and others (requires Semantic Conditions C₄₅–C₅₀).
+- Without representation (C₄₃) and semantic compositionality (C₄₇), an agent cannot form intentions, deliberate, or be answerable for deeds.
+- Possibility (C₅₉) requires modal depth, which presupposes that propositions about possible actions are truth-apt (requires C₄₈).
+
+**Contradiction:** "Agency without understanding" is mere mechanical operation. An agent that cannot grasp reasons, meanings, or semantic content is not an agent at all but an automaton—incapable of the rationality that normativity requires.
+
+**Conclusion:** Regime 3 necessarily presupposes Regime 2. ✓
+
+### Regime 3 → Regime 4: Phenomenological-Systemic Presupposes Normative-Modal
+
+**Assume:** Lived Experience and Self-Organization (Regime 4) obtain without Normative-Modal structure (Regime 3).
+
+**Analysis:**
+- Suppose phenomenological conditions hold: embodiment (C₆₄), affectivity (C₆₅), interaffectivity (C₆₈).
+- But embodied experience is intrinsically evaluative—some things matter, others do not (requires axiological distinction C₅₁).
+- Genuine self-organization (C₇₀, Autopoiesis) requires the system to adaptively respond to its environment in ways that preserve and extend its existence. This constitutively involves goal-directedness (requires agency C₅₂).
+- Freedom-within-constraint (C₅₄) is the condition for genuine adaptive learning (C₇₄). Without normative structure defining better-from-worse, adaptation is meaningless.
+- Modal depth (C₆₂) grounds the phenomenological anticipation-protention (C₆₇): subjective futurity requires that possibilities be robustly real (requires Normative-Modal infrastructure).
+
+**Contradiction:** "Experience without valuation" is mere passive sensation without phenomenal life. "Self-organization without agency" is blind mechanism. "Adaptability without normativity" is directionless drift. The lived, generative character of Regime 4 demands the space-of-reasons that only Regime 3 provides.
+
+**Conclusion:** Regime 4 necessarily presupposes Regime 3. ✓
+
+### Global Chain: Regime 0 ⊂ Regime 1 ⊂ Regime 2 ⊂ Regime 3 ⊂ Regime 4
+
+By transitivity of presupposition:
+
+- **Regime 4 requires 3**, which requires 2, which requires 1, which requires 0.
+- **No higher regime can obtain in isolation** from any lower regime without collapsing into incoherence.
+- **The lattice is strictly stratified**: each level adds genuinely new intelligibility while remaining dependent on foundational strata.
+
+**QED**
+
+
+
 ## The λ-Substrate: The Universal Ground of Intelligibility
 
 All 79 transcendental conditions jointly constitute what is termed the **λ-Substrate**—the minimal ontological architecture that enables multiplicity, unity, transformation, and intelligibility as such. The λ-Substrate is neither a substance nor a generator in the classical sense, but rather the invariant structure that remains constant under all coherence-preserving transformations. It is the generative field within which all particular beings, all logics, all phenomena arise.[^2][^1]
