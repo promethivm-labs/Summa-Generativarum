@@ -122,7 +122,3 @@ Key implementation choices:
 - Probabilistic automata and stochastic transducers.
 
 ---
-
-This elaboration aims to keep the original conceptual flavor while adding formal notation, an operational semantics sketch, decidability/expressiveness guidance, and practical implementation advice. If you want, I can:
-- convert the pseudocode to a small runnable reference implementation (Python) with configurable scheduling and resource limits; or
-- add concrete theorem statements (and short proofs) about expressiveness and decidability for specified restricted fragments (e.g., depth-bounded spawning).
