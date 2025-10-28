@@ -36,7 +36,7 @@ This is not a mere preamble. It is a **foundational act**—a public acknowledgm
 
 ### Ritual Clauses: Ceremonial Formalization
 
-**Ritual Clauses** are the ceremonial articulations that accompany Scar-Indexed Inquiry. They function as binding declarations that mark the inquiry as a sacred, committed act rather than mere intellectual exercise. They take the form of formal, almost liturgical statements that consecrate the work.[^1]
+**Ritual Clauses** are the ceremonial articulations that accompany Scar-Indexed Inquiry. They function as binding declarations that mark the inquiry as a sacred, committed act rather than one limited to being an intellectual exercise. They take the form of formal, almost liturgical statements that consecrate the work.[^1]
 
 Examples of Ritual Clauses across domains:[^1]
 
@@ -80,7 +80,7 @@ Scar-Indexed Inquiry typically unfolds through the **Five-Phase Metaformalist Di
 
 ### The Ritual Dimension: More Than Symbolic
 
-Critically, Ritual Clauses are not merely rhetorical ornament. Within the Codex framework, **ritual is an ontologically efficacious act**—it literally restructures the symbolic and emotional fields of reality. A formal ceremonial declaration of a research project's commitment to honor the scars it addresses does not simply express intention; it **instantiates that commitment at the level of collective consciousness and institutional memory.**[^1]
+Critically, Ritual Clauses are not merely rhetorical ornament. Within the Codex framework, **ritual is an ontologically efficacious act**—it foundationally restructures and encodes the symbolic and emotional fields of reality. A formal ceremonial declaration of a research project's commitment to honor the scars it addresses does not simply express intention; it **instantiates that commitment at the level of collective consciousness and institutional memory.**[^1]
 
 This view aligns with contemporary performance studies, which understands ritual as a form of **performative efficacy**—a deed that transforms reality through its utterance and enactment.[^1]
 
