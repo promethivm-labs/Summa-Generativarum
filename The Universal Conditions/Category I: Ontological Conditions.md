@@ -46,6 +46,23 @@ The Ontological Conditions (C₁–C₁₀) establish the fundamental **structur
 
 **C₁₀ (Dependency):** Assume all entities are self-sufficient, mutually independent. Then each entity grounds itself, requiring infinite self-grounding loops with no foundation. Regress or incoherence ensues. ∴ Dependency (hierarchical grounding) is necessary.
 
+### Dependencies Between C₁–C₁₀
+
+| Condition | Depends On | Reason |
+|-----------|-----------|--------|
+| **C₂: Coherence** | C₁ | Coherence requires differentiated parts to integrate; divisibility is prerequisite. |
+| **C₃: Substantiality** | C₁, C₂ | Substantiality presupposes divided substrates (C₁) maintaining coherent form (C₂). |
+| **C₄: Persistence** | C₁, C₂, C₃ | Persistence of identity requires divisible, coherent, substance-bearing entities. |
+| **C₅: Transformability** | C₂, C₃, C₄ | Transformability must preserve coherence (C₂), substrate instantiation (C₃), and identity continuity (C₄). |
+| **C₆: Potentiality** | C₄, C₅ | Potentiality presupposes actual states (grounded in C₄) with accessible alternatives (enabled by C₅). |
+| **C₇: Constraint** | C₆ | Constraint bounds the modal space (C₆); unbounded potentiality collapses intelligibility. |
+| **C₈: Self-Containment** | C₁–C₇ | Self-containment requires all prior conditions to be non-contradictory within totality. |
+| **C₉: Individuation** | C₁, C₂, C₈ | Individuation relies on divisibility (C₁), coherent distinction (C₂), and logical consistency (C₈). |
+| **C₁₀: Dependency** | C₈, C₉ | Dependency establishes hierarchical grounding; requires consistent (C₈) yet distinct entities (C₉). |
+
+**Dependency Graph:** C₁ → C₂ → {C₃, C₉} → C₄ → C₅ → C₆ → C₇ → C₈ ← C₁₀ ← C₉
+
+
 
 ### The Λ-Substrate Constitution
 
