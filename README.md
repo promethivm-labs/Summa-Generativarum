@@ -1,2 +1,2 @@
-# promethivm-labs.github.io
+# The Summa Generativarum
 The Complete System of Generativity
