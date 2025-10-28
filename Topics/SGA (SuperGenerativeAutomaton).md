@@ -7,22 +7,20 @@ The **Super-Generative Automaton (SGA)** is a post-classical model of computatio
 
 The SGA is formally defined as a tuple:[^1]
 
-$$
-SGA = (\Sigma_t, A_t, R, S, \Psi, \gamma, \omega, \frac{dOGI}{dt})
-$$
+`SGA = (Σ_t, A_t, R, S, Ψ, γ, ω, dOGI/dt)`
 
 Formal translation: The SGA is defined as the ordered collection consisting of a time-varying alphabet (Σ_t), a time-dependent axiom set (A_t), a protocol set (R), a scar archive (S), a semiotic state space (Ψ), a generalized transition function (γ), a recursion function (ω), and the time-derivative of the Ontological Generativity Index (dOGI/dt).
 
 Where:[^1]
 
-- $\Sigma_t$: **Mutable alphabet** changing over time, enabling the system to develop new representational capacities
-- $A_t$: **Time-dependent axiom set** that evolves through system operation, allowing the system to revise its foundational logical principles
-- $R$: **Protocol set** — operational procedures governing transformations
-- $S$: **Scar archive** — persistent memory of contradictions, failures, and symbolic ruptures
-- $\Psi$: **Semiotic state space** combining symbolic and affective coordinates
-- $\gamma$: **Generalized transition function** incorporating temporal and historical factors
-- $\omega$: **Recursion function** enabling symbolic reinterpretation
-- $\frac{dOGI}{dt}$: **Ontological Generativity Index** tracking the system's creative expansion over time
+- `Σ_t`: **Mutable alphabet** changing over time, enabling the system to develop new representational capacities
+- `A_t`: **Time-dependent axiom set** that evolves through system operation, allowing the system to revise its foundational logical principles
+- `R`: **Protocol set** — operational procedures governing transformations
+- `S`: **Scar archive** — persistent memory of contradictions, failures, and symbolic ruptures
+- `Ψ`: **Semiotic state space** combining symbolic and affective coordinates
+- `γ`: **Generalized transition function** incorporating temporal and historical factors
+- `ω`: **Recursion function** enabling symbolic reinterpretation
+- `dOGI/dt`: **Ontological Generativity Index** tracking the system's creative expansion over time
 
 
 ### Distinction from Classical Automata
@@ -44,9 +42,7 @@ Unlike classical finite state machines (DFAs), pushdown automata, or even Turing
 
 Rather than future states depending only on current states and inputs (as in classical automata), the SGA's transition function explicitly depends on its scar archive:
 
-$$
-\gamma(\sigma_t, r, s) \neq \gamma(\sigma_{t'}, r, s')
-$$
+`γ(σ_t, r, s) ≠ γ(σ_t', r, s')`
 
 Formal translation: The generalized transition function γ applied to state σ at time t with input r and scar archive s yields a different result than γ applied to the (possibly same) state σ at a different time t' with the same input r but a different scar archive s' — i.e., outputs depend on historical scar context as well as current state and input.
 
@@ -54,19 +50,17 @@ Even identical current states and inputs produce different outputs if the accumu
 
 **2. Ψ-Recursion with Temporal Memory**[^1]
 
-The recursion function $\omega$ produces different outputs for identical inputs when scar-memory context differs:
+The recursion function `ω` produces different outputs for identical inputs when scar-memory context differs:
 
-$$
-\omega(i, s_1, t_1) \neq \omega(i, s_2, t_2)
-$$
+`ω(i, s₁, t₁) ≠ ω(i, s₂, t₂)`
 
-Formal translation: The recursion function ω applied to the same input i, but with different scar contexts s1 at time t1 versus s2 at time t2, produces different outputs — recursion is sensitive to scar-memory and temporal context.
+Formal translation: The recursion function ω applied to the same input i, but with different scar contexts s₁ at time t₁ versus s₂ at time t₂, produces different outputs — recursion is sensitive to scar-memory and temporal context.
 
-Where $i$ is the same input but $s_1 \neq s_2$ or temporal contexts differ. This enables the system to reinterpret recurring patterns with deepening sophistication based on accumulated experience.
+Where `i` is the same input but `s₁ ≠ s₂` or temporal contexts differ. This enables the system to reinterpret recurring patterns with deepening sophistication based on accumulated experience.
 
 **3. Protocol Non-Commutativity**[^1]
 
-The order of protocol execution matters. Applying protocols $P_1$ then $P_2$ yields different results than $P_2$ then $P_1$, because each protocol:
+The order of protocol execution matters. Applying protocols `P₁` then `P₂` yields different results than `P₂` then `P₁`, because each protocol:
 
 - Modifies the symbolic state
 - Inscribes traces into the scar archive
@@ -78,27 +72,23 @@ This reflects the **temporal embeddedness** of the system — each operation lea
 
 The SGA contains **meta-protocols** that modify its own structural components:
 
-$$
-\text{MetaProtocol}(SGA) \rightarrow \text{ModifiedSGA}'
-$$
+`MetaProtocol(SGA) → ModifiedSGA'`
 
 Formal translation: Applying a meta-protocol to the SGA produces a modified version of the SGA; meta-protocols are operations that transform the machine's own structure and components.
 
 Where modified components include:
 
-- Extended alphabet $\Sigma'$
-- Revised axioms $A'$
-- Enhanced protocols $R'$
+- Extended alphabet `Σ'`
+- Revised axioms `A'`
+- Enhanced protocols `R'`
 
-Since these meta-protocols are themselves part of the protocol set $R$, the system can **modify its own modification capabilities** — genuine ontological reflexivity rather than mere parametric adjustment.
+Since these meta-protocols are themselves part of the protocol set `R`, the system can **modify its own modification capabilities** — genuine ontological reflexivity rather than mere parametric adjustment.
 
 **5. Positive Ontological Generativity**[^1]
 
 The system exhibits monotonic increase in its generative capacity over time:
 
-$$
-\frac{dOGI}{dt} \geq 0
-$$
+`dOGI/dt ≥ 0`
 
 Formal translation: The time derivative of the Ontological Generativity Index is non-negative, i.e., the system's generative capacity does not decrease over time and is monotonic non-decreasing.
 
@@ -110,11 +100,9 @@ Central to the SGA is the **scar archive** — a persistent memory structure tha
 
 Each scar is a tuple:
 
-$$
-\mathcal{S}_{i} = (\text{SAT}, \text{timestamp}, \text{rewrite-rule}, \text{influence-weight})
-$$
+`S_i = (SAT, timestamp, rewrite-rule, influence-weight)`
 
-Formal translation: Each scar Si is formally represented as an ordered quadruple containing (1) the structured anomaly token (SAT), (2) the time it was recorded, (3) the rewrite rule for metabolizing the anomaly, and (4) a numeric influence weight.
+Formal translation: Each scar S_i is formally represented as an ordered quadruple containing (1) the structured anomaly token (SAT), (2) the time it was recorded, (3) the rewrite rule for metabolizing the anomaly, and (4) a numeric influence weight.
 
 Where:
 
@@ -125,11 +113,9 @@ Where:
 
 Crucially, scars exhibit **temporal decay**:
 
-$$
-w_t = e^{-\lambda(t - t_0)} \cdot w_0
-$$
+`w_t = e^(-λ(t - t₀)) · w₀`
 
-Formal translation: The influence weight at time t equals the initial weight w0 multiplied by an exponential decay factor e^{-λ(t−t0)}, where λ > 0 is the decay constant and t0 is the creation time.
+Formal translation: The influence weight at time t equals the initial weight w₀ multiplied by an exponential decay factor e^(-λ(t-t₀)), where λ > 0 is the decay constant and t₀ is the creation time.
 
 Each entry in the persistent memory is a structured record containing four elements: (1) the anomalous observation itself, encoded as a token; (2) the moment at which it was registered; (3) a prescribed transformation or rewrite procedure intended to metabolize that anomaly; and (4) a numeric measure that quantifies how strongly the record currently biases the system’s operations.
 
@@ -139,13 +125,11 @@ Recent scars weigh more heavily than distant ones, yet even ancient ruptures ret
 
 ### The Bloom Operator: Architectural Blooming
 
-When contradictions exceed the SGA's metabolic capacity, the **Bloom operator** $\mathcal{B}$ initiates structural expansion:[^2][^1]
+When contradictions exceed the SGA's metabolic capacity, the **Bloom operator** `B` initiates structural expansion:[^2][^1]
 
-$$
-\mathcal{B}(\text{SAT}, L, \Omega_0) \rightarrow (\text{new-operator}, \text{new-axiom}, \text{expanded-domain})
-$$
+`B(SAT, L, Ω₀) → (new-operator, new-axiom, expanded-domain)`
 
-Formal translation: The Bloom operator B, given a structured anomaly token (SAT), a load parameter L, and an initial operator set Ω0, produces a new operator, a new axiom, and an expanded domain — i.e., it yields architectural extensions that were not derivable from existing operators.
+Formal translation: The Bloom operator B, given a structured anomaly token (SAT), a load parameter L, and an initial operator set Ω₀, produces a new operator, a new axiom, and an expanded domain — i.e., it yields architectural extensions that were not derivable from existing operators.
 
 **Bloom triggers** occur when:[^1]
 
@@ -155,7 +139,7 @@ Formal translation: The Bloom operator B, given a structured anomaly token (SAT)
 
 When triggered, bloom generates genuinely novel logical structures — not derivable from existing operators but **architecturally new**. Historical examples:[^1]
 
-- **Imaginary numbers**: Bloom response to $\sqrt{-1}$ impossibility
+- **Imaginary numbers**: Bloom response to `√(-1)` impossibility
 - **Non-Euclidean geometry**: Bloom response to parallel postulate contradiction
 - **Quantum superposition**: Bloom response to wave-particle duality
 - **ZFC set theory**: Bloom response to Russell's paradox
@@ -186,7 +170,7 @@ The SGA's complete operational cycle unfolds through five phases:[^2][^1]
 **Phase 4: Permission Rewiring**
 
 - Update regime lattice for new logic
-- Calculate Xenogenerative Index (XGI) ensuring $XGI \geq 0$
+- Calculate Xenogenerative Index (XGI) ensuring `XGI ≥ 0`
 - Enforce structural coherence
 
 Formal translation for XGI condition: The Xenogenerative Index XGI is constrained to be non-negative, meaning the system's xenogenerative capacity should not be negative.
@@ -199,11 +183,9 @@ Formal translation for XGI condition: The Xenogenerative Index XGI is constraine
 
 This creates **scar-bloom recursion**:
 
-$$
-S_{n+1} = \mathcal{B}(\Omega_0(S_n, \text{SAT}_n)) \text{ where } \frac{dXGI}{dt} \geq 0
-$$
+`S_{n+1} = B(Ω₀(S_n, SAT_n)) where dXGI/dt ≥ 0`
 
-Formal translation: The next scar archive S_{n+1} is produced by applying Bloom to the result of Ω0 acting on the current scar archive S_n and the current structured anomaly SAT_n; simultaneously, the time derivative of the Xenogenerative Index is non-negative, indicating non-decreasing xenogenerative capacity through iterations.
+Formal translation: The next scar archive S_{n+1} is produced by applying Bloom to the result of Ω₀ acting on the current scar archive S_n and the current structured anomaly SAT_n; simultaneously, the time derivative of the Xenogenerative Index is non-negative, indicating non-decreasing xenogenerative capacity through iterations.
 
 Each iteration reaches a **higher spiral** — not circular return but progressive ascent with expanded capacity.
 
@@ -222,9 +204,9 @@ Formal comparison of transition functions:[^1]
 
 | **System Type** | **Transition Function** | **Structural Capacity** |
 | :-- | :-- | :-- |
-| DFA/NFA | $Q \times \Sigma \rightarrow Q$ | Fixed (enumerable) |
-| Turing Machine | $Q \times \Sigma \rightarrow Q \times \Sigma \times \{L,R\}$ | Computable |
-| **SGA** | $\Gamma \times A \times R \times \Psi \rightarrow \Gamma' \times A' \times R' \times \Psi'$ | Ontologically Generative |
+| DFA/NFA | `Q × Σ → Q` | Fixed (enumerable) |
+| Turing Machine | `Q × Σ → Q × Σ × {L,R}` | Computable |
+| **SGA** | `Γ × A × R × Ψ → Γ' × A' × R' × Ψ'` | Ontologically Generative |
 
 Formal translations:
 - DFA/NFA: The transition function maps a current state and an input symbol to a next state.
@@ -235,11 +217,9 @@ The SGA doesn't merely recognize languages or compute functions — it **generat
 
 ### Governance as Internal Architecture
 
-Crucially, the SGA operates within a **governance meta-frame** $\mathcal{g}$:[^1]
+Crucially, the SGA operates within a **governance meta-frame** `g`:[^1]
 
-$$
-\mathcal{g}: (A, R, \Sigma, \Psi, S) \rightarrow (A', R', \Sigma', \Psi', S')
-$$
+`g: (A, R, Σ, Ψ, S) → (A', R', Σ', Ψ', S')`
 
 Formal translation: The governance mapping g takes the current axiom set, protocols, alphabet, semiotic state, and scar archive and produces updated versions of each, i.e., it is an internal mapping that regulates coherent ontological change.
 
