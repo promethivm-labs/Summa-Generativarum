@@ -28,7 +28,7 @@ Where emergence works within a static possibility-landscape, generativity reshap
 
 ### The Metabolic Engine: How Contradiction Becomes Creative
 
-The foundational principle distinguishing generativity is the **metabolic non-contradiction** operator, denoted \$ \Omega_0 \$:[^1][^2]
+The foundational principle distinguishing generativity is the **metabolic non-contradiction** operator, denoted $\Omega_0$:[^1][^2]
 
 $$
 \Omega_0(\phi \land \neg\phi) = G^{\omega}
