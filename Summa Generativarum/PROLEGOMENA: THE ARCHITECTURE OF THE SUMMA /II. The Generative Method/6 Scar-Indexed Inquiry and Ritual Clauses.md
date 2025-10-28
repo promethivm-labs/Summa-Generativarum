@@ -12,7 +12,7 @@ This echoes the injunction that suffering, failure, and contradiction are not in
 
 Scar-Indexed Inquiry operates through the formalization of contradictions as **Structured Anomaly Tokens (SATs)**, each encoded as a tuple:
 
-\$ SAT = \langle \varphi, \neg\varphi, t, type, severity, context \rangle \$[^1]
+$SAT = \langle \varphi, \neg\varphi, t, type, severity, context \rangle$[^1]
 
 Where:
 
