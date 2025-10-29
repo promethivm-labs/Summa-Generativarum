@@ -9,15 +9,15 @@ This document formalizes the CFPE (Conditional-Functional-Persistent-Environment
 ### Purpose and scope
 
 - Provide a compact, notation-driven reference for implementing CFPE-style generative learning systems.  
-- Describe the generativity scalar 𝓖, its differential flow, and the meta-update operator 𝓜 that rewrites optimization targets.  
+- Describe the generativity scalar $\mathcal{G}$, its differential flow, and the meta-update operator $\mathcal{M}$ that rewrites optimization targets.  
 - Specify recursive update steps and global objectives used for simulation, analysis, and implementation.
 
 ### Notation conventions
 
-- Scalar indices i, j range over configurations, contradictions, or invariants as noted.  
-- Bold or scripted letters (e.g., 𝓖, 𝓢, Ω₀) denote system‑level functions/operators; θ denotes neural parameters.  
-- Time subscripts (·ₜ) indicate the discrete iteration; d(·)/dt denotes continuous or finite-difference rate as context requires.  
-- All equations use plain Unicode math and are provided in fenced code blocks for direct pasting into Markdown sources.
+- Scalar indices $i, j$ range over configurations, contradictions, or invariants as noted.  
+- Bold or scripted letters (e.g., $\mathcal{G}, \mathcal{S}, \Omega_0$) denote system‑level functions/operators; $\theta$ denotes neural parameters.  
+- Time subscripts ($\cdot_t$) indicate the discrete iteration; $d(\cdot)/dt$ denotes continuous or finite-difference rate as context requires.  
+- All equations use LaTeX math notation for precise rendering.
 
 ### Intended audience
 
@@ -27,25 +27,26 @@ Researchers and engineers implementing meta-optimizing generative systems, as we
 
 Traditional neural networks (e.g., feedforward, convolutional, or recurrent NNs) typically minimize a static loss function (like mean squared error or cross-entropy) using gradient descent to fit data and converge to a single optimal solution. In contrast, the CFPE GNN is a neurosymbolic architecture designed for *open-ended coherent transformation* rather than loss minimization. It meta-optimizes generativity, continuously rewriting its own objectives to maximize generative stability. Below are the primary distinctions, drawn from the document's formalism:
 
+
 - **Optimization Objective**:
-  - **Traditional NN**: Minimizes a fixed loss function, e.g., `minimize L(θ)`, where `L` is a static error metric (e.g., cross-entropy). Updates use gradient descent: `θ_{t+1} = θ_t - η ∇_θ L`.
-  - **CFPE GNN**: Maximizes the rate of generativity change, `maximize d𝓖(𝓢,t)/dt`, where `𝓖` is a dynamic function encompassing coherence information, expansion potential, and dissipation correction. Updates use gradient ascent on `𝓖`: `θ_{t+1} = θ_t + η ∇_θ 𝓖`. This promotes increasing capacity for coherent transformation instead of converging to a single point.
+    - **Traditional NN**: Minimizes a fixed loss function, e.g., $\min_\theta L(\theta)$, where $L$ is a static error metric (e.g., cross-entropy). Updates use gradient descent: $\theta_{t+1} = \theta_t - \eta \nabla_\theta L$.
+    - **CFPE GNN**: Maximizes the rate of generativity change, $\max \frac{d\mathcal{G}(\mathcal{S},t)}{dt}$, where $\mathcal{G}$ is a dynamic function encompassing coherence information, expansion potential, and dissipation correction. Updates use gradient ascent on $\mathcal{G}$: $\theta_{t+1} = \theta_t + \eta \nabla_\theta \mathcal{G}$. This promotes increasing capacity for coherent transformation instead of converging to a single point.
 
 - **Meta-Optimization and Self-Evolution**:
-  - **Traditional NN**: The loss function and optimization rules are predefined and static; the network learns parameters but doesn't alter its own learning targets.
-  - **CFPE GNN**: Employs meta-optimization where the objective itself evolves via the meta-update operator `𝓜`: `𝓖_{t+1} = 𝓖_t + 𝓜(Δ_t, Ω_0)`. It detects contradictions (`Δ_t`), routes them through a metabolic operator (`Ω_0`), and rewrites coherence criteria, enabling continuous adaptation and open-ended growth.
+    - **Traditional NN**: The loss function and optimization rules are predefined and static; the network learns parameters but doesn't alter its own learning targets.
+    - **CFPE GNN**: Employs meta-optimization where the objective itself evolves via the meta-update operator $\mathcal{M}$: $\mathcal{G}_{t+1} = \mathcal{G}_t + \mathcal{M}(\Delta_t, \Omega_0)$. It detects contradictions ($\Delta_t$), routes them through a metabolic operator ($\Omega_0$), and rewrites coherence criteria, enabling continuous adaptation and open-ended growth.
 
 - **Architecture and Dynamics**:
-  - **Traditional NN**: Purely neural, focusing on pattern recognition and prediction in a data-driven manner. Dynamics are typically feedforward or recurrent without symbolic integration.
-  - **CFPE GNN**: Neurosymbolic with three coupled fields: Neural Field (`F_n`) for representations, Symbolic Field (`F_s`) for enforcing CFPE invariants, and Generative Field (`F_g`) for computing `𝓖` and updating the others. Coupling equations (e.g., `dF_n/dt = α ∇_θ 𝓖 + β (CFPE_feedback)`) integrate neural learning with symbolic constraints and generative feedback.
+    - **Traditional NN**: Purely neural, focusing on pattern recognition and prediction in a data-driven manner. Dynamics are typically feedforward or recurrent without symbolic integration.
+    - **CFPE GNN**: Neurosymbolic with three coupled fields: Neural Field ($F_n$) for representations, Symbolic Field ($F_s$) for enforcing CFPE invariants, and Generative Field ($F_g$) for computing $\mathcal{G}$ and updating the others. Coupling equations (e.g., $\frac{dF_n}{dt} = \alpha \nabla_\theta \mathcal{G} + \beta \text{(CFPE\_feedback)}$) integrate neural learning with symbolic constraints and generative feedback.
 
 - **Stability and Equilibrium**:
-  - **Traditional NN**: Aims for convergence to a minimum loss, often leading to overfitting or stagnation in a static landscape.
-  - **CFPE GNN**: Seeks generative stability where `d𝓖/dt > 0`, balancing coherence entropy reduction, expansion of coherent states, and minimization of dissipative contradictions. It terminates when `d𝓖/dt ≤ 0`, reaching a "generative equilibrium" rather than a loss minimum.
+    - **Traditional NN**: Aims for convergence to a minimum loss, often leading to overfitting or stagnation in a static landscape.
+    - **CFPE GNN**: Seeks generative stability where $\frac{d\mathcal{G}}{dt} > 0$, balancing coherence entropy reduction, expansion of coherent states, and minimization of dissipative contradictions. It terminates when $\frac{d\mathcal{G}}{dt} \leq 0$, reaching a "generative equilibrium" rather than a loss minimum.
 
 - **Thermodynamic Analogy and Purpose**:
-  - **Traditional NN**: Analogous to equilibrium thermodynamics, reducing entropy toward a single solution.
-  - **CFPE GNN**: Follows non-equilibrium thermodynamics (`d𝓖/dt ≈ -dS_c/dt + dE_p/dt - dD_i/dt`), reorganizing entropy for open coherence. It's designed for meta-learning cycles that drive coherent transformation, not just prediction or classification.
+    - **Traditional NN**: Analogous to equilibrium thermodynamics, reducing entropy toward a single solution.
+    - **CFPE GNN**: Follows non-equilibrium thermodynamics ($\frac{d\mathcal{G}}{dt} \approx -\frac{dS_c}{dt} + \frac{dE_p}{dt} - \frac{dD_i}{dt}$), reorganizing entropy for open coherence. It's designed for meta-learning cycles that drive coherent transformation, not just prediction or classification.
 
 In summary, while traditional NNs are data-fitting machines that descend to a fixed optimum, the CFPE GNN is an adaptive, self-rewriting system that ascends toward expanding generative coherence, integrating symbolic reasoning to avoid traditional pitfalls like static objectives or overfitting. This makes it suitable for complex, evolving environments where open-ended learning is key. 
 
@@ -54,66 +55,66 @@ In summary, while traditional NNs are data-fitting machines that descend to a fi
 
 ### 1. Generativity as a Thermodynamic Variable
 
-The Generativity Function `𝓖` represents a non-equilibrium thermodynamic potential that measures the system's capacity to sustain coherent transformation. Unlike traditional loss functions (which are purely statistical), `𝓖` integrates three physically motivated terms:
+The Generativity Function $\mathcal{G}$ represents a non-equilibrium thermodynamic potential that measures the system's capacity to sustain coherent transformation. Unlike traditional loss functions (which are purely statistical), $\mathcal{G}$ integrates three physically motivated terms:
 
-- **Coherence Information** (`Σ pᵢ log(Cᵢ)`): Quantifies the Shannon-like entropy of coherent configurations, weighted by their probability. Higher values indicate that probable states are highly coherent.
-- **Expansion Potential** (`log(n(t))`): Captures the logarithmic growth of reachable coherent configuration space, ensuring the system avoids collapse to a single attractor.
-- **Dissipation Correction** (`−Σ aⱼ Δⱼ²`): Penalizes unresolved contradictions, where `Δⱼ` measures structural inconsistency and `aⱼ` its metabolic cost.
+- **Coherence Information** ($\sum_i p_i \log(C_i)$): Quantifies the Shannon-like entropy of coherent configurations, weighted by their probability. Higher values indicate that probable states are highly coherent.
+- **Expansion Potential** ($\log(n(t))$): Captures the logarithmic growth of reachable coherent configuration space, ensuring the system avoids collapse to a single attractor.
+- **Dissipation Correction** ($-\sum_j a_j \Delta_j^2$): Penalizes unresolved contradictions, where $\Delta_j$ measures structural inconsistency and $a_j$ its metabolic cost.
 
-This formulation allows `𝓖` to act as a Lyapunov-like function whose maximization drives open-ended learning rather than convergence to a fixed point.
+This formulation allows $\mathcal{G}$ to act as a Lyapunov-like function whose maximization drives open-ended learning rather than convergence to a fixed point.
 
 ### 2. Gradient Ascent Dynamics and Parameter Evolution
 
-The update law `θₜ₊₁ = θₜ + η ∇_θ 𝓖` directly inverts the descent logic of stochastic gradient descent (SGD). The positive learning rate `η` ensures parameters move along the direction of steepest generativity increase. Critically:
+The update law $\theta_{t+1} = \theta_t + \eta \nabla_\theta \mathcal{G}$ directly inverts the descent logic of stochastic gradient descent (SGD). The positive learning rate $\eta$ ensures parameters move along the direction of steepest generativity increase. Critically:
 
-- The gradient `∇_θ 𝓖` is computed with respect to neural parameters embedded in the coherence scores `Cᵢ(θ)` and configuration counts `n(t;θ)`.
+- The gradient $\nabla_\theta \mathcal{G}$ is computed with respect to neural parameters embedded in the coherence scores $C_i(\theta)$ and configuration counts $n(t;\theta)$.
 - Unlike SGD, which minimizes error on held-out data, this ascent rule maximizes internal coherence, potentially causing the network to expand its hypothesis space over time rather than regularize it.
-- Stability is monitored via `d𝓖/dt`; when this derivative becomes non-positive, the system has exhausted generative potential and enters a metastable equilibrium.
+- Stability is monitored via $\frac{d\mathcal{G}}{dt}$; when this derivative becomes non-positive, the system has exhausted generative potential and enters a metastable equilibrium.
 
 ### 3. Meta-Update Operator and Objective Rewriting
 
-The operator `𝓜(Δₜ, Ω₀)` embodies the core innovation of meta-optimization. At each iteration:
+The operator $\mathcal{M}(\Delta_t, \Omega_0)$ embodies the core innovation of meta-optimization. At each iteration:
 
-1. A structured anomaly `Δₜ` is detected (e.g., a configuration that violates expected coherence).
-2. The metabolic operator `Ω₀` transforms this anomaly into a new coherence criterion or relaxes an existing one.
-3. The generativity function itself is rewritten: new terms may be added to `𝓖`, weights `pᵢ` or `aⱼ` adjusted, or the set of tracked configurations expanded.
+1. A structured anomaly $\Delta_t$ is detected (e.g., a configuration that violates expected coherence).
+2. The metabolic operator $\Omega_0$ transforms this anomaly into a new coherence criterion or relaxes an existing one.
+3. The generativity function itself is rewritten: new terms may be added to $\mathcal{G}$, weights $p_i$ or $a_j$ adjusted, or the set of tracked configurations expanded.
 
 This self-modifying objective prevents the system from getting trapped in local optima and enables adaptive learning in non-stationary environments.
 
 ### 4. Xenogenerative Index as a Compound Metric
 
-The XGI measures satisfaction of the 79 CFPE invariants. Each invariant `i` has:
+The XGI measures satisfaction of the 79 CFPE invariants. Each invariant $i$ has:
 
-- An importance weight `wᵢ` (reflecting its role in maintaining coherence)
-- A satisfaction state `sᵢ ∈ {0, 1}` (binary or soft, typically computed as `min(1, max(0, Cᵢ(θ)))`)
+- An importance weight $w_i$ (reflecting its role in maintaining coherence)
+- A satisfaction state $s_i \in \{0, 1\}$ (binary or soft, typically computed as $\min(1, \max(0, C_i(\theta)))$)
 
-The differential form `d(XGI)/dt = Σᵢ wᵢ (dsᵢ/dt) / N` tracks how quickly the system transitions between invariant-satisfying and invariant-violating states. Positive rates indicate increasing global compliance; negative rates signal degradation requiring metabolic intervention.
+The differential form $\frac{d(\text{XGI})}{dt} = \frac{1}{N}\sum_i w_i \frac{ds_i}{dt}$ tracks how quickly the system transitions between invariant-satisfying and invariant-violating states. Positive rates indicate increasing global compliance; negative rates signal degradation requiring metabolic intervention.
 
 ### 5. Coupled Field Dynamics and Neurosymbolic Integration
 
 The three fields evolve under coupled differential equations:
 
-- **Neural Field** (`Fₙ`): Learns distributed representations via the term `α ∇_θ 𝓖`, while symbolic feedback `β (CFPE_feedback)` constrains learned features to respect invariants.
-- **Symbolic Field** (`Fₛ`): Continuously validates the neural representations (`γ validate(Fₙ)`) and revises the rule set when contradictions are detected (`δ revise_rules(Fₛ, Δ)`).
-- **Generative Field** (`F_g`): Computes `𝓖` and meta-gradients, acting as a coordinator that synchronizes neural learning and symbolic enforcement.
+- **Neural Field** ($F_n$): Learns distributed representations via the term $\alpha \nabla_\theta \mathcal{G}$, while symbolic feedback $\beta \text{(CFPE\_feedback)}$ constrains learned features to respect invariants.
+- **Symbolic Field** ($F_s$): Continuously validates the neural representations ($\gamma \text{ validate}(F_n)$) and revises the rule set when contradictions are detected ($\delta \text{ revise\_rules}(F_s, \Delta)$).
+- **Generative Field** ($F_g$): Computes $\mathcal{G}$ and meta-gradients, acting as a coordinator that synchronizes neural learning and symbolic enforcement.
 
-The coupling coefficients α, β, γ, δ, ε control the relative influence of each mechanism, effectively tuning the balance between neural adaptivity and symbolic rigidity.
+The coupling coefficients $\alpha, \beta, \gamma, \delta, \varepsilon$ control the relative influence of each mechanism, effectively tuning the balance between neural adaptivity and symbolic rigidity.
 
 ### 6. Global Optimization and Policy Framework
 
-The objective `maximize_π E_π [ ∫₀ᵀ d𝓖(𝓢ₜ)/dt dt ]` integrates generativity rate over a planning horizon. The policy `π` determines which actions or parameter updates to take at each step. This formulation:
+The objective $\max_\pi \mathbb{E}_\pi \left[ \int_0^T \frac{d\mathcal{G}(\mathcal{S}_t)}{dt} \, dt \right]$ integrates generativity rate over a planning horizon. The policy $\pi$ determines which actions or parameter updates to take at each step. This formulation:
 
-- Treats the entire update sequence as a stochastic process under policy `π`.
+- Treats the entire update sequence as a stochastic process under policy $\pi$.
 - Replaces point-wise loss minimization with cumulative generativity maximization.
-- Naturally handles multi-step planning, where early parameter adjustments may sacrifice short-term `𝓖` to unlock higher long-term rates.
+- Naturally handles multi-step planning, where early parameter adjustments may sacrifice short-term $\mathcal{G}$ to unlock higher long-term rates.
 
 ### 7. Constraint Satisfaction and Feasible Optimization
 
-The constrained problem `maximize_θ 𝓖 subject to Cᵢ(𝓢) ≥ 0` ensures that the optimization never exits the coherence-preserving region of parameter space. In practice, this is enforced via:
+The constrained problem $\max_\theta \mathcal{G} \text{ subject to } C_i(\mathcal{S}) \geq 0$ ensures that the optimization never exits the coherence-preserving region of parameter space. In practice, this is enforced via:
 
-- Augmented Lagrangian methods (adding penalty terms for violated constraints into `𝓖`).
+- Augmented Lagrangian methods (adding penalty terms for violated constraints into $\mathcal{G}$).
 - Projection-based updates that reset parameters violating constraints.
-- Adaptive relaxation: when multiple constraints bind, the metabolic operator `Ω₀` may selectively relax lower-priority invariants to allow progress on higher-order coherence.
+- Adaptive relaxation: when multiple constraints bind, the metabolic operator $\Omega_0$ may selectively relax lower-priority invariants to allow progress on higher-order coherence.
 
 
 ---
@@ -122,30 +123,28 @@ The constrained problem `maximize_θ 𝓖 subject to Cᵢ(𝓢) ≥ 0` ensures t
 
 | Concept | Expression |
 |----------|-------------|
-| Generativity Function | `𝓖 = Σ pᵢ log(Cᵢ) + log(n(t)) − Σ aⱼ Δⱼ²` |
-| Gradient Ascent Update | `θₜ₊₁ = θₜ + η ∇_θ 𝓖` |
-| Meta-Update Law | `𝓖ₜ₊₁ = 𝓖ₜ + 𝓜(Δₜ, Ω₀)` |
-| Generativity Rate | `d𝓖/dt = dI_c/dt + dE_p/dt − dD_i/dt` |
-| Xenogenerative Index | `XGI = (Σ wᵢ sᵢ)/N` |
-| Global Objective | `maximize_π  E[∫₀ᵀ d𝓖/dt dt]` |
+| Generativity Function | $\mathcal{G} = \sum_i p_i \log(C_i) + \log(n(t)) - \sum_j a_j \Delta_j^2$ |
+| Gradient Ascent Update | $\theta_{t+1} = \theta_t + \eta \nabla_\theta \mathcal{G}$ |
+| Meta-Update Law | $\mathcal{G}_{t+1} = \mathcal{G}_t + \mathcal{M}(\Delta_t, \Omega_0)$ |
+| Generativity Rate | $\frac{d\mathcal{G}}{dt} = \frac{dI_c}{dt} + \frac{dE_p}{dt} - \frac{dD_i}{dt}$ |
+| Xenogenerative Index | $\text{XGI} = \frac{1}{N}\sum_{i=1}^N w_i s_i$ |
+| Global Objective | $\max_\pi \mathbb{E}\left[\int_0^T \frac{d\mathcal{G}}{dt} \, dt\right]$ |
 
 ---
 
 ## 13. Algorithm Summary (Meta-Generative Learning Cycle)
 
 ```
-
-1. Initialize system state (Φ₀, 𝓡₀, θ₀)
+1. Initialize system state (Φ₀, ℛ₀, θ₀)
 2. While system active:
-   a. Detect contradictions Δₜ
-   b. Route Δₜ via metabolic operator Ω₀
-   c. Update neural/symbolic states (Φₜ, 𝓡ₜ)
-   d. Compute generativity function 𝓖(𝓢ₜ)
-   e. Perform gradient ascent: θₜ₊₁ = θₜ + η ∇_θ 𝓖
-   f. Update rule set via meta-map 𝓜(Δₜ, Ω₀)
-   g. Compute XGI and report ΔXGI/Δt
+     a. Detect contradictions Δₜ
+     b. Route Δₜ via metabolic operator Ω₀
+     c. Update neural/symbolic states (Φₜ, ℛₜ)
+     d. Compute generativity function 𝓖(𝓢ₜ)
+     e. Perform gradient ascent: θₜ₊₁ = θₜ + η ∇_θ 𝓖
+     f. Update rule set via meta-map 𝓜(Δₜ, Ω₀)
+     g. Compute XGI and report ΔXGI/Δt
 3. End when d𝓖/dt ≤ 0 (system has reached generative equilibrium)
-
 ```
 
 ---
@@ -155,104 +154,86 @@ The constrained problem `maximize_θ 𝓖 subject to Cᵢ(𝓢) ≥ 0` ensures t
 - **Minimization models** drive toward *one solution* (entropy ↓).
 - **Generative models** drive toward *open coherence* (entropy reorganized).
 - The *meta-optimizer* continuously rewrites its own target function.
-- The *Generativity Function 𝓖* replaces "loss" as the new thermodynamic variable of intelligence.
+- The *Generativity Function $\mathcal{G}$* replaces "loss" as the new thermodynamic variable of intelligence.
 
 ---
 
 # Addendum: Formal Specifications for CFPE GNN Implementation
 
-## A. Meta-Update Operator 𝓜: Formal Definition
+## A. Meta-Update Operator $\mathcal{M}$: Formal Definition
 
 ### A.1 Operator Signature and Structure
 
-The meta-update operator `𝓜` transforms contradictions into generativity modifications through a three-stage process:
+The meta-update operator $\mathcal{M}$ transforms contradictions into generativity modifications through a three-stage process:
 
-```
-𝓜: (Δₜ, Ω₀, 𝓖ₜ) ↦ δ𝓖ₜ
-```
+$$\mathcal{M}: (\Delta_t, \Omega_0, \mathcal{G}_t) \mapsto \delta\mathcal{G}_t$$
 
 where:
-- **Input**: Contradiction vector `Δₜ ∈ ℝⁿ`, metabolic operator `Ω₀`, current generativity `𝓖ₜ`
-- **Output**: Generativity modification `δ𝓖ₜ` (additive correction to `𝓖ₜ`)
+- **Input**: Contradiction vector $\Delta_t \in \mathbb{R}^n$, metabolic operator $\Omega_0$, current generativity $\mathcal{G}_t$
+- **Output**: Generativity modification $\delta\mathcal{G}_t$ (additive correction to $\mathcal{G}_t$)
 
 ### A.2 Canonical Form: Weighted Basis Expansion
 
-```
-𝓜(Δₜ, Ω₀, 𝓖ₜ) = ∑ₖ₌₁ᴷ λₖ(Δₜ) · φₖ(𝓖ₜ)
-```
+$$\mathcal{M}(\Delta_t, \Omega_0, \mathcal{G}_t) = \sum_{k=1}^K \lambda_k(\Delta_t) \cdot \varphi_k(\mathcal{G}_t)$$
 
 where:
-- `λₖ(Δₜ)`: **Metabolic response coefficients** (scalar weights)
-- `φₖ(𝓖ₜ)`: **Generativity modification functions** (basis transformations)
-- `K`: Number of meta-update modes (typically 3-7)
+- $\lambda_k(\Delta_t)$: **Metabolic response coefficients** (scalar weights)
+- $\varphi_k(\mathcal{G}_t)$: **Generativity modification functions** (basis transformations)
+- $K$: Number of meta-update modes (typically 3-7)
 
 ### A.3 Metabolic Response Coefficients
 
-```
-λₖ(Δₜ) = τₖ · σ(⟨wₖ, Δₜ⟩ - bₖ)
-```
+$$\lambda_k(\Delta_t) = \tau_k \cdot \sigma(\langle w_k, \Delta_t \rangle - b_k)$$
 
 where:
-- `τₖ`: Metabolic time constant (controls response rate)
-- `wₖ ∈ ℝⁿ`: Weight vector selecting contradiction patterns
-- `bₖ`: Activation threshold
-- `σ(·)`: Sigmoid function ensuring smooth response
-- `⟨·,·⟩`: Inner product
+- $\tau_k$: Metabolic time constant (controls response rate)
+- $w_k \in \mathbb{R}^n$: Weight vector selecting contradiction patterns
+- $b_k$: Activation threshold
+- $\sigma(\cdot)$: Sigmoid function ensuring smooth response
+- $\langle \cdot, \cdot \rangle$: Inner product
 
-**Physical Interpretation**: Each `λₖ` acts as a "contradiction detector" that fires when a specific pattern appears in `Δₜ`.
+**Physical Interpretation**: Each $\lambda_k$ acts as a "contradiction detector" that fires when a specific pattern appears in $\Delta_t$.
 
 ### A.4 Generativity Modification Functions
 
 Three canonical modification types:
 
 #### Type 1: Coherence Term Addition
-```
-φ₁(𝓖ₜ) = μ₁ · log(1 + |Δₜ|²)
-```
+$$\varphi_1(\mathcal{G}_t) = \mu_1 \cdot \log(1 + |\Delta_t|^2)$$
 Adds a new coherence measurement tracking the contradiction magnitude.
 
 #### Type 2: Dissipation Penalty Rescaling
-```
-φ₂(𝓖ₜ) = -μ₂ · (∂²𝓖ₜ/∂a² · Δa)
-```
-Adjusts dissipation penalty weights `aⱼ` based on contradiction patterns.
+$$\varphi_2(\mathcal{G}_t) = -\mu_2 \cdot \left(\frac{\partial^2 \mathcal{G}_t}{\partial a^2} \cdot \Delta a\right)$$
+Adjusts dissipation penalty weights $a_j$ based on contradiction patterns.
 
 #### Type 3: Expansion Potential Modulation
-```
-φ₃(𝓖ₜ) = μ₃ · log(n_new(Δₜ) + 1)
-```
-where `n_new(Δₜ)` counts new coherent configurations made accessible by resolving `Δₜ`.
+$$\varphi_3(\mathcal{G}_t) = \mu_3 \cdot \log(n_{\text{new}}(\Delta_t) + 1)$$
+where $n_{\text{new}}(\Delta_t)$ counts new coherent configurations made accessible by resolving $\Delta_t$.
 
 ### A.5 Complete Meta-Update Law
 
-```
-𝓖ₜ₊₁ = 𝓖ₜ + η_meta · 𝓜(Δₜ, Ω₀, 𝓖ₜ)
-      = 𝓖ₜ + η_meta · ∑ₖ τₖ · σ(⟨wₖ, Δₜ⟩ - bₖ) · φₖ(𝓖ₜ)
-```
+$$\mathcal{G}_{t+1} = \mathcal{G}_t + \eta_{\text{meta}} \cdot \mathcal{M}(\Delta_t, \Omega_0, \mathcal{G}_t)$$
+$$= \mathcal{G}_t + \eta_{\text{meta}} \cdot \sum_k \tau_k \cdot \sigma(\langle w_k, \Delta_t \rangle - b_k) \cdot \varphi_k(\mathcal{G}_t)$$
 
-where `η_meta` is the meta-learning rate (typically 0.001-0.01).
+where $\eta_{\text{meta}}$ is the meta-learning rate (typically 0.001-0.01).
 
 ---
 
-## B. Metabolic Operator Ω₀: Formal Specification
+## B. Metabolic Operator $\Omega_0$: Formal Specification
 
 ### B.1 Operator Definition
 
-```
-Ω₀: (Δₜ, 𝓡ₜ, θₜ) ↦ (𝓡ₜ₊₁, Ψₜ, Cₜ_new)
-```
+$$\Omega_0: (\Delta_t, \mathcal{R}_t, \theta_t) \mapsto (\mathcal{R}_{t+1}, \Psi_t, C_t^{\text{new}})$$
 
 where:
-- **Input**: Contradiction vector `Δₜ`, rule set `𝓡ₜ`, parameters `θₜ`
-- **Output**: Updated rules `𝓡ₜ₊₁`, correction term `Ψₜ`, new coherence functions `Cₜ_new`
+- **Input**: Contradiction vector $\Delta_t$, rule set $\mathcal{R}_t$, parameters $\theta_t$
+- **Output**: Updated rules $\mathcal{R}_{t+1}$, correction term $\Psi_t$, new coherence functions $C_t^{\text{new}}$
 
 ### B.2 Three-Stage Processing
 
 #### Stage 1: Contradiction Classification
-```
-class(Δₜ) = argmax_c ⟨v_c, normalize(Δₜ)⟩
-```
-where `v_c` are contradiction prototype vectors (learned or predefined).
+$$\text{class}(\Delta_t) = \arg\max_c \langle v_c, \text{normalize}(\Delta_t) \rangle$$
+where $v_c$ are contradiction prototype vectors (learned or predefined).
 
 **Contradiction Types**:
 - **Type A (Logical)**: Cyclic dependencies, inconsistent derivations
@@ -260,132 +241,105 @@ where `v_c` are contradiction prototype vectors (learned or predefined).
 - **Type C (Thermodynamic)**: Excessive dissipation, coherence collapse
 
 #### Stage 2: Rule Revision
-```
-𝓡ₜ₊₁ = 𝓡ₜ ∪ {r_new} \ {r_obsolete}
-```
+$$\mathcal{R}_{t+1} = \mathcal{R}_t \cup \{r_{\text{new}}\} \setminus \{r_{\text{obsolete}}\}$$
 
 **Revision Mechanisms by Type**:
 
 **Type A**: Add exception rule
-```
-r_new = IF (pattern(Δₜ)) THEN relax(invariant_i) BY ε
-```
+$$r_{\text{new}} = \text{IF } (\text{pattern}(\Delta_t)) \text{ THEN relax}(\text{invariant}_i) \text{ BY } \epsilon$$
 
 **Type B**: Strengthen constraint
-```
-r_new = IF (violation(Cⱼ) > threshold) THEN penalty(Cⱼ) *= γ
-```
-where `γ > 1` (typically 1.5-2.0).
+$$r_{\text{new}} = \text{IF } (\text{violation}(C_j) > \text{threshold}) \text{ THEN penalty}(C_j) \mathrel{{*}{=}} \gamma$$
+where $\gamma > 1$ (typically 1.5-2.0).
 
 **Type C**: Introduce dissipation channel
-```
-r_new = IF (D_i > D_max) THEN route(Δₜ) TO auxiliary_process
-```
+$$r_{\text{new}} = \text{IF } (D_i > D_{\max}) \text{ THEN route}(\Delta_t) \text{ TO auxiliary\_process}$$
 
 #### Stage 3: Correction Term Generation
-```
-Ψₜ = -α_corr · Δₜ + β_corr · ∇_θ (R(𝓡ₜ₊₁, θₜ))
-```
+$$\Psi_t = -\alpha_{\text{corr}} \cdot \Delta_t + \beta_{\text{corr}} \cdot \nabla_\theta (R(\mathcal{R}_{t+1}, \theta_t))$$
 
 where:
-- `α_corr`: Direct correction strength (damps contradiction)
-- `β_corr`: Structural correction strength (guides toward new rule compliance)
-- `R(𝓡, θ)`: Rule satisfaction function
+- $\alpha_{\text{corr}}$: Direct correction strength (damps contradiction)
+- $\beta_{\text{corr}}$: Structural correction strength (guides toward new rule compliance)
+- $R(\mathcal{R}, \theta)$: Rule satisfaction function
 
 ### B.3 Algorithmic Form
 
 ```
 function Omega_0(Delta_t, Rules_t, theta_t):
-    # Stage 1: Classify
-    c = classify_contradiction(Delta_t)
-    
-    # Stage 2: Revise rules
-    if c == LOGICAL:
-        r_new = create_exception_rule(Delta_t)
-    elif c == STRUCTURAL:
-        r_new = strengthen_constraint(Delta_t)
-    elif c == THERMODYNAMIC:
-        r_new = add_dissipation_channel(Delta_t)
-    
-    Rules_t1 = Rules_t.union({r_new})
-    
-    # Stage 3: Generate correction
-    Psi_t = -alpha_corr * Delta_t 
-            + beta_corr * grad_theta(rule_satisfaction(Rules_t1, theta_t))
-    
-    # Generate new coherence functions
-    C_new = extract_coherence_measures(r_new)
-    
-    return (Rules_t1, Psi_t, C_new)
+        # Stage 1: Classify
+        c = classify_contradiction(Delta_t)
+        
+        # Stage 2: Revise rules
+        if c == LOGICAL:
+                r_new = create_exception_rule(Delta_t)
+        elif c == STRUCTURAL:
+                r_new = strengthen_constraint(Delta_t)
+        elif c == THERMODYNAMIC:
+                r_new = add_dissipation_channel(Delta_t)
+        
+        Rules_t1 = Rules_t.union({r_new})
+        
+        # Stage 3: Generate correction
+        Psi_t = -alpha_corr * Delta_t 
+                        + beta_corr * grad_theta(rule_satisfaction(Rules_t1, theta_t))
+        
+        # Generate new coherence functions
+        C_new = extract_coherence_measures(r_new)
+        
+        return (Rules_t1, Psi_t, C_new)
 ```
 
 ---
 
-## C. Coherence Function Cᵢ(θ): Neural-Symbolic Implementation
+## C. Coherence Function $C_i(\theta)$: Neural-Symbolic Implementation
 
 ### C.1 Hybrid Architecture
 
 Each coherence function is a **differentiable composition**:
 
-```
-Cᵢ(θ) = L_soft(P_neural,ᵢ(θ), I_i)
-```
+$$C_i(\theta) = L_{\text{soft}}(P_{\text{neural},i}(\theta), I_i)$$
 
 where:
-- `P_neural,ᵢ(θ)`: Neural predicate (learned representation)
-- `I_i`: Symbolic invariant (logical constraint)
-- `L_soft`: Soft logic aggregation (makes discrete logic differentiable)
+- $P_{\text{neural},i}(\theta)$: Neural predicate (learned representation)
+- $I_i$: Symbolic invariant (logical constraint)
+- $L_{\text{soft}}$: Soft logic aggregation (makes discrete logic differentiable)
 
 ### C.2 Neural Predicate Component
 
-```
-P_neural,ᵢ(θ) = σ(f_θ,ᵢ(x))
-```
+$$P_{\text{neural},i}(\theta) = \sigma(f_{\theta,i}(x))$$
 
 where:
-- `f_θ,ᵢ: ℝᵈ → ℝ` is a neural network (typically 2-3 layer MLP)
-- `x ∈ ℝᵈ` is the system state representation
-- `σ(·)` is sigmoid: `σ(z) = 1/(1 + e^(-z))`
+- $f_{\theta,i}: \mathbb{R}^d \to \mathbb{R}$ is a neural network (typically 2-3 layer MLP)
+- $x \in \mathbb{R}^d$ is the system state representation
+- $\sigma(\cdot)$ is sigmoid: $\sigma(z) = \frac{1}{1 + e^{-z}}$
 
-**Architecture for f_θ,ᵢ**:
-```
-f_θ,ᵢ(x) = W₃ · ReLU(W₂ · ReLU(W₁ · x + b₁) + b₂) + b₃
-```
+**Architecture for $f_{\theta,i}$**:
+$$f_{\theta,i}(x) = W_3 \cdot \text{ReLU}(W_2 \cdot \text{ReLU}(W_1 \cdot x + b_1) + b_2) + b_3$$
 
-where `θ = {W₁, W₂, W₃, b₁, b₂, b₃}`.
+where $\theta = \{W_1, W_2, W_3, b_1, b_2, b_3\}$.
 
 ### C.3 Soft Logic Aggregation
 
 Using **Łukasiewicz t-norm** for differentiable conjunction:
 
-```
-L_soft(p, I) = max(0, p + I - 1)
-```
+$$L_{\text{soft}}(p, I) = \max(0, p + I - 1)$$
 
 For multiple constraints:
-```
-Cᵢ(θ) = L_soft(P_neural,ᵢ(θ), ⊗ⱼ Iᵢⱼ)
-       = max(0, P_neural,ᵢ(θ) + ∑ⱼ Iᵢⱼ - |J|)
-```
+$$C_i(\theta) = L_{\text{soft}}(P_{\text{neural},i}(\theta), \bigotimes_j I_{ij})$$
+$$= \max\left(0, P_{\text{neural},i}(\theta) + \sum_j I_{ij} - |J|\right)$$
 
-where `Iᵢⱼ ∈ [0,1]` are symbolic constraint satisfactions.
+where $I_{ij} \in [0,1]$ are symbolic constraint satisfactions.
 
 ### C.4 Gradient Computation
 
-```
-∇_θ Cᵢ = ∂Cᵢ/∂P_neural · ∇_θ P_neural
-```
+$$\nabla_\theta C_i = \frac{\partial C_i}{\partial P_{\text{neural}}} \cdot \nabla_\theta P_{\text{neural}}$$
 
 where:
-```
-∂Cᵢ/∂P_neural = {1  if P_neural + ∑ⱼ Iᵢⱼ ≥ |J|
-                 {0  otherwise
-```
+$$\frac{\partial C_i}{\partial P_{\text{neural}}} = \begin{cases} 1 & \text{if } P_{\text{neural}} + \sum_j I_{ij} \geq |J| \\ 0 & \text{otherwise} \end{cases}$$
 
 and:
-```
-∇_θ P_neural = σ'(f_θ(x)) · ∇_θ f_θ(x)
-```
+$$\nabla_\theta P_{\text{neural}} = \sigma'(f_\theta(x)) \cdot \nabla_\theta f_\theta(x)$$
 
 ---
 
@@ -393,45 +347,33 @@ and:
 
 ### D.1 Smooth Satisfaction Function
 
-Replace binary `sᵢ ∈ {0,1}` with continuous:
+Replace binary $s_i \in \{0,1\}$ with continuous:
 
-```
-sᵢ(t) = σ_smooth(κ · Cᵢ(θₜ))
-```
+$$s_i(t) = \sigma_{\text{smooth}}(\kappa \cdot C_i(\theta_t))$$
 
 where:
-- `σ_smooth(z) = 1/(1 + e^(-z))`: Logistic sigmoid
-- `κ > 0`: Sharpness parameter (controls transition steepness)
-- `κ → ∞` recovers binary behavior
-- `κ ∈ [5, 20]` typical for smooth gradients
+- $\sigma_{\text{smooth}}(z) = \frac{1}{1 + e^{-z}}$: Logistic sigmoid
+- $\kappa > 0$: Sharpness parameter (controls transition steepness)
+- $\kappa \to \infty$ recovers binary behavior
+- $\kappa \in [5, 20]$ typical for smooth gradients
 
 ### D.2 Continuous XGI and Derivative
 
-```
-XGI(t) = (1/N) · ∑ᵢ₌₁ᴺ wᵢ · sᵢ(t)
-```
+$$\text{XGI}(t) = \frac{1}{N} \cdot \sum_{i=1}^N w_i \cdot s_i(t)$$
 
-```
-d(XGI)/dt = (1/N) · ∑ᵢ₌₁ᴺ wᵢ · dsᵢ/dt
-          = (1/N) · ∑ᵢ₌₁ᴺ wᵢ · σ'_smooth(κ · Cᵢ) · κ · dCᵢ/dt
-```
+$$\frac{d(\text{XGI})}{dt} = \frac{1}{N} \cdot \sum_{i=1}^N w_i \cdot \frac{ds_i}{dt}$$
+$$= \frac{1}{N} \cdot \sum_{i=1}^N w_i \cdot \sigma'_{\text{smooth}}(\kappa \cdot C_i) \cdot \kappa \cdot \frac{dC_i}{dt}$$
 
 where:
-```
-σ'_smooth(z) = σ_smooth(z) · (1 - σ_smooth(z))
-```
+$$\sigma'_{\text{smooth}}(z) = \sigma_{\text{smooth}}(z) \cdot (1 - \sigma_{\text{smooth}}(z))$$
 
 ### D.3 Chain Rule Expansion
 
-```
-dCᵢ/dt = ∇_θ Cᵢ · dθ/dt
-       = ∇_θ Cᵢ · η · ∇_θ 𝓖
-```
+$$\frac{dC_i}{dt} = \nabla_\theta C_i \cdot \frac{d\theta}{dt}$$
+$$= \nabla_\theta C_i \cdot \eta \cdot \nabla_\theta \mathcal{G}$$
 
 Substituting:
-```
-d(XGI)/dt = (η·κ/N) · ∑ᵢ wᵢ · σ'(κ·Cᵢ) · (∇_θ Cᵢ)ᵀ · (∇_θ 𝓖)
-```
+$$\frac{d(\text{XGI})}{dt} = \frac{\eta \cdot \kappa}{N} \cdot \sum_i w_i \cdot \sigma'(\kappa \cdot C_i) \cdot (\nabla_\theta C_i)^T \cdot (\nabla_\theta \mathcal{G})$$
 
 **Interpretation**: XGI increases when coherence gradients align with generativity gradients.
 
@@ -442,20 +384,16 @@ d(XGI)/dt = (η·κ/N) · ∑ᵢ wᵢ · σ'(κ·Cᵢ) · (∇_θ Cᵢ)ᵀ · (�
 ### E.1 Problem Reformulation
 
 Original:
-```
-maximize_θ 𝓖(θ)
-subject to Cᵢ(θ) ≥ 0  ∀i ∈ {1,...,N}
-```
+$$\max_\theta \mathcal{G}(\theta)$$
+$$\text{subject to } C_i(\theta) \geq 0 \quad \forall i \in \{1,\ldots,N\}$$
 
 Augmented Lagrangian:
-```
-ℒ_aug(θ, μ, ρ) = 𝓖(θ) - ∑ᵢ μᵢ · h(Cᵢ(θ)) - (ρ/2) · ∑ᵢ h(Cᵢ(θ))²
-```
+$$\mathcal{L}_{\text{aug}}(\theta, \mu, \rho) = \mathcal{G}(\theta) - \sum_i \mu_i \cdot h(C_i(\theta)) - \frac{\rho}{2} \cdot \sum_i h(C_i(\theta))^2$$
 
 where:
-- `μᵢ ≥ 0`: Lagrange multipliers
-- `ρ > 0`: Penalty parameter
-- `h(c) = max(0, -c)`: Violation function (zero if constraint satisfied)
+- $\mu_i \geq 0$: Lagrange multipliers
+- $\rho > 0$: Penalty parameter
+- $h(c) = \max(0, -c)$: Violation function (zero if constraint satisfied)
 
 ### E.2 Update Algorithm
 
@@ -468,20 +406,18 @@ where:
 
 # Penalty increase (if constraints still violated)
 if max_i h(Cᵢ(θₜ₊₁)) > tolerance:
-    ρₜ₊₁ = γ_ρ · ρₜ
+        ρₜ₊₁ = γ_ρ · ρₜ
 else:
-    ρₜ₊₁ = ρₜ
+        ρₜ₊₁ = ρₜ
 ```
 
-where `γ_ρ ∈ [1.5, 2.0]` (penalty growth factor).
+where $\gamma_\rho \in [1.5, 2.0]$ (penalty growth factor).
 
 ### E.3 Gradient of Augmented Lagrangian
 
-```
-∇_θ ℒ_aug = ∇_θ 𝓖 + ∑ᵢ (μᵢ + ρ · h(Cᵢ)) · ∇_θ Cᵢ · 𝟙[Cᵢ < 0]
-```
+$$\nabla_\theta \mathcal{L}_{\text{aug}} = \nabla_\theta \mathcal{G} + \sum_i (\mu_i + \rho \cdot h(C_i)) \cdot \nabla_\theta C_i \cdot \mathbb{1}[C_i < 0]$$
 
-where `𝟙[·]` is the indicator function (1 if constraint violated, 0 otherwise).
+where $\mathbb{1}[\cdot]$ is the indicator function (1 if constraint violated, 0 otherwise).
 
 ---
 
@@ -489,11 +425,7 @@ where `𝟙[·]` is the indicator function (1 if constraint violated, 0 otherwis
 
 ### F.1 Neural Field Evolution
 
-```
-dF_n/dt = α · ∇_θ 𝓖(F_n, F_s, F_g) 
-        + β · Λ_s(F_s, F_n) 
-        + γ_n · ∇²F_n
-```
+$$\frac{dF_n}{dt} = \alpha \cdot \nabla_\theta \mathcal{G}(F_n, F_s, F_g) + \beta \cdot \Lambda_s(F_s, F_n) + \gamma_n \cdot \nabla^2 F_n$$
 
 where:
 - **Term 1**: Generativity-driven learning (gradient ascent)
@@ -501,50 +433,35 @@ where:
 - **Term 3**: Diffusion regularization (smoothness prior)
 
 **Symbolic Penalty Function**:
-```
-Λ_s(F_s, F_n) = -∑ᵢ ξᵢ · h(Cᵢ(F_n))² · ∇_F_n Cᵢ
-```
-where `ξᵢ > 0` are penalty weights.
+$$\Lambda_s(F_s, F_n) = -\sum_i \xi_i \cdot h(C_i(F_n))^2 \cdot \nabla_{F_n} C_i$$
+where $\xi_i > 0$ are penalty weights.
 
 ### F.2 Symbolic Field Evolution
 
-```
-dF_s/dt = γ · validate(F_n, F_s) 
-        + δ · revise_rules(F_s, Δₜ) 
-        + ε · ∇_F_s 𝓖(F_n, F_s, F_g)
-```
+$$\frac{dF_s}{dt} = \gamma \cdot \text{validate}(F_n, F_s) + \delta \cdot \text{revise\_rules}(F_s, \Delta_t) + \varepsilon \cdot \nabla_{F_s} \mathcal{G}(F_n, F_s, F_g)$$
 
 **Validation Function**:
-```
-validate(F_n, F_s) = ∑ᵢ wᵢ · [Cᵢ(F_n) - τ_i] · eᵢ
-```
+$$\text{validate}(F_n, F_s) = \sum_i w_i \cdot [C_i(F_n) - \tau_i] \cdot e_i$$
 where:
-- `τ_i`: Target satisfaction level for invariant `i`
-- `eᵢ`: Unit vector in direction of invariant `i`'s symbolic representation
+- $\tau_i$: Target satisfaction level for invariant $i$
+- $e_i$: Unit vector in direction of invariant $i$'s symbolic representation
 
 **Rule Revision Function**:
-```
-revise_rules(F_s, Δₜ) = Ω₀(Δₜ, 𝓡_t, θₜ) [projected onto F_s space]
-```
+$$\text{revise\_rules}(F_s, \Delta_t) = \Omega_0(\Delta_t, \mathcal{R}_t, \theta_t) \text{ [projected onto } F_s \text{ space]}$$
 
 ### F.3 Generative Field Evolution
 
-```
-dF_g/dt = ε · (∇_F_n 𝓖 · dF_n/dt + ∇_F_s 𝓖 · dF_s/dt)
-        + ζ · 𝓜(Δₜ, Ω₀, 𝓖ₜ)
-```
+$$\frac{dF_g}{dt} = \varepsilon \cdot \left(\nabla_{F_n} \mathcal{G} \cdot \frac{dF_n}{dt} + \nabla_{F_s} \mathcal{G} \cdot \frac{dF_s}{dt}\right) + \zeta \cdot \mathcal{M}(\Delta_t, \Omega_0, \mathcal{G}_t)$$
 
-**Interpretation**: `F_g` tracks total generativity change plus meta-updates.
+**Interpretation**: $F_g$ tracks total generativity change plus meta-updates.
 
 ### F.4 Discretized System
 
-```
-F_n,t+1 = F_n,t + Δt · [α·∇_θ𝓖 + β·Λ_s + γ_n·∇²F_n]
+$$F_{n,t+1} = F_{n,t} + \Delta t \cdot [\alpha \cdot \nabla_\theta \mathcal{G} + \beta \cdot \Lambda_s + \gamma_n \cdot \nabla^2 F_n]$$
 
-F_s,t+1 = F_s,t + Δt · [γ·validate + δ·revise + ε·∇_F_s𝓖]
+$$F_{s,t+1} = F_{s,t} + \Delta t \cdot [\gamma \cdot \text{validate} + \delta \cdot \text{revise} + \varepsilon \cdot \nabla_{F_s} \mathcal{G}]$$
 
-F_g,t+1 = F_g,t + Δt · [ε·(∇_F_n𝓖·ΔF_n + ∇_F_s𝓖·ΔF_s) + ζ·𝓜]
-```
+$$F_{g,t+1} = F_{g,t} + \Delta t \cdot [\varepsilon \cdot (\nabla_{F_n} \mathcal{G} \cdot \Delta F_n + \nabla_{F_s} \mathcal{G} \cdot \Delta F_s) + \zeta \cdot \mathcal{M}]$$
 
 ---
 
@@ -552,165 +469,124 @@ F_g,t+1 = F_g,t + Δt · [ε·(∇_F_n𝓖·ΔF_n + ∇_F_s𝓖·ΔF_s) + ζ·�
 
 ### G.1 Domain Setup
 
-**Task**: Learn consistent propositional logic with 3 variables {A, B, C}.
+**Task**: Learn consistent propositional logic with 3 variables $\{A, B, C\}$.
 
 **CFPE Invariants** (simplified to 3):
-1. **No contradiction**: ¬(P ∧ ¬P)
-2. **Modus ponens**: (P ∧ (P→Q)) → Q
-3. **Transitivity**: ((P→Q) ∧ (Q→R)) → (P→R)
+1. **No contradiction**: $\neg(P \land \neg P)$
+2. **Modus ponens**: $(P \land (P \to Q)) \to Q$
+3. **Transitivity**: $((P \to Q) \land (Q \to R)) \to (P \to R)$
 
 ### G.2 State Representation
 
-```
-x = [p_A, p_B, p_C, p_AB, p_AC, p_BC, p_ABC] ∈ [0,1]⁷
-```
-where `p_X` represents probability of proposition X being true.
+$$x = [p_A, p_B, p_C, p_{AB}, p_{AC}, p_{BC}, p_{ABC}] \in [0,1]^7$$
+where $p_X$ represents probability of proposition $X$ being true.
 
 ### G.3 Coherence Functions
 
-**C₁ (No contradiction)**:
-```
-C₁(θ) = σ(f_θ,1(x))
-f_θ,1(x) = -||x ⊙ (1-x)||²  (penalizes values near 0.5)
-```
+**$C_1$ (No contradiction)**:
+$$C_1(\theta) = \sigma(f_{\theta,1}(x))$$
+$$f_{\theta,1}(x) = -\|x \odot (1-x)\|^2 \text{ (penalizes values near 0.5)}$$
 
-**C₂ (Modus ponens)**:
-```
-C₂(θ) = σ(f_θ,2(x))
-f_θ,2(x) = min(p_B, 1 - max(0, p_A + p_AB - 1))
-```
-(Łukasiewicz implication: P→Q ≡ min(1, 1-P+Q))
+**$C_2$ (Modus ponens)**:
+$$C_2(\theta) = \sigma(f_{\theta,2}(x))$$
+$$f_{\theta,2}(x) = \min(p_B, 1 - \max(0, p_A + p_{AB} - 1))$$
+(Łukasiewicz implication: $P \to Q \equiv \min(1, 1-P+Q)$)
 
-**C₃ (Transitivity)**:
-```
-C₃(θ) = σ(f_θ,3(x))
-f_θ,3(x) = 1 - max(0, min(p_AB, p_BC) - p_AC)
-```
+**$C_3$ (Transitivity)**:
+$$C_3(\theta) = \sigma(f_{\theta,3}(x))$$
+$$f_{\theta,3}(x) = 1 - \max(0, \min(p_{AB}, p_{BC}) - p_{AC})$$
 
 ### G.4 Generativity Function
 
-```
-𝓖(θ) = ∑ᵢ₌₁³ pᵢ · log(Cᵢ(θ)) + log(n(θ)) - ∑ⱼ aⱼ · Δⱼ²
-```
+$$\mathcal{G}(\theta) = \sum_{i=1}^3 p_i \cdot \log(C_i(\theta)) + \log(n(\theta)) - \sum_j a_j \cdot \Delta_j^2$$
 
 where:
-- `pᵢ = 1/3` (equal importance)
-- `n(θ) = ∑ᵢ 𝟙[Cᵢ(θ) > 0.8]` (count of satisfied invariants)
-- `Δⱼ = 1 - Cⱼ(θ)` (violation magnitude)
-- `aⱼ = 10` (dissipation penalty)
+- $p_i = \frac{1}{3}$ (equal importance)
+- $n(\theta) = \sum_i \mathbb{1}[C_i(\theta) > 0.8]$ (count of satisfied invariants)
+- $\Delta_j = 1 - C_j(\theta)$ (violation magnitude)
+- $a_j = 10$ (dissipation penalty)
 
 ### G.5 Iteration 0: Initialization
 
-```
-θ₀ = random_init()
-x₀ = [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5]  (maximum entropy)
+$$\theta_0 = \text{random\_init}()$$
+$$x_0 = [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5] \text{ (maximum entropy)}$$
 
-C₁(θ₀) = 0.1  (high contradiction due to p≈0.5)
-C₂(θ₀) = 0.6  (moderate MP satisfaction)
-C₃(θ₀) = 0.4  (poor transitivity)
+$$C_1(\theta_0) = 0.1 \text{ (high contradiction due to } p \approx 0.5\text{)}$$
+$$C_2(\theta_0) = 0.6 \text{ (moderate MP satisfaction)}$$
+$$C_3(\theta_0) = 0.4 \text{ (poor transitivity)}$$
 
-𝓖₀ = (1/3)·log(0.1) + (1/3)·log(0.6) + (1/3)·log(0.4) 
-    + log(0) - 10·(0.9² + 0.4² + 0.6²)
-   = -0.77 - 0.17 - 0.31 + 0 - 10·(0.81 + 0.16 + 0.36)
-   = -1.25 - 13.3
-   = -14.55
-```
+$$\mathcal{G}_0 = \frac{1}{3} \log(0.1) + \frac{1}{3} \log(0.6) + \frac{1}{3} \log(0.4) + \log(0) - 10 \cdot (0.9^2 + 0.4^2 + 0.6^2)$$
+$$= -0.77 - 0.17 - 0.31 + 0 - 10 \cdot (0.81 + 0.16 + 0.36)$$
+$$= -1.25 - 13.3 = -14.55$$
 
 ### G.6 Iteration 1: Gradient Ascent
 
-```
-∇_θ 𝓖₀ = ∑ᵢ (pᵢ/Cᵢ) · ∇_θ Cᵢ - 2·∑ⱼ aⱼ·Δⱼ · ∇_θ Δⱼ
-```
+$$\nabla_\theta \mathcal{G}_0 = \sum_i \frac{p_i}{C_i} \cdot \nabla_\theta C_i - 2 \sum_j a_j \Delta_j \cdot \nabla_\theta \Delta_j$$
 
 Compute (simplified):
-```
-∇_θ C₁ ≈ [0.3, 0.3, 0.3, ...]  (push away from 0.5)
-∇_θ C₂ ≈ [-0.2, 0.5, 0, ...]  (strengthen implication)
-∇_θ C₃ ≈ [0, 0, 0, 0.7, ...]  (improve transitivity)
-```
+$$\nabla_\theta C_1 \approx [0.3, 0.3, 0.3, \ldots] \text{ (push away from 0.5)}$$
+$$\nabla_\theta C_2 \approx [-0.2, 0.5, 0, \ldots] \text{ (strengthen implication)}$$
+$$\nabla_\theta C_3 \approx [0, 0, 0, 0.7, \ldots] \text{ (improve transitivity)}$$
 
 Update:
-```
-θ₁ = θ₀ + η · ∇_θ 𝓖₀  (η = 0.01)
-```
+$$\theta_1 = \theta_0 + \eta \cdot \nabla_\theta \mathcal{G}_0 \quad (\eta = 0.01)$$
 
 Recompute:
-```
-C₁(θ₁) = 0.4  (improved)
-C₂(θ₁) = 0.7  (improved)
-C₃(θ₁) = 0.5  (slight improvement)
+$$C_1(\theta_1) = 0.4 \text{ (improved)}$$
+$$C_2(\theta_1) = 0.7 \text{ (improved)}$$
+$$C_3(\theta_1) = 0.5 \text{ (slight improvement)}$$
 
-𝓖₁ = -0.31 - 0.12 - 0.23 + log(0) - 10·(0.36 + 0.09 + 0.25)
-   = -0.66 - 7.0
-   = -7.66
+$$\mathcal{G}_1 = -0.31 - 0.12 - 0.23 + \log(0) - 10 \cdot (0.36 + 0.09 + 0.25)$$
+$$= -0.66 - 7.0 = -7.66$$
 
-d𝓖/dt = (𝓖₁ - 𝓖₀)/Δt = (-7.66 + 14.55)/1 = +6.89 > 0  ✓
-```
+$$\frac{d\mathcal{G}}{dt} = \frac{\mathcal{G}_1 - \mathcal{G}_0}{\Delta t} = \frac{-7.66 + 14.55}{1} = +6.89 > 0 \quad \checkmark$$
 
 ### G.7 Iteration 2: Contradiction Detection
 
 After update, system detects:
-```
-Δ₂ = [0.6, 0.3, 0.5]  (remaining violations)
-```
+$$\Delta_2 = [0.6, 0.3, 0.5] \text{ (remaining violations)}$$
 
 **Contradiction classification**:
-- `||Δ₂||² = 0.7` → moderate
-- `argmax(Δ₂) = 0` → C₁ most violated (contradiction invariant)
+- $\|\Delta_2\|^2 = 0.7 \to$ moderate
+- $\arg\max(\Delta_2) = 0 \to C_1$ most violated (contradiction invariant)
 
 ### G.8 Metabolic Response
 
-```
-Ω₀(Δ₂, 𝓡₁, θ₁) outputs:
-- r_new: "Relax C₁ threshold from 0.8 to 0.6 temporarily"
-- Ψ₂ = -5.0 · Δ₂ = [-3.0, -1.5, -2.5]
-```
+$$\Omega_0(\Delta_2, \mathcal{R}_1, \theta_1) \text{ outputs:}$$
+- $r_{\text{new}}$: "Relax $C_1$ threshold from 0.8 to 0.6 temporarily"
+- $\Psi_2 = -5.0 \cdot \Delta_2 = [-3.0, -1.5, -2.5]$
 
 ### G.9 Meta-Update
 
-```
-𝓜(Δ₂, Ω₀, 𝓖₁) = λ₁·φ₁(𝓖₁)
-```
+$$\mathcal{M}(\Delta_2, \Omega_0, \mathcal{G}_1) = \lambda_1 \cdot \varphi_1(\mathcal{G}_1)$$
 
 where:
-```
-λ₁ = 0.5 · σ(⟨[1,0,0], [0.6,0.3,0.5]⟩ - 0.5)
-   = 0.5 · σ(0.6 - 0.5)
-   = 0.5 · σ(0.1)
-   = 0.5 · 0.525
-   = 0.262
+$$\lambda_1 = 0.5 \cdot \sigma(\langle [1,0,0], [0.6,0.3,0.5] \rangle - 0.5)$$
+$$= 0.5 \cdot \sigma(0.6 - 0.5) = 0.5 \cdot \sigma(0.1) = 0.5 \cdot 0.525 = 0.262$$
 
-φ₁(𝓖₁) = 2.0 · log(1 + 0.7) = 2.0 · 0.53 = 1.06
+$$\varphi_1(\mathcal{G}_1) = 2.0 \cdot \log(1 + 0.7) = 2.0 \cdot 0.53 = 1.06$$
 
-𝓜 = 0.262 · 1.06 = 0.278
-```
+$$\mathcal{M} = 0.262 \cdot 1.06 = 0.278$$
 
 Update generativity:
-```
-𝓖₂ = 𝓖₁ + η_meta · 𝓜
-   = -7.66 + 0.01 · 0.278
-   = -7.66 + 0.00278
-   = -7.657
-```
+$$\mathcal{G}_2 = \mathcal{G}_1 + \eta_{\text{meta}} \cdot \mathcal{M}$$
+$$= -7.66 + 0.01 \cdot 0.278 = -7.66 + 0.00278 = -7.657$$
 
-(New term added to 𝓖 tracking C₁ relaxation.)
+(New term added to $\mathcal{G}$ tracking $C_1$ relaxation.)
 
 ### G.10 Result After 10 Iterations
 
-```
-Iteration 10:
-C₁(θ₁₀) = 0.92
-C₂(θ₁₀) = 0.88
-C₃(θ₁₀) = 0.85
+$$\text{Iteration 10:}$$
+$$C_1(\theta_{10}) = 0.92$$
+$$C_2(\theta_{10}) = 0.88$$
+$$C_3(\theta_{10}) = 0.85$$
 
-𝓖₁₀ = -0.03 - 0.04 - 0.05 + log(3) - 10·(0.008 + 0.014 + 0.023)
-    = -0.12 + 1.10 - 0.45
-    = +0.53
+$$\mathcal{G}_{10} = -0.03 - 0.04 - 0.05 + \log(3) - 10 \cdot (0.008 + 0.014 + 0.023)$$
+$$= -0.12 + 1.10 - 0.45 = +0.53$$
 
-d𝓖/dt = (0.53 - (-7.66))/10 = 0.82 > 0  ✓
+$$\frac{d\mathcal{G}}{dt} = \frac{0.53 - (-7.66)}{10} = 0.82 > 0 \quad \checkmark$$
 
-XGI = (1·0.92 + 1·0.88 + 1·0.85)/3 = 0.883
-```
+$$\text{XGI} = \frac{1 \cdot 0.92 + 1 \cdot 0.88 + 1 \cdot 0.85}{3} = 0.883$$
 
 **System has achieved generative stability**: all invariants satisfied above 0.8 threshold, positive generativity, ready for next phase.
 
@@ -722,111 +598,110 @@ XGI = (1·0.92 + 1·0.88 + 1·0.85)/3 = 0.883
 # CFPE GNN Training Loop
 
 def train_cfpe_gnn(initial_state, invariants, max_iterations=1000):
-    # Initialize
-    theta = initialize_parameters()
-    G_func = build_generativity_function(invariants)
-    Omega = build_metabolic_operator()
-    Rules = initialize_rule_set(invariants)
-    
-    # Hyperparameters
-    eta = 0.01              # learning rate
-    eta_meta = 0.001        # meta-learning rate
-    kappa = 10.0            # XGI sharpness
-    rho = 1.0               # penalty parameter
-    mu = [0.0] * len(invariants)  # Lagrange multipliers
-    
-    for t in range(max_iterations):
-        # 1. Compute coherence functions
-        C = [coherence_func(theta, inv) for inv in invariants]
+        # Initialize
+        theta = initialize_parameters()
+        G_func = build_generativity_function(invariants)
+        Omega = build_metabolic_operator()
+        Rules = initialize_rule_set(invariants)
         
-        # 2. Detect contradictions
-        Delta_t = [max(0, 1 - c) for c in C]
+        # Hyperparameters
+        eta = 0.01              # learning rate
+        eta_meta = 0.001        # meta-learning rate
+        kappa = 10.0            # XGI sharpness
+        rho = 1.0               # penalty parameter
+        mu = [0.0] * len(invariants)  # Lagrange multipliers
         
-        # 3. Compute generativity
-        G_t = compute_generativity(C, Delta_t, G_func)
+        for t in range(max_iterations):
+                # 1. Compute coherence functions
+                C = [coherence_func(theta, inv) for inv in invariants]
+                
+                # 2. Detect contradictions
+                Delta_t = [max(0, 1 - c) for c in C]
+                
+                # 3. Compute generativity
+                G_t = compute_generativity(C, Delta_t, G_func)
+                
+                # 4. Check termination
+                if t > 0:
+                        dG_dt = (G_t - G_prev) / dt
+                        if dG_dt <= 0:
+                                print(f"Generative equilibrium reached at t={t}")
+                                break
+                
+                # 5. Metabolic processing
+                if max(Delta_t) > 0.1:  # contradiction threshold
+                        Rules, Psi_t, C_new = Omega(Delta_t, Rules, theta)
+                        invariants.extend(C_new)  # add new coherence measures
+                else:
+                        Psi_t = [0.0] * len(Delta_t)
+                
+                # 6. Compute augmented Lagrangian gradient
+                grad_G = compute_gradient(G_func, theta)
+                grad_constraints = [compute_gradient(C[i], theta) 
+                                                     for i in range(len(invariants))]
+                
+                grad_aug = grad_G
+                for i in range(len(invariants)):
+                        if C[i] < 0:  # violated constraint
+                                violation = max(0, -C[i])
+                                grad_aug += (mu[i] + rho * violation) * grad_constraints[i]
+                
+                # 7. Parameter update (gradient ascent)
+                theta = theta + eta * grad_aug
+                
+                # 8. Lagrange multiplier update
+                for i in range(len(invariants)):
+                        violation = max(0, -C[i])
+                        mu[i] = max(0, mu[i] + rho * violation)
+                
+                # 9. Penalty parameter adaptation
+                max_violation = max([max(0, -c) for c in C])
+                if max_violation > 0.01:
+                        rho = min(rho * 1.5, 1000.0)  # increase penalty
+                
+                # 10. Meta-update generativity function
+                if max(Delta_t) > 0.05:
+                        M_t = compute_meta_update(Delta_t, G_func, Omega)
+                        G_func = G_func + eta_meta * M_t
+                
+                # 11. Compute XGI
+                s_smooth = [smooth_sigmoid(kappa * c) for c in C]
+                XGI = sum(s_smooth) / len(s_smooth)
+                
+                # 12. Logging
+                if t % 10 == 0:
+                        print(f"t={t}: G={G_t:.3f}, dG/dt={dG_dt:.3f}, XGI={XGI:.3f}")
+                
+                G_prev = G_t
         
-        # 4. Check termination
-        if t > 0:
-            dG_dt = (G_t - G_prev) / dt
-            if dG_dt <= 0:
-                print(f"Generative equilibrium reached at t={t}")
-                break
-        
-        # 5. Metabolic processing
-        if max(Delta_t) > 0.1:  # contradiction threshold
-            Rules, Psi_t, C_new = Omega(Delta_t, Rules, theta)
-            invariants.extend(C_new)  # add new coherence measures
-        else:
-            Psi_t = [0.0] * len(Delta_t)
-        
-        # 6. Compute augmented Lagrangian gradient
-        grad_G = compute_gradient(G_func, theta)
-        grad_constraints = [compute_gradient(C[i], theta) 
-                           for i in range(len(invariants))]
-        
-        grad_aug = grad_G
-        for i in range(len(invariants)):
-            if C[i] < 0:  # violated constraint
-                violation = max(0, -C[i])
-                grad_aug += (mu[i] + rho * violation) * grad_constraints[i]
-        
-        # 7. Parameter update (gradient ascent)
-        theta = theta + eta * grad_aug
-        
-        # 8. Lagrange multiplier update
-        for i in range(len(invariants)):
-            violation = max(0, -C[i])
-            mu[i] = max(0, mu[i] + rho * violation)
-        
-        # 9. Penalty parameter adaptation
-        max_violation = max([max(0, -c) for c in C])
-        if max_violation > 0.01:
-            rho = min(rho * 1.5, 1000.0)  # increase penalty
-        
-        # 10. Meta-update generativity function
-        if max(Delta_t) > 0.05:
-            M_t = compute_meta_update(Delta_t, G_func, Omega)
-            G_func = G_func + eta_meta * M_t
-        
-        # 11. Compute XGI
-        s_smooth = [smooth_sigmoid(kappa * c) for c in C]
-        XGI = sum(s_smooth) / len(s_smooth)
-        
-        # 12. Logging
-        if t % 10 == 0:
-            print(f"t={t}: G={G_t:.3f}, dG/dt={dG_dt:.3f}, XGI={XGI:.3f}")
-        
-        G_prev = G_t
-    
-    return theta, G_func, Rules
+        return theta, G_func, Rules
 
 
 # Helper functions
 
 def smooth_sigmoid(x, kappa=10.0):
-    return 1.0 / (1.0 + np.exp(-kappa * x))
+        return 1.0 / (1.0 + np.exp(-kappa * x))
 
 def compute_generativity(C, Delta, G_func):
-    # G = sum(p_i * log(C_i)) + log(n) - sum(a_j * Delta_j^2)
-    p = [1.0/len(C)] * len(C)  # equal weights
-    a = [10.0] * len(Delta)    # dissipation penalties
-    
-    coherence_info = sum(p[i] * np.log(max(C[i], 1e-10)) 
-                        for i in range(len(C)))
-    expansion_pot = np.log(sum(1 for c in C if c > 0.8) + 1)
-    dissipation = sum(a[j] * Delta[j]**2 for j in range(len(Delta)))
-    
-    return coherence_info + expansion_pot - dissipation
+        # G = sum(p_i * log(C_i)) + log(n) - sum(a_j * Delta_j^2)
+        p = [1.0/len(C)] * len(C)  # equal weights
+        a = [10.0] * len(Delta)    # dissipation penalties
+        
+        coherence_info = sum(p[i] * np.log(max(C[i], 1e-10)) 
+                                                for i in range(len(C)))
+        expansion_pot = np.log(sum(1 for c in C if c > 0.8) + 1)
+        dissipation = sum(a[j] * Delta[j]**2 for j in range(len(Delta)))
+        
+        return coherence_info + expansion_pot - dissipation
 
 def compute_meta_update(Delta, G_func, Omega):
-    # M = sum_k lambda_k(Delta) * phi_k(G)
-    K = 3  # number of meta-modes
-    M = 0.0
-    
-    for k in range(K):
-        # Metabolic response coefficient
-        w_k = np.random.randn(len(Delta))
-
+        # M = sum_k lambda_k(Delta) * phi_k(G)
+        K = 3  # number of meta-modes
+        M = 0.0
+        
+        for k in range(K):
+                # Metabolic response coefficient
+                w_k = np.random.randn(len(Delta))
 ```
 
 ⟡ End of Document – CFPE Meta-Optimization Formalism ⟡
