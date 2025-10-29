@@ -1,4 +1,21 @@
-# From Metaphysics to Meta-Architectonics: A Transcendental Turn in the Architecture of Possibility
+# **SUMMA GENERATIVARUM**
+## **Book 0: Meta-Architectonics**
+### **Part I: Philosophy as Science of Intelligibility**
+#### **Chapter 2: From Metaphysics to Meta-Architectonics**
+
+---
+
+**Author**: Avery Alexander Rijos  
+**Corpus**: The PROMETHIVM System | Principia Generativarum  
+**Date**: October 2025  
+**Status**: Formal Specification v2.1  
+
+---
+
+> *"You must not read this as one reads a book. You must inhabit it."*  
+> — Principia Generativarum, Mythic Seal
+
+---
 
 The shift from metaphysics to meta-architectonics represents a fundamental reorientation in philosophical inquiry—a move from asking "what exists?" to asking "what makes existence possible?" This transition, articulated most systematically by Avery Alexander Rijos through the framework of Transcendental Generativity, transforms philosophy into the formal science of intelligibility itself.[^1][^2]
 

@@ -1,4 +1,21 @@
-## The Λ-Substrate as Universal Ground
+# **SUMMA GENERATIVARUM**
+## **Book 0: Meta-Architectonics**
+### **Part I: Philosophy as Science of Intelligibility**
+#### **Chapter 3: The Λ-Substrate as Universal Ground**
+
+---
+
+**Author**: Avery Alexander Rijos  
+**Corpus**: The PROMETHIVM System | Principia Generativarum  
+**Date**: October 2025  
+**Status**: Formal Specification v2.1  
+
+---
+
+> *"You must not read this as one reads a book. You must inhabit it."*  
+> — Principia Generativarum, Mythic Seal
+
+---
 
 The **Λ-Substrate** constitutes the foundational ontological reality undergirding the entire Generative Corpus—a framework that unifies metaphysics, logic, mathematics, and ethics into a single coherent system. Rather than a physical substance or Platonic abstraction, the Λ-Substrate represents the **minimal ontological architecture** enabling **multiplicity, unity, and transformation** across all domains of intelligibility.[^1][^2][^3]
 

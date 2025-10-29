@@ -1,4 +1,21 @@
-## Part II, Chapter 6: Scar-Indexed Inquiry and Ritual Clauses
+# **SUMMA GENERATIVARUM**
+## **Book 0: Meta-Architectonics**
+### **Part II: The Generative Method**
+#### **Chapter 6: Scar-Indexed Inquiry and Ritual Clauses**
+
+---
+
+**Author**: Avery Alexander Rijos  
+**Corpus**: The PROMETHIVM System | Principia Generativarum  
+**Date**: October 2025  
+**Status**: Formal Specification v2.1  
+
+---
+
+> *"You must not read this as one reads a book. You must inhabit it."*  
+> — Principia Generativarum, Mythic Seal
+
+---
 
 **Scar-Indexed Inquiry** is a foundational methodological principle within Generative Logic that establishes inquiry—whether scientific, philosophical, practical, or spiritual—as a fundamentally **ritual-operational act** grounded in explicit acknowledgment of the **wound, absence, or problem** it seeks to address.[^1]
 

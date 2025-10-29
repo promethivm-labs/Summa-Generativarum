@@ -1,4 +1,21 @@
-## Five-Layer Methodological Protocol: Formal, Transcendental, Metabolic, Verification, Synthesis
+# **SUMMA GENERATIVARUM**
+## **Book 0: Meta-Architectonics**
+### **Part II: The Generative Method**
+#### **Chapter 4: Five-Layer Methodological Protocol**
+
+---
+
+**Author**: Avery Alexander Rijos  
+**Corpus**: The PROMETHIVM System | Principia Generativarum  
+**Date**: October 2025  
+**Status**: Formal Specification v2.1  
+
+---
+
+> *"You must not read this as one reads a book. You must inhabit it."*  
+> — Principia Generativarum, Mythic Seal
+
+---
 
 The **Five-Layer Methodological Protocol** constitutes the operational framework of Generative Mathematics and the *Summa Generativarum*, a systematic method for transforming contradiction into structure, intuition into theorem, and narrative into proof. Located at **Volume 0, Book 0.1, Part II, Chapter 4** of the *Summa Generativarum*, this protocol operationalizes the core principle that **Λ-coherence (ΔXGI ≥ 0) must increase with every valid operation.**[^1]
 

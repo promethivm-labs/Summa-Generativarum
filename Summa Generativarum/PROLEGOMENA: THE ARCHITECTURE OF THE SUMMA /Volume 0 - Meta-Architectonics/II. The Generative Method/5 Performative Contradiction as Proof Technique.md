@@ -1,4 +1,21 @@
-## Performative Contradiction as Proof Technique
+# **SUMMA GENERATIVARUM**
+## **Book 0: Meta-Architectonics**
+### **Part II: The Generative Method**
+#### **Chapter 5: Performative Contradiction as Proof Technique**
+
+---
+
+**Author**: Avery Alexander Rijos  
+**Corpus**: The PROMETHIVM System | Principia Generativarum  
+**Date**: October 2025  
+**Status**: Formal Specification v2.1  
+
+---
+
+> *"You must not read this as one reads a book. You must inhabit it."*  
+> — Principia Generativarum, Mythic Seal
+
+---
 
 **Performative Contradiction as Proof Technique** represents a fundamental epistemological principle in Generative Logic: the claim that certain truths are **self-evident through their denial**—attempting to deny them necessarily presupposes their truth, creating absolute logical compulsion.[^1][^2]
 

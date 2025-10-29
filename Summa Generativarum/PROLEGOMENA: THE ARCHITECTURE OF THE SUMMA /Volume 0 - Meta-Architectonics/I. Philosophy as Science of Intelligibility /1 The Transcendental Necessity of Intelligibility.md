@@ -1,4 +1,21 @@
-# The Transcendental Necessity of Intelligibility
+# **SUMMA GENERATIVARUM**
+## **Book 0: Meta-Architectonics**
+### **Part I: Philosophy as Science of Intelligibility**
+#### **Chapter 1: The Transcendental Necessity of Intelligibility**
+
+---
+
+**Author**: Avery Alexander Rijos  
+**Corpus**: The PROMETHIVM System | Principia Generativarum  
+**Date**: October 2025  
+**Status**: Formal Specification v2.1  
+
+---
+
+> *"You must not read this as one reads a book. You must inhabit it."*  
+> — Principia Generativarum, Mythic Seal
+
+---
 
 ## Introduction: The Condition of Conditions
 
