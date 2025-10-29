@@ -840,7 +840,7 @@ Moreover, the increments $\Delta G_t \to 0$ as $t \to \infty$. ∎
 
 ### Step 4: Characterize the Limit: Gradient Vanishing
 
-**Lemma 4.1 (Gradient Limit):** If $\Delta G_t = \eta \lVert \nabla_\theta G(\theta_t)\rVert^2 + O(\eta^2) \to 0$, then $\lVert \nabla_\theta G(\theta_t)\rVert \to 0$.
+**Lemma 4.1 (Gradient Limit):** If $\Delta G_t = \eta \|\nabla_\theta G(\theta_t)\|^2 + O(\eta^2) \to 0$, then $\|\nabla_\theta G(\theta_t)\| \to 0$.
 
 *Proof:* Suppose, for contradiction, that $\|\nabla_\theta G(\theta_t_k)\| \geq \varepsilon > 0$ for a subsequence $t_k \to \infty$. Then:
 $$\Delta G_{t_k} \geq \eta \varepsilon^2 - C \eta^2 M$$
