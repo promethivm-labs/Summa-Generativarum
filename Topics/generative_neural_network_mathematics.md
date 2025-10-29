@@ -704,7 +704,65 @@ def compute_meta_update(Delta, G_func, Omega):
                 w_k = np.random.randn(len(Delta))
 ```
 
+
+
 ⟡ End of Document – CFPE Meta-Optimization Formalism ⟡
+
+---
+
+## Appendix: CFPE GNN demo — implementation & run output
+
+I added a small, minimal Python demo at `tools/cfpe_gnn_demo.py` which implements a simplified
+CFPE Generative Neural Network training loop (coherence functions, generativity, metabolic
+operator and a lightweight meta-update). The script was executed in this workspace; the console
+output from that run is reproduced below verbatim for transparency.
+
+```
+t=000 | G=-5.7553 | dG=0.0000 | XGI=0.3426 | C=[0.399, 0.385, 0.508] | a=[5.0, 5.0, 5.0]
+t=005 | G=0.3406 | dG=0.5829 | XGI=0.9541 | C=[0.884, 0.805, 0.757] | a=[5.0, 4.98, 4.97]
+t=010 | G=1.0013 | dG=0.0423 | XGI=0.9756 | C=[0.931, 0.865, 0.833] | a=[5.0, 4.98, 4.921]
+t=015 | G=1.1283 | dG=0.0181 | XGI=0.9816 | C=[0.949, 0.892, 0.868] | a=[5.0, 4.98, 4.872]
+t=020 | G=1.1915 | dG=0.0100 | XGI=0.9844 | C=[0.959, 0.909, 0.888] | a=[5.0, 4.98, 4.823]
+t=025 | G=1.2293 | dG=0.0063 | XGI=0.9861 | C=[0.965, 0.92, 0.902] | a=[5.0, 4.98, 4.775]
+t=030 | G=1.2538 | dG=0.0042 | XGI=0.9871 | C=[0.969, 0.928, 0.912] | a=[5.0, 4.98, 4.775]
+t=035 | G=1.2713 | dG=0.0031 | XGI=0.9879 | C=[0.973, 0.935, 0.92] | a=[5.0, 4.98, 4.775]
+t=040 | G=1.2845 | dG=0.0024 | XGI=0.9884 | C=[0.975, 0.94, 0.926] | a=[5.0, 4.98, 4.775]
+t=045 | G=1.2949 | dG=0.0019 | XGI=0.9889 | C=[0.977, 0.944, 0.931] | a=[5.0, 4.98, 4.775]
+t=049 | G=1.3017 | dG=0.0016 | XGI=0.9892 | C=[0.979, 0.947, 0.935] | a=[5.0, 4.98, 4.775]
+FINAL | G=1.3032 | XGI=0.9893 | C=[0.9789, 0.9472, 0.9354] | a=[5.0, 4.98, 4.775]
+```
+
+Notes:
+- The demo shows generativity increasing and XGI approaching near-1 values across iterations.
+- I re-ran the demo with the script updated to write its run log inside the repository at
+  `tools/output_cfpe_gnn_run.txt`; see "Appendix B" below for the written file contents.
+
+### Appendix B — Re-run: file output written into repository
+
+I re-ran the demo after updating `tools/cfpe_gnn_demo.py` so it writes its run log to
+`tools/output_cfpe_gnn_run.txt`. The run completed successfully and the file contains the
+following output (verbatim):
+
+```
+t=000 | G=-5.7553 | dG=0.0000 | XGI=0.3426 | C=[0.399, 0.385, 0.508] | a=[5.0, 5.0, 5.0]
+t=005 | G=0.3406 | dG=0.5829 | XGI=0.9541 | C=[0.884, 0.805, 0.757] | a=[5.0, 4.98, 4.97]
+t=010 | G=1.0013 | dG=0.0423 | XGI=0.9756 | C=[0.931, 0.865, 0.833] | a=[5.0, 4.98, 4.921]
+t=015 | G=1.1283 | dG=0.0181 | XGI=0.9816 | C=[0.949, 0.892, 0.868] | a=[5.0, 4.98, 4.872]
+t=020 | G=1.1915 | dG=0.0100 | XGI=0.9844 | C=[0.959, 0.909, 0.888] | a=[5.0, 4.98, 4.823]
+t=025 | G=1.2293 | dG=0.0063 | XGI=0.9861 | C=[0.965, 0.92, 0.902] | a=[5.0, 4.98, 4.775]
+t=030 | G=1.2538 | dG=0.0042 | XGI=0.9871 | C=[0.969, 0.928, 0.912] | a=[5.0, 4.98, 4.775]
+t=035 | G=1.2713 | dG=0.0031 | XGI=0.9879 | C=[0.973, 0.935, 0.92] | a=[5.0, 4.98, 4.775]
+t=040 | G=1.2845 | dG=0.0024 | XGI=0.9884 | C=[0.975, 0.94, 0.926] | a=[5.0, 4.98, 4.775]
+t=045 | G=1.2949 | dG=0.0019 | XGI=0.9889 | C=[0.977, 0.944, 0.931] | a=[5.0, 4.98, 4.775]
+t=049 | G=1.3017 | dG=0.0016 | XGI=0.9892 | C=[0.979, 0.947, 0.935] | a=[5.0, 4.98, 4.775]
+FINAL | G=1.3032 | XGI=0.9893 | C=[0.9789, 0.9472, 0.9354] | a=[5.0, 4.98, 4.775]
+
+```
+
+The file `tools/output_cfpe_gnn_run.txt` now exists in the repository and contains the
+same log. If you'd like, I can commit the script change and the output file to the repo, or
+create a small plot of the generativity trajectory and include it in the docs.
+
 
 **Version**: 0.9-alpha  
 **Author**: Avery Alexander Rijos  
