@@ -840,7 +840,7 @@ Moreover, the increments $\Delta G_t \to 0$ as $t \to \infty$. ∎
 
 ### Step 4: Characterize the Limit: Gradient Vanishing
 
-**Lemma 4.1 (Gradient Limit):** If $\Delta G_t = \eta \|\nabla_\theta G(\theta_t)\|^2 + O(\eta^2) \to 0$, then $\|\nabla_\theta G(\theta_t)\| \to 0$.
+**Lemma 4.1 (Gradient Limit):** If $\Delta G_t = \eta \lVert \nabla_\theta G(\theta_t)\rVert^2 + O(\eta^2) \to 0$, then $\lVert \nabla_\theta G(\theta_t)\rVert \to 0$.
 
 *Proof:* Suppose, for contradiction, that $\|\nabla_\theta G(\theta_t_k)\| \geq \varepsilon > 0$ for a subsequence $t_k \to \infty$. Then:
 $$\Delta G_{t_k} \geq \eta \varepsilon^2 - C \eta^2 M$$
@@ -953,6 +953,23 @@ This will:
 The full output is available in `tools/convergence_proof_output.txt`.
 
 ---
+
+### What this proof establishes
+
+- The analysis shows that, under the stated regularity and design assumptions (smooth coherence functions, bounded gradients, suitably small fixed learning rate, and an appropriately behaving metabolic operator), the CFPE update dynamics admit a Lyapunov-style convergence property: the generativity scalar G(θ_t) is monotone nondecreasing and bounded, hence converges to a finite limit G*.
+
+- Consequences at the limit θ*:
+        - The generativity rate vanishes: lim_{t→∞} dG/dt = 0.
+        - The parameter gradient vanishes: lim_{t→∞} ∇_θ G(θ_t) = 0.
+        - The tracked CFPE constraints are satisfied: C_i(θ*) ≥ 0 for all i (feasibility in the augmented‑Lagrangian sense).
+
+- The proof does not claim global optimality of G* (only metastable equilibrium / Lyapunov stability). It guarantees convergence to critical points where generativity ceases to increase, and that constraint violations are eliminated by the combined gradient and metabolic mechanisms.
+
+- Empirical verification included in the workspace supports the theoretical claims for the toy domains examined: trajectories show monotone increases in G, exponential-like decay of gradient norms, and vanishing constraint violations.
+
+- Practical interpretation: with proper hyperparameter tuning and enforcement of the assumptions, the CFPE meta‑optimization loop reliably drives the system toward stable, coherent states rather than oscillatory or divergent behaviour — enabling safe use of meta‑updates and metabolic corrections in implementation.
+
+- Caveats: the result depends on the assumptions listed in the theorem. Extending the convergence guarantee to adaptive learning rates, non‑Lipschitz components, large-scale nonconvex constraint sets, or adversarial environments requires additional analysis.
 
 ## VI. Limitations and Extensions
 
