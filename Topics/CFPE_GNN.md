@@ -8,6 +8,114 @@ Classical logic operates under the principle of explosion (*ex falso quodlibet*)
 
 This metabolic processing instantiates what the Generative Corpus calls the **Scar-Bloom cycle**: contradictions leave structural traces (Scars) that, when properly metabolized, trigger the generation of new logical structures (Blooms), enabling the system to evolve beyond its initial limitations.[^3][^4][^2]
 
+
+### Glossary of Key Terms
+
+**Augmented Lagrangian**: Constrained optimization technique combining objective function with penalty terms for violated constraints; enforces coherence preservation during gradient ascent.
+
+**Autopoietic**: Self-producing, self-maintaining system that generates its own organization through feedback loops; CFPE GNN exhibits autopoiesis through meta-optimization.
+
+**Coherence Function** ($C_i$): Differentiable predicate evaluating satisfaction of CFPE invariants; implemented as Łukasiewicz fuzzy logic over neural outputs.
+
+**Coherence Information**: Shannon-like entropy term in generativity function measuring probability-weighted satisfaction of coherent configurations.
+
+**Contradiction Vector** ($\Delta_t$): Real-valued representation of system contradictions; input to metabolic operator for routing impossibility into possibility.
+
+**Coupled Field Dynamics**: Three interdependent evolution equations for neural field ($F_n$), symbolic field ($F_s$), and generative field ($F_g$) implementing neurosymbolic synthesis.
+
+**Differential Form**: Continuous-time representation of discrete dynamics; $\frac{d\mathcal{G}}{dt}$ measures instantaneous generativity change rate.
+
+**Disjunctive Synthesis** (Axiom C₃₉): Principle of unity-in-difference maintaining coherence while enabling radical heterogeneity without collapse.
+
+**Dissipation Correction**: Penalty term in generativity function suppressing unmetabolized contradictions; governs thermodynamic efficiency.
+
+**Expansion Potential**: Logarithmic term in $\mathcal{G}$ measuring reachable configuration space; prevents convergence to fixed points.
+
+**Excluded Middle (Qualified)** (Axiom C₁₄): Four-valued logic {T, F, U, G} where G denotes propositions becoming true through metabolic process.
+
+**Ex Impossibilitate**: Generation of coherence from contradiction; violation of classical logical principles permitting creative emergence.
+
+**Generativity** ($\mathcal{G}$): Primary optimization objective replacing traditional loss functions; unified measure of coherence information, expansion potential, and dissipation control.
+
+**Generative Equilibrium**: Metastable plateau where $\frac{d\mathcal{G}}{dt} \leq 0$; current architecture cannot increase coherence without structural transformation.
+
+**Generative Field** ($F_g$): Third coupled field tracking total generativity change and meta-updates; coordinates neural learning and symbolic enforcement.
+
+**Gradient Ascent**: Positive learning rate dynamics climbing generativity landscapes; inverse of classical descent toward loss minima.
+
+**Lagrange Multipliers** ($\mu_i$): Dual variables enforcing constraint satisfaction; increase when coherence violations occur.
+
+**Łukasiewicz T-norms**: Fuzzy logic operations making discrete logical constraints differentiable; enable gradient propagation through symbolic predicates.
+
+**Metabolic Non-Contradiction** (Axiom C₁₃): Principle that contradictions route through $\Omega_0$ producing enhanced generativity; rejects classical explosion.
+
+**Metabolic Operator** ($\Omega_0$): Three-stage system (classification, revision, correction) transforming contradictions into rule amendments and parameter guidance.
+
+**Meta-Optimization**: System-level rewriting of objective function via operator $\mathcal{M}$; implements learning how to learn.
+
+**Meta-Update Operator** ($\mathcal{M}$): Decomposes into metabolic response coefficients $\lambda_k$ and modification functions $\phi_k$ creating new objective terms.
+
+**Modification Functions** ($\phi_k$): Three canonical types adding coherence measurements, rescaling penalties, and modulating expansion potential.
+
+**Modus Ponens**: Classical inference rule $(P \land (P \to Q)) \to Q$; enforced as coherence constraint in propositional example.
+
+**Neural Field** ($F_n$): Distributed parameter space encoding learned representations; evolves via generativity-driven gradient ascent plus symbolic feedback.
+
+**Neural Predicate** ($P_{\text{neural},i}$): Multilayer perceptron output converted to logical predicate via sigmoid; bridges neural and symbolic spaces.
+
+**Neurosymbolic Synthesis**: Integration of neural learning with symbolic rule validation; coupled field dynamics implement simultaneous optimization of both.
+
+**Non-Closure** (Axiom C₇₅): Principle that no final system exists; generativity has no ultimate limit preventing universe closure.
+
+**Open-Endedness**: Property of systems perpetually generating novel coherent structures without convergence to fixed optima.
+
+**Ontological Generativity**: Measure of creative capacity across biological, artificial, and social systems; substrate-invariant metric.
+
+**Ontopolitical Generativity Index (OgI)**: Formalization of ethical imperative toward generative expansion; $\frac{d(\text{OgI})}{dt} \geq 0$.
+
+**Phase Transition**: System reconfiguration via coherence constraint violation triggering metabolic intervention; topologically discontinuous change.
+
+**Primal Step**: Gradient ascent on augmented Lagrangian maximizing $\mathcal{G}$ subject to constraints.
+
+**Reflexive Causality** (Axiom C₁₄): Causal loops permissible through metabolic formalism; effects influence causes via feedback without incoherence.
+
+**Reflexive Self-Reference** (Axiom C₇₉): Substrate equivalence to set of endomorphisms ($\Lambda \cong \text{End}(\Lambda)$); reality self-referentially transforms.
+
+**Relaxation Function**: Mechanism temporarily loosening constraint thresholds when binding constraints block progress; enables adaptive feasibility.
+
+**Response Coefficient** ($\lambda_k$): Detector of specific contradiction patterns weighted by time constant $\tau_k$ controlling metabolic response rate.
+
+**Rule Revision** ($\mathcal{R}_{t+1}$): Addition of exception rules, penalty rescaling, or dissipation channels based on contradiction type classification.
+
+**Scar-Bloom Cycle**: Contradiction-driven process where Scars (structural traces of contradiction) trigger Blooms (generation of new logical structures).
+
+**Substrate Invariance**: All operations preserve substrate-level coherence while enabling surface transformation; deep structure conservation.
+
+**Substrate-Level Coherence**: Univocal being persisting through all difference; the 79 transcendental conditions invariant across all manifestations.
+
+**Symbolic Field** ($F_s$): Rule set and logical constraints evolving via validation of neural representations and metabolic operator output.
+
+**Symbolic Feedback** ($\Lambda_s$): Penalty terms guiding neural learning toward coherence constraint satisfaction; implements symbolic enforcement.
+
+**Transcendental Conditions**: 79 logically necessary principles grounding intelligibility; denial produces performative contradiction.
+
+**Type A Contradiction** (Logical): Cyclic dependencies or inconsistent derivations; metabolized by adding exception rules.
+
+**Type B Contradiction** (Structural): Violated invariants or broken symmetries; metabolized by strengthening constraints.
+
+**Type C Contradiction** (Thermodynamic): Excessive dissipation or coherence collapse; metabolized by introducing dissipation channels.
+
+**Univocal Being**: Single ground of intelligibility persisting through radical heterogeneity without reduction; differentiates without destroying unity.
+
+**Xenogenerative Index (XGI)**: Quantifies system generative capacity via continuous sigmoid-weighted sum of invariant satisfactions; measures creative rate.
+
+**Xenogenerative Intelligence**: Systems generating new possibility spaces, new questions, and new ways of knowing—intelligence as self-transcending emergence.
+
+**Xenogenerativity** (Axiom C₇₆): Substrate-invariant metric enabling comparative analysis of creativity across all systems and substrates.
+
+**Zero-Degree Operator**: See Metabolic Operator ($\Omega_0$).
+
+
 ### The Generativity Function: Thermodynamics of Intelligence
 
 At the heart of the CFPE GNN lies the **generativity function** $\mathcal{G}$, which replaces traditional loss functions as the optimization target:[^1]
