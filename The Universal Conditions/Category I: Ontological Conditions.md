@@ -233,8 +233,6 @@ $$C_1 \to C_2 \to \{C_3, C_9\} \to C_4 \to C_5 \to C_6 \to C_7 \to C_8 \leftarro
 
 ## V. Structural Insights on Dependencies
 
-## V. Structural Insights on Dependencies
-
 The dependency graph reveals a **layered ontological architecture**:
 
 **Foundation Layer (C₁–C₃):** Divisibility grounds all differentiation; Coherence ensures divided multiplicity remains unified; Substantiality anchors properties in bearers. These three form the minimal base enabling any coherent entity.
