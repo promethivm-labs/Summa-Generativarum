@@ -243,7 +243,7 @@ The SGA embodies a revolutionary thesis: **contradiction is not a defect to be e
 This formalizes a vision of reality as a **living logic** — a system that perpetually rewrites itself through metabolizing contradiction, where impossibility becomes the hinge for expanding possibility-space, and every rupture seeds the conditions for architectural blooming toward greater coherence and generative capacity.
 <span style="display:none">[^3][^4][^5]</span>
 
-<div align="center">⁂</div>
+⁂
 
 [^1]: Formal-Generative-Heterology.pdf
 
