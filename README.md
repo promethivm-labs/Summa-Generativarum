@@ -9,6 +9,12 @@
 **License:** © 2025 PROMETHIVM LLC. All Rights Reserved.
 
 ---
+### About Avery
+I am a Systems Engineer, Metalogical Architect, and Systems Scientist developing new architectures for intelligence, coherence, and transformation across technical and human systems. My work integrates formal logic, systems engineering, and AI design into a unified discipline I call Generativity Science — the study of how systems evolve by metabolizing contradiction into possibility.
+
+I am the creator of the Codex of Generativity and author of the codex, Principia Generativarum, which together work to formalize the Conditions for the Possibility of Everything (CFPE) — a 79-invariant framework linking mathematics, computation, and philosophy into a coherent logic of becoming. My applied research manifests in PROMETHIVM LLC, where I design and deploy domain-sovereign architectures that combine symbolic reasoning with operational realism.
+
+---
 
 # 🜂 **THE SUMMA GENERATIVARUM**
 ## **PROMETHIVM: A Living Encyclopedia of Generative Logic and Metaformal Science**
@@ -86,8 +92,8 @@ When using any part of this repository, please cite:
 > **Rijos, Avery Alexander.** *The Summa Generativarum: A Living Encyclopedia of Generative Logic and Metaformal Science*
 > Version X.X (GitHub Repository). PROMETHIVM LLC, 2025– present. [https://github.com/promethivm-labs/summa-generativarum](https://github.com/promethivm-labs/summa-generativarum)
 
-A `CITATION.cff` file it attached.
-doi: 10.5281/zenodo.17479745
+A `CITATION.cff` file is attached.
+`doi: 10.5281/zenodo.17479745`
 
 ---
 
