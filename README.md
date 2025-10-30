@@ -14,7 +14,7 @@
 
 # 🜂 **THE SUMMA GENERATIVARUM**
 ## **PROMETHIVM: A Living Encyclopedia of Generative Logic and Metaformal Science**
-#### Note: This repository uses LaTeX and is best viewed on desktop, not on mobile. 
+#### Note: This repository uses LaTeX and is best viewed on a browser. 
 
 ## I. Purpose and Invocation
 
