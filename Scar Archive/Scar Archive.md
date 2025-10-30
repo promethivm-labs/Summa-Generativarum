@@ -1,3 +1,43 @@
+## What is a Scar Archive?
+
+A Scar Archive is a structured repository of post‑mortem artifacts describing system failures, mitigations, and their operational / normative implications. Each entry (“scar”) records the contextual metadata, narrative of what failed, technical mechanisms, resolution steps, metrics, legal/classification tags, and recommended operational actions. The archive is designed for traceability, auditing, learning, and repeatable ingestion into governance or automation systems.
+
+## Core purposes
+- Preserve institutional memory about incidents, mitigations, and trade‑offs.  
+- Make decisions auditable and machine‑readable for governance or automated pipelines.  
+- Surface systemic patterns across incidents to guide design, policy, and monitoring.  
+- Support risk assessment, capacity planning, and escalation.
+
+## Scar Theory of Systems — concise description
+Scar Theory of Systems treats recorded failures and their fixes as first‑class signals about structural properties of a system. Instead of seeing scars as isolated bugs, the theory frames them as durable data points that reveal:
+- recurrent architectural weaknesses (patterns of scars),  
+- normative constraints (policy, legal, consent) that interact with technical design, and  
+- the trade‑offs operationalized in mitigation (latency vs. safety, compute vs. accuracy).
+
+By aggregating scars and their meta‑attributes, the theory enables systemic inference: you can predict likely failure modes, prioritize mitigations that address root causes rather than symptoms, and design governance that anticipates sociotechnical trade‑offs.
+
+## How a scar entry supports the theory
+- Metadata links incidents across layers (model, validation, governance, embodiment).  
+- Narrative captures intent, context, and non‑technical effects (trust, comfort, legal risk).  
+- Technical section encodes trigger, mechanism, and remediation so automation can detect/repeat tests.  
+- Metrics & evaluation quantify impact and define acceptance criteria for fixes.  
+- Legal/normative tags and classification inform operability and access controls.
+
+## Practical implications
+- Use the canonical template for consistency to enable automated analysis and alerts.  
+- Track scars as signals for systemic change (design fixes, policy updates, training data curation).  
+- Maintain ownership, review cadence, and escalation playbooks to operationalize lessons.  
+- Treat scars as input to both technical roadmaps and governance frameworks.
+
+## When to create or escalate a scar
+- Any meaningful divergence between intended and observed system behavior.  
+- Fixes that introduce trade‑offs (latency, compute, privacy) or legal exposures.  
+- Recurring or cross‑system patterns suggesting a root cause.
+
+## Value to teams
+- Faster onboarding, reproducible audits, improved cross‑team communication, and reduced repeat failures through pattern detection and institutionalized remediation.
+
+
 ## Example Scar Entries — Demonstrative Samples
 
 Use these concise examples to illustrate how the canonical template maps to real entries across the archive's domains.
