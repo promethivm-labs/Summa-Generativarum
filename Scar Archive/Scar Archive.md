@@ -37,6 +37,78 @@ By aggregating scars and their meta‑attributes, the theory enables systemic in
 ## Value to teams
 - Faster onboarding, reproducible audits, improved cross‑team communication, and reduced repeat failures through pattern detection and institutionalized remediation.
 
+## Procedure — Recursive Scar Creation
+
+Purpose: define a repeatable, bounded, recursive process for creating and maturing scar entries so that cross‑cutting issues spawn traceable child scars and converge to resolution.
+
+1. Intake & Triage
+    - Record initial reporter, date, classification, and minimal narrative.
+    - Assign provisional Scar ID and owner.
+    - Run automated validators: schema, classification checks, PII/redaction scan, and retention tag.
+    - If immediate legal/classification blocking issues are detected, pause and escalate to Legal; do not proceed until resolved.
+
+2. Canonicalization
+    - Populate canonical template fields (metadata, narrative, technical, metrics, operational).
+    - Attach evidence artifacts (logs, diffs, test cases) and source licenses.
+
+3. Root Cause Assessment
+    - Perform RCA (5 Whys / causal mapping). Document candidate root causes and affected layers.
+    - For each candidate root cause that:
+      a) affects other subsystems, or
+      b) requires distinct mitigation/ownership,
+      create a child scar and link it back to the parent.
+
+4. Recursive Creation (applies to each child scar)
+    - For each child scar, run this entire procedure as a fresh scar:
+      - Intake & Triage → Canonicalization → Root Cause Assessment → (spawn further children if needed).
+    - Enforce recursion limits:
+      - Default max depth = 3; default max total spawned scars per branch = 10.
+      - To exceed limits, require multi‑party approval (Owner + Steward + Legal if needed).
+
+5. Mitigation Planning & Implementation
+    - For each scar (parent and children), record explicit mitigation steps, acceptance criteria, test plans, rollout strategy, and rollback procedures.
+    - Implement in isolated branches/environments; link CI/CD runs and test artifacts to the scar.
+
+6. Verification & Metrics
+    - Execute acceptance tests and record metrics.
+    - If verification reveals new failures or cross‑system effects, create additional child scars and repeat recursion.
+    - Capture confidence and severity updates for every iteration.
+
+7. Convergence & Closure
+    - A scar may be closed when: acceptance criteria met, residual effects documented, monitoring enabled, and owner signs off.
+    - On closing a parent scar, ensure all linked child scars are either closed or have documented long‑term actions. If children remain open, keep parent open or mark as “Closed—with active dependencies”.
+
+8. Audit Trail & Versioning
+    - Every creation, spawn, edit, or closure must be versioned and logged with actor, timestamp, and justification.
+    - Maintain immutable provenance artifacts (evidence, diffs, approvals) and a declassification/redaction history where applicable.
+
+9. Governance & Review Loop
+    - Schedule periodic reviews based on severity (e.g., weekly for critical, quarterly for low).
+    - During review, reassess whether recursion produced appropriate decompositions; merge or split scars when it improves traceability.
+
+10. Automation & Tooling Recommendations
+     - Automate ID/link creation, schema validation, PII scans, and recursion‑limit enforcement.
+     - Provide a CLI or web UI that visualizes scar trees and their statuses.
+     - Emit alerts when recursion depth or breadth approaches limits or when child scars remain open past SLA.
+
+Notes on safety and termination
+- Always enforce a hard recursion ceiling to prevent runaway proliferation.
+- Prefer semantic splitting (separate concerns) over mechanical splitting (one log per event).
+- Require explicit human approval to create child scars that elevate classification or legal exposure.
+
+Short pseudocode (conceptual)
+- create_scar(input, depth=0):
+  - validate(input)
+  - populate_template(input)
+  - rcas = perform_rca(input)
+  - for cause in rcas:
+     - if causes_crosscutting(cause) and depth < MAX_DEPTH:
+        - child = create_scar(summarize(cause), depth+1)
+        - link(child, parent)
+  - implement_mitigation()
+  - verify_and_close()
+
+Use this recursive pattern to ensure scars remain tractable, auditable, and actionable while surfacing systemic patterns across layers.
 
 ## Example Scar Entries — Demonstrative Samples
 
@@ -249,3 +321,66 @@ Integrating affect signals increased personalization but raised privacy and cons
 Notes:
 - Each example is compact; expand into full reports when escalation, legal sensitivity, or production impact demands.  
 - Use the canonical template fields above consistently to enable traceability and automated ingestion.
+
+## Copyright, License, & Legal
+
+### Copyright
+- Copyright (c) 2025 [PROMETHIVM LLC]. All rights reserved.
+- Contributors grant the organization a perpetual, worldwide, royalty‑free license to use, reproduce, modify, and distribute contributed scar entries for internal governance, research, and product development purposes.
+- Individual contributors retain moral rights to their authored narrative text, except where assignment is explicitly documented.
+
+### Repository License
+- Content: Creative Commons Attribution 4.0 International (CC BY 4.0) unless marked otherwise.
+- Any entries containing restricted data, third‑party proprietary code, or regulated content must include an explicit license/classification tag and are excluded from public redistribution.
+
+### Classification & Access Controls
+- Each scar must include a License / Classification field (e.g., public, internal, restricted, sensitive, legal‑privileged). Classification determines:
+    - Storage location and encryption requirements.
+    - Access group membership and audit logging.
+    - Export and sharing constraints.
+- Implement role‑based access control (RBAC) and least‑privilege access for restricted/sensitive scars. Access requests require documented justification and approval trail.
+
+### Data Protection & Privacy
+- Do not include personally identifiable information (PII) or regulated personal data unless strictly necessary. When unavoidable:
+    - Redact or pseudonymize subjects prior to archiving.  
+    - Document lawful basis for processing and retention period.
+    - Apply additional legal classification and limit distribution.
+- Maintain encryption at rest and in transit for all non‑public entries.
+
+### Handling Third‑Party and Licensed Content
+- Identify and document third‑party datasets, models, or code referenced in a scar. Include license name and link in Sources and Legal / Normative Tagging.
+- Do not ingest or redistribute content that violates upstream license terms. When in doubt, consult Legal.
+
+### Retention, Redaction & Declassification
+- Define retention periods by classification (e.g., public: indefinite; internal: 7 years; restricted/sensitive: as determined by legal/regulatory policy).
+- Redaction process:
+    - Requests for redaction or removal must be routed to the archive steward and Legal.  
+    - Maintain an audit trail of redactions and reason codes; do not destroy provenance metadata unless legally required.
+- Declassification:
+    - Formal declassification requires documented review and sign‑off by the stewarding team and Legal, and a logged version change.
+
+### Export Controls & Jurisdiction
+- Tag scars that implicate export control, sanctions, or jurisdictional restrictions.  
+- Comply with applicable export laws (e.g., encryption, dual‑use technologies) — consult Legal for cross‑border sharing.
+
+### Legal Privilege & Discovery
+- Mark entries intended to be legal‑privileged. Privileged scars must be stored separately with controlled access and privileged‑level logging.
+- Preserve records and metadata to comply with legal hold and e‑discovery requirements.
+
+### Attribution & Contributor Agreement
+- Contributions must include an author/reporter field and a short contributor statement acknowledging licensing and classification obligations.
+- Consider a lightweight Contributor License Agreement (CLA) or Developer Certificate of Origin (DCO) process for recurring external contributors.
+
+### Compliance, Audit & Escalation
+- Maintain an audit log of access, edits, and classification changes for all non‑public scars.
+- Regular compliance reviews (quarterly or as required) by Archive Steward, Security, and Legal teams.
+- For legal or regulatory questions, escalation contact: Legal Counsel / Archive Steward (list team contact or process).
+
+### Templates & Required Fields (legal checklist)
+- New scar submissions must include: Scar ID, Title, Author, Date, Classification, Source(s) + license(s), Redaction flag (yes/no), Retention period, Owner/Steward, and Legal notes (if any).
+
+### Contact & Reporting
+- Report suspected policy or legal violations to: averyarijos[at]gmail[dot]com and the Archive Steward.  
+- For emergency legal holds or subpoenas, follow the organization’s incident and legal‑hold procedures immediately.
+
+(Adapt and localize wording to your organization’s legal templates and jurisdictional needs. This summary is a starting policy — obtain formal legal review before relying on it.)
