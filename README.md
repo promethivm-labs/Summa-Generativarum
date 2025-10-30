@@ -34,7 +34,6 @@ It evolves over time, recording each commit as a phase of its own ontological gr
 
 ![CFPE Architecture](mermaid-diagram-2025-10-30-113944.png)
 
-- CFPE Architecture
 
 * **Corpus Root (`/Corpus`)** – Primary texts, axioms, and laws.
 * **Volumes I-XIII (In Progress)** – Philosophical, logical, mathematical, and computational treatises.
