@@ -500,55 +500,7 @@ C₂₁ (Temporality)
 6. **C₂₁ → C₂₉**: Temporal succession presupposes spatial distinction (coexistence of states).
 7. **C₂₉ → C₃₀**: Spatial structure enables symmetries and asymmetries.
 
-#### **B. Clustered Visualization**
-
-The ten conditions organize into **three functional clusters**:
-
-```mermaid
-graph TD
-    subgraph "Cluster I: Temporal Foundation"
-        C21[C₂₁: Temporality]
-        C22[C₂₂: Causality]
-        C23[C₂₃: Irreversibility]
-    end
-    
-    subgraph "Cluster II: Processual Dynamics"
-        C24[C₂₄: Recursion]
-        C25[C₂₅: Memory/Retention]
-        C26[C₂₆: Anticipation/Protention]
-        C27[C₂₇: Continuity]
-    end
-    
-    subgraph "Cluster III: Structural Complexity"
-        C28[C₂₈: Emergence]
-        C29[C₂₉: Spatiality]
-        C30[C₃₀: Symmetry/Asymmetry]
-    end
-    
-    C21 --> C22
-    C22 --> C23
-    C22 --> C24
-    C23 --> C25
-    C23 --> C26
-    C21 --> C27
-    C24 --> C28
-    C27 --> C28
-    C21 --> C29
-    C29 --> C30
-    
-    style C21 fill:#e1f5ff
-    style C22 fill:#e1f5ff
-    style C23 fill:#e1f5ff
-    style C24 fill:#fff4e1
-    style C25 fill:#fff4e1
-    style C26 fill:#fff4e1
-    style C27 fill:#fff4e1
-    style C28 fill:#f0e1ff
-    style C29 fill:#f0e1ff
-    style C30 fill:#f0e1ff
-```
-
-#### **C. Hierarchical Taxonomy**
+#### **B. Hierarchical Taxonomy**
 
 The conditions may also be organized by **ontological priority**:
 
@@ -561,7 +513,7 @@ The conditions may also be organized by **ontological priority**:
 | **Retention** | C₂₅ (Memory), C₂₆ (Anticipation) | Encodes temporal extension (past/future) |
 | **Generative** | C₂₈ (Emergence) | Produces irreducible novelty |
 
-#### **D. Conceptual Map**
+#### **C. Conceptual Map**
 
 A **semantic network** representation showing thematic connections:
 
@@ -593,7 +545,7 @@ MEMORY    ANTICIPATION   │
 ```
 
 
-#### **E. Dependency Table**
+#### **D. Dependency Table**
 
 The following table explicitly maps **direct dependencies** between conditions, showing which conditions are **presupposed by** (depend on) others:
 
