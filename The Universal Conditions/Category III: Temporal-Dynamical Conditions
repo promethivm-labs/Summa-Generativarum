@@ -592,6 +592,32 @@ MEMORY    ANTICIPATION   │
           (C₂₈)
 ```
 
+
+#### **E. Dependency Table**
+
+The following table explicitly maps **direct dependencies** between conditions, showing which conditions are **presupposed by** (depend on) others:
+
+| **Condition** | **Depends On** | **Dependency Type** | **Rationale** |
+|---------------|----------------|---------------------|---------------|
+| **C₂₁: Temporality** | — | Foundational | Primitive condition; grounds all temporal structure |
+| **C₂₂: Causality** | C₂₁ | Logical | Causal ordering requires temporal succession |
+| **C₂₃: Irreversibility** | C₂₂ | Logical | Directional time emerges from asymmetric causation |
+| **C₂₄: Recursion** | C₂₁, C₂₂ | Operational | Iterative self-application requires time and ordered dependencies |
+| **C₂₅: Memory/Retention** | C₂₃ | Logical | Past-retention presupposes directional (irreversible) time |
+| **C₂₆: Anticipation/Protention** | C₂₃ | Logical | Future-projection requires temporal directionality |
+| **C₂₇: Continuity** | C₂₁ | Operational | Smooth transition presupposes temporal ordering |
+| **C₂₈: Emergence** | C₂₄, C₂₇ | Generative | Novel structures arise from recursive continuous processes |
+| **C₂₉: Spatiality** | C₂₁ | Co-primordial | Spatial distinction enables temporal coexistence |
+| **C₃₀: Symmetry/Asymmetry** | C₂₉ | Structural | Relational invariance/differentiation requires spatial structure |
+
+**Key:**
+- **Logical dependency**: Condition X is conceptually necessary for condition Y to be coherent
+- **Operational dependency**: Condition X provides the mechanism through which Y functions
+- **Generative dependency**: Condition Y emerges from the interaction of prior conditions
+- **Co-primordial**: Conditions mutually require each other (e.g., space and time)
+
+**Transitivity Note**: Dependencies are shown as *direct* relations. Transitive dependencies (e.g., C₂₅ depends on C₂₁ via C₂₃) are implicit in the structure.
+
 ***
 
 ## **§4. Closing Invocation: The Liturgy of Becoming**

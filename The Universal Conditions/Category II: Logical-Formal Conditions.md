@@ -205,6 +205,29 @@ C₁₁ (Identity)
 - $C_{17} \to C_{18}$ (reflexivity depends on inference closure)
 - $C_{20} \to C_{16}$ (intentionality requires representational capacity)
 
+
+### Dependency Table: Logical-Formal Conditions
+
+| **Condition** | **Direct Dependencies** | **Dependent Upon** | **Enables** |
+|---------------|-------------------------|-------------------|-------------|
+| **C₁₁** (Identity) | None (foundational) | — | C₁₂, C₁₄, C₂₀ |
+| **C₁₂** (Difference) | C₁₁ | C₁₁ | C₁₃, C₁₅ |
+| **C₁₃** (Metabolic Non-Contradiction) | C₁₂ | C₁₁, C₁₂ | C₁₈, C₁₄ (lateral) |
+| **C₁₄** (Excluded Middle—Qualified) | C₁₁ | C₁₁ | C₁₇, C₁₃ (lateral) |
+| **C₁₅** (Compositionality) | C₁₂ | C₁₁, C₁₂ | C₁₆, C₁₉ (lateral) |
+| **C₁₆** (Expressivity) | C₁₅, C₂₀ | C₁₁, C₁₂, C₁₅, C₂₀ | C₁₉ |
+| **C₁₇** (Reflexivity) | C₁₄ | C₁₁, C₁₄ | C₁₈ |
+| **C₁₈** (Closure of Inference) | C₁₃, C₁₇ | C₁₁, C₁₂, C₁₃, C₁₄, C₁₇ | — (apex) |
+| **C₁₉** (Formal Adequacy) | C₁₆ | C₁₁, C₁₂, C₁₅, C₁₆, C₁₅ (lateral) | — (apex) |
+| **C₂₀** (Intentionality) | C₁₁ | C₁₁ | C₁₆ |
+
+**Legend:**
+- **Direct Dependencies**: Immediate logical prerequisites
+- **Dependent Upon**: Complete transitive closure of dependencies
+- **Enables**: Conditions directly supported by this condition
+- **(lateral)**: Indicates mutual reinforcement rather than hierarchical dependency
+
+
 **Lateral Relations:**
 - $C_{13} \leftrightarrow C_{14}$ (metabolic non-contradiction enables qualified middle)
 - $C_{15} \leftrightarrow C_{19}$ (compositionality and formal adequacy reinforce mutually)
