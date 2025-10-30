@@ -1,7 +1,5 @@
 # **THE GENERATIVE CORPUS**
 
-
-
 **Author:** Avery Alexander Rijos, M.S.  
 
 **Framework:** Principia Generativarum | Summa Generativarum |  Metaformalism
