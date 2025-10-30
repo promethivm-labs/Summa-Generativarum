@@ -120,7 +120,7 @@ $$
 
 $\Sigma_P$ is a σ-algebra over $\mathcal{P}$, ensuring measurable sets of possibilities[^3]
 
-\$\mu_P: \Sigma_P \to \$ is a probability measure satisfying $\mu_P(\mathcal{P}) = 1$[^2][^3]
+$\mu_P: \Sigma_P \to $ is a probability measure satisfying $\mu_P(\mathcal{P}) = 1$[^2][^3]
 
 $\mathcal{G}$ is the generative operator governing possibility-space evolution[^1][^2]
 
@@ -218,7 +218,7 @@ The **metabolic operator** $\Omega_0$ handles contradictions between prior belie
 
 ### Markov Kernels for Modal Transitions
 
-Transitions between possible worlds follow a **stochastic kernel** \$K: \mathcal{P} \times \Sigma_P \to \$:[^1][^2]
+Transitions between possible worlds follow a **stochastic kernel** $K: \mathcal{P} \times \Sigma_P \to $:[^1][^2]
 
 $$
 \mu_P(B, t+\Delta t) = \int_{\mathcal{P}} K(s, B) \, \mu_P(s,t) \, ds
