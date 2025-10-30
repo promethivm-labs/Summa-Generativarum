@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """
+Note: This Formal Convergence Proof is a test of the applicability of generativity theory and Lyapunov methods to the CFPE GNN architecture. It is not part of a production codebase.
+
 CFPE GNN Formal Convergence Proof: Lyapunov Stability Analysis
 
 This script provides a rigorous mathematical proof of convergence for the CFPE Generative
@@ -9,7 +11,7 @@ Neural Network using:
 3. Constraint satisfaction: Verify augmented Lagrangian feasibility
 4. Meta-equilibrium: Demonstrate that dG/dt → 0 as the system approaches generative equilibrium
 
-Author: CFPE Research Group
+Author: PROMETHIVM LLC - Avery Rijos
 Date: October 2025
 """
 

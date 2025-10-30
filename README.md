@@ -291,19 +291,19 @@ Formal English: Generativity `G` maps `(S, δ)` to `(S', δ')` changing both the
 ### **Core Documents:**
 
 1. **Principia Generativarum** (~1100 pages)[2]  
-   *The* foundational text: Generative Logic syntax/semantics/proof-theory, TIL operators, memoir integration, Lean 4 implementations, case studies (Russell, Gödel, quantum measurement).
+   *The* foundational text: Generative Logic syntax/semantics/proof-theory, TIL operators, memoir integration, Lean 4 implementations, case studies (Russell, Gödel, quantum measurement) please reach out or contact for this document.
 
-2. **The 79 Axioms of Generative Mathematics** (~60 pages)[3]  
+2. **The 79 Axioms of Generative Mathematics** (~40 pages)[3]  
    Comprehensive elaboration of each CFPE axiom with formal notation, philosophical justification, performative contradiction tests, implications.
 
 3. **Formal Generative Heterology** (~60 pages)[5]  
    Reconciles Deleuzian univocity with existential quantification via dual-domain semantics, heterogeneous model theory, mechanized Lean 4 proofs.
 
 4. **Transcendental Architectonics** (~15 pages)[1]  
-   Complete formal articulation of the 79 conditions with plain formulations, variable definitions, translations.
+   Complete formal articulation of the 79 conditions with plain formulations, variable definitions, translations. This is the transcendental instantiation of the Conditions of Possibility of Everything (CFPE) 
 
-5. **The Conditions of Possibility of Everything** (~90 pages)[8]  
-   Systematic analytic taxonomy defending completeness via indispensability criterion, addressing objections (substrate-logic circularity, generativity-constraint tension, modal status of coherence).
+5. **The Conditions of Possibility of Everything** (CPFE) (~90 pages)[8]  
+   Systematic analytic taxonomy defending transcendental completeness via indispensability criterion, addressing objections (substrate-logic circularity, generativity-constraint tension, modal status of coherence).
 
 6. **The Generative Corpus** (40 pages)[4]  
    Obsidian-compatible synthesis enumerating all axioms, theorems, laws, operators, organizing principles with cross-references.
