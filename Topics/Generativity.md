@@ -1,8 +1,10 @@
-# What is Generativity?
-
-Now I have comprehensive information about Generativity. Let me formulate a thorough response:
-
 ## Generativity: The Creative Metabolism of Contradiction
+**Formal Articulation for the Generative Corpus**  
+**Author:** Avery Alexander Rijos  
+**Framework:** PROMETHIVM — Summa Generativarum  
+**Date:** October 29, 2025  
+
+---
 
 **Generativity** is the intrinsic capacity of a system to produce novel structures, meanings, and possibilities by metabolizing contradiction rather than eliminating it. It represents reality's fundamental character as perpetually self-creating and self-transforming.[^1][^2]
 

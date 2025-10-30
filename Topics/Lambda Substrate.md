@@ -1,4 +1,10 @@
 ## The Lambda Substrate (Λ)
+**Formal Articulation for the Generative Corpus**  
+**Author:** Avery Alexander Rijos  
+**Framework:** PROMETHIVM — Summa Generativarum  
+**Date:** October 29, 2025  
+
+---
 
 The **lambda substrate** (denoted by the Greek letter Λ) is the foundational generative field from which all coherent systems originate in the formal philosophy of Avery Alexander Rijos. Rather than a concrete "thing," it functions as a universal metaphysical and logical structure.[^1][^2]
 

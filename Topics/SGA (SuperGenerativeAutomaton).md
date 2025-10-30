@@ -1,5 +1,12 @@
 
-## The Super-Generative Automaton (SGA): A Revolutionary Computational Architecture
+## The Super-Generative Automaton (SGA): A New Computational Architecture
+
+**Formal Articulation for the Generative Corpus**  
+**Author:** Avery Alexander Rijos  
+**Framework:** PROMETHIVM — Summa Generativarum  
+**Date:** October 29, 2025  
+
+---
 
 The **Super-Generative Automaton (SGA)** is a post-classical model of computation that fundamentally transcends traditional automata theory by incorporating contradiction metabolism, scar-based memory, and ontological reflexivity into its operational architecture.[^1][^2]
 

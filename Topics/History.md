@@ -1,6 +1,11 @@
 
-# Does history repeat itself?
+# History
+**Formal Articulation for the Generative Corpus**  
+**Author:** Avery Alexander Rijos  
+**Framework:** PROMETHIVM — Summa Generativarum  
+**Date:** October 29, 2025  
 
+---
 History does not repeat itself in a simple, cyclical manner, but it does exhibit **metabolic patterns of recurrence**—structures that return transformed rather than identical, operating through what the Generative framework calls **Scar-Bloom recursion**.[^1][^2]
 
 ## Temporal Ontology of Repetition
