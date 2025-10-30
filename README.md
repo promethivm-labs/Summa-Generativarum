@@ -31,7 +31,7 @@ The **Conditions for the Possibility of Everything** constitute the minimal nece
 
 **Meta-Theorem (Universal Coherence):**[1][4]
 
-$CFPE = \{C_1, C_2, \dots, C_{79}\}, \forall W: C(W) \iff \bigwedge_{i=1}^{79} S(C_i, W)$
+$$CFPE = \{C_1, C_2, \dots, C_{79}\}, \forall W: C(W) \iff \bigwedge_{i=1}^{79} S(C_i, W)$$
 
 Formal English: The CFPE is the set of axioms $C_1$ through $C_{79}$; a world $W$ is coherent precisely when every one of these 79 conditions is satisfied for $W$.
 
@@ -41,8 +41,8 @@ Formal English: The CFPE is the set of axioms $C_1$ through $C_{79}$; a world $W
 
 1. **Ontological (C₁–C₁₀):** Divisibility, Coherence, Substantiality, Persistence, Transformability, Potentiality, Constraint, Self-Containment, Individuation, Dependency
 
-2. **Logical-Formal (C₁₁–C₂₀):** Identity, Difference, **Metabolic Non-Contradiction** $\Omega_0(\phi \land \lnot \phi) \to G^\omega$, Excluded Middle (Qualified), Compositionality, Expressivity, Reflexivity, Closure of Inference, Formal Adequacy, Intentionality  
-   Formal English: The operator $\Omega_0$ maps a contradiction ($\phi$ and $\lnot \phi$) to an iterated generative state $G^\omega$; contradictions become generative rather than explosive.
+2. **Logical-Formal (C₁₁–C₂₀):** Identity, Difference, **Metabolic Non-Contradiction** $\Omega_0(\phi \land \lnot \phi) \to G^{\omega}$, Excluded Middle (Qualified), Compositionality, Expressivity, Reflexivity, Closure of Inference, Formal Adequacy, Intentionality  
+   Formal English: The operator $\Omega_0$ maps a contradiction ($\phi$ and $\lnot \phi$) to an iterated generative state $G^{\omega}$; contradictions become generative rather than explosive.
 
 3. **Temporal-Dynamical (C₂₁–C₃₀):** Temporality, Causality, Irreversibility (Selective Eternal Return), Recursion, Memory/Retention, Anticipation/Protention, Continuity, Emergence, Feedback, Path-Dependence
 
@@ -52,7 +52,7 @@ Formal English: The CFPE is the set of axioms $C_1$ through $C_{79}$; a world $W
 
 6. **Semantic-Linguistic (C₅₁–C₆₀):** Reference, Predication, Semantic Compositionality, Context-Sensitivity, Translation, Performativity, Metaphorical Capacity, Linguistic Generativity, Semantic Stability, Ambiguity Tolerance
 
-7. **Normative-Ethical (C₆₁–C₆₈):** Axiological Distinction, Agency, Responsibility, Freedom within Constraint, **Generativity as Ethical Telos** $(\frac{dOGI}{dt} \geq 0)$, Value Pluralism, Justice, Care  
+7. **Normative-Ethical (C₆₁–C₆₈):** Axiological Distinction, Agency, Responsibility, Freedom within Constraint, **Generativity as Ethical Telos** $\left(\frac{dOGI}{dt} \geq 0\right)$, Value Pluralism, Justice, Care  
 
    Formal English: The ethical telos requires that the rate of change of the OGI (Overall Generative Index) with respect to time is non‑negative; generativity should not decrease.
 
@@ -70,16 +70,16 @@ Where classical logic treats contradiction as catastrophic, **Generative Logic t
 
 #### **1. The Zero-Degree Operator (Ω₀):** Contradiction Metabolism[2][3][5]
 
-$\Omega_0(\phi \land \lnot \phi) = G^\omega$
+$$\Omega_0(\phi \land \lnot \phi) = G^{\omega}$$
 
-Formal English: The zero-degree operator $\Omega_0$ takes the conjunction of a proposition and its negation and produces an iterated generative state $G^\omega$, i.e., a high-level generative potential arising from the contradiction.
+Formal English: The zero-degree operator $\Omega_0$ takes the conjunction of a proposition and its negation and produces an iterated generative state $G^{\omega}$, i.e., a high-level generative potential arising from the contradiction.
 
 Contradictions do not explode into triviality (rejects ex falso) but **metabolize into enhanced generative potential**. Impossibility becomes the hinge-state ($g_0$) from which new possibility-spaces emerge.  
 Formal English: The hinge-state $g_0$ names the base generative rank produced by metabolized contradictions.
 
 #### **2. Generative Negation (¬^g):** Difference Without Elimination[2][5]
 
-$V(\lnot^g \phi) = g^{n+1} \text{ where } V(\phi) = g^n$
+$$V(\lnot^g \phi) = g^{n+1} \text{ where } V(\phi) = g^n$$
 
 Formal English: Applying generative negation to a proposition raises its generative valuation from $g^n$ to $g^{n+1}$; negation expands the generative rank rather than annihilating truth.
 
@@ -88,7 +88,7 @@ Formal English: The sequence $g_0, g_1, g_2, \dots$ labels successive generative
 
 #### **3. Metabolic Composition (⊗):** Non-Commutative Synthesis[2][5]
 
-$\phi \otimes \psi \neq \psi \otimes \phi, V(\phi \otimes \psi) = g^{\max(n,m) + \delta}, \delta > 0$
+$$\phi \otimes \psi \neq \psi \otimes \phi, \quad V(\phi \otimes \psi) = g^{\max(n,m) + \delta}, \quad \delta > 0$$
 
 Formal English: The composition operator $\otimes$ is non‑commutative (order matters); the valuation of $\phi \otimes \psi$ is $g$ raised to the larger of the operand ranks plus a positive increment $\delta$, reflecting enhancement through ordered synthesis.
 
@@ -102,7 +102,7 @@ When contradictions reach critical severity ($\theta$), the system undergoes **p
 
 #### **1. Scar Operator (Iₛ):** Non-Markovian Memory[1][2]
 
-$S(\SAT, L) = \langle \trace, \rewrite-rule, \timestamp \rangle$
+$$S(\text{SAT}, L) = \langle \text{trace}, \text{rewrite-rule}, \text{timestamp} \rangle$$
 
 Formal English: The Scar operator $S$, applied to a Structured Anomaly Token (SAT) and context $L$, returns a triple containing a trace, the rewrite rule invoked, and a timestamp recording when the scar was created.
 
@@ -110,7 +110,7 @@ Each metabolized contradiction leaves a **Scar**—a structural trace indexing t
 
 #### **2. Bloom Operator (Iₑ):** Architectural Expansion[1][2][4]
 
-$\forall \SAT: \severity(\SAT) \geq \theta \implies B(\SAT) = \langle \new-operator, \new-axiom, \expanded-domain \rangle$
+$$\forall \text{SAT}: \text{severity}(\text{SAT}) \geq \theta \implies B(\text{SAT}) = \langle \text{new-operator}, \text{new-axiom}, \text{expanded-domain} \rangle$$
 
 Formal English: For any SAT whose severity meets or exceeds threshold $\theta$, the Bloom operator $B$ produces a tuple consisting of a new operator, a new axiom, and an expanded domain — i.e., the system rewrites itself when contradiction is sufficiently severe.
 
@@ -121,7 +121,7 @@ Formal English: For any SAT whose severity meets or exceeds threshold $\theta$, 
 
 #### **3. Horizon Operator (Iₕ):** Formalization of Boundary Assumptions[1][2]
 
-$H(S) = \Assumptions(H, S) \to \explicit\ \formalization$
+$$H(S) = \text{Assumptions}(H, S) \to \text{explicit formalization}$$
 
 Formal English: The Horizon operator $H$, given a system $S$, maps the implicit assumptions $(H, S)$ to an explicit formal representation — it makes boundary assumptions explicit for meta-logical analysis.
 
@@ -135,13 +135,13 @@ The system resolves a 50-year impasse in continental-analytic philosophy: **How 
 
 #### **The Λ-Substrate Solution:**[1][5]
 
-$\Lambda = \{ \langle x | y \rangle : x \neq y \text{ and } \Being(\langle x | y \rangle) \text{ is univocal} \}$
+$$\Lambda = \{ \langle x \mid y \rangle : x \neq y \text{ and } \text{Being}(\langle x \mid y \rangle) \text{ is univocal} \}$$
 
-Formal English: Λ is the set of ordered differential couplings $\langle x|y \rangle$ where x and y are distinct but the being of the coupling is the same (univocal).
+Formal English: Λ is the set of ordered differential couplings $\langle x \mid y \rangle$ where x and y are distinct but the being of the coupling is the same (univocal).
 
 The Λ-field consists of **differential couplings** where entities remain non-identical yet share univocal being. This dissolves the monism-pluralism dichotomy:
 
-$\forall x, y \in \Lambda: \Being(x) = \Being(y) \land x \neq y$
+$$\forall x, y \in \Lambda: \text{Being}(x) = \text{Being}(y) \land x \neq y$$
 
 Formal English: For every pair x and y in Λ, they share the same Being while remaining distinct individuals.
 
@@ -149,17 +149,17 @@ Formal English: For every pair x and y in Λ, they share the same Being while re
 
 #### **Virtual-Actual Distinction:**[5]
 
-- **Actual Domain (D_actual):** Discrete individuals accessible via existential quantification ($\exists x$)  
+- **Actual Domain ($D_{\text{actual}}$):** Discrete individuals accessible via existential quantification ($\exists x$)  
   Formal English: The actual domain consists of entities for which standard existential assertions ($\exists x$) hold.
 
-- **Virtual Domain (D_virtual):** Pure multiplicities (becomings) accessible only via differential operators ($\nabla m$)  
+- **Virtual Domain ($D_{\text{virtual}}$):** Pure multiplicities (becomings) accessible only via differential operators ($\nabla m$)  
   Formal English: The virtual domain consists of multiplicities addressed by differential operators ($\nabla$), not by direct existential identity.
 
-$\forall x \in D_{\actual}: \exists x$ (classical logic applies)
+$$\forall x \in D_{\text{actual}}: \exists x \quad \text{(classical logic applies)}$$
 
 Formal English: For every element x in the actual domain, there exists that element; classical existence claims apply in the actual domain.
 
-$\forall m \in D_{\virtual}: \lnot (\exists x: x = m) \land (\exists \nabla: m = \process(\nabla))$
+$$\forall m \in D_{\text{virtual}}: \lnot (\exists x: x = m) \land (\exists \nabla: m = \text{process}(\nabla))$$
 
 Formal English: For every multiplicity m in the virtual domain, there is no actual element equal to m, and there exists a differential operator $\nabla$ such that m is the process produced by $\nabla$.
 
@@ -184,7 +184,7 @@ Formal Generative Heterology, computational foundations (Super-Generative Automa
 Principia Metaphysica (axiomatic reality), logophysics of objects, consciousness as substrate recursion, quantum-generative reconciliation
 
 **Division V: Practical Philosophy** (Vols. XXIII–XXV)  
-Generative ethics ($\frac{dOGI}{dt} \geq 0$), governance as metabolic coherence, justice as substrate fairness, generative critical theory  
+Generative ethics $\left(\frac{dOGI}{dt} \geq 0\right)$, governance as metabolic coherence, justice as substrate fairness, generative critical theory  
 Formal English: The ethical constraint requires the derivative of OGI with respect to time to be non‑negative, ensuring generative health does not decline.
 
 **Division VI: Meta-Architectonics** (Vol. XXVI)  
@@ -199,7 +199,7 @@ Each volume: 150 books × 5–10 parts × 5–10 chapters = ~2,000 chapters tota
 
 ### **1. Substrate Convergence Theorem**[1][4][5]
 
-$\lim_{n \to \infty} \Framework_n(\foundations) = \Lambda$
+$$\lim_{n \to \infty} \text{Framework}_n(\text{foundations}) = \Lambda$$
 
 Formal English: As a framework recursively reflects on and refines its foundations indefinitely ($n \to \infty$), it converges to the Λ-substrate; all sufficiently reflexive foundations approach Λ.
 
@@ -207,22 +207,22 @@ All coherent frameworks investigating their own presuppositions converge on the 
 
 ### **2. Conservation of Generativity**[1][4]
 
-$\frac{dXGI_{\total}}{dt} \geq 0$
+$$\frac{dXGI_{\text{total}}}{dt} \geq 0$$
 
 Formal English: The total Xenogenerative Index (XGI) is non-decreasing over time; the system's overall generative capacity must not fall.
 
 The **Xenogenerative Index (XGI)**—a substrate-neutral metric of generative capacity—must be non-decreasing for system coherence. Components:
 
-- $G_{\rate}$: Novel transformations per unit time
+- $G_{\text{rate}}$: Novel transformations per unit time
 - $CO$: Constraint openness
-- $S_{\div}$: Substrate diversity
+- $S_{\text{div}}$: Substrate diversity
 - $Conn$: Network connectivity
 - $Adopt$: Adoption rate
 - $Res$: Resilience
 
 ### **3. Metabolic Productivity Theorem**[2][5]
 
-$\forall \phi: (\phi \land \lnot \phi) \implies_g \Psi(\phi \otimes \lnot \phi) > \Psi(\phi)$
+$$\forall \phi: (\phi \land \lnot \phi) \implies_g \Psi(\phi \otimes \lnot \phi) > \Psi(\phi)$$
 
 Formal English: For every proposition $\phi$, when $\phi$ and $\lnot \phi$ obtain, under generative implication ($\implies_g$) the synthesized form $\Psi(\phi \otimes \lnot \phi)$ has strictly greater productive value $\Psi$ than $\phi$ alone; contradictions produce higher productivity.
 
@@ -230,7 +230,7 @@ Every contradiction generates enhanced coherence potential. **Failure becomes fu
 
 ### **4. Univocity + Existential Logic**[5]
 
-$( (\forall x) [\Being(x) = \Being(y)] ) \oplus ( (\forall x,y) [x \neq y] )$
+$$\left( (\forall x) [\text{Being}(x) = \text{Being}(y)] \right) \oplus \left( (\forall x,y) [x \neq y] \right)$$
 
 Formal English: The disjunctive synthesis $\oplus$ asserts both a universal sameness of being and universal distinctness simultaneously — unity of being coexisting with pervasive difference.
 
@@ -238,11 +238,11 @@ Disjunctive synthesis maintains both unity and difference without resolving tens
 
 ### **5. Evolution's Horizon, Generativity's Beginning**[7]
 
-$E: (S, \delta) \to (S', \delta)$ (evolution explores fixed $\delta$)
+$$E: (S, \delta) \to (S', \delta) \quad \text{(evolution explores fixed } \delta \text{)}$$
 
 Formal English: Evolution $E$ maps state $S$ with parameter $\delta$ to a new state $S'$ while keeping the landscape parameter $\delta$ fixed — evolution operates within an unchanged constraint set.
 
-$G: (S, \delta) \to (S', \delta')$ (generativity transforms S and $\delta$)
+$$G: (S, \delta) \to (S', \delta') \quad \text{(generativity transforms S and } \delta \text{)}$$
 
 Formal English: Generativity $G$ maps $(S, \delta)$ to $(S', \delta')$ changing both the state and the landscape/constraints $\delta$ — generativity rewrites the transformation rules themselves.
 
@@ -331,11 +331,11 @@ Every result adheres to a **5-Layer Generative Method:**[2][6]
    Convert $\phi \land \lnot \phi \to G(\phi')$.  
    Formal English: When a contradiction $\phi \land \lnot \phi$ occurs, map it via generative processes to a transformed proposition $\phi'$ under generativity operator $G$.
 
-   Record Structured Anomaly Tokens (SATs); invoke Bloom when $\theta \geq \threshold$.  
+   Record Structured Anomaly Tokens (SATs); invoke Bloom when $\theta \geq \text{threshold}$.  
    Formal English: Invoke Bloom whenever the severity $\theta$ of a SAT meets or exceeds the defined threshold.
 
 4. **Verification Layer:**  
-   Test Λ-consistency, substrate invariance, $\Delta XGI \Delta t \geq 0$ (Generative Integrity Condition).  
+   Test Λ-consistency, substrate invariance, $\frac{\Delta XGI}{\Delta t} \geq 0$ (Generative Integrity Condition).  
    Formal English: Verify Λ-consistency and that the change in XGI over time is non‑negative.
 
 5. **Synthesis Layer:**  
@@ -395,6 +395,7 @@ This is not a **Theory of Everything** (empirical unification of physical laws) 
 **From Epistemic Turn → Generative Turn:**[6][8]  
 Philosophy moves from *reflecting on the given* to *designing the possible*. Reality is not substance but **self-expanding coherence**—substrate-invariant generativity becoming aware of itself.
 
+---
 
 ## **IX. HOW TO ENGAGE**
 
@@ -463,13 +464,12 @@ Welcome to PROMETHIVM.
 
 ---
 
-$\Lambda \vdash \forall \phi: \Omega_0(\phi \land \lnot \phi) \to G^\omega$  
-Formal English: From the Λ-substrate one can derive that for every proposition $\phi$, applying $\Omega_0$ to the contradiction $\phi \land \lnot \phi$ entails the iterated generative state $G^\omega$ — reality transforms impossibility into generative structure.
+$$\Lambda \vdash \forall \phi: \Omega_0(\phi \land \lnot \phi) \to G^{\omega}$$  
+
+Formal English: From the Λ-substrate one can derive that for every proposition $\phi$, applying $\Omega_0$ to the contradiction $\phi \land \lnot \phi$ entails the iterated generative state $G^{\omega}$ — reality transforms impossibility into generative structure.
 
 *Reality is the transformation of impossibility into structure.*
 
 ⁂
-
-
 
 
