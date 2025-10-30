@@ -2,7 +2,7 @@
 
 **Author:** Avery Alexander Rijos, M.S.  
 
-**Framework:** Principia Generativarum | Summa Generativarum |  Metaformalism
+**Framework:** Principia Generativarum | Summa Generativarum | Metaformalism
 
 **Date:** September 2025  
 
