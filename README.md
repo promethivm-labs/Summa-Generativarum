@@ -11,7 +11,7 @@
 
 ## **I. WHAT IS THIS?**
 
-This corpus constitutes a **revolutionary metaformal system** uniting logic, metaphysics, and mathematics into a single **generative science of intelligibility**. Where classical logic eliminates contradiction through explosion (ex falso quodlibet), **Generative Logic metabolizes contradiction into enhanced possibility**[1][2][3]. Where evolution optimizes within fixed landscapes, **Generativity transforms the landscape itself**[7].
+This corpus constitutes a **metaformal system** uniting logic, metaphysics, and mathematics into a single **generative science of intelligibility**. Where classical logic eliminates contradiction through explosion (ex falso quodlibet), **Generative Logic metabolizes contradiction into enhanced possibility**[1][2][3]. Where evolution optimizes within fixed landscapes, **Generativity transforms the landscape itself**[7].
 
 The project advances a unified formal architecture demonstrating that:
 
