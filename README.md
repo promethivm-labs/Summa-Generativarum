@@ -140,7 +140,7 @@ If you use this work to teach, to heal, to design, or to understand—please sha
 
 ### Final Note
 
-Name it the Summa is a performative contradiction. Summa in Latin means something analagous to "The Complete System" in English. This system, hoewver, will never be complete — and should never be. It is alive.
+Naming it the Summa is a performative contradiction. Summa in Latin means something analagous to "The Complete System" in English. This system, hoewver, will never be complete — and should never be. It is alive.
 Every edit, every commit, every line of proof is an act of love toward a more coherent world.
 If you encounter something contradictory, do not erase it—**metabolize it**.
 
