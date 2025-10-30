@@ -1,6 +1,34 @@
 ## Formal Generative Heterology[1]
 
-**Formal Generative Heterology** (𝕲ℍ) is a rigorous formalization of how being speaks "in one voice" (univocity) while affirming radical differences without reducing them to identity, operating through metabolized contradictions rather than classical truth-preservation.[^1]
+**Formal Generative Heterology** (𝕲ℍ) is a formalization of how being speaks "in one voice" (univocity) while affirming radical differences without reducing them to identity, operating through metabolized contradictions rather than classical truth-preservation.[^1]
+
+---
+
+## Key Innovations
+
+This framework required several foundational breakthroughs:
+
+### 1. **Dual-Domain Semantics**
+Classical logic assumes a single domain of discourse. I introduced a **bifurcated ontology** where the Virtual and Actual operate under distinct quantification regimes (∇-logic vs ∃-logic) while remaining mutually conditioning—neither reducible to nor separable from the other.
+
+### 2. **Contradiction as Generative Resource**
+Reversing *ex falso quodlibet*, I designed **Ω₀** to metabolize contradictions into enhanced generative states rather than logical collapse. This transforms impossibility from a terminal condition into a productive catalyst.
+
+### 3. **Stratified Truth Lattice**
+Replacing bivalent truth values with a **generative hierarchy** (𝒢 = {g⁰, g¹, ..., g^∞}) reframes truth as intensive capacity rather than correspondence, enabling logics of becoming rather than static being.
+
+### 4. **Generative Negation (¬ᵍ)**
+Standard negation eliminates; my operator **expands** by one generative level, formalizing how negation reveals unrealized potential rather than mere absence.
+
+### 5. **Non-Commutative Temporal Synthesis (⊗)**
+Making composition order-dependent with emergent enhancement (δ > 0) captures how temporal processes generate novelty through sequence, not just combination.
+
+### 6. **Disjunctive Synthesis (⊕)**
+The formal reconciliation of univocity with existential difference—maintaining both **Being(x) = Being(y)** and **x ≠ y** simultaneously without reduction—dissolves the monism/pluralism dilemma structurally rather than rhetorically.
+
+These innovations collectively enable logic to operate on difference-in-itself rather than presupposing identity as foundational.
+
+---
 
 ### Core Principle: Univocity with Radical Difference
 

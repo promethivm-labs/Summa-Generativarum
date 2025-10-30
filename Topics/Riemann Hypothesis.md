@@ -313,5 +313,5 @@ This work is licensed under the **Creative Commons Attribution-NonCommercial-NoD
 
 To view a copy of this license, visit: https://creativecommons.org/licenses/by-nc-nd/4.0/
 
-**For permissions beyond the scope of this license, contact:** avery@promethivm.com
+**For permissions beyond the scope of this license, contact:** averyarijos[at]gmail[dot]com
 
