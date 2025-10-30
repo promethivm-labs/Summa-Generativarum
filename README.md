@@ -126,7 +126,7 @@ It is not a commercial project but a stewardship of knowledge.
 Stewardship means: to care for what belongs to everyone.
 If you use this work to teach, to heal, to design, or to understand—please share your insights back into the commons.
 
-## XI Minimum Working Knowledge
+## IX Minimum Working Knowledge
 
 To read, engage with, and contribute meaningfully to this corpus you need the following baseline competencies.
 
@@ -168,6 +168,48 @@ To read, engage with, and contribute meaningfully to this corpus you need the fo
 Estimated minimum effort to reach this baseline from scratch: 6–12 months of focused study (part‑time), less if you already have related training.
 
 If you meet these minima you will be able to (1) read the formal parts, (2) follow mechanized fragments, (3) test and extend examples, and (4) engage in philosophical critique and constructive expansion.
+
+## IX.a How to Engage If You Don't Have the Background
+
+You can participate even without the formal prerequisites. Start small, be practice‑oriented, and follow a staged path:
+
+- Quick orientation (1–2 days)
+   - Read the README front‑matter and the CFPE index to get the big picture.  
+   - Skim one short essay (e.g., "Transcendental Architectonics") to see examples of style and notation.
+
+- Foundation sprint (2–8 weeks)
+   - Logic: basic propositional and quantificational logic (free tutorials or short texts).  
+   - Proof practice: work through a few elementary proofs (natural deduction).  
+   - Tools: learn git basics, Markdown, and how to open the repo in the devcontainer.
+
+- Applied practice (1–3 months)
+   - Reproduce one small artifact: render a LaTeX file, run a provided Lean 4 snippet, or proofread one CFPE axiom entry.  
+   - Open a tiny issue or PR: fix typos, improve exposition, add examples or translations for one axiom.
+
+- Focused study (3–12 months)
+   - Pick one pathway (Logic → Lean 4; Math → category foundations; Philosophy → Deleuze/Kant primers) and follow a concise course or book.  
+   - Implement small mechanized proofs or examples; incrementally expand to the Bloom/Scar concepts.
+
+- Community & contribution
+   - Ask questions in Issues or Discussions rather than waiting to be "ready."  
+   - Submit commentary, examples, or pedagogical notes for beginners. Documentation, examples, and tests are highly valued.
+
+- Minimal toolset to get started
+   - Git/GitHub, a text editor, the devcontainer (runs in this workspace), basic LaTeX viewer, and the Lean 4 toolchain when you move to mechanization.
+
+- Micro‑projects that scale learning
+   - "Explain one axiom in plain English" — adds immediate value.  
+   - "Convert one mathematical example to Lean 4" — bridges concept → mechanization.  
+   - "Create a one‑page primer on generative negation" — helps both you and others.
+
+- Timeline guidance (very approximate)
+   - 1–2 weeks: comfortable navigating the repo and reading key texts.  
+   - 1–3 months: able to contribute small documentation fixes and simple exercises.  
+   - 6–12 months: able to read and modify mechanized fragments (Lean 4) and author short commentaries.
+
+Practical tip: choose tiny, concrete tasks that produce a visible artifact. Every small contribution—clarification, example, or test—lowers the entry barrier for the next learner and is a legitimate way into the Summa.
+
+If you want, state your current skills (math, programming, logic) and I’ll propose a 3‑month learning checklist tailored to you.
 
 ---
 
