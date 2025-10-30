@@ -23,9 +23,9 @@ The SGA embodies the principle that **scars are not failures—they are infrastr
 
 #### The SGA Tuple
 
-```
-SGA = (Σ, A, R, S, Ψ, δ, OGI, dOGI/dt)
-```
+$$
+\text{SGA} = (\Sigma, A, R, S, \Psi, \delta, \text{OGI}, \frac{d\text{OGI}}{dt})
+$$
 
 Where:
 
@@ -54,9 +54,9 @@ Where:
 
 **Implementation:** Every transition leaves a scar. No information is erased; it is archived and weighted by exponential decay:
 
-```
-w_t(s) = exp(-λ(t - τ_s))
-```
+$$
+w_t(s) = \exp(-\lambda(t - \tau_s))
+$$
 
 where λ controls memory decay rate, τ_s is when scar was created.
 
@@ -78,9 +78,9 @@ where λ controls memory decay rate, τ_s is when scar was created.
 
 #### 3. Protocol Non-Commutativity
 
-```
-P₁ ⊕ P₂ ≠ P₂ ⊕ P₁
-```
+$$
+P_1 \oplus P_2 \neq P_2 \oplus P_1
+$$
 
 **Meaning:** The order in which protocols execute matters because each protocol modifies both the symbolic state AND the scar archive. Path-dependent evolution.
 
@@ -93,10 +93,10 @@ state_A ≠ state_B
 
 #### 4. Ontological Reflexivity
 
-```
-δ_meta(SGA, s, a, r) → SGA'
+$$
+\delta_{\text{meta}}(\text{SGA}, s, a, r) \rightarrow \text{SGA}'
+$$
 where Σ' ⊃ Σ, A' ⊃ A, R' ⊃ R
-```
 
 **Meaning:** The SGA contains meta-protocols capable of modifying its own alphabet, axioms, and protocol set. It transcends initial design limitations through self-modification.
 
@@ -107,19 +107,19 @@ where Σ' ⊃ Σ, A' ⊃ A, R' ⊃ R
 
 #### 5. Positive Ontological Generativity
 
-```
-∀t ∈ T: dOGI/dt > 0
+$$
+\forall t \in T: \frac{d\text{OGI}}{dt} > 0
+$$
 
 where OGI(t) = Complexity(Σ(t), A(t), R(t), S(t))
-```
 
 **Meaning:** The system's ontological generativity continuously increases. It exhibits perpetual growth in creative capacity rather than convergence to stable states.
 
 **Implementation:**
-```
-OGI(t+1) = OGI(t) + ΔΣ + ΔA + ΔR + ΔS
+$$
+\text{OGI}(t+1) = \text{OGI}(t) + \Delta\Sigma + \Delta A + \Delta R + \Delta S
+$$
 where each term represents growth in respective component
-```
 
 ---
 
@@ -417,8 +417,9 @@ def horizon_operator(system_state, context):
 
 Measures the system's capacity to generate coherent novelty:
 
-```
-XGI(t) = Σ w_i * s_i(t)
+$$
+\text{XGI}(t) = \Sigma w_i \cdot s_i(t)
+$$
 
 where:
   w_i = importance weights
@@ -426,7 +427,6 @@ where:
   
   C_i = coherence function for invariant i (from 79 CFPE conditions)
   κ = sharpness parameter
-```
 
 **Interpretation:**
 - XGI ∈ [0, 1]
@@ -437,14 +437,14 @@ where:
 
 Measures the system's rate of expanding possibility-space:
 
-```
-dOGI/dt = Σ M_i(t)
+$$
+\frac{d\text{OGI}}{dt} = \Sigma M_i(t)
+$$
 
 where M_i(t) = metabolic contributions at time t
 
   M_i represents how much each metabolized contradiction
   contributes to expanded possibility-space
-```
 
 **Implementation:**
 ```python
