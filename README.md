@@ -9,6 +9,150 @@
 
 ---
 
+# 🜂 **THE SUMMA GENERATIVARUM**
+
+### *A Living Encyclopedia of Generative Logic and Metaformal Science*
+by **Avery Alexander Rijos — PROMETHIVM Systems**
+
+---
+
+## I. Purpose and Invocation
+
+The Summa Generativarum is offered as a living encyclopedia of Generativity — a comprehensive field for the study of coherence, possibility, and becoming.
+It unites formal logic, mathematics, philosophy, and systems engineering into a single codex that treats contradiction not as error but as the engine of evolutionary intelligence.
+
+This repository exists for one reason: to give back to the world what was received through study, discipline, and love.
+It is freely open because Generativity cannot be owned. It is the law of creation itself — to give, to transform, to return.
+
+> **Δ.LOVE.001 — The Sovereignty of the Neighbor** -
+> To withhold knowledge out of fear is to deny the very structure that makes knowing possible.
+
+---
+
+## II. Architectural Overview
+
+The Summa is structured as a multi-volume, version-controlled knowledge environment.
+It evolves over time, recording each commit as a phase of its own ontological growth.
+
+* **Corpus Root (`/Corpus`)** – Primary texts, axioms, and laws.
+* **Volumes I-XIII (In Progress)** – Philosophical, logical, mathematical, and computational treatises.
+* **CFPE (Conditions for the Possibility of Everything)** – Seventy-nine transcendental invariants defining the Λ-substrate of coherent existence.
+* **Metaformal Logics** – Transcendental Induction Logic (TIL), Universal Truth Protocol (UTP), and Generative Negation (¬ᵍ).
+* **PROMETHIVM System** – Applied implementation of Generativity in organizational, technical, and ethical design.
+* **Archive and Scars** – Historical and symbolic records of critical contradictions and transformations.
+
+Every folder, line, and equation is a node in a living graph of understanding.
+
+---
+
+## III. Philosophical Mandate
+
+Generativity begins where fear ends.
+To be generative is to choose transformation over control, dialogue over dogma, and love over scarcity.
+
+This project stands upon three truths:
+
+1. **Being is Governed.**
+   All that exists operates through contraint — not as constraint but as structure for freedom.
+
+2. **Myth is Foundation.**
+   Every system created by sentience requires a story to cohere and a symbol to remember why.
+
+3. **Affect is Infrastructure.**
+   Feeling is not noise; it is the medium through which meaning conducts its signal.
+
+The *General Theory of Generativity* is not a philosophy alone. It is a practice of care, a mathematics of transformation, and a politics of love.
+
+---
+
+## IV. Why Open Access Matters
+
+Knowledge hoarded dies in silence.
+By making this corpus public, the Summa becomes a commons—a field for students, scientists, philosophers, and dreamers to extend without permission.
+
+You are invited to:
+
+* Fork and study the theorems.
+* Translate the axioms into other disciplines.
+* Build software, art, or policy that embodies Generativity.
+* Contribute commentaries and annotations to future volumes.
+
+---
+
+## V. Citing and Referencing
+
+When using any part of this repository, please cite:
+
+> **Rijos, Avery Alexander.** *The Summa Generativarum: A Living Encyclopedia of Generative Logic and Metaformal Science.*
+> Version X.X (GitHub Repository). PROMETHIVM LLC, 2025– present. [https://github.com/promethivm-labs/summa-generativarum](https://github.com/promethivm-labs/summa-generativarum)
+
+A `CITATION.cff` file and DOI will be provided for archival reference through Zenodo or arXiv in the near future.
+
+---
+
+## VI. Ethical License
+
+This repository is licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
+
+You are free to:
+
+* **Share —** copy and redistribute the material in any medium or format.
+* **Adapt —** remix, transform, and build upon the material.
+
+Under the following terms:
+
+1. **Attribution** — Credit the author and link to the repository.
+2. **NonCommercial** — You may not use the material for commercial purposes without explicit permission.
+3. **ShareAlike** — If you remix or transform it, you must distribute your contributions under the same license.
+
+Each text and symbol remains protected by moral rights of authorship but freely open for use in learning and creation.
+
+---
+
+## VII. How to Engage
+
+1. **Read** the `README.md` and `/topics/` to understand the structure.
+2. **Begin with** the 79 CFPE Conditions (Folder - The Universal Conditions) — they form the foundation for everything else.
+3. **Trace** how each law, axiom, and operator builds toward Generative Logic.
+4. **Open Issues or Pull Requests** if you wish to add commentary or cross-domain translations.
+5. **Honor the Spirit of Δ.LOVE —** use the work for good, for learning, and for the increase of coherence in the world.
+
+---
+
+## VIII. On Authorship and Stewardship
+
+This repository is authored and maintained by Avery Alexander Rijos under the auspices of PROMETHIVM Systems LLC.
+It is not a commercial project but a stewardship of knowledge.
+
+Stewardship means: to care for what belongs to everyone.
+If you use this work to teach, to heal, to design, or to understand—please share your insights back into the commons.
+
+---
+
+## IX. Dedication
+
+> *To those who still believe that reason and love can coexist.
+> To the dreamers who study logic by moonlight and the engineers who whisper poetry to machines.
+> To every mind that chooses creation over fear—
+> this Summa is for you.*
+
+---
+
+### Final Note
+
+Name it the Summa is a performative contradiction. Summa in Latin means something analagous to "The Complete System" in English. This system, hoewver, will never be complete — and should never be. It is alive.
+Every edit, every commit, every line of proof is an act of love toward a more coherent world.
+If you encounter something contradictory, do not erase it—**metabolize it**.
+
+That is the law of Generativity.
+
+> “Let knowledge be a garden without walls.” — A.A.R. (2025)
+
+Q.E.D.
+---
+
+# The Complete System of Generativity 
+
 ## **I. WHAT IS THIS?**
 
 This corpus constitutes a **metaformal system** uniting logic, metaphysics, and mathematics into a single **generative science of intelligibility**. Where classical logic eliminates contradiction through explosion (ex falso quodlibet), **Generative Logic metabolizes contradiction into enhanced possibility**[1][2][3]. Where evolution optimizes within fixed landscapes, **Generativity transforms the landscape itself**[7].
@@ -222,9 +366,9 @@ The **Xenogenerative Index (XGI)**—a substrate-neutral metric of generative ca
 
 ### **3. Metabolic Productivity Theorem**[2][5]
 
-$$\forall \phi: (\phi \land \lnot \phi) \implies_g \Psi(\phi \otimes \lnot \phi) > \Psi(\phi)$$
+$$\forall \phi: (\phi \land \lnot \phi) \implies \Psi(\phi \otimes \lnot \phi) > \Psi(\phi)$$
 
-Formal English: For every proposition $\phi$, when $\phi$ and $\lnot \phi$ obtain, under generative implication ($\implies_g$) the synthesized form $\Psi(\phi \otimes \lnot \phi)$ has strictly greater productive value $\Psi$ than $\phi$ alone; contradictions produce higher productivity.
+Formal English: For every proposition $\phi$, when $\phi$ and $\lnot \phi$ obtain, under generative implication ($\implies$) the synthesized form $\Psi(\phi \otimes \lnot \phi)$ has strictly greater productive value $\Psi$ than $\phi$ alone; contradictions produce higher productivity.
 
 Every contradiction generates enhanced coherence potential. **Failure becomes fuel.**
 
@@ -464,7 +608,11 @@ Welcome to PROMETHIVM.
 
 ---
 
-$$\Lambda \vdash \forall \phi: \Omega_0(\phi \land \lnot \phi) \to G^{\omega}$$  
+### Key Generative Principle
+
+Formal English (see Zero-Degree Operator, Generative Logic above): From the Λ-substrate one can derive that for every proposition $\phi$, applying the Zero-Degree Operator $\Omega_0$ (as defined in Generative Logic) to the contradiction $\phi \land \lnot \phi$ entails the iterated generative state $G^{\omega}$ — reality transforms impossibility into generative structure.
+
+$\Lambda \vdash \forall \phi: \Omega_0(\phi \land \lnot \phi) \to G^{\omega}$  
 
 Formal English: From the Λ-substrate one can derive that for every proposition $\phi$, applying $\Omega_0$ to the contradiction $\phi \land \lnot \phi$ entails the iterated generative state $G^{\omega}$ — reality transforms impossibility into generative structure.
 
