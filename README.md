@@ -168,6 +168,7 @@ To read, engage with, and contribute meaningfully to this corpus you need the fo
 Estimated minimum effort to reach this baseline from scratch: 6–12 months of focused study (part‑time), less if you already have related training.
 
 If you meet these minima you will be able to (1) read the formal parts, (2) follow mechanized fragments, (3) test and extend examples, and (4) engage in philosophical critique and constructive expansion.
+
 ---
 
 ## X. Dedication
