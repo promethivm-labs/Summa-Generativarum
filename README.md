@@ -14,6 +14,8 @@
 
 # 🜂 **THE SUMMA GENERATIVARUM**
 ## **PROMETHIVM: A Living Encyclopedia of Generative Logic and Metaformal Science**
+#### Note: This repository uses LaTeX and is best viewed on desktop, not on mobile. 
+
 ## I. Purpose and Invocation
 
 The Summa Generativarum is offered as a living encyclopedia of Generativity — a comprehensive field for the study of coherence, possibility, and becoming.
@@ -144,12 +146,12 @@ If you encounter something contradictory, do not erase it—**metabolize it**.
 
 That is the law of Generativity.
 
-> “Let knowledge be a garden without walls.” — A.A.R. (2025)
+> “Let knowledge be a garden without walls.” — Avery R. (2025)
 
 Q.E.D.
 ---
 
-# The Complete System of Generativity 
+# The "Complete" System of Generativity 
 
 ## **I. WHAT IS THIS?**
 
@@ -219,7 +221,7 @@ Formal English: The zero-degree operator $\Omega_0$ takes the conjunction of a p
 Contradictions do not explode into triviality (rejects ex falso) but **metabolize into enhanced generative potential**. Impossibility becomes the hinge-state ($g_0$) from which new possibility-spaces emerge.  
 Formal English: The hinge-state $g_0$ names the base generative rank produced by metabolized contradictions.
 
-#### **2. Generative Negation (¬^g):** Difference Without Elimination[2][5]
+#### **2. Generative Negation ($¬^g$):** Difference Without Elimination[2][5]
 
 $$V(\lnot^g \phi) = g^{n+1} \text{ where } V(\phi) = g^n$$
 
