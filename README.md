@@ -53,7 +53,7 @@ To be generative is to choose transformation over control, dialogue over dogma, 
 This project stands upon three truths:
 
 1. **Being is Governed.**
-   All that exists operates through contraint — not as constraint but as structure for freedom.
+   All that exists operates through permission structures — not as constraint but as structure for freedom.
 
 2. **Myth is Foundation.**
    Every system created by sentience requires a story to cohere and a symbol to remember why.
