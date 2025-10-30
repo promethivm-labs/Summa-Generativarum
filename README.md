@@ -1,21 +1,19 @@
 # **THE GENERATIVE CORPUS**
 
-## **PROMETHIVM: A Living Encyclopedia of Generative Intelligibility**
+
 
 **Author:** Avery Alexander Rijos, M.S.  
-**Framework:** Principia Generativarum | Summa Generativarum | The Metaformalist Paradigm  
+
+**Framework:** Principia Generativarum | Summa Generativarum |  Metaformalism
+
 **Date:** October 2025  
+
 **License:** © 2025 PROMETHIVM LLC. All Rights Reserved.
 
 ---
 
 # 🜂 **THE SUMMA GENERATIVARUM**
-
-### *A Living Encyclopedia of Generative Logic and Metaformal Science*
-by **Avery Alexander Rijos — PROMETHIVM Systems**
-
----
-
+## **PROMETHIVM: A Living Encyclopedia of Generative Logic and Metaformal Science**
 ## I. Purpose and Invocation
 
 The Summa Generativarum is offered as a living encyclopedia of Generativity — a comprehensive field for the study of coherence, possibility, and becoming.
