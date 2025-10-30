@@ -412,7 +412,7 @@ Transitivity holds not merely within a single logical level but *across* levels.
 These axioms establish the categorical and topological foundations, ensuring that the substrate possesses the mathematical structure necessary for coherent organization.
 
 ### C₂₁: Axiom of Closure
-**Formula:** ∀f,g ∈ Λ, f∘g ∈ Λ
+**Formula:** $\forall f,g \in \Lambda, f \circ g \in \Lambda$
 
 **Formal English:** The composition of any two functions or transformations in the substrate remains within the substrate.
 
