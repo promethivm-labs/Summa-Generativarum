@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+title: Summa-Generativarum
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Avery Rijos
+    family-name: Rijos
+    email: averyarijos@gmail.com
+repository-code: 'https://github.com/promethivm-labs/Summa-Generativarum'
+abstract: >-
+  Summa-Generativarum is a comprehensive philosophical framework exploring the
+  foundations of generative systems through the integration of AI, mathematics,
+  logic, and systems theory. Drawing inspiration from classical philosophical
+  systematization, it develops a computational approach to metaphysics and
+  examines complex systems through the lens of cybernetics and general systems
+  theory. The project bridges traditional philosophical inquiry with modern
+  computational methods to investigate fundamental questions about generation,
+  emergence, and systemic organization.
+keywords:
+  - summa generativarum
+  - philosophy
+  - AI
+  - mathematics
+  - logic
+  - science
+  - systems theory
+  - systems engineering
+  - complex systems
+  - cybernetics
+  - general systems theory
+  - computational philosophy
+  - computational metaphysics
+license: CC-BY-4.0
+doi: 10.5281/zenodo.17479745
+version: 0.1.0
+date-released: '2024-10-29'

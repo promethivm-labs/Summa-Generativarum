@@ -86,7 +86,8 @@ When using any part of this repository, please cite:
 > **Rijos, Avery Alexander.** *The Summa Generativarum: A Living Encyclopedia of Generative Logic and Metaformal Science.*
 > Version X.X (GitHub Repository). PROMETHIVM LLC, 2025– present. [https://github.com/promethivm-labs/summa-generativarum](https://github.com/promethivm-labs/summa-generativarum)
 
-A `CITATION.cff` file and DOI will be provided for archival reference through Zenodo or arXiv in the near future.
+A `CITATION.cff` file it attached.
+doi: 10.5281/zenodo.17479745
 
 ---
 
