@@ -1,5 +1,9 @@
 ## Formal Generative Heterology[1]
-
+**Formal Articulation for the Generative Corpus**  
+**Author:** Avery Alexander Rijos  
+**Framework:** PROMETHIVM — Summa Generativarum  
+**Date:** October 29, 2025  
+---
 **Formal Generative Heterology** (𝕲ℍ) is a formalization of how being speaks "in one voice" (univocity) while affirming radical differences without reducing them to identity, operating through metabolized contradictions rather than classical truth-preservation.[^1]
 
 ---
