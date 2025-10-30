@@ -464,7 +464,7 @@ Formal English: Generativity $G$ maps $(S, \delta)$ to $(S', \delta')$ changing 
 Every result adheres to a **5-Layer Generative Method:**[2][6]
 
 1. **Formal Layer (Logic):**  
-   Apply $\Omega_0$, $\lnot^g$, $\otimes$, $I_s$, $I_e$, $I_h$. Reference CFPE axioms $C_1$–$C_{79}$.  
+   Apply $\Omega_0$, $\lnot^g$, $\otimes$, $I_s$, $I_e$, $I_h$. Reference CFPE axioms $C_1$ – $C_{79}$.  
    Formal English: Use the zero-degree operator, generative negation, metabolic composition, and the Scar/Bloom/Horizon induction operators, grounded in the 79 CFPE axioms.
 
 2. **Transcendental Layer (Meta-Conditions):**  
