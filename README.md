@@ -32,7 +32,7 @@ It is freely open because Generativity cannot be owned. It is the law of creatio
 The Summa is structured as a multi-volume, version-controlled knowledge environment.
 It evolves over time, recording each commit as a phase of its own ontological growth.
 
-[CFPE Architecture](mermaid-diagram-2025-10-30-113944.png)
+![CFPE Architecture](mermaid-diagram-2025-10-30-113944.png)
 
 * **Corpus Root (`/Corpus`)** – Primary texts, axioms, and laws.
 * **Volumes I-XIII (In Progress)** – Philosophical, logical, mathematical, and computational treatises.
