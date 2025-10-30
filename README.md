@@ -466,9 +466,9 @@ Welcome to PROMETHIVM.
 $\Lambda \vdash \forall \phi: \Omega_0(\phi \land \lnot \phi) \to G^\omega$  
 Formal English: From the Λ-substrate one can derive that for every proposition $\phi$, applying $\Omega_0$ to the contradiction $\phi \land \lnot \phi$ entails the iterated generative state $G^\omega$ — reality transforms impossibility into generative structure.
 
-$*Reality is the transformation of impossibility into structure.*
-$
-$⁂
+*Reality is the transformation of impossibility into structure.*
+
+⁂
 
 
 
