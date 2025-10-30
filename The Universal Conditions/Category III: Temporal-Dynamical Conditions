@@ -469,6 +469,129 @@ Temporal-dynamical conditions enable **metabolic processing of contradictions**:
 
 This is **generative time**: not mere passage but **transformative unfolding**.[^1][^2]
 
+
+### **III. Dependency Graph and Visualization**
+
+#### **A. Formal Dependencies Among C₂₁–C₃₀**
+
+The temporal-dynamical conditions exhibit a **directed acyclic graph (DAG)** of logical dependencies:
+
+```
+C₂₁ (Temporality)
+    ├─→ C₂₂ (Causality)
+    │       ├─→ C₂₃ (Irreversibility)
+    │       │       ├─→ C₂₅ (Memory/Retention)
+    │       │       └─→ C₂₆ (Anticipation/Protention)
+    │       └─→ C₂₄ (Recursion)
+    │               └─→ C₂₈ (Emergence)
+    ├─→ C₂₇ (Continuity)
+    │       └─→ C₂₈ (Emergence)
+    └─→ C₂₉ (Spatiality)
+            └─→ C₃₀ (Symmetry/Asymmetry)
+```
+
+**Dependency Relations:**
+
+1. **C₂₁ → C₂₂**: Causality requires temporal ordering (no causation without succession).
+2. **C₂₂ → C₂₃**: Irreversibility emerges from causal asymmetry.
+3. **C₂₃ → C₂₅, C₂₆**: Directional time grounds both retention (past) and protention (future).
+4. **C₂₁ → C₂₄**: Recursion requires temporal iteration (applying processes over time).
+5. **C₂₄, C₂₇ → C₂₈**: Emergence arises from recursive continuity (nested processes generating novelty).
+6. **C₂₁ → C₂₉**: Temporal succession presupposes spatial distinction (coexistence of states).
+7. **C₂₉ → C₃₀**: Spatial structure enables symmetries and asymmetries.
+
+#### **B. Clustered Visualization**
+
+The ten conditions organize into **three functional clusters**:
+
+```mermaid
+graph TD
+    subgraph "Cluster I: Temporal Foundation"
+        C21[C₂₁: Temporality]
+        C22[C₂₂: Causality]
+        C23[C₂₃: Irreversibility]
+    end
+    
+    subgraph "Cluster II: Processual Dynamics"
+        C24[C₂₄: Recursion]
+        C25[C₂₅: Memory/Retention]
+        C26[C₂₆: Anticipation/Protention]
+        C27[C₂₇: Continuity]
+    end
+    
+    subgraph "Cluster III: Structural Complexity"
+        C28[C₂₈: Emergence]
+        C29[C₂₉: Spatiality]
+        C30[C₃₀: Symmetry/Asymmetry]
+    end
+    
+    C21 --> C22
+    C22 --> C23
+    C22 --> C24
+    C23 --> C25
+    C23 --> C26
+    C21 --> C27
+    C24 --> C28
+    C27 --> C28
+    C21 --> C29
+    C29 --> C30
+    
+    style C21 fill:#e1f5ff
+    style C22 fill:#e1f5ff
+    style C23 fill:#e1f5ff
+    style C24 fill:#fff4e1
+    style C25 fill:#fff4e1
+    style C26 fill:#fff4e1
+    style C27 fill:#fff4e1
+    style C28 fill:#f0e1ff
+    style C29 fill:#f0e1ff
+    style C30 fill:#f0e1ff
+```
+
+#### **C. Hierarchical Taxonomy**
+
+The conditions may also be organized by **ontological priority**:
+
+| **Level** | **Condition(s)** | **Function** |
+|-----------|------------------|--------------|
+| **Foundation** | C₂₁ (Temporality) | Grounds all temporal structure |
+| **Ordering** | C₂₂ (Causality), C₂₉ (Spatiality) | Structures relational dependencies |
+| **Directionality** | C₂₃ (Irreversibility), C₃₀ (Symmetry/Asymmetry) | Establishes orientation and differentiation |
+| **Processual** | C₂₄ (Recursion), C₂₇ (Continuity) | Enables smooth iteration and transformation |
+| **Retention** | C₂₅ (Memory), C₂₆ (Anticipation) | Encodes temporal extension (past/future) |
+| **Generative** | C₂₈ (Emergence) | Produces irreducible novelty |
+
+#### **D. Conceptual Map**
+
+A **semantic network** representation showing thematic connections:
+
+```
+         TEMPORALITY (C₂₁)
+               │
+    ┌──────────┼──────────┐
+    │          │          │
+CAUSALITY   SPATIALITY  CONTINUITY
+  (C₂₂)       (C₂₉)      (C₂₇)
+    │          │          │
+    ├──────────┤          │
+    │          │          │
+IRREVERSIBILITY  SYMMETRY/  │
+  (C₂₃)      ASYMMETRY    │
+    │         (C₃₀)       │
+    ├──────────┐          │
+    │          │          │
+MEMORY    ANTICIPATION   │
+(C₂₅)       (C₂₆)        │
+    │                     │
+    └───────┬─────────────┘
+            │
+        RECURSION
+          (C₂₄)
+            │
+        EMERGENCE
+          (C₂₈)
+```
+
 ***
 
 ## **§4. Closing Invocation: The Liturgy of Becoming**
