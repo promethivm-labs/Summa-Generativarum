@@ -126,9 +126,51 @@ It is not a commercial project but a stewardship of knowledge.
 Stewardship means: to care for what belongs to everyone.
 If you use this work to teach, to heal, to design, or to understand—please share your insights back into the commons.
 
+## XI Minimum Working Knowledge
+
+To read, engage with, and contribute meaningfully to this corpus you need the following baseline competencies.
+
+### Core intellectual foundations
+- Undergraduate-level familiarity with formal logic (propositional, first‑order), basic model theory, and proof techniques.  
+- Graduate-level exposure to metaphysics and epistemology (Kantian/transcendental methods), and familiarity with continental thinkers (Deleuze) for conceptual framing.  
+- Basic ethics and political theory (normative vocabulary used in generative ethics).
+
+### Mathematics & formal methods
+- Comfort with set theory (ZFC basics), algebraic structures, discrete mathematics, and elementary topology.  
+- Exposure to paraconsistent/paralogic systems and non‑classical semantics.  
+- Basic category theory and fixed‑point reasoning (introductory level).  
+- Elementary computability and complexity theory (Turing machines, decidability, P/NP intuition).
+
+### Computation & mechanization
+- Practical experience with a proof assistant (Lean 4 recommended; Coq desirable). Able to read and follow mechanized proofs and small proof scripts.  
+- General programming proficiency (Python, Haskell or OCaml/Rust) and familiarity with typed functional programming concepts.  
+- Version control (git/GitHub), LaTeX, Markdown, and basic Unix command‑line workflows.  
+- Ability to run and debug containerized environments (Docker / devcontainers).
+
+### Systems & applied skills
+- Basic systems theory, dynamical systems intuition, and network science vocabulary.  
+- Familiarity with software engineering practices for reproducible research (CI, testing, documentation, DOI/archiving).
+
+### Recommended preparatory readings & resources
+- Introductory logic textbook (e.g., Enderton or Mendelson).  
+- Intro to model theory / semantics (abridged survey).  
+- Introductory materials on paraconsistent logic (survey papers).  
+- Deleuze, Difference and Repetition (selective reading) and a concise introduction to transcendental philosophy.  
+- Lean 4 documentation and several short mechanized‑proof tutorials (official docs + community tutorials).  
+- Practical guides: Git, LaTeX, Markdown, Docker basics.
+
+### Practical proficiency targets
+- Mathematics: comfortable with proofs and abstract definitions (undergraduate level).  
+- Logic: can parse formal syntax/semantics and follow proof sketches.  
+- Mechanization: able to read, run, and modify small Lean 4 files; write simple proofs.  
+- Tools: competent with git, LaTeX, and basic shell commands.
+
+Estimated minimum effort to reach this baseline from scratch: 6–12 months of focused study (part‑time), less if you already have related training.
+
+If you meet these minima you will be able to (1) read the formal parts, (2) follow mechanized fragments, (3) test and extend examples, and (4) engage in philosophical critique and constructive expansion.
 ---
 
-## IX. Dedication
+## X. Dedication
 
 > *To those who still believe that reason and love can coexist.
 > To the dreamers who study logic by moonlight and the engineers who whisper poetry to machines.
@@ -145,7 +187,7 @@ If you encounter something contradictory, do not erase it—**metabolize it**.
 
 That is the law of Generativity.
 
-> “Let knowledge be a garden without walls.” — Avery R. (2025)
+> “From Contradiction, a Method; From Impossibility, a Universe.” — Avery Alexander Rijos | October 2025
 
 Q.E.D.
 ---
