@@ -10,9 +10,28 @@
 
 ---
 ### About Avery
-I am a Systems Engineer, Metalogical Architect, and Systems Scientist developing new architectures for intelligence, coherence, and transformation across technical and human systems. My work integrates formal logic, systems engineering, and AI design into a unified discipline I call Generativity Science — the study of how systems evolve by metabolizing contradiction into possibility.
+I am a mathematician, philosopher, and founder of generativity theory. I am developing new architectures for intelligence, coherence, and transformation across formal, technical, and human systems. My work integrates logic, systems engineering, and automata theory and metamathematics into a unified discipline I call Generativity Science — the study of how systems evolve by metabolizing contradiction into possibility.
 
-I am the creator of the Codex of Generativity and author of the codex, Principia Generativarum, which together work to formalize the Conditions for the Possibility of Everything (CFPE) — a 79-invariant framework linking mathematics, computation, and philosophy into a coherent logic of becoming. My applied research manifests in PROMETHIVM LLC, where I design and deploy domain-sovereign architectures that combine symbolic reasoning with operational realism.
+I am the creator of this repository "Summa Generativarum" and author of the codex, Principia Generativarum, which together work to formalize the Conditions for the Possibility of Everything (CFPE) — a 79-invariant framework linking mathematics, computation, and philosophy into a coherent logic of becoming. My applied research manifests in PROMETHIVM LLC, where I design and deploy domain-sovereign architectures that combine symbolic reasoning with operational realism.
+
+---
+
+### Research Dissemination Disclaimer
+
+This repository presents original theoretical research currently under active development.
+The concepts, proofs, and models contained herein are pre-publication materials shared for the purposes of scholarly transparency, early dissemination, and community feedback.
+
+All content should be understood as pre-peer-review and subject to revision.
+Results, formulations, and interpretations may evolve as the research matures and undergoes formal validation or independent verification.
+
+Researchers, reviewers, and readers are encouraged to engage critically, cite responsibly, and verify derivations independently. Nothing in this repository should be interpreted as a finalized claim, institutional position, or conclusive scientific result.
+
+© 2025 PROMETHIVM LLC. All rights reserved.
+Author: Avery Alexander Rijos, M.S.
+Framework: Principia Generativarum | Summa Generativarum | Metaformalism
+
+Reproduction, adaptation, or redistribution of this material requires attribution and must preserve this disclaimer in all derivative works.
+For citation purposes, please reference the repository URL and date of access.
 
 ---
 
