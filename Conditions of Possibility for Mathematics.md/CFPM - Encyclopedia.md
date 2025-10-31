@@ -17,14 +17,14 @@
 
 ### C1: Existence
 - **Domain:** Ontological
-- **Formal Expression:** ∃x (x = x)
+- **Formal Expression:** $\exists x \, (x = x)$
 - **Mathematical Function:** Mathematical objects and proof states exist
 - **Necessity Type:** N (Necessary)
 - **Enables:** [C2, C4, C7, C21, C38, C46]
 
 ### C2: Identity (Ontological)
 - **Domain:** Ontological
-- **Formal Expression:** ∀x (x = x) [Law of Identity]
+- **Formal Expression:** $\forall x \, (x = x)$ [Law of Identity]
 - **Mathematical Function:** Self-sameness; reference to same entity across contexts
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C1]
@@ -32,7 +32,7 @@
 
 ### C3: Difference (Ontological)
 - **Domain:** Ontological
-- **Formal Expression:** ∃x ∃y (x ≠ y) [Principle of Distinction]
+- **Formal Expression:** $\exists x \, \exists y \, (x \neq y)$ [Principle of Distinction]
 - **Mathematical Function:** Multiplicity; multiple variables and objects are possible
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C1, C2]
@@ -40,7 +40,7 @@
 
 ### C7: Constraint
 - **Domain:** Ontological
-- **Formal Expression:** ∀S (FormalSystem(S) → Bounded(S)) [Finitude of Syntax]
+- **Formal Expression:** $\forall S \, (\text{FormalSystem}(S) \to \text{Bounded}(S))$ [Finitude of Syntax]
 - **Mathematical Function:** Syntax is finite and decidable; prevents indeterminacy
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C1]
@@ -48,7 +48,7 @@
 
 ### C8: Self-Containment
 - **Domain:** Ontological
-- **Formal Expression:** ∀S (Coherent(S) → ClosedUnder(S, Derivation))
+- **Formal Expression:** $\forall S \, (\text{Coherent}(S) \to \text{ClosedUnder}(S, \text{Derivation}))$
 - **Mathematical Function:** Formal systems are internally consistent; no external appeal needed
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C1, C2, C3, C7]
@@ -56,7 +56,7 @@
 
 ### C11: Identity (Logical)
 - **Domain:** Logical
-- **Formal Expression:** ∀x ∀y ((x = y) → (P(x) ↔ P(y))) [Leibniz Law]
+- **Formal Expression:** $\forall x \, \forall y \, ((x = y) \to (P(x) \leftrightarrow P(y)))$ [Leibniz Law]
 - **Mathematical Function:** Substitution of identicals; logical equality and equivalence
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C2, C1]
@@ -64,7 +64,7 @@
 
 ### C12: Difference (Logical)
 - **Domain:** Logical
-- **Formal Expression:** ∀φ (φ ∨ ¬φ) [Negation Operator Defined]
+- **Formal Expression:** $\forall \varphi \, (\varphi \lor \neg\varphi)$ [Negation Operator Defined]
 - **Mathematical Function:** Logical negation; distinction via complement
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C3, C1]
@@ -72,7 +72,7 @@
 
 ### C13: Metabolic Non-Contradiction
 - **Domain:** Logical
-- **Formal Expression:** ¬(φ ∧ ¬φ) [Metabolized through generativity, not explosive]
+- **Formal Expression:** $\neg(\varphi \land \neg\varphi)$ [Metabolized through generativity, not explosive]
 - **Mathematical Function:** Contradictions are processed into generative possibilities; paraconsistency
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C12, C1]
@@ -80,7 +80,7 @@
 
 ### C15: Compositionality
 - **Domain:** Logical
-- **Formal Expression:** ∀f ∀g ∃h (h(x) = f(g(x))) [Function Composition]
+- **Formal Expression:** $\forall f \, \forall g \, \exists h \, (h(x) = f(g(x)))$ [Function Composition]
 - **Mathematical Function:** Wholes reduce to parts systematically; structural decomposition
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C12, C11]
@@ -88,7 +88,7 @@
 
 ### C18: Inference Closure
 - **Domain:** Logical
-- **Formal Expression:** ∀Γ ∀φ (Γ ⊢ φ → ⊢ φ) [Proof Preservation]
+- **Formal Expression:** $\forall \Gamma \, \forall \varphi \, (\Gamma \vdash \varphi \to \vdash \varphi)$ [Proof Preservation]
 - **Mathematical Function:** Truth is preserved through valid derivations; modus ponens, transitivity
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C11, C15]
@@ -104,7 +104,7 @@
 
 #### C4: Persistence
 - **Domain:** Ontological
-- **Formal Expression:** ∀x ∀t (Object(x) → IdenticalAcross(x, t))
+- **Formal Expression:** $\forall x \, \forall t \, (\text{Object}(x) \to \text{IdenticalAcross}(x, t))$
 - **Mathematical Function:** Entities retain identity through proof stages; invariant quantities
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** [C1, C2, C21]
@@ -112,7 +112,7 @@
 
 #### C5: Transformability
 - **Domain:** Ontological
-- **Formal Expression:** ∀s₁ ∃s₂ (State(s₁) ∧ Transition(s₁, s₂))
+- **Formal Expression:** $\forall s_1 \, \exists s_2 \, (\text{State}(s_1) \land \text{Transition}(s_1, s_2))$
 - **Mathematical Function:** State transitions are coherently possible; function application
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** [C1, C4]
@@ -120,7 +120,7 @@
 
 #### C6: Potentiality
 - **Domain:** Ontological
-- **Formal Expression:** ∀W (Possible(W) → ¬Actual(W)) [Modal Space]
+- **Formal Expression:** $\forall W \, (\text{Possible}(W) \to \neg\text{Actual}(W))$ [Modal Space]
 - **Mathematical Function:** Unrealized possibilities; modality; proof space larger than actualized proofs
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** [C1, C7]
@@ -128,7 +128,7 @@
 
 #### C9: Individuation
 - **Domain:** Ontological
-- **Formal Expression:** ∀x ∀y ((x ≠ y) ↔ ∃P (P(x) ∧ ¬P(y)))
+- **Formal Expression:** $\forall x \, \forall y \, ((x \neq y) \leftrightarrow \exists P \, (P(x) \land \neg P(y)))$
 - **Mathematical Function:** Variables distinctly individuated; unique reference
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** [C1, C3]
@@ -136,7 +136,7 @@
 
 #### C10: Dependency (Ontological)
 - **Domain:** Ontological
-- **Formal Expression:** ∃⪯ ∀x ∀y ((x ⪯ y) ∨ (y ⪯ x)) [Partial Order on Entities]
+- **Formal Expression:** $\exists \preceq \, \forall x \, \forall y \, ((x \preceq y) \lor (y \preceq x))$ [Partial Order on Entities]
 - **Mathematical Function:** Hierarchy of definitions; lemmas ground theorems
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** [C1, C2]
@@ -146,7 +146,7 @@
 
 #### C21: Temporality
 - **Domain:** Temporal
-- **Formal Expression:** ∃< ∀t₁ ∀t₂ ((t₁ < t₂) ∨ (t₁ = t₂) ∨ (t₂ < t₁))
+- **Formal Expression:** $\exists < \, \forall t_1 \, \forall t_2 \, ((t_1 < t_2) \lor (t_1 = t_2) \lor (t_2 < t_1))$
 - **Mathematical Function:** Discrete sequence of proof steps; ordinal succession
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C1]
@@ -154,7 +154,7 @@
 
 #### C22: Causality
 - **Domain:** Temporal
-- **Formal Expression:** ∀e₁ ∀e₂ ((Causes(e₁, e₂)) → Earlier(e₁, e₂))
+- **Formal Expression:** $\forall e_1 \, \forall e_2 \, ((\text{Causes}(e_1, e_2)) \to \text{Earlier}(e_1, e_2))$
 - **Mathematical Function:** Causal ordering of proof steps; chain of reasoning
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C21, C1]
@@ -162,7 +162,7 @@
 
 #### C24: Recursion
 - **Domain:** Temporal
-- **Formal Expression:** ∀f ∃!g ((g(0) = a) ∧ ∀n (g(n+1) = f(g(n))))
+- **Formal Expression:** $\forall f \, \exists! g \, ((g(0) = a) \land \forall n \, (g(n+1) = f(g(n))))$
 - **Mathematical Function:** Recursive definition; fixed-point operators; self-application
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C21, C5]
@@ -170,7 +170,7 @@
 
 #### C25: Memory
 - **Domain:** Temporal
-- **Formal Expression:** ∀t ∃H (History(H, t) ∧ ¬Markovian)
+- **Formal Expression:** $\forall t \, \exists H \, (\text{History}(H, t) \land \neg\text{Markovian})$
 - **Mathematical Function:** Past leaves traces; path-dependent axioms; proof history matters
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** [C4, C21]
@@ -178,7 +178,7 @@
 
 #### C26: Anticipation
 - **Domain:** Temporal
-- **Formal Expression:** ∀g ∃f (Goal(g) ∧ SearchPlan(f, g))
+- **Formal Expression:** $\forall g \, \exists f \, (\text{Goal}(g) \land \text{SearchPlan}(f, g))$
 - **Mathematical Function:** Goal-directed proof search; lemma projection; forward-directed
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** [C21]
@@ -186,7 +186,7 @@
 
 #### C27: Continuity
 - **Domain:** Temporal
-- **Formal Expression:** ∀ε ∃δ (|t₁ - t₂| < δ → |State(t₁) - State(t₂)| < ε)
+- **Formal Expression:** $\forall \varepsilon \, \exists \delta \, (|t_1 - t_2| < \delta \to |\text{State}(t_1) - \text{State}(t_2)| < \varepsilon)$
 - **Mathematical Function:** Smooth transitions in proof space; topological ordering
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** [C5]
@@ -196,7 +196,7 @@
 
 #### C29: Spatiality
 - **Domain:** Relational
-- **Formal Expression:** ∃ℝⁿ ∀x (Locatable(x, ℝⁿ))
+- **Formal Expression:** $\exists \mathbb{R}^n \, \forall x \, (\text{Locatable}(x, \mathbb{R}^n))$
 - **Mathematical Function:** Structured multiplicity; coordinate systems; dimension space
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** [C3]
@@ -204,7 +204,7 @@
 
 #### C30: Symmetry-Asymmetry
 - **Domain:** Relational
-- **Formal Expression:** ∃Sym ∀x (Invariant(Sym(x), Sym(y)) ∨ Breaks(Sym))
+- **Formal Expression:** $\exists \text{Sym} \, \forall x \, (\text{Invariant}(\text{Sym}(x), \text{Sym}(y)) \lor \text{Breaks}(\text{Sym}))$
 - **Mathematical Function:** Symmetry groups; invariance breaking; transformation properties
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** [C29]
@@ -212,7 +212,7 @@
 
 #### C31: Hierarchy
 - **Domain:** Relational
-- **Formal Expression:** ∃L ∀x (Level(x) ∈ L ∧ Length(L) < ∞)
+- **Formal Expression:** $\exists L \, \forall x \, (\text{Level}(x) \in L \land \text{Length}(L) < \infty)$
 - **Mathematical Function:** Type hierarchy; stratification into levels; metatheory
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** [C10, C29]
@@ -220,7 +220,7 @@
 
 #### C32: Network Connectivity
 - **Domain:** Relational
-- **Formal Expression:** ∀x ∀y ∃Path(x, y)
+- **Formal Expression:** $\forall x \, \forall y \, \exists \text{Path}(x, y)$
 - **Mathematical Function:** Modules mutually reachable via finite paths; connectedness
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** [C3]
@@ -228,7 +228,7 @@
 
 #### C33: Boundary Definition
 - **Domain:** Relational
-- **Formal Expression:** ∀S ∃∂S (Boundary(∂S) ∧ Interior(S) ∪ Boundary(∂S) = S)
+- **Formal Expression:** $\forall S \, \exists \partial S \, (\text{Boundary}(\partial S) \land \text{Interior}(S) \cup \text{Boundary}(\partial S) = S)$
 - **Mathematical Function:** Type boundaries; scope delimitation; clear distinction from complement
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C3, C9]
@@ -236,7 +236,7 @@
 
 #### C34: Integration-Permeability
 - **Domain:** Relational
-- **Formal Expression:** ∀S₁ ∀S₂ (∂S₁ ∩ ∂S₂ ≠ ∅ → CoherentMeaning)
+- **Formal Expression:** $\forall S_1 \, \forall S_2 \, (\partial S_1 \cap \partial S_2 \neq \emptyset \to \text{CoherentMeaning})$
 - **Mathematical Function:** Cross-layer communication; interface definition; permeable boundaries
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** [C33]
@@ -244,7 +244,7 @@
 
 #### C35: Modularity
 - **Domain:** Relational
-- **Formal Expression:** ∀M (Module(M) → SemiAutonomous(M))
+- **Formal Expression:** $\forall M \, (\text{Module}(M) \to \text{SemiAutonomous}(M))$
 - **Mathematical Function:** Subsystems retain functional independence; compositional decomposition
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** [C33]
@@ -252,7 +252,7 @@
 
 #### C36: Reciprocal Determination
 - **Domain:** Relational
-- **Formal Expression:** ∀x ∀y (CoInduction(x, y))
+- **Formal Expression:** $\forall x \, \forall y \, (\text{CoInduction}(x, y))$
 - **Mathematical Function:** Elements mutually constrain each other; circular dependency
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** [C15]
@@ -260,7 +260,7 @@
 
 #### C37: Disjunctive Synthesis
 - **Domain:** Relational
-- **Formal Expression:** ∀S₁ ∀S₂ (∃S (S = S₁ ∪ S₂ ∧ Coherent(S)))
+- **Formal Expression:** $\forall S_1 \, \forall S_2 \, (\exists S \, (S = S_1 \cup S_2 \land \text{Coherent}(S)))$
 - **Mathematical Function:** Unity-in-difference; radical heterogeneity; multiple structures coexist
 - **Necessity Type:** G (Generative)
 - **Presupposes:** []
@@ -270,7 +270,7 @@
 
 #### C38: Intelligibility
 - **Domain:** Epistemic
-- **Formal Expression:** ∃I (Interpretation(I) ∧ Consistent(I))
+- **Formal Expression:** $\exists I \, (\text{Interpretation}(I) \land \text{Consistent}(I))$
 - **Mathematical Function:** Stable regularities enable understanding; decidable properties
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C1, C18]
@@ -278,7 +278,7 @@
 
 #### C39: Observability
 - **Domain:** Epistemic
-- **Formal Expression:** ∀φ (Observable(φ) ∨ Verifiable(φ))
+- **Formal Expression:** $\forall \varphi \, (\text{Observable}(\varphi) \lor \text{Verifiable}(\varphi))$
 - **Mathematical Function:** Observable terms; verifiable statements; accessibility
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C38]
@@ -286,7 +286,7 @@
 
 #### C40: Modelability
 - **Domain:** Epistemic
-- **Formal Expression:** ∀Σ ∃M (Model(M) ∧ Satisfies(M, Σ))
+- **Formal Expression:** $\forall \Sigma \, \exists M \, (\text{Model}(M) \land \text{Satisfies}(M, \Sigma))$
 - **Mathematical Function:** Systems admit formal representation; semantic interpretation
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C38, C18]
@@ -294,7 +294,7 @@
 
 #### C41: Intersubjectivity
 - **Domain:** Epistemic
-- **Formal Expression:** ∀P ∀A ∀B ((Prove(A, P)) ∧ (Verify(B, P)) → SharedTruth(P))
+- **Formal Expression:** $\forall P \, \forall A \, \forall B \, ((\text{Prove}(A, P)) \land (\text{Verify}(B, P)) \to \text{SharedTruth}(P))$
 - **Mathematical Function:** Knowledge sharable and verifiable; peer review; community consensus
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C38]
@@ -302,7 +302,7 @@
 
 #### C43: Conceptual Schemes
 - **Domain:** Epistemic
-- **Formal Expression:** ∀Domain ∃Categories (Organize(Categories, Domain))
+- **Formal Expression:** $\forall \text{Domain} \, \exists \text{Categories} \, (\text{Organize}(\text{Categories}, \text{Domain}))$
 - **Mathematical Function:** Categorical framework; concept formation; universal extraction
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C40]
@@ -310,7 +310,7 @@
 
 #### C44: Truth-Aptness
 - **Domain:** Epistemic
-- **Formal Expression:** ∀φ (Proposition(φ) → (True(φ) ∨ False(φ)))
+- **Formal Expression:** $\forall \varphi \, (\text{Proposition}(\varphi) \to (\text{True}(\varphi) \lor \text{False}(\varphi)))$
 - **Mathematical Function:** Provability; truth conditions; evaluability
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C40]
@@ -320,7 +320,7 @@
 
 #### C46: Reference
 - **Domain:** Semantic
-- **Formal Expression:** ∀s ∃x (Denotes(s, x) ∧ Referent(s) = x)
+- **Formal Expression:** $\forall s \, \exists x \, (\text{Denotes}(s, x) \land \text{Referent}(s) = x)$
 - **Mathematical Function:** Symbol denotation; object reference; naming conventions
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C2, C11]
@@ -328,7 +328,7 @@
 
 #### C47: Predication
 - **Domain:** Semantic
-- **Formal Expression:** ∀s ∀P (Predicate(P, s))
+- **Formal Expression:** $\forall s \, \forall P \, (\text{Predicate}(P, s))$
 - **Mathematical Function:** Attribute assignment; property attribution; classification
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C46]
@@ -336,7 +336,7 @@
 
 #### C48: Semantic Compositionality
 - **Domain:** Semantic
-- **Formal Expression:** Meaning(A ∘ B) = Composition(Meaning(A), Meaning(B))
+- **Formal Expression:** $$\text{Meaning}(A \circ B) = \text{Composition}(\text{Meaning}(A), \text{Meaning}(B))$$
 - **Mathematical Function:** Complex meanings derive from parts; semantic recursion; homomorphism
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C46, C47]
@@ -344,7 +344,7 @@
 
 #### C49: Context-Sensitivity
 - **Domain:** Semantic
-- **Formal Expression:** ∀φ ∃Ctx (Meaning(φ) = f(Ctx))
+- **Formal Expression:** $\forall \varphi \, \exists \text{Ctx} \, (\text{Meaning}(\varphi) = f(\text{Ctx}))$
 - **Mathematical Function:** Free variables; parameter binding; context-dependent interpretation
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** []
@@ -352,7 +352,7 @@
 
 #### C50: Translation
 - **Domain:** Semantic
-- **Formal Expression:** ∀L₁ ∀L₂ ∃τ (Isomorphism(τ) ∧ Translates(τ, L₁, L₂))
+- **Formal Expression:** $\forall L_1 \, \forall L_2 \, \exists \tau \, (\text{Isomorphism}(\tau) \land \text{Translates}(\tau, L_1, L_2))$
 - **Mathematical Function:** Isomorphic mapping; theory translation; cross-system meaning preservation
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** []
@@ -360,7 +360,7 @@
 
 #### C51: Performativity
 - **Domain:** Semantic
-- **Formal Expression:** ∀Def (Defining(Def) → Realizes(Def))
+- **Formal Expression:** $\forall \text{Def} \, (\text{Defining}(\text{Def}) \to \text{Realizes}(\text{Def}))$
 - **Mathematical Function:** Defining clause; constructive specification; meaning via generation
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** []
@@ -370,7 +370,7 @@
 
 #### C61: Necessity
 - **Domain:** Modal
-- **Formal Expression:** □φ := ∀W (φ True in W)
+- **Formal Expression:** $\Box\varphi := \forall W \, (\varphi \text{ True in } W)$
 - **Mathematical Function:** Tautology; necessary truth; truths hold across all models
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** []
@@ -378,7 +378,7 @@
 
 #### C62: Possibility
 - **Domain:** Modal
-- **Formal Expression:** ◇φ := ∃W (φ True in W)
+- **Formal Expression:** $\Diamond\varphi := \exists W \, (\varphi \text{ True in } W)$
 - **Mathematical Function:** Consistency; non-contradiction; coherent alternative states
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** []
@@ -386,7 +386,7 @@
 
 #### C63: Contingency
 - **Domain:** Modal
-- **Formal Expression:** ◇φ ∧ ◇¬φ
+- **Formal Expression:** $\Diamond\varphi \land \Diamond\neg\varphi$
 - **Mathematical Function:** Particular truth; model-relative fact; non-necessary particularity
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** [C62]
@@ -394,7 +394,7 @@
 
 #### C64: Counterfactual Dependence
 - **Domain:** Modal
-- **Formal Expression:** φ □→ ψ := ∀W ((φ True in W) → (ψ True in W))
+- **Formal Expression:** $\varphi \,\Box\!\!\to\, \psi := \forall W \, ((\varphi \text{ True in } W) \to (\psi \text{ True in } W))$
 - **Mathematical Function:** Alternate derivation; if-then structure; conditional reasoning
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** [C63]
@@ -410,7 +410,7 @@
 
 #### C14: Excluded Middle (Qualified)
 - **Domain:** Logical
-- **Formal Expression:** (φ ∨ ¬φ) ∨ Indeterminate(φ) [Multi-valued Semantics]
+- **Formal Expression:** $(\varphi \lor \neg\varphi) \lor \text{Indeterminate}(\varphi)$ [Multi-valued Semantics]
 - **Mathematical Function:** Bivalence or generative truth-values; intuitionistic compatibility
 - **Necessity Type:** G (Generative)
 - **Presupposes:** [C12]
@@ -418,7 +418,7 @@
 
 #### C16: Expressivity
 - **Domain:** Logical
-- **Formal Expression:** ∀Domain ∃Language (CanExpress(Language, Domain))
+- **Formal Expression:** $\forall \text{Domain} \, \exists \text{Language} \, (\text{CanExpress}(\text{Language}, \text{Domain}))$
 - **Mathematical Function:** Symbolic representation; formal language; adequate notation
 - **Necessity Type:** G (Generative)
 - **Presupposes:** []
@@ -426,7 +426,7 @@
 
 #### C17: Reflexivity
 - **Domain:** Logical
-- **Formal Expression:** ∃fix (fix(f) = f(fix(f))) [Fixed-Point without Paradox]
+- **Formal Expression:** $\exists \text{fix} \, (\text{fix}(f) = f(\text{fix}(f)))$ [Fixed-Point without Paradox]
 - **Mathematical Function:** Fixed-point theorems; self-reference without paradox; Tarski hierarchy
 - **Necessity Type:** G (Generative)
 - **Presupposes:** [C24, C18]
@@ -434,7 +434,7 @@
 
 #### C19: Formal Adequacy
 - **Domain:** Logical
-- **Formal Expression:** ∀Domain ∃Formalism (Adequate(Formalism, Domain))
+- **Formal Expression:** $\forall \text{Domain} \, \exists \text{Formalism} \, (\text{Adequate}(\text{Formalism}, \text{Domain}))$
 - **Mathematical Function:** Representation of domain; expressiveness; no unrepresentable aspect
 - **Necessity Type:** G (Generative)
 - **Presupposes:** []
@@ -442,7 +442,7 @@
 
 #### C20: Intentionality
 - **Domain:** Logical
-- **Formal Expression:** ∀Meaning ∀Extension ((Intensional(M) ∨ Extensional(E)) ∧ Distinct(M, E))
+- **Formal Expression:** $\forall \text{Meaning} \, \forall \text{Extension} \, ((\text{Intensional}(M) \lor \text{Extensional}(E)) \land \text{Distinct}(M, E))$
 - **Mathematical Function:** Meaning vs. extension distinction; intensional context; aboutness
 - **Necessity Type:** G (Generative)
 - **Presupposes:** [C17]
@@ -452,7 +452,7 @@
 
 #### C23: Irreversibility
 - **Domain:** Temporal
-- **Formal Expression:** ¬∃t₁ ∃t₂ ((t₁ < t₂) ∧ Reverse(t₂, t₁))
+- **Formal Expression:** $\neg\exists t_1 \, \exists t_2 \, ((t_1 < t_2) \land \text{Reverse}(t_2, t_1))$
 - **Mathematical Function:** Arrow of inference; non-reversible rules; temporal asymmetry
 - **Necessity Type:** G (Generative)
 - **Presupposes:** [C22]
@@ -460,7 +460,7 @@
 
 #### C28: Emergence
 - **Domain:** Temporal
-- **Formal Expression:** ∃P (Theorem(P) ∧ ¬DerivableFrom(P, LowerLevel))
+- **Formal Expression:** $\exists P \, (\text{Theorem}(P) \land \neg\text{DerivableFrom}(P, \text{LowerLevel}))$
 - **Mathematical Function:** Higher-order properties arise; non-reducible theorems; novelty
 - **Necessity Type:** G (Generative)
 - **Presupposes:** [C13, C22]
@@ -470,7 +470,7 @@
 
 #### C42: Perceptual Access
 - **Domain:** Epistemic
-- **Formal Expression:** ∀Concept ∃Instantiation (Concrete(Instantiation))
+- **Formal Expression:** $\forall \text{Concept} \, \exists \text{Instantiation} \, (\text{Concrete}(\text{Instantiation}))$
 - **Mathematical Function:** Concrete instantiation; example construction; visualization
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** [C39]
@@ -478,7 +478,7 @@
 
 #### C45: Epistemic Humility
 - **Domain:** Epistemic
-- **Formal Expression:** ∃Proposition (¬Decidable(Proposition)) [Gödel Incompleteness]
+- **Formal Expression:** $\exists \text{Proposition} \, (\neg\text{Decidable}(\text{Proposition}))$ [Gödel Incompleteness]
 - **Mathematical Function:** Recognition of limits; undecidability; awareness of incompleteness
 - **Necessity Type:** G (Generative)
 - **Presupposes:** [C44, C17]
@@ -488,7 +488,7 @@
 
 #### C53: Axiological Distinction
 - **Domain:** Normative
-- **Formal Expression:** ∃P ∃Q (Better(P, Q) ∨ Better(Q, P) ∨ Incomparable(P, Q))
+- **Formal Expression:** $\exists P \, \exists Q \, (\text{Better}(P, Q) \lor \text{Better}(Q, P) \lor \text{Incomparable}(P, Q))$
 - **Mathematical Function:** Better/worse theorems; elegance metric; value-ordering
 - **Necessity Type:** G (Generative)
 - **Presupposes:** []
@@ -496,7 +496,7 @@
 
 #### C54: Agency
 - **Domain:** Normative
-- **Formal Expression:** ∃Agent ∃Action (Agent(x) ∧ ActFor(x, Reason))
+- **Formal Expression:** $\exists \text{Agent} \, \exists \text{Action} \, (\text{Agent}(x) \land \text{ActFor}(x, \text{Reason}))$
 - **Mathematical Function:** Proof construction; mathematical invention; intentional discovery
 - **Necessity Type:** G (Generative)
 - **Presupposes:** []
@@ -504,7 +504,7 @@
 
 #### C55: Responsibility
 - **Domain:** Normative
-- **Formal Expression:** ∀Proof ∃Agent (Attributable(Proof, Agent))
+- **Formal Expression:** $\forall \text{Proof} \, \exists \text{Agent} \, (\text{Attributable}(\text{Proof}, \text{Agent}))$
 - **Mathematical Function:** Proof accountability; rigor requirement; attribution of authorship
 - **Necessity Type:** G (Generative)
 - **Presupposes:** [C54]
@@ -512,7 +512,7 @@
 
 #### C56: Freedom within Constraint
 - **Domain:** Normative
-- **Formal Expression:** ∃Choice (Constrained(Choice) ∧ Free(Choice))
+- **Formal Expression:** $\exists \text{Choice} \, (\text{Constrained}(\text{Choice}) \land \text{Free}(\text{Choice}))$
 - **Mathematical Function:** Bounded choice space; constrained construction; degrees of freedom
 - **Necessity Type:** G (Generative)
 - **Presupposes:** []
@@ -520,7 +520,7 @@
 
 #### C57: Generativity (Ethical Telos)
 - **Domain:** Normative
-- **Formal Expression:** ∀t (|Theorems(t+1)| > |Theorems(t)|) [Expansion Criterion]
+- **Formal Expression:** $\forall t \, (|\text{Theorems}(t+1)| > |\text{Theorems}(t)|)$ [Expansion Criterion]
 - **Mathematical Function:** Theorem generation; open-ended discovery; unbounded expansion
 - **Necessity Type:** G (Generative)
 - **Presupposes:** [C13, C54]
@@ -528,7 +528,7 @@
 
 #### C58: Value Pluralism
 - **Domain:** Normative
-- **Formal Expression:** ∃P ∃Q (Valid(P) ∧ Valid(Q) ∧ ¬Identical(P, Q))
+- **Formal Expression:** $\exists P \, \exists Q \, (\text{Valid}(P) \land \text{Valid}(Q) \land \neg\text{Identical}(P, Q))$
 - **Mathematical Function:** Multiple valid proofs; non-unique representation; flexibility
 - **Necessity Type:** G (Generative)
 - **Presupposes:** [C57]
@@ -536,7 +536,7 @@
 
 #### C59: Justice
 - **Domain:** Normative
-- **Formal Expression:** ∀Domain (FairDistribution(Resources, Domain))
+- **Formal Expression:** $\forall \text{Domain} \, (\text{FairDistribution}(\text{Resources}, \text{Domain}))$
 - **Mathematical Function:** Fair distribution of truth; balanced framework; equity
 - **Necessity Type:** G (Generative)
 - **Presupposes:** []
@@ -544,7 +544,7 @@
 
 #### C60: Recognition
 - **Domain:** Normative
-- **Formal Expression:** ∀Agent ∀Proof (Acknowledge(Community, Agent, Proof))
+- **Formal Expression:** $\forall \text{Agent} \, \forall \text{Proof} \, (\text{Acknowledge}(\text{Community}, \text{Agent}, \text{Proof}))$
 - **Mathematical Function:** Mutual proof acceptance; peer validation; community recognition
 - **Necessity Type:** G (Generative)
 - **Presupposes:** []
@@ -554,7 +554,7 @@
 
 #### C65: Modal Depth
 - **Domain:** Modal
-- **Formal Expression:** □(□φ) ∨ ◇(◇φ) [Iterated Modality Coherent]
+- **Formal Expression:** $\Box(\Box\varphi) \lor \Diamond(\Diamond\varphi)$ [Iterated Modality Coherent]
 - **Mathematical Function:** Iterated modality; nested necessity; higher-order operators
 - **Necessity Type:** G (Generative)
 - **Presupposes:** [C61, C62]
@@ -564,7 +564,7 @@
 
 #### C67: Givenness
 - **Domain:** Phenomenological
-- **Formal Expression:** ∀Axiom (Presented(Axiom) ∧ PrePredicative(Axiom))
+- **Formal Expression:** $\forall \text{Axiom} \, (\text{Presented}(\text{Axiom}) \land \text{PrePredicative}(\text{Axiom}))$
 - **Mathematical Function:** Direct presentation; axiom as given; primitive apprehension
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** []
@@ -572,7 +572,7 @@
 
 #### C68: Intentionality (Phenomenological)
 - **Domain:** Phenomenological
-- **Formal Expression:** ∀Experience (Directed(Experience) ∧ AboutObject(Experience))
+- **Formal Expression:** $\forall \text{Experience} \, (\text{Directed}(\text{Experience}) \land \text{AboutObject}(\text{Experience}))$
 - **Mathematical Function:** Directed meaning; aboutness in formulas; phenomenal intentionality
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** [C17, C67]
@@ -580,7 +580,7 @@
 
 #### C69: Affectivity
 - **Domain:** Phenomenological
-- **Formal Expression:** ∀Proof (HasQualitativeFeeling(Proof) ∧ Affective(Proof))
+- **Formal Expression:** $\forall \text{Proof} \, (\text{HasQualitativeFeeling}(\text{Proof}) \land \text{Affective}(\text{Proof}))$
 - **Mathematical Function:** Emotional value of proof; beauty in mathematics; aesthetic experience
 - **Necessity Type:** G (Generative)
 - **Presupposes:** []
@@ -588,7 +588,7 @@
 
 #### C70: Embodiment
 - **Domain:** Phenomenological
-- **Formal Expression:** ∃Body ∀Experience (Situated(Experience, Body))
+- **Formal Expression:** $\exists \text{Body} \, \forall \text{Experience} \, (\text{Situated}(\text{Experience}, \text{Body}))$
 - **Mathematical Function:** Concrete realization; implementation; embodied understanding
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** []
@@ -596,7 +596,7 @@
 
 #### C71: Temporality of Experience
 - **Domain:** Phenomenological
-- **Formal Expression:** Retention ∘ Present ∘ Protention
+- **Formal Expression:** $\text{Retention} \circ \text{Present} \circ \text{Protention}$
 - **Mathematical Function:** Proof narrative; sequential understanding; phenomenal flow
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** [C21, C25]
@@ -604,7 +604,7 @@
 
 #### C72: Interaffectivity
 - **Domain:** Phenomenological
-- **Formal Expression:** ∀Agent₁ ∀Agent₂ (Resonance(Agent₁, Agent₂))
+- **Formal Expression:** $\forall \text{Agent}_1 \, \forall \text{Agent}_2 \, (\text{Resonance}(\text{Agent}_1, \text{Agent}_2))$
 - **Mathematical Function:** Shared proof resonance; community understanding; affective synchrony
 - **Necessity Type:** G (Generative)
 - **Presupposes:** [C68, C45]
@@ -614,7 +614,7 @@
 
 #### C73: System-Environment Distinction
 - **Domain:** Systemic
-- **Formal Expression:** ∃S ∃E (System(S) ∧ Environment(E) ∧ Disjoint(S, E))
+- **Formal Expression:** $\exists S \, \exists E \, (\text{System}(S) \land \text{Environment}(E) \land \text{Disjoint}(S, E))$
 - **Mathematical Function:** Formal system boundary; axiomatic closure; inside/outside distinction
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C33, C8]
@@ -622,7 +622,7 @@
 
 #### C74: Autopoiesis
 - **Domain:** Systemic
-- **Formal Expression:** ∀t (System(t+1) = Generate(System(t)))
+- **Formal Expression:** $\forall t \, (\text{System}(t+1) = \text{Generate}(\text{System}(t)))$
 - **Mathematical Function:** Self-maintaining proofs; recursive definition; self-reproduction
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C73, C5, C24]
@@ -630,7 +630,7 @@
 
 #### C75: Feedback Loops
 - **Domain:** Systemic
-- **Formal Expression:** ∃fb (State(t+1) = State(t) + fb(State(t)))
+- **Formal Expression:** $\exists \text{fb} \, (\text{State}(t+1) = \text{State}(t) + \text{fb}(\text{State}(t)))$
 - **Mathematical Function:** Proof feedback; dynamic derivation; cybernetic loop
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** [C74]
@@ -638,7 +638,7 @@
 
 #### C76: Resilience
 - **Domain:** Systemic
-- **Formal Expression:** ∀ε ∃Perturbation (System(t) + ε → Stable(System(t + Δ)))
+- **Formal Expression:** $\forall \varepsilon \, \exists \text{Perturbation} \, (\text{System}(t) + \varepsilon \to \text{Stable}(\text{System}(t + \Delta)))$
 - **Mathematical Function:** Consistency under extension; robustness; shock absorption
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C74]
@@ -646,7 +646,7 @@
 
 #### C77: Adaptability
 - **Domain:** Systemic
-- **Formal Expression:** ∀Counterexample (Learn(System, Counterexample))
+- **Formal Expression:** $\forall \text{Counterexample} \, (\text{Learn}(\text{System}, \text{Counterexample}))$
 - **Mathematical Function:** Learning through counterexample; dynamic axiomatization; revision
 - **Necessity Type:** S (Sufficient)
 - **Presupposes:** []
@@ -654,7 +654,7 @@
 
 #### C78: Nested Hierarchy
 - **Domain:** Systemic
-- **Formal Expression:** ∀Level_n (Level_n ⊂ Level_{n+1}) [Infinite Stratification]
+- **Formal Expression:** $\forall \text{Level}_n \, (\text{Level}_n \subset \text{Level}_{n+1})$ [Infinite Stratification]
 - **Mathematical Function:** Meta-mathematics; stratified levels; language hierarchy
 - **Necessity Type:** N (Necessary)
 - **Presupposes:** [C31, C28]
@@ -662,7 +662,7 @@
 
 #### C79: Open-Ended Evolution
 - **Domain:** Systemic
-- **Formal Expression:** lim_{t→∞} |Theorems(t)| = ∞ [Unbounded Novelty]
+- **Formal Expression:** $\lim_{t\to\infty} |\text{Theorems}(t)| = \infty$ [Unbounded Novelty]
 - **Mathematical Function:** Theorem generation space; unbounded discovery; indefinite transformation
 - **Necessity Type:** G (Generative)
 - **Presupposes:** [C13, C28, C57, C74]

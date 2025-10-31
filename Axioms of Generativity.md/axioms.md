@@ -1290,7 +1290,7 @@ $ \forall i \in: A_i = \frac{dC_i}{dt} \quad and \quad C_i' = C_i + A_i\Delta t 
 
 ## Concluding Synthesis
 
-The 79 Generative Laws constitute **the rigorous mathematical formalization** of how Conditions for the Possibility of Everything (CFPE) transform dynamically through the Lambda-Substrate. Each law satisfies:$$1]
+The 79 Generative Laws constitute **the rigorous mathematical formalization** of how Conditions for the Possibility of Everything (CFPE) transform dynamically through the Lambda-Substrate. Each law satisfies:
 
 - **Necessity**: Removal compromises coherence in some domain[^1]
 - **Sufficiency**: All 79 together guarantee universal coherence[^1]
@@ -1298,6 +1298,27 @@ The 79 Generative Laws constitute **the rigorous mathematical formalization** of
 - **Completeness**: Lattice closure ensures perpetual regeneration[^1]
 
 These laws are not prescriptive but **generatively descriptive**—they articulate how intelligibility itself must unfold.[^1]
+
+License and Copyright
+Copyright © 2025 Avery Alexander Rijos. All rights reserved.
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).
+
+You are free to:
+
+Share — copy and redistribute the material in any medium or format
+Under the following terms:
+
+Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+NonCommercial — You may not use the material for commercial purposes.
+NoDerivatives — If you remix, transform, or build upon the material, you may not distribute the modified material.
+Additional Restrictions:
+
+The intellectual content (frameworks, terminology, operators, theorems) remains the sole property of the author.
+Distribution or reproduction beyond fair scholarly use requires written permission.
+To view a copy of this license, visit: https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+For permissions beyond the scope of this license, contact: averyarijos[at]gmail[dot]com
 
 <div align="center">⁂</div>
 

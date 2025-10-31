@@ -1,4 +1,7 @@
 ## Statistically Modeling Possibility Spaces
+### Avery Rijos | October 2025
+
+---
 
 **Possibility spaces** represent the structured domain of what *could be* rather than merely what *is*. To model them statistically requires integrating modal logic, measure theory, and generative dynamics within a substrate-aware framework.[^1][^2]
 
@@ -275,8 +278,6 @@ This formalization unifies modal metaphysics with statistical mechanics, providi
 
 [^3]: Axioms-of-Generative-Mathematics.pdf
 
-
----
 
 ---
 
