@@ -2,11 +2,36 @@
 
 **Author:** Avery Alexander Rijos, M.S.  
 
-**Framework:** Principia Generativarum | Summa Generativarum |  Metaformalism
+**Framework:** Principia Generativarum | Summa Generativarum | Metaformalism
 
 **Date:** September 2025  
 
 **License:** © 2025 PROMETHIVM LLC. All Rights Reserved.
+
+---
+### About Avery
+I am a mathematician, philosopher, and founder of generativity theory. I am developing new architectures for intelligence, coherence, and transformation across formal, technical, and human systems. My work integrates logic, systems engineering, and automata theory and metamathematics into a unified discipline I call Generativity Science — the study of how systems evolve by metabolizing contradiction into possibility.
+
+I am the creator of this repository "Summa Generativarum" and author of the codex, Principia Generativarum, which together work to formalize the Conditions for the Possibility of Everything (CFPE) — a 79-invariant framework linking mathematics, computation, and philosophy into a coherent logic of becoming. My applied research manifests in PROMETHIVM LLC, where I design and deploy domain-sovereign architectures that combine symbolic reasoning with operational realism.
+
+---
+
+### Research Dissemination Disclaimer
+
+This repository presents original theoretical research currently under active development.
+The concepts, proofs, and models contained herein are pre-publication materials shared for the purposes of scholarly transparency, early dissemination, and community feedback.
+
+All content should be understood as pre-peer-review and subject to revision.
+Results, formulations, and interpretations may evolve as the research matures and undergoes formal validation or independent verification.
+
+Researchers, reviewers, and readers are encouraged to engage critically, cite responsibly, and verify derivations independently. Nothing in this repository should be interpreted as a finalized claim, institutional position, or conclusive scientific result.
+
+© 2025 PROMETHIVM LLC. All rights reserved.
+Author: Avery Alexander Rijos, M.S.
+Framework: Principia Generativarum | Summa Generativarum | Metaformalism
+
+Reproduction, adaptation, or redistribution of this material requires attribution and must preserve this disclaimer in all derivative works.
+For citation purposes, please reference the repository URL and date of access.
 
 ---
 
@@ -32,6 +57,7 @@ It is freely open because Generativity cannot be owned. It is the law of creatio
 The Summa is structured as a multi-volume, version-controlled knowledge environment.
 It evolves over time, recording each commit as a phase of its own ontological growth.
 
+![CFPE Architecture](<CFPE Architecture.png>)
 <img width="4093" height="3228" alt="CFPE Architecture png" src="https://github.com/user-attachments/assets/8aa8826c-9a14-4f97-bd15-4ebdda47e6ab" />
 
 
@@ -84,11 +110,11 @@ You are invited to:
 
 When using any part of this repository, please cite:
 
-> **Rijos, Avery Alexander.** *The Summa Generativarum: A Living Encyclopedia of Generative Logic and Metaformal Science.*
+> **Rijos, Avery Alexander.** *The Summa Generativarum: A Living Encyclopedia of Generative Logic and Metaformal Science*
 > Version X.X (GitHub Repository). PROMETHIVM LLC, 2025– present. [https://github.com/promethivm-labs/summa-generativarum](https://github.com/promethivm-labs/summa-generativarum)
 
-A `CITATION.cff` file it attached.
-doi: 10.5281/zenodo.17479745
+A `CITATION.cff` file is attached.
+`doi: 10.5281/zenodo.17479745`
 
 ---
 
