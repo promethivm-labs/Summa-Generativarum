@@ -58,8 +58,6 @@ The Summa is structured as a multi-volume, version-controlled knowledge environm
 It evolves over time, recording each commit as a phase of its own ontological growth.
 
 ![CFPE Architecture](<CFPE Architecture.png>)
-<img width="4093" height="3228" alt="CFPE Architecture png" src="https://github.com/user-attachments/assets/8aa8826c-9a14-4f97-bd15-4ebdda47e6ab" />
-
 
 * **Corpus Root (`/Corpus`)** – Primary texts, axioms, and laws.
 * **Volumes I-XIII (In Progress)** – Philosophical, logical, mathematical, and computational treatises.
