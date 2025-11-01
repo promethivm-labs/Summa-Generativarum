@@ -684,21 +684,21 @@
 ## KEY DEPENDENCY FLOWS (Critical Paths)
 
 ### Path 1: Foundation of Identity and Proof
-\(C_1 \to C_2 \to C_{11} \to C_{18} \to C_{38} \to C_{40}\)
+$C_1 \to C_2 \to C_{11} \to C_{18} \to C_{38} \to C_{40}$
 
 **Reading:** Existence → Identity → Identity Logic → Inference Closure → Intelligibility → Modelability
 
 **Significance:** Establishes the chain from ontological being to epistemic knowledge.
 
 ### Path 2: Generative Expansion Through Contradiction
-\(C_1 \to C_3 \to C_{12} \to C_{13} \to C_{28} \to C_{79}\)
+$C_1 \to C_3 \to C_{12} \to C_{13} \to C_{28} \to C_{79}$
 
 **Reading:** Existence → Difference → Negation → Metabolic Non-Contradiction → Emergence → Open-Ended Evolution
 
 **Significance:** Shows how mathematics metabolizes contradictions into generative novelty.
 
 ### Path 3: Temporality and Recursion to Autopoiesis
-\(C_{21} \to C_{22} \to C_{24} \to C_{74} \to C_{79}\)
+$C_{21} \to C_{22} \to C_{24} \to C_{74} \to C_{79}$
 
 **Reading:** Temporality → Causality → Recursion → Autopoiesis → Open-Ended Evolution
 
@@ -708,34 +708,35 @@
 
 ## MAPPING DEFINITION
 
-\(\pi_\mathbb{M}: \text{CFPE} \to \text{CFPM}\)
+$\pi_\mathbb{M}: \text{CFPE} \to \text{CFPM}$
 
-**Rule:** For each \(C_i \in \text{CFPE}\):
+**Rule:** For each $C_i \in \text{CFPE}$:
 
-\(\pi_\mathbb{M}(C_i) = \begin{cases}
+$$\pi_\mathbb{M}(C_i) = \begin{cases}
 C_i & \text{if} \, \text{Type}(C_i) \in \{N, S, G\} \\
 \varnothing & \text{if} \, \text{Reserved}(C_i)
-\end{cases}\)
+\end{cases}$$
 
 **Domain:** CFPE (79 conditions)  
 **Codomain:** CFPM (77 conditions)  
-**Image:** \(\pi_\mathbb{M}(\text{CFPE}) = \text{CFPM}\)
+**Image:** $\pi_\mathbb{M}(\text{CFPE}) = \text{CFPM}$
 
 ---
 
 ## GENERATIVE CLOSURE
 
-\(\text{Fix}_{\text{gen}}(\pi_\mathbb{M}) = \text{Closure}_{\text{metabolic}}(\pi_\mathbb{M}(\text{CFPE}))\)
+$$\text{Fix}_{\text{gen}}(\pi_\mathbb{M}) = \text{Closure}_{\text{metabolic}}(\pi_\mathbb{M}(\text{CFPE}))$$
 
 Where:
 
-- \(\text{Fix}_{\text{gen}}\) = fixed point under recursive application of generative conditions
-- \(\text{Closure}_{\text{metabolic}}\) = closure under metabolic processing of contradictions
-- Result = All theorems already derived ∪ All theorems possible under indefinite generative expansion
+- $\text{Fix}_{\text{gen}}$ = fixed point under recursive application of generative conditions
+- $\text{Closure}_{\text{metabolic}}$ = closure under metabolic processing of contradictions
+- Result = All theorems already derived $\cup$ All theorems possible under indefinite generative expansion
 
 **Terminal Expression:**
 
-\(\lim_{n \to \infty} \text{Theorems}(n) = \text{Infinite Mathematical Universe}\)
+$$\lim_{n \to \infty} \text{Theorems}(n) = \text{Infinite Mathematical Universe}$$
+
 
 ---
 
