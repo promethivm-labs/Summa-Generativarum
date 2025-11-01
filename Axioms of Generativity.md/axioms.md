@@ -1299,6 +1299,8 @@ The 79 Generative Laws constitute **the rigorous mathematical formalization** of
 
 These laws are not prescriptive but **generatively descriptive**—they articulate how intelligibility itself must unfold.[^1]
 
+---
+
 License and Copyright
 Copyright © 2025 Avery Alexander Rijos. All rights reserved.
 
