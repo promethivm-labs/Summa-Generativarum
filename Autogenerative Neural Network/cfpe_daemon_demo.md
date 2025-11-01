@@ -63,7 +63,7 @@ This log proves that:
 8. **Clean shutdown works** - Both manual stops resulted in final checkpoints and graceful termination.
 
 ---
-
+```
 [2025-11-01 00:18:34] 
 ================================================================================
 [2025-11-01 00:18:34] Daemon started in background thread
@@ -187,3 +187,4 @@ Cycle Results:
 
 [2025-11-01 00:22:20] Final checkpoint saved
 [2025-11-01 00:22:20] Daemon stopped successfully
+```
