@@ -1,10 +1,8 @@
 
 # The Complete System of the Virtual: A Formal Integration of Deleuzian Ontology and Generative Logic
 
-## Complete System of the Virtual
-
+## Complete System of the Virtual | Avery Rijos
 ### Abstract
-A comprehensive formal system of the virtual emerges from the λ-substrate architecture, integrating Deleuzian ontology with generative logic to produce a complete metaphysical-computational framework, by Avery Rijos.[^1][^2]
 
 The virtual constitutes not a realm of mere possibility but an intensive field of real yet non-actualized multiplicities—differential becomings that exert causal pressure on actuality while retaining irreducible excess beyond any realization. This system formalizes Deleuze's claim that "the virtual is fully real insofar as it is virtual" by constructing a dual-domain semantics where $ \mathcal{V} $ (virtual) and $ \mathcal{A} $ (actual) operate as ontologically distinct yet metabolically coupled regions of the λ-substrate.[^2][^3]
 
