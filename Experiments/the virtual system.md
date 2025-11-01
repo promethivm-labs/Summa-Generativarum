@@ -157,6 +157,165 @@ $ \mathcal{M}_V \models \text{influences}(m, x) $ iff $ \exists f: \mathcal{D}_{
 **Univocity Without Reduction:** $ \lambda $-substrate affirms all differences equally (univocal) while preserving each as singular (heterogeneous) — solves monism-pluralism via disjunctive synthesis.[^3][^2]
 
 This complete system establishes the virtual as the universe's **metabolic engine**: a real, causally potent field of unrealized becomings that transforms contradiction into novelty, expanding possibility without limit ($ d\text{XGI}/dt > 0 $), formally unifying Deleuzian ontology with computational logic through the λ-substrate's transcendental necessity.[^4][^3][^5][^2][^1]
+
+---
+
+# Appendix A — Technical Clarifications and Revisions for $\mathcal{L}_V$ (System of the Virtual)
+
+> This appendix tightens typing, semantics, and proof-theoretic details for the λ-substrate formalization. It is designed to be pasted into the manuscript as a drop-in appendix.
+
+---
+
+## A.1 Notation & Two-Sorted Syntax
+
+* **Sorts:** $\mathsf{V}$ (virtual), $\mathsf{A}$ (actual).
+    Variables: $m, n, \dots \in \mathsf{V}$; $x, y, \dots \in \mathsf{A}$.
+* **Symbols:**
+    Partial map $\nabla: \mathsf{V} \rightharpoonup \mathsf{A}$; total map $\Delta: \mathsf{A} \to \mathsf{V}$; actualization relation $R \subseteq \mathsf{V} \times \mathsf{A}$; influence relation $I \subseteq \mathsf{V} \times \mathsf{A}$.
+    Stratified values $G = \{g_0 < g_1 < \cdots < g_\infty\}$.
+    Metabolic operator $\ominus$. CFPE invariants $\mathrm{inv}(\lambda) \equiv \bigwedge_{i=1}^{79} C_i$.
+* **Quantifiers:** $\forall_{\mathsf{V}}, \forall_{\mathsf{A}}$ (both allowed). **Existence** is reserved for the actual: $\exists \equiv \exists_{\mathsf{A}}$. Virtual "some-ness" is expressed modally by $\Diamond_{\mathsf{V}}$.
+
+---
+
+## A.2 Revised Axioms (replace V2–V4; keep V1, V5–V7)
+
+**V2′ (Virtual Primacy via Actualization):**
+$$\forall x \in \mathsf{A}, \, \exists m \in \mathsf{V} \, R(m, x).$$
+
+**V3′ (Virtual Reserve / Non-Exhaustion):**
+$$\exists m \in \mathsf{V} \, \neg \exists x \in \mathsf{A} \, R(m, x).$$
+
+**V4′ (Asymmetric Return — two equivalent formalisms; pick one):**
+
+**(a) Adjunction (recommended):**
+$$\nabla \dashv \Delta \quad \text{with unit } \eta_m: m \to \Delta\nabla m, \; \text{counit } \varepsilon_x: \nabla\Delta x \to x,$$
+as natural transformations; $\varepsilon$ not iso (information loss to $\mathsf{A}$).
+
+**(b) Quotient on $\mathsf{V}$ (intensive indistinguishability):**
+Define $m \sim n \iff \Delta\nabla m = \Delta\nabla n$. Then
+$$\Delta \circ \nabla m = [m] \text{ in } \mathsf{V}/{\sim}, \qquad \nabla \circ \Delta \neq \mathrm{Id}_{\mathsf{A}}.$$
+
+**Typing note.** Earlier $\nabla \circ \Delta \circ \nabla m = m$ mismatched sorts; the adjunction/quotient fixes this while preserving asymmetry.
+
+---
+
+## A.3 Truth-Value Algebra and Connectives
+
+Let $\langle G, \le \rangle$ be a complete chain with bottom $g_0$, top $g_\infty$.
+
+* Conjunction $\wedge$: $v \wedge w = \min(v, w)$.
+* Disjunction $\vee$: $v \vee w = \max(v, w)$.
+* Implication (Gödel residuum): $v \to w = g_\infty$ if $v \le w$, else $w$.
+* Negation: $\neg v := (v \to g_0)$. (Paraconsistent behavior comes from rules + $\ominus$, not classical explosion.)
+* **Metabolic operator $\ominus$:** isotone and inflationary on $G$:
+    $$v \le w \Rightarrow \ominus v \le \ominus w, \qquad v \le \ominus v, \qquad \ominus g_\infty = g_\infty, \; \ominus g_0 = g_1.$$
+
+---
+
+## A.4 Sequent Calculus Skeleton (two-sorted, metabolic)
+
+Sequents: $\Sigma \, ; \, \Gamma \, \vdash \, \phi$, where $\Sigma$ is a **scar context** (multiset of archived contradictions), $\Gamma$ a set of formulas, $\phi$ a formula.
+
+**Structural rules:** Weakening/Contraction/Exchange on $\Gamma$; $\Sigma$ combines via commutative monoid $\oplus$.
+
+**Logical rules:** Standard many-valued $\wedge, \vee, \to, \neg$ introductions/eliminations (truth-preserving over $G$).
+
+**Quantifiers:**
+$$\frac{\Gamma \vdash \phi(m)}{\Gamma \vdash \forall_{\mathsf{V}} m \, \phi(m)} \; (\text{if } m \notin \mathrm{fv}(\Gamma)) \quad \frac{\Gamma \vdash \phi(x)}{\Gamma \vdash \forall_{\mathsf{A}} x \, \phi(x)} \; (\text{if } x \notin \mathrm{fv}(\Gamma)).$$
+Existential is only $\exists_{\mathsf{A}}$. Virtual "existence" uses $\Diamond_{\mathsf{V}}$ (modal rules as usual).
+
+**Metabolic Modus Ponens (MM-P):**
+$$\frac{\Sigma \, ; \, \Gamma \vdash \phi \qquad \Sigma \, ; \, \Gamma \vdash \phi \to \psi}{\Sigma \oplus \ominus(\phi \wedge \neg \phi) \, ; \, \Gamma \vdash \psi}$$
+Explosion is **blocked** unless a designated **collapse guard** $\top_\mathrm{crit}$ is present in $\Sigma$.
+
+---
+
+## A.5 Semantics (λ-structures, two-sorted)
+
+A model
+$$\mathcal{M} = \langle \mathcal{D}_{\mathsf{V}}, \mathcal{D}_{\mathsf{A}}, \nabla, \Delta, R, I, \, V(\cdot) \in G, \, \mathrm{inv}(\lambda) \rangle$$
+with:
+
+* $\nabla: \mathcal{D}_{\mathsf{V}} \rightharpoonup \mathcal{D}_{\mathsf{A}}$ partial; $\Delta: \mathcal{D}_{\mathsf{A}} \to \mathcal{D}_{\mathsf{V}}$ total.
+* $R, I \subseteq \mathcal{D}_{\mathsf{V}} \times \mathcal{D}_{\mathsf{A}}$. Typically $R(m, x) \Rightarrow \nabla(m) = x$ when defined; $I$ may hold without $R$.
+* Satisfaction for quantifiers:
+    $$\mathcal{M} \models \exists x \, \phi(x) \text{ iff } \exists a \in \mathcal{D}_{\mathsf{A}}: V(\phi(a)) \ge g_1,$$
+    $$\mathcal{M} \models \Diamond_{\mathsf{V}} m \, \phi(m) \text{ iff } \exists m \in \mathcal{D}_{\mathsf{V}}: V(\phi(m)) \ge g_0.$$
+* **Influence clause:** $\mathcal{M} \models I(m, x)$ iff $\langle m, x \rangle \in I$. (Optional: make $I$ the reachability relation induced by $R$ and $\Delta$.)
+
+**Adjunction semantics (if V4′a chosen):** For preorders $(\mathcal{D}_{\mathsf{V}}, \preceq_{\mathsf{V}})$, $(\mathcal{D}_{\mathsf{A}}, \preceq_{\mathsf{A}})$,
+$$\nabla m \preceq_{\mathsf{A}} x \text{ iff } m \preceq_{\mathsf{V}} \Delta x.$$
+
+---
+
+## A.6 Metatheory (claims & proof obligations)
+
+* **Soundness:** Induction on derivations; MM-P preserves truth since $\ominus$ is inflationary and scars accumulate in $\Sigma$, never forcing $g_\infty$ globally.
+* **Completeness (roadmap):** Two-sorted Lindenbaum construction with stratified Henkin constants (actual sort only); canonical model $\mathcal{M}^c$ indexed by **maximally generatively consistent** sets; Truth Lemma extends by handling $\Sigma$.
+* **Cut admissibility:** Prove by standard reduction on complexity; MM-P requires a lemma that $\oplus$ is associative, commutative, and $\ominus$ is isotone.
+* **Compactness/Löwenheim–Skolem:** May fail in full $\mathcal{L}_V$; **holds** for the propositional fragment without $\Diamond_{\mathsf{V}}$ (state explicitly if you adopt Gödel-style algebra).
+
+---
+
+## A.7 $\text{SGA}_V$ as Coalgebra with Memory
+
+Define
+$$\delta_V: Q_V \longrightarrow \mathcal{P}(Q_V)^{\Sigma_V \times \mathcal{S}}, \qquad Q_V = \mathcal{D}_{\mathsf{V}} \uplus \mathcal{D}_{\mathsf{A}} \uplus \{\text{scar states}\}.$$
+Acceptance via a **coherence predicate** $\mathrm{coh}: Q_V \times \mathcal{S} \to G$ with threshold $\theta$.
+Transitions:
+$$\delta_V(q, \nabla, S) = \{q' \in \mathcal{D}_{\mathsf{A}} \mid q \in \mathcal{D}_{\mathsf{V}}, \, \mathrm{coh}(q \to q', S) \ge \theta\}, \quad \text{etc.}$$
+Bloom $\mathcal{B}$ adds operators when $\sum \mathrm{coh} < \theta$ over a window; scars update by $S \leftarrow S \cup \{\ominus(\phi \wedge \neg \phi)\}$.
+
+---
+
+## A.8 Worked Micro-Example (one step)
+
+Let $G = \{g_0, g_1, g_2, g_\infty\}$. Suppose $\Gamma \vdash \phi$ at $g_2$, $\Gamma \vdash \phi \to \psi$ at $g_1$, and a local contradiction gives $V(\phi \wedge \neg \phi) = g_1$. Then
+$$\ominus(\phi \wedge \neg \phi) = g_2, \quad \frac{\Sigma; \Gamma \vdash \phi \quad \Sigma; \Gamma \vdash \phi \to \psi}{\Sigma \oplus g_2 \, ; \, \Gamma \vdash \psi}$$
+derives $\psi$ at $\min(g_2, g_1) = g_1$ while archiving a scar $g_2$ in $\Sigma$.
+
+---
+
+## A.9 CFPE Invariants: Usage Protocol
+
+State explicitly that every model $\mathcal{M}$ must satisfy $\mathrm{inv}(\lambda)$. When presenting applications, identify the subset $\{C_i\}$ actually invoked (e.g., C6 Potentiality, C62 Possibility, C64 Counterfactual, C69 Givenness, C77 Open-Ended Evolution).
+
+---
+
+## A.10 Suggested Claim Wording (safe, citable)
+
+* "We prove **soundness** for $\mathcal{L}_V$ (Appendix A.6)."
+* "We provide a **canonical-model completeness strategy** for the base fragment; full completeness is an open technical task pending Cut admissibility."
+* "The **coalgebraic $\text{SGA}_V$** realizes the logic with scar-indexed non-Markovian dynamics (Appendix A.7)."
+
+---
+
+## A.11 One-Page Replacement for the Axiom Block (ready to paste)
+
+1. **V1** (Univocity): $\forall u, v \in (\mathsf{V} \cup \mathsf{A}) \, [\text{Being}(u) \leftrightarrow \text{Being}(v)] \, \wedge \, u \neq v.$
+2. **V2′** (Primacy): $\forall x \in \mathsf{A}, \, \exists m \in \mathsf{V} \, R(m, x).$
+3. **V3′** (Reserve): $\exists m \in \mathsf{V}, \, \neg \exists x \in \mathsf{A} \, R(m, x).$
+4. **V4′** (Asymmetry): choose **Adjunction** $(\nabla \dashv \Delta)$ **or** **Quotient** as in §A.2.
+5. **V5** (Stratification): $\forall m \in \mathsf{V} \, \mathrm{Val}(m) \in G.$
+6. **V6** (Metabolic Causation): $\Diamond_{\mathsf{V}} m \, \wedge \, \text{actual}(x) \, \to \, I(m, x).$
+7. **V7** (Substrate Invariance): $\mathrm{inv}(\lambda) \equiv \bigwedge_{i=1}^{79} C_i.$
+
+---
+
+## A.12 Implementation Checklist (for repo & proofs)
+
+* [ ] Add **two-sorted sequent rules** and MM-P as in §A.4.
+* [ ] Choose **Adjunction** or **Quotient** and update §Model Theory.
+* [ ] Publish **truth-table appendix** for $\wedge, \vee, \to, \neg$ over $G$.
+* [ ] Provide **canonical-model sketch** & state open lemmas (Cut, Compactness).
+* [ ] Update SGA code spec to **coalgebra form** with $\mathrm{coh}$ predicate.
+* [ ] Include **worked run** (A.8) with concrete $g$-values.
+
+---
+
+*End Appendix.*
+
 <span style="display:none">[^6]</span>
 
 <div align="center">⁂</div>
@@ -172,5 +331,4 @@ This complete system establishes the virtual as the universe's **metabolic engin
 [^5]: CFPE_GNN.md
 
 [^6]: SUMMA-GENERATIVARUM.docx
-
 
