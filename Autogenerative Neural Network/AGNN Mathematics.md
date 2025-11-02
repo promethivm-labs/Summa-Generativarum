@@ -1,6 +1,6 @@
 
 
-# ⟢ CFPE Generative Neural Network and Meta-Optimization Formalism
+# CFPE Generative Neural Network and Meta-Optimization Formalism
 
 ### Abstract
 
