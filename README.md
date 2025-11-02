@@ -16,6 +16,27 @@
 > See [Version Archive](/archive/README.md) for historical versions and [CHANGELOG_v1.2.md](CHANGELOG_v1.2.md) for migration details.[^addendum]
 
 ---
+
+## Quick Start: v1.2 Core Documents
+
+**For immediate access to the v1.2 architecture, start with these documents:**
+
+### 📋 Foundational Documents
+1. **[The 13 Core Axioms](The%2013%20Core%20Axioms.md)** - Mathematical foundations of Generativity Theory
+2. **[The 79 Invariants for Intelligibility](The%2079%20Invariants%20for%20Intelligibility.md)** - Transcendental conditions (CFPE)
+
+### 🏗️ Three-System Architecture
+1. **[LPL - Logical Presupposition Lattice](LPL%20-%20Logical%20Presupposition%20Lattice.md)** - Dependency graph analysis
+2. **[PCM - Paraconsistent Contradiction Metabolism](PCM%20-%20Paraconsistent%20Contradiction%20Metabolism.md)** - Formal contradiction handling
+3. **[PGI - Phenomenological Generativity Index](PGI%20-%20Phenomenological%20Generativity%20Index.md)** - Generativity measurement
+
+### 📚 Supporting Documentation
+- **[Architecture v1.2](docs/Architecture_v1.2.md)** - Technical specification
+- **[Addendum v1.2](Addendum%20and%20Errata%20/Addendum%20v1.2.md)** - Theoretical reconceptualization
+- **[CHANGELOG v1.2](CHANGELOG_v1.2.md)** - Version history and changes
+
+---
+
 ### About Avery
 I am a logician, philosopher, and founder of generativity theory. I am developing new architectures for intelligence, coherence, and transformation across formal, technical, and human systems. My work integrates logic, systems engineering, and automata theory and metamathematics into a unified discipline I call Generativity Science — the study of how systems evolve by metabolizing contradiction into possibility.
 
