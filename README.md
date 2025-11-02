@@ -63,8 +63,8 @@ For citation purposes, please reference the repository URL and date of access.
 
 ---
 
-# 🜂 **THE SUMMA GENERATIVARUM**
-## **PROMETHIVM: A Living Encyclopedia of Generative Logic and Metaformal Science**
+# 🜂 **The Generative Coherence Schema**
+## A Living Encyclopedia of Generative Logic and Metaformal Science**
 #### Note: This repository uses LaTeX and is best viewed on a browser. 
 
 ## I. Purpose and Invocation
