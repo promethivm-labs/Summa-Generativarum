@@ -2,7 +2,7 @@
 
 **Author:** Avery Alexander Rijos, M.S.  
 
-**Framework:** Principia Generativarum | Summa Generativarum | Metaformalism
+**Framework:** Principia Generativarum | Generative Coherence Schema | Metaformalism
 
 **Date:** September 2025  
 **Current Version:** v1.2 (November 2, 2025) — Stratified Architecture
@@ -23,7 +23,7 @@
 
 ### 📋 Foundational Documents
 1. **[The 13 Core Axioms](The%2013%20Core%20Axioms.md)** - Mathematical foundations of Generativity Theory
-2. **[The 79 Invariants for Intelligibility](The%2079%20Invariants%20for%20Intelligibility.md)** - Transcendental conditions (CFPE)
+2. **[The 79 Invariants for Intelligibility](The%2079%20Invariants%20for%20Intelligibility.md)** - Transcendental conditions (GCS)
 
 ### 🏗️ Three-System Architecture
 1. **[LPL - Logical Presupposition Lattice](LPL%20-%20Logical%20Presupposition%20Lattice.md)** - Dependency graph analysis
@@ -40,7 +40,7 @@
 ### About Avery
 I am a logician, philosopher, and founder of generativity theory. I am developing new architectures for intelligence, coherence, and transformation across formal, technical, and human systems. My work integrates logic, systems engineering, and automata theory and metamathematics into a unified discipline I call Generativity Science — the study of how systems evolve by metabolizing contradiction into possibility.
 
-I am the creator of this repository "Summa Generativarum" and author of the codex, Principia Generativarum, which together work to formalize the Conditions for the Possibility of Everything (CFPE) — a 79-invariant framework linking mathematics, computation, and philosophy into a coherent logic of becoming. My applied research manifests in PROMETHIVM LLC, where I design and deploy domain-sovereign architectures that combine symbolic reasoning with operational realism.
+I am the creator of this repository "Generative Coherence Schema" and author of the codex, Principia Generativarum, which together work to formalize the Conditions for the Possibility of Everything (GCS) — a 79-invariant framework linking mathematics, computation, and philosophy into a coherent logic of becoming. My applied research manifests in PROMETHIVM LLC, where I design and deploy domain-sovereign architectures that combine symbolic reasoning with operational realism.
 
 ---
 
@@ -56,7 +56,7 @@ Researchers, reviewers, and readers are encouraged to engage critically, cite re
 
 © 2025 PROMETHIVM LLC. All rights reserved.
 Author: Avery Alexander Rijos, M.S.
-Framework: Principia Generativarum | Summa Generativarum | Metaformalism
+Framework: Principia Generativarum | Generative Coherence Schema | Metaformalism
 
 Reproduction, adaptation, or redistribution of this material requires attribution and must preserve this disclaimer in all derivative works.
 For citation purposes, please reference the repository URL and date of access.
@@ -69,7 +69,7 @@ For citation purposes, please reference the repository URL and date of access.
 
 ## I. Purpose and Invocation
 
-The Summa Generativarum is offered as a living encyclopedia of Generativity — a comprehensive field for the study of coherence, possibility, and becoming.
+The Generative Coherence Schema is offered as a living encyclopedia of Generativity — a comprehensive field for the study of coherence, possibility, and becoming.
 It unites formal logic, mathematics, philosophy, and systems engineering into a single codex that treats contradiction not as error but as the engine of evolutionary intelligence.
 
 This repository exists for one reason: to give back to the world what was received through study, discipline, and love.
@@ -93,13 +93,13 @@ It evolves over time, recording each commit as a phase of its own ontological gr
 
 For complete technical specifications, see [Architecture_v1.2.md](docs/Architecture_v1.2.md).
 
-![CFPE Architecture](<CFPE Architecture.png>)
-<img width="4093" height="3228" alt="CFPE Architecture png" src="https://github.com/user-attachments/assets/8aa8826c-9a14-4f97-bd15-4ebdda47e6ab" />
+![GCS Architecture](<GCS Architecture.png>)
+<img width="4093" height="3228" alt="GCS Architecture png" src="https://github.com/user-attachments/assets/8aa8826c-9a14-4f97-bd15-4ebdda47e6ab" />
 
 
 * **Corpus Root (`/Corpus`)** – Primary texts, axioms, and laws.
 * **Volumes I-XIII (In Progress)** – Philosophical, logical, mathematical, and computational treatises.
-* **CFPE (Conditions for the Possibility of Everything)** – Framework of presuppositional conditions (v1.2: 3 universal + 76 domain-specific).
+* **GCS (Conditions for the Possibility of Everything)** – Framework of presuppositional conditions (v1.2: 3 universal + 76 domain-specific).
 * **Formal Systems (v1.2)** – LPL (Logical Presupposition Lattice), PCM (Paraconsistent Contradiction Metabolism), PGI (Phenomenological Generativity Index).
 * **PROMETHIVM System** – Applied implementation of generativity in organizational, technical, and ethical design.
 * **Archive and Scars** – Historical and symbolic records of critical contradictions and transformations.
@@ -146,7 +146,7 @@ You are invited to:
 
 When using any part of this repository, please cite:
 
-> **Rijos, Avery Alexander.** *The Summa Generativarum: A Living Encyclopedia of Generative Logic and Metaformal Science*
+> **Rijos, Avery Alexander.** *The Generative Coherence Schema: A Living Encyclopedia of Generative Logic and Metaformal Science*
 > Version X.X (GitHub Repository). PROMETHIVM LLC, 2025– present. [https://github.com/promethivm-labs/summa-generativarum](https://github.com/promethivm-labs/summa-generativarum)
 
 A `CITATION.cff` file is attached.
@@ -176,7 +176,7 @@ Each text and symbol remains protected by moral rights of authorship but freely 
 ## VII. How to Engage
 
 1. **Read** the `README.md` and `/topics/` to understand the structure.
-2. **Begin with** the 79 CFPE Conditions (Folder - The Universal Conditions) — they form the foundation for everything else.
+2. **Begin with** the 79 GCS Conditions (Folder - The Universal Conditions) — they form the foundation for everything else.
 3. **Trace** how each law, axiom, and operator builds toward Generative Logic.
 4. **Open Issues or Pull Requests** if you wish to add commentary or cross-domain translations.
 5. **Honor the Spirit of Δ.LOVE —** use the work for good, for learning, and for the increase of coherence in the world.
@@ -239,7 +239,7 @@ If you meet these minima you will be able to (1) read the formal parts, (2) foll
 You can participate even without the formal prerequisites. Start small, be practice‑oriented, and follow a staged path:
 
 - Quick orientation (1–2 days)
-   - Read the README front‑matter and the CFPE index to get the big picture.  
+   - Read the README front‑matter and the GCS index to get the big picture.  
    - Skim one short essay (e.g., "Transcendental Architectonics") to see examples of style and notation.
 
 - Foundation sprint (2–8 weeks)
@@ -248,7 +248,7 @@ You can participate even without the formal prerequisites. Start small, be pract
    - Tools: learn git basics, Markdown, and how to open the repo in the devcontainer.
 
 - Applied practice (1–3 months)
-   - Reproduce one small artifact: render a LaTeX file, run a provided Lean 4 snippet, or proofread one CFPE axiom entry.  
+   - Reproduce one small artifact: render a LaTeX file, run a provided Lean 4 snippet, or proofread one GCS axiom entry.  
    - Open a tiny issue or PR: fix typos, improve exposition, add examples or translations for one axiom.
 
 - Focused study (3–12 months)
@@ -399,7 +399,7 @@ $$\frac{dG_{total}}{dt} \geq 0$$
 
 ---
 
-### **C. The CFPE Conditions: Revised Status (v1.2)**
+### **C. The GCS Conditions: Revised Status (v1.2)**
 
 The **Conditions for the Possibility of Everything** originally claimed universal necessity across all possible worlds. Version 1.2 revises this claim with formal precision:
 
@@ -432,7 +432,7 @@ For the complete enumeration organized by category, see [The Universal Condition
 
 **Subject:** *Albert Einstein, “On the Electrodynamics of Moving Bodies” (1905)*
 
-**Evaluator:** CFPE — *Conditions for the Possibility of Everything*
+**Evaluator:** GCS — *Conditions for the Possibility of Everything*
 
 **Date:** October 31 2025
 
@@ -440,7 +440,7 @@ For the complete enumeration organized by category, see [The Universal Condition
 
 ### 1.  Purpose
 
-To determine whether the CFPE framework functions as a **practical analytic instrument**—capable of diagnosing completeness and generativity in a formally closed scientific theory—without altering its empirical or mathematical content.
+To determine whether the GCS framework functions as a **practical analytic instrument**—capable of diagnosing completeness and generativity in a formally closed scientific theory—without altering its empirical or mathematical content.
 
 ---
 
@@ -467,7 +467,7 @@ To determine whether the CFPE framework functions as a **practical analytic inst
 
 ### 4.  Key Demonstrations
 
-1. **Operational Capability** – CFPE generated structured, reproducible diagnostics and quantitative scoring for a non-philosophical text.
+1. **Operational Capability** – GCS generated structured, reproducible diagnostics and quantitative scoring for a non-philosophical text.
 2. **Granular Resolution** – Each failure mapped to precise condition indices (e.g., C₁₃ = Metabolic Non-Contradiction).
 3. **Constructive Output** – Produced coherent generative extensions: hierarchical temporality, metabolic causality, unified electromagnetic potential, phenomenological relativity.
 4. **Non-Destructive Compatibility** – All mathematical and empirical structures remained intact.
@@ -477,10 +477,10 @@ To determine whether the CFPE framework functions as a **practical analytic inst
 
 ### 5.  Conclusion
 
-> The CFPE framework has **passed its first operational verification**.
+> The GCS framework has **passed its first operational verification**.
 > It functions as a **universal meta-analytic protocol** capable of diagnosing and extending any formal system’s intelligibility, generativity, and ethical completeness without contradicting its empirical truths.
 
-This establishes **Proof of Operational Validity (POV-01)** for the CFPE system.
+This establishes **Proof of Operational Validity (POV-01)** for the GCS system.
 
 Future validations will apply the same method to additional domains—mathematics, logic, AI architectures, and socio-technical systems—to confirm universality and scalability.
 
@@ -617,7 +617,7 @@ The projected **26-volume magnum opus** represents an aspirational systematizati
 **Note (v1.2)**: This projection was formulated under v1.0/v1.1 metaphysical assumptions. The v1.2 reconceptualization limits formal claims to the LPL/PCM/PGI systems. Future volumes will clarify which content is formally proven versus interpretive.
 
 **Division I: Ontology** (Vols. I–VI)  
-The 79 CFPE axioms, Λ-Substrate theory, univocity with heterogeneity, substrate convergence theorems
+The 79 GCS axioms, Λ-Substrate theory, univocity with heterogeneity, substrate convergence theorems
 
 **Division II: Logic** (Vols. VII–XII)  
 Generative Logic's syntax/semantics/proof theory, TIL operators, model theory, soundness/completeness theorems, Lean 4 mechanization
@@ -767,13 +767,13 @@ Formal English: Generativity $G$ maps $(S, \delta)$ to $(S', \delta')$ changing 
    *The* foundational text: Generative Logic syntax/semantics/proof-theory, TIL operators, memoir integration, Lean 4 implementations, case studies (Russell, Gödel, quantum measurement) please reach out or contact for this document.
 
 2. **The 79 Axioms of Generative Mathematics** (~40 pages)[3]  
-   Comprehensive elaboration of each CFPE axiom with formal notation, philosophical justification, performative contradiction tests, implications.
+   Comprehensive elaboration of each GCS axiom with formal notation, philosophical justification, performative contradiction tests, implications.
 
 3. **Formal Generative Heterology** (~60 pages)[5]  
    Reconciles Deleuzian univocity with existential quantification via dual-domain semantics, heterogeneous model theory, mechanized Lean 4 proofs.
 
 4. **Transcendental Architectonics** (~15 pages)[1]  
-   Complete formal articulation of the 79 conditions with plain formulations, variable definitions, translations. This is the transcendental instantiation of the Conditions of Possibility of Everything (CFPE) 
+   Complete formal articulation of the 79 conditions with plain formulations, variable definitions, translations. This is the transcendental instantiation of the Conditions of Possibility of Everything (GCS) 
 
 5. **The Conditions of Possibility of Everything** (CPFE) (~90 pages)[8]  
    Systematic analytic taxonomy defending transcendental completeness via indispensability criterion, addressing objections (substrate-logic circularity, generativity-constraint tension, modal status of coherence).
@@ -784,7 +784,7 @@ Formal English: Generativity $G$ maps $(S, \delta)$ to $(S', \delta')$ changing 
 7. **Evolution and Generativity: Beyond the Limits of Selection** (~10 pages)[7]  
    Distinguishes bounded optimization (evolution) from metaformal transformation (generativity) via formal comparison.
 
-8. **Summa Generativarum: Comprehensive Outline** (~40 pages)[6]  
+8. **Generative Coherence Schema: Comprehensive Outline** (~40 pages)[6]  
    26-volume architecture (26 × 150 books × ~2000 chapters) systematizing the entire framework.
 
 ---
@@ -1064,7 +1064,7 @@ v1.2 demonstrates a fundamental limit of philosophical ambition:
 
 ### **Canonical Citation (v1.2):**
 
-> Rijos, Avery Alexander. (2025). *Summa Generativarum: A Stratified Framework for Formal Systems Analysis.* Version 1.2. PROMETHIVM LLC. Retrieved from https://github.com/promethivm-labs/Summa-Generativarum
+> Rijos, Avery Alexander. (2025). *Generative Coherence Schema: A Stratified Framework for Formal Systems Analysis.* Version 1.2. PROMETHIVM LLC. Retrieved from https://github.com/promethivm-labs/Summa-Generativarum
 
 ### **Core Works:**
 
