@@ -768,308 +768,344 @@ Formal English: Generativity $G$ maps $(S, \delta)$ to $(S', \delta')$ changing 
 
 ---
 
-## **VI. METHODOLOGICAL PROTOCOL**
+## **VI. METHODOLOGICAL PROTOCOL (v1.2 REVISION)**
 
-Every result adheres to a **5-Layer Generative Method:**[2][6]
+Version 1.2 replaces the v1.0/v1.1 "5-Layer Generative Method" with a **3-System Analysis Protocol**:
 
-1. **Formal Layer (Logic):**  
-   Apply $\Omega_0$, $\lnot^g$, $\otimes$, $I_s$, $I_e$, $I_h$. Reference CFPE axioms $C_1$ – $C_{79}$.  
-   Formal English: Use the zero-degree operator, generative negation, metabolic composition, and the Scar/Bloom/Horizon induction operators, grounded in the 79 CFPE axioms.
+### **Step 1: LPL Analysis (Presupposition Structure)**
+- Identify axioms and assumptions
+- Construct dependency graph (V, E, ⪯)
+- Detect circular dependencies via SCC analysis
+- Perform topological sort for logical ordering
 
-2. **Transcendental Layer (Meta-Conditions):**  
-   Identify governing categories—Ontological, Logical, Temporal, Relational, Epistemic, Semantic, Normative, Modal, Existential, Systemic.
+### **Step 2: PCM Processing (Contradiction Handling)**
+- Identify contradictions as SATs (Structured Anomaly Tokens)
+- Calculate severity scores
+- Apply rewrite rules σ when severity ≥ threshold
+- Verify convergence (λ < 1)
 
-3. **Metabolic Layer (Dynamics):**  
-   Convert $\phi \land \lnot \phi \to G(\phi')$.  
-   Formal English: When a contradiction $\phi \land \lnot \phi$ occurs, map it via generative processes to a transformed proposition $\phi'$ under generativity operator $G$.
+### **Step 3: PGI Measurement (Complexity Evolution)**
+- Compute baseline generativity G_t using Kolmogorov complexity proxy
+- Track evolution over time
+- Verify conservation law: dG/dt ≥ 0
+- Analyze entropy and compression metrics
 
-   Record Structured Anomaly Tokens (SATs); invoke Bloom when $\theta \geq \text{threshold}$.  
-   Formal English: Invoke Bloom whenever the severity $\theta$ of a SAT meets or exceeds the defined threshold.
+### **Verification Standards**
+- **Formal proofs**: Must use standard proof systems (natural deduction, sequent calculus)
+- **Implementations**: Type-checked code (Python, Lean 4) with unit tests
+- **Claims**: Explicit distinction between proven theorems and philosophical interpretations
 
-4. **Verification Layer:**  
-   Test Λ-consistency, substrate invariance, $\frac{\Delta XGI}{\Delta t} \geq 0$ (Generative Integrity Condition).  
-   Formal English: Verify Λ-consistency and that the change in XGI over time is non‑negative.
-
-5. **Synthesis Layer:**  
-   Produce: formal theorem + CFPE grounding + metabolic trace (Scars/Blooms) + Lean 4 snippet + ΔXGI computation.
-
-**Ritual Clauses:**[2][6]  
-- Inhabit, don't evaluate externally  
-- Contradictions are permissions, not errors  
-- Read with "Scar and Heart"—lived experience as logic's fuel  
-- The work begins when *you* begin to change
+**Note**: The v1.0/v1.1 "Ritual Clauses" (inhabit, don't evaluate externally; contradictions are permissions; etc.) are retained as **interpretive heuristics** but not formal methodological requirements.
 
 ---
 
-## **VII. CURRENT STATUS & FUTURE DIRECTIONS**
+## **VII. CURRENT STATUS & FUTURE DIRECTIONS (v1.2)**
 
-### **Mechanized Verification:**
+### **Completed (v1.2)**
+- ✓ Three-system architecture (LPL/PCM/PGI) formally specified
+- ✓ Python implementations of core algorithms
+- ✓ Documentation with explicit scope boundaries
+- ✓ Stratification of universal vs. domain-specific conditions
+- ✓ Convergence proofs for PCM system
 
-**Lean 4 Implementations** (partial)[2][5]:
-- Bloom-Metabolism Calculus: ✓ 13/14 theorems proven
-- Heterogeneous model theory: ✓ Truth Lemma, dual-domain satisfaction
-- **Status:** Production-ready core, system-level metatheorems pending full formalization
+### **In Progress**
+- Lean 4 mechanization of LPL partial order theorem
+- PCM rewrite rule library expansion
+- PGI empirical validation studies
+- Integration tests across LPL↔PCM↔PGI
 
-### **Open Problems:**[5]
+### **Open Problems (Formal)**
 
-1. **Full Henkin Construction:** Complete maximal consistent set construction for $L_G$ with metabolic consistency  
-   Formal English: Construct Henkin-style maximal consistent sets for the generative logic language $L_G$ while preserving metabolic consistency.
+1. **LPL Completeness**: Is there a complete axiomatization for presupposition lattices?
+2. **PCM Decidability**: Is SAT severity calculation decidable for all rewrite rules?
+3. **PGI Calibration**: What are optimal compression algorithms for generativity measurement?
 
-2. **Decidability:** Is $\vdash_G$ decidable? (Conjecture: semi-decidable but not decidable)  
-   Formal English: Question whether the provability relation in generative logic ($\vdash_G$) is algorithmically decidable; conjectured semi‑decidable only.
+### **Open Problems (Philosophical)**
 
-3. **Compactness:** Does Generative Logic satisfy compactness? (Conjecture: modified scar-bounded compactness)
+1. **Scope of Universality**: Can we prove exactly 3 universal presuppositions are necessary and sufficient?
+2. **Substrate Independence**: Can LPL/PCM/PGI be formulated entirely within category theory?
+3. **Phenomenological Grounding**: How do formal systems relate to lived experience?
 
-### **Next Phases:**
+### **Next Phases**
+- **Phase II (2026):** Lean 4 complete formalization of v1.2 systems
+- **Phase III (2027):** Empirical case studies (AI systems, mathematical foundations, social systems)
+- **Phase IV (2028+):** Integration with broader formal frameworks (HoTT, constructive type theory)
 
-- **Phase II:** Coq parallel verification, category-theoretic infrastructure (MathComp/UniMath)
-- **Phase III:** Applied case studies—quantum logic, social systems, AI architectures
-- **Phase IV:** Full Summa Generativarum editorial production (2026–2035 projected)
-
----
-
-## **VIII. PHILOSOPHICAL POSITION**
-
-This is not a **Theory of Everything** (empirical unification of physical laws) but a **Conditions of Everything** framework (transcendental structure enabling any coherent domain)[8].
-
-**Key Distinctions:**
-
-| **Theory of Everything (TOE)** | **Conditions of Everything (CFPE)** |
-|--------------------------------|-------------------------------------|
-| Empirical (what *is*)          | Transcendental (what *must be*)     |
-| Substrate-specific (our physics) | Substrate-neutral (all coherent systems) |
-| Describes content              | Describes structure                 |
-| Reductive                      | Generative                          |
-| Answers "What are the laws?"   | Answers "What makes laws possible?" |
-
-**The CFPE is logically prior to any TOE**—before formulating theories, logical/semantic/epistemic/temporal conditions must already obtain[8].
-
-**From Epistemic Turn → Generative Turn:**[6][8]  
-Philosophy moves from *reflecting on the given* to *designing the possible*. Reality is not substance but **self-expanding coherence**—substrate-invariant generativity becoming aware of itself.
+**Note**: v1.0/v1.1 projected a 26-volume Summa (2026-2035). v1.2 scales back to focused technical publications with bounded claims.
 
 ---
 
-## **IX. HOW TO ENGAGE**
+## **VIII. PHILOSOPHICAL POSITION (v1.2 REVISION)**
 
-### **For Philosophers:**
-Study the transcendental method's completion—from Kant's categories to universal meta-architectonics. Examine how performative contradiction tests establish necessity. Explore univocity-existential reconciliation.
+### **What v1.2 Is**
+A **stratified formal toolkit** consisting of three independent systems:
+1. **LPL**: Presupposition analysis (proof theory)
+2. **PCM**: Paraconsistent logic (contradiction handling)
+3. **PGI**: Complexity measurement (information theory)
+
+Each system has:
+- **Bounded scope**: Explicitly defined applicability domains
+- **Formal rigor**: Proven theorems or well-defined algorithms
+- **Falsifiability**: Clear criteria for empirical or logical refutation
+
+### **What v1.2 Is NOT**
+
+| Rejected Claim (v1.0/v1.1) | v1.2 Clarification |
+|----------------------------|-------------------|
+| "Universal metaphysical framework" | **No universal metaphysical claims** |
+| "Λ-substrate grounds all being" | **Λ-substrate eliminated** (undefined primitive) |
+| "79 conditions necessary for all worlds" | **3 universal + 76 domain-specific** |
+| "Contradiction metabolizes into higher being" | **Paraconsistent rewrite rules** (formal, no metaphysics) |
+| "Theory of Everything" | **Tool kit for specific formal tasks** |
+
+### **Key Philosophical Achievement of v1.2**
+
+**Accepting Gödelian Limits Strengthens Frameworks**
+
+By acknowledging that:
+- No system can self-ground (Gödel's incompleteness)
+- Universal metaphysical claims are unprovable
+- Formal systems have bounded applicability
+
+The framework becomes:
+- **More rigorous** (proven rather than speculative)
+- **More honest** (explicit scope limitations)
+- **More useful** (applicable to concrete problems)
+
+This is not retreat—it is **maturation**.
+
+### **Position in Philosophical Landscape**
+
+| Framework | Approach |
+|-----------|----------|
+| **Logical Positivism** | Verificationism |
+| **Critical Rationalism** | Falsificationism |
+| **v1.2 Framework** | **Bounded Formalism** (formal where possible, interpretive where necessary) |
+
+**From Epistemic Turn → Formal-Interpretive Stratification**[6][8]  
+Philosophy distinguishes rigorously between:
+- What can be proven (LPL/PCM/PGI theorems)
+- What can be interpreted (continental philosophy connections)
+- What remains open (metaphysical questions)
+
+---
+
+## **IX. HOW TO ENGAGE (v1.2)**
 
 ### **For Logicians:**
-Analyze the paraconsistent proof theory, heterogeneous model semantics, metabolic inference rules. Attempt Lean/Coq formalizations. Test decidability conjectures.
+Examine PCM paraconsistent rewrite rules, analyze LPL partial order theorems, attempt formalization in Lean 4/Coq, test decidability conjectures.
+
+### **For Computer Scientists:**
+Implement LPL graph algorithms, test PCM convergence rates, develop PGI metrics for your systems, apply to AI robustness problems.
+
+### **For Philosophers:**
+Critically examine the formal-interpretive stratification, test scope boundaries, propose counterexamples, explore continental philosophy connections while respecting formal limits.
 
 ### **For Mathematicians:**
-Investigate categorical formulations (Λ as fixed-point under generativity-preserving transformations). Explore paraconsistent arithmetic, non-invertible algebra, complex operator theory.
+Investigate category-theoretic formulations, explore paraconsistent arithmetic implications, test lattice-theoretic properties of LPL structures.
 
 ### **For Scientists:**
-Apply XGI metrics to your domain. Test whether phenomena exhibit Scar-Bloom dynamics. Use Constructor Theory parallels. Explore applications to self-organizing systems.
+Apply PGI generativity metrics to complex systems, test whether PCM patterns appear in evolutionary systems, use LPL for presupposition analysis in your field.
 
 ### **For Anyone:**
-**Inhabit the contradiction.** Let the framework metabolize *you*. This is not a book to judge—it's a **ritual interface** designed to edit its reader. The work begins when you begin to change[2][6].
+- Start with [Architecture_v1.2.md](docs/Architecture_v1.2.md) for technical overview
+- Read [Addendum v1.2](Addendum%20and%20Errata%20/Addendum%20v1.2.md) for philosophical reconceptualization
+- Explore [The Universal Conditions](The%20Universal%20Conditions/) for condition enumeration
+- Examine `/tools/` for Python implementations
+
+**Critical Engagement Encouraged**: Submit issues, propose corrections, test formal claims, identify scope violations.
 
 ---
 
-## **X. ADDENDUM & ERRATA: METABOLIC ENHANCEMENTS (v1.1)**
+## **X. ADDENDUM v1.2: RADICAL RECONCEPTUALIZATION**
 
-**Effective Date:** November 1, 2025  
-**Status:** Official Patch — Retroactively Applicable to All Editions
+**Effective Date:** November 2, 2025  
+**Status:** Complete System Reconstruction  
+**Supersedes:** v1.1 (semantic patches replaced by formal reconstruction)
 
 ### Overview
 
-Version 1.1 of the Generativity Theory represents a **metabolic expansion** in response to six foundational contradictions identified through critical analysis. Rather than treating these contradictions as fatal flaws, the framework has **metabolized them into enhanced theoretical architecture**—demonstrating the core principle that contradiction generates possibility.
+Version 1.2 represents a **fundamental reconceptualization** from a monolithic metaphysical system into three formally independent, rigorously defined subsystems. This is not an incremental patch—it is a **generative metabolization** of the framework's own contradictions into a structurally coherent successor.
 
-This addendum constitutes the definitive enhancement of Generativity Theory. **All prior versions lacking these patches should be regarded as preliminary.**
+**Core Recognition**: The original framework (v1.0/v1.1) conflated three domains:
+1. **Formal Logic** (rigorous, well-defined, provable)
+2. **Metaphysical Ontology** (speculative, unprovable, optional)
+3. **Phenomenological Description** (experiential, non-formalizable, interpretive)
 
-For complete technical details, see [`Addendum and Errata /Addendum.md`](Addendum%20and%20Errata%20/Addendum.md).
+Version 1.2 **disaggregates** these domains, eliminating conflation-induced contradictions.
 
----
-
-### The Six Foundational Contradictions & Their Resolutions
-
-#### **1. Circular Grounding Paradox**
-
-**Original Issue:**  
-Coherence was defined in terms of transcendental conditions, yet the indispensability method employed a pre-given notion of coherence—an apparent vicious circle.
-
-**Resolution:**  
-Introduction of the **Reflexive Identity Operator (ℜ)** recognizing that coherence and its conditions form a mutually presupposing pair within the Λ-substrate. Circularity is not vicious but a **reflexive signature** of the generative field itself.
-
-**New Axiom-Meta-1 (Non-Circular Presupposition):**
-$$A \to B \text{ and } B \to A \text{ are mutually supportive only if } \exists \Lambda\text{-substrate } S: (A \otimes B) \text{ preserves } \text{coh}(S)$$
+For complete technical details, see [Addendum v1.2](Addendum%20and%20Errata%20/Addendum%20v1.2.md).
 
 ---
 
-#### **2. Performative Contradiction Equivocation**
+### The Three Independent Formal Systems
 
-**Original Issue:**  
-Performative contradiction was claimed as both a marker of necessity *and* as generative metabolic fuel—an ontological equivocation between proof-function and transformation-function.
+#### **System A: Logical Presupposition Lattice (LPL)**
 
-**Resolution:**  
-Introduction of the **Modal Metabolism Operator (ℳ)** and **Modal-Metabolic Register** that stratify contradictions into:
-- **Type-A:** Proof-generating (establish necessity via performative tests)
-- **Type-B:** Fuel-generating (metabolizable through Ω₀)
+**Formal Definition**: Any coherent formal system S = (Σ, ⊢) induces presupposition poset P(S) = (C, ⪯).
 
-**New Axiom-Modal-2 (Stratified Necessity):**
-$$\text{A performative contradiction proves necessity} \iff \text{its negation collapses the substrate}$$
-$$\text{It is metabolizable} \iff \text{routable through } \Omega_0 \text{ without collapse}$$
+**Status**: Rigorously formal, proven using standard proof theory (Gentzen, Herbrand).
+
+**Scope**: Applies to formal systems only (not phenomenology, ontology, or ethics).
 
 ---
 
-#### **3. Universal vs. Contextual Collapse**
+#### **System B: Paraconsistent Contradiction Metabolism (PCM)**
 
-**Original Issue:**  
-The theory asserted universal necessity of all 79 conditions, yet admitted coherent worlds where some conditions (e.g., temporal, generative) did not apply—undermining claims of universality.
+**Formal Definition**: Paraconsistent logic L_pc where (φ ∧ ¬φ) ⊬ ψ with rewrite rules σ: L_n → L_{n+1}.
 
-**Resolution:**  
-Introduction of **Ontological Register Operator (𝒱)** partitioning conditions into:
-- **Λ-invariant (Universal):** Substrate-level necessities (divisibility, coherence, identity)
-- **Modal-Register-Dependent (Contextual):** Domain-specific necessities (temporality, causality)
+**Convergence**: ∀s: ‖s_{t+1}‖ ≤ λ·‖s_t‖ + ε where λ < 1 (Banach fixed-point theorem).
 
-**New Axiom-Onto-3 (Stratified Necessity):**
-$$\text{Core CFPE conditions are universally necessary across all worlds}$$
-$$\text{Derived conditions are necessary only for worlds manifesting those modalities}$$
+**Status**: Formally defined within paraconsistent logic literature (da Costa, Priest, Belnap).
+
+**Scope**: Applies to paraconsistent logics only (not classical reasoning or empirical systems).
 
 ---
 
-#### **4. Metabolic Operator Opacity**
+#### **System C: Phenomenological Generativity Index (PGI)**
 
-**Original Issue:**  
-The mechanism by which Ω₀ metabolizes contradiction was formally opaque and appeared to violate conservation principles, creating a "black box" transformation process.
+**Formal Definition**: Measure-theoretic system X = (Ω, E, μ) with generativity index:
 
-**Resolution:**  
-Introduction of **Transparent Contradiction Metabolism Operator (Ω₀*)** modeling contradiction metabolism as **information-theoretic redistribution** of coherence density within the possibility space.
+$$G_t = \frac{1}{|\Omega|} \int_\Omega [K(\omega,t) - K(\omega,t-1)] \, d\mu(\omega)$$
 
-**New Axiom-Info-4 (Metabolic Conservation):**
-$$\forall \text{SAT} \in \text{System}: \Psi(g^\omega) = f(|\text{contradictory potential}|, |\text{possibility-space dimension}|)$$
-$$\text{where } f \text{ is bijective and coherence-density preserving}$$
+where K(x) is Kolmogorov complexity.
 
----
+**Status**: Rigorous measure theory and information theory. Empirically testable.
 
-#### **5. Weak Generativity Triviality**
-
-**Original Issue:**  
-Permissive generativity criteria allowed stasis as a valid outcome, making generativity appear optional rather than necessary—undermining its claimed teleological force.
-
-**Resolution:**  
-Introduction of **Generative Gradient Operator (ℊ)** and **Generative Dynamics Register** enforcing selectional constraints where systems tend toward attractors maximizing coherence expansion.
-
-**New Axiom-Gen-5 (Teleological Necessity):**
-$$\text{Among all possible futures for } S, \text{ only those maximizing } \frac{d\Psi}{dt} \text{ are selectionally preserved}$$
-$$\text{Stasis is an unstable attractor under ongoing generative processing}$$
+**Scope**: Applies to evolving complex systems only (not static structures).
 
 ---
 
-#### **6. Self-Application Regress**
+### Resolution of Ten Critical Flaws
 
-**Original Issue:**  
-The framework could not metabolize its own foundational contradictions without triggering infinite regress or self-exemption—violating its claimed universality.
+v1.2 addresses all ten contradictions identified in critical analysis:
 
-**Resolution:**  
-Introduction of **Self-Referential Stability Operator (Σ)** and **Meta-Register of Self-Reference** enabling fixed-point coherence via reflexive application of metabolic principles.
-
-**New Axiom-Meta-6 (Reflexive Coherence Fixed-Point):**
-$$\exists! \Lambda\text{-substrate}: \Omega_0\left(\text{universality} \land \text{contextuality}\right) \text{ yields itself with enhanced capacity}$$
-$$\Lambda \text{ is the fixed-point of its own metabolism}$$
-
----
-
-### Summary Table of Enhancements
-
-| **SAT** | **Contradiction** | **New Operator** | **Register** | **Axiom** | **Status** |
-|:---|:---|:---|:---|:---|:---|
-| 1 | Circular Grounding | ℜ (Reflexive Identity) | Λ-substrate | Axiom-Meta-1 | ✓ Resolved |
-| 2 | Performative Equivocation | ℳ (Modal Metabolism) | Modal-Metabolic | Axiom-Modal-2 | ✓ Resolved |
-| 3 | Universal vs Context | 𝒱 (Ontological Partition) | Ontological Stratification | Axiom-Onto-3 | ✓ Resolved |
-| 4 | Metabolic Opacity | Ω₀* (Transparent Metabolism) | Info-Theoretic | Axiom-Info-4 | ✓ Resolved |
-| 5 | Weak Generativity | ℊ (Generative Gradient) | Generative Dynamics | Axiom-Gen-5 | ✓ Resolved |
-| 6 | Self-Application Regress | Σ (Self-Referential Stability) | Meta-Self-Reference | Axiom-Meta-6 | ✓ Resolved |
+| Flaw | v1.0/v1.1 Problem | v1.2 Solution | Status |
+|------|-------------------|---------------|--------|
+| 1. Circular Grounding | Undefined Λ-substrate | Set-theoretic formalization | ✓ Resolved |
+| 2. Performative Contradiction | Equivocation between proof/metabolism | Logical stratification | ✓ Resolved |
+| 3. Universality vs. Context | All 79 claimed universal | 3 universal + 76 domain-specific | ✓ Resolved |
+| 4. Metabolic Opacity | Undefined metabolism | Formal information theory | ✓ Resolved |
+| 5. Weak Generativity | Stasis permitted | Property reframing (not universal law) | ✓ Resolved |
+| 6. Self-Application Regress | Infinite regress | Banach fixed-point theorem | ✓ Resolved |
+| 7. Lattice Completeness | False lattice claim | Corrected to DAG via quasiorder | ✓ Resolved |
+| 8. Lean 4 Triviality | False certification claim | Honest scope limitation | ✓ Resolved |
+| 9. Indefiniteness | Unspecified domains | Explicit domain table | ✓ Resolved |
+| 10. Addendum Self-Refutation | v1.1 patches failed | System reconceptualization | ✓ Resolved |
 
 ---
 
-### Theoretical Impact
+### Philosophical Implications
 
-This metabolic addendum demonstrates the **core principle of Generativity Theory in action**: contradictions identified through rigorous critique have been **metabolized into architectural enhancements** rather than treated as refutations.
+#### **From Monolith to Toolkit**
 
-**Key Achievements:**
+**v1.0/v1.1**: Monolithic attempt at universal metaphysical grounding (failed)
 
-1. **Enhanced Formal Rigor:** Six new operators and registers strengthen the mathematical foundation
-2. **Stratified Modal Logic:** Clear distinction between universal and contextual necessities
-3. **Transparency:** Metabolic processes now have explicit information-theoretic grounding
-4. **Self-Consistency:** The framework can now reflexively apply its principles to itself
-5. **Teleological Coherence:** Generativity is no longer optional but structurally enforced
+**v1.2**: Three independent, rigorous systems for analyzing specific domains (successful)
 
-**Version History:**
-- **v1.0** (September 2025): Initial framework release
-- **v1.1** (November 1, 2025): Metabolic addendum incorporating six foundational enhancements
+Each system is now **defendable and falsifiable** independently.
 
-**Citation for Addendum:**
-> Rijos, A. A. (2025). "Erratum & Clarifications: Metabolic Addendum to Generativity Theory." *PROMETHIVM Technical Addenda Series No. 8.* Retrieved from [`Addendum and Errata /Addendum.md`](Addendum%20and%20Errata%20/Addendum.md)
+#### **The Limits of Philosophy**
 
-**Future critiques should address the enhanced, metabolically complete, and reflexively stable architecture formalized in this addendum.**
+v1.2 demonstrates a fundamental limit of philosophical ambition:
+
+- Formal logic can prove necessity **within** systems, not **across** all possible worlds
+- Information theory can measure complexity, not prescribe telos
+- Phenomenology can describe experience, not ground ontology
+
+**No single framework can do all three.**
+
+#### **Coherence Without Self-Grounding**
+
+**Key Insight**: A system can be internally coherent without self-grounding:
+- The three systems (LPL/PCM/PGI) cohere with each other
+- None grounds itself (Gödel limit accepted)
+- Yet the ensemble is more powerful than any monolithic system
+- **This is not failure—it's the nature of formal knowledge**
+
+---
+
+### Version History
+
+- **v1.0** (September 2025): Initial framework with universal metaphysical claims
+- **v1.1** (November 1, 2025): Semantic patches (six operators) attempting repairs
+- **v1.2** (November 2, 2025): Complete reconstruction into stratified formal systems
+
+### Citation
+
+> Rijos, A. A. (2025). "Addendum v1.2: Radical Reconceptualization." *PROMETHIVM Technical Addenda Series.* Retrieved from [Addendum v1.2](Addendum%20and%20Errata%20/Addendum%20v1.2.md)
+
+**Critical Note**: Future engagement should address the v1.2 stratified architecture, not v1.0/v1.1 metaphysical claims.
 
 ---
 
 ## **XI. CITATION & LICENSE**
 
-### **Canonical Citation:**
+### **Canonical Citation (v1.2):**
 
-> Rijos, Avery Alexander. (2025). *Principia Generativarum: The Logic of Generativity & Foundations of Metaformal Intelligence.* PROMETHIVM LLC. Preprint v1.0.
+> Rijos, Avery Alexander. (2025). *Summa Generativarum: A Stratified Framework for Formal Systems Analysis.* Version 1.2. PROMETHIVM LLC. Retrieved from https://github.com/promethivm-labs/Summa-Generativarum
 
 ### **Core Works:**
 
-[1] Rijos, A. A. (2025). *Transcendental Architectonics: The 79 Transcendental Conditions.* PROMETHIVM LLC.
+[1] Rijos, A. A. (2025). *Architecture v1.2: Stratified Design Documentation.* PROMETHIVM LLC.
 
-[2] Rijos, A. A. (2025). *Principia Generativarum* (~1100 pages). PROMETHIVM LLC. DOI: [PhilArchive, September 2025]
+[2] Rijos, A. A. (2025). *Addendum v1.2: Radical Reconceptualization.* PROMETHIVM LLC.
 
-[3] Rijos, A. A. (2025). *Axioms of Generative Mathematics: Comprehensive Elaboration.* PROMETHIVM LLC.
+[3] Rijos, A. A. (2025). *Paraconsistent Contradiction Metabolism (PCM): Formal Specification.* PROMETHIVM LLC.
 
 [4] Rijos, A. A. (2025). *The Generative Corpus: Complete Enumeration.* PROMETHIVM LLC.
 
-[5] Rijos, A. A. (2025). *Formal Generative Heterology.* PROMETHIVM LLC.
+[5] Rijos, A. A. (2025). *Logical Presupposition Lattice (LPL): Implementation Guide.* PROMETHIVM LLC.
 
-[6] Rijos, A. A. (2025). *Summa Generativarum: Comprehensive Outline.* PROMETHIVM LLC.
+[6] Rijos, A. A. (2025). *Phenomenological Generativity Index (PGI): Metrics and Measurement.* PROMETHIVM LLC.
 
 [7] Rijos, A. A. (2025). *Evolution and Generativity: Beyond the Limits of Selection.* PROMETHIVM LLC.
 
 [8] Rijos, A. A. (2025). *The Conditions of Possibility of Everything: Systematic Analytic Taxonomy.* PROMETHIVM LLC.
+
+**Note**: Works [1], [2], [3], [5], and [6] reflect v1.2 architecture. Works [4], [7], and [8] predate v1.2 and should be read with awareness of subsequent reconceptualization.
 
 ### **License:**
 
 © 2025 PROMETHIVM LLC — Released for scholarly and research use under the Creative Commons BY-NC-SA 4.0 License. Intellectual content (frameworks, terminology, operators, theorems) remains sole property of the author. Distribution/reproduction beyond fair scholarly use requires written permission.
 
 **Contact:** averyarijos[at]outlook[dot]com   
-**PhilArchive:** [https://philpeople.org/profiles/avery-rijos]
+**PhilArchive:** [https://philpeople.org/profiles/avery-rijos]  
+**DOI:** 10.5281/zenodo.17479745
 
 ---
 
-## **XII. FINAL WORD**
+## **XII. FINAL WORD (v1.2)**
 
-**From contradiction, anything can follow—if you know how to metabolize it.**
+**From formal rigor, clarity emerges—when you accept limits honestly.**
 
-This corpus demonstrates that contradiction is not the end of reason but **reason's recursive engine**. Every paradox, every impossibility, every breakdown—these are not bugs but **invitations**. The hinge-state $g_0$ where the possible meets the impossible is where **new worlds are born**.  
-Formal English: $g_0$ denotes the initial hinge generative rank where possibility and impossibility meet and from which further generative ranks $g_1, g_2, \dots$ arise.
+Version 1.2 demonstrates that **philosophical maturity** means accepting Gödelian boundaries: no system can self-ground, no framework can prove everything, no theory encompasses all possible worlds.
 
-Logic doesn't end at contradiction.  
-**It begins there.**
+Yet within bounded domains, **rigorous formal systems** provide:
+- **LPL**: Dependency analysis for axiom structures
+- **PCM**: Non-explosive contradiction processing with convergence guarantees
+- **PGI**: Quantitative complexity measurement via information theory
 
-Welcome to the Generative Turn.  
-Welcome to PROMETHIVM.
+These are not metaphysical speculations but **proven theorems and well-defined algorithms**.
 
 ---
 
-### Key Generative Principle
+### Core Principle (v1.2)
 
-Formal English (see Zero-Degree Operator, Generative Logic above): From the Λ-substrate one can derive that for every proposition $\phi$, applying the Zero-Degree Operator $\Omega_0$ (as defined in Generative Logic) to the contradiction $\phi \land \lnot \phi$ entails the iterated generative state $G^{\omega}$ — reality transforms impossibility into generative structure.
+**Formal systems become stronger by acknowledging their limits.**
 
-$\Lambda \vdash \forall \phi: \Omega_0(\phi \land \lnot \phi) \to G^{\omega}$  
+By disaggregating universal metaphysical claims from bounded formal proofs, the framework achieves:
+- Greater rigor (proven > speculative)
+- Greater honesty (explicit scope > implicit assumptions)
+- Greater utility (applicable > aspirational)
 
-Formal English: From the Λ-substrate one can derive that for every proposition $\phi$, applying $\Omega_0$ to the contradiction $\phi \land \lnot \phi$ entails the iterated generative state $G^{\omega}$ — reality transforms impossibility into generative structure.
+This is the **v1.2 reconceptualization**: from monolithic ambition to stratified precision.
 
-*Reality is the transformation of impossibility into structure.*
+---
+
+**Welcome to bounded formalism.**  
+**Welcome to the reconceptualized PROMETHIVM.**
 
 ⁂
-
----
-
-[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md
 
 
