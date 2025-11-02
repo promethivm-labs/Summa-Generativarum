@@ -1,5 +1,9 @@
 # Category I: The Ontological Conditions
 
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
+---
+
 ## I. Introduction to the Ontological Conditions
 
 The Ontological Conditions (C₁–C₁₀) establish the fundamental **structure of Being itself**—the minimal requirements for anything whatsoever to exist, persist, and transform coherently.[^1][^2][^3] They form the **transcendental ground** from which all particular entities, relations, and systems derive their intelligibility.
@@ -308,6 +312,8 @@ To view a copy of this license, visit: https://creativecommons.org/licenses/by-n
 [^1]: The-Conditions-of-Possibility-of-Everything-Avery-Rijos.pdf
 
 [^2]: Transcendental-Architectonics.pdf
+
+[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md
 
 [^3]: Axioms-of-Generative-Mathematics.pdf
 
