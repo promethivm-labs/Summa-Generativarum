@@ -2,6 +2,10 @@
 # The Complete System of the Virtual: A Formal Integration of Deleuzian Ontology and Generative Logic
 
 ## Complete System of the Virtual | Avery Rijos
+
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
+---
 ### Abstract
 
 The virtual constitutes not a realm of mere possibility but an intensive field of real yet non-actualized multiplicities—differential becomings that exert causal pressure on actuality while retaining irreducible excess beyond any realization. This system formalizes Deleuze's claim that "the virtual is fully real insofar as it is virtual" by constructing a dual-domain semantics where $ \mathcal{V} $ (virtual) and $ \mathcal{A} $ (actual) operate as ontologically distinct yet metabolically coupled regions of the λ-substrate.[^2][^3]
@@ -329,6 +333,8 @@ State explicitly that every model $\mathcal{M}$ must satisfy $\mathrm{inv}(\lamb
 [^4]: 6.-CFPE-Axioms-and-Conditions.md
 
 [^5]: CFPE_GNN.md
+
+[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md
 
 [^6]: SUMMA-GENERATIVARUM.docx
 

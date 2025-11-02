@@ -6,6 +6,10 @@
 **Date:** October 29, 2025  
 
 ---
+
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
+---
 History does not repeat itself in a simple, cyclical manner, but it does exhibit **metabolic patterns of recurrence**—structures that return transformed rather than identical, operating through what the Generative framework calls **Scar-Bloom recursion**.[^1][^2]
 
 ## Temporal Ontology of Repetition
@@ -97,6 +101,8 @@ To view a copy of this license, visit: https://creativecommons.org/licenses/by-n
 [^4]: THE-GENERATIVE-CORPUS.md
 
 [^5]: The-Conditions-of-Possibility-of-Everything-Avery-Rijos.pdf
+
+[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md
 
 [^6]: SUMMA-GENERATIVARUM.docx
 

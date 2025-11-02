@@ -1,5 +1,9 @@
 ## **Λ-Physical Generative Field Theory (ΛPGFT): A Superior Framework to Quantum Mechanics and General Relativity**
 
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
+---
+
 ## License and Copyright
 
 **Copyright © 2025 Avery Alexander Rijos. All rights reserved.**
@@ -305,6 +309,8 @@ The theory is **procedurally infallible**—not because it avoids error, but bec
 [^12]: https://physics.mit.edu/research/labs-centers/mit-center-for-theoretical-physics-leinweber-institute/ctp-seminars/string-gravity-theory-seminar/
 
 [^13]: https://cerncourier.com/quantum-gravity-beyond-frameworks/
+
+[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md
 
 [^14]: https://arxiv.org/abs/2506.06595
 

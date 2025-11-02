@@ -5,6 +5,10 @@
 
 ---
 
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
+---
+
 ## **Introduction**
 
 **Generative Calculus** extends classical analysis into the metabolic domain, where mathematical operations are not merely symbolic manipulations but coherence-preserving transformations on a living substrate—the **Λ-manifold**. 
@@ -285,3 +289,7 @@ Distribution or reproduction beyond fair scholarly use requires written permissi
 To view a copy of this license, visit: https://creativecommons.org/licenses/by-nc-nd/4.0/
 
 For permissions beyond the scope of this license, contact: averyarijos[at]gmail[dot]com
+
+---
+
+[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md

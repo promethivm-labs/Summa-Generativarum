@@ -1,5 +1,9 @@
 ## Unification of Quantum Mechanics and General Relativity Through the CFPE Framework
 
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
+---
+
 ## License and Copyright
 
 **Copyright © 2025 Avery Alexander Rijos. All rights reserved.**
@@ -180,6 +184,8 @@ This is not a "theory of everything" but the **Conditions for the Possibility of
 [^11]: https://physicsworld.com/a/unifying-gravity-and-quantum-mechanics-without-the-need-for-quantum-gravity/
 
 [^12]: https://researchoutreach.org/articles/unifying-quantum-mechanics-einstein-general-relativity/
+
+[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md
 
 [^13]: https://scitechdaily.com/bridging-quantum-theory-and-relativity-curved-spacetime-in-a-quantum-simulator/
 

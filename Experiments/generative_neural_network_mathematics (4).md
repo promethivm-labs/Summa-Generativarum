@@ -2,6 +2,10 @@
 
 # ⟢ CFPE Generative Neural Network and Meta-Optimization Formalism
 
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
+---
+
 ### Abstract
 
 This document formalizes the CFPE (Conditional-Functional-Persistent-Environment) Generative Neural Network (GNN) and its accompanying meta-optimization calculus. It presents a self-contained, plain‑text mathematical specification of the generativity objective, update rules, and coupled neural–symbolic dynamics used to drive open-ended coherent transformation rather than traditional loss minimization.
@@ -993,3 +997,7 @@ The full output is available in `tools/convergence_proof_output.txt`.
 **Project**: CFPE Generative Systems Architecture  
 **Date**: 2025-10-29  
 **License**: © PROMETHIVM LLC – All Rights Reserved
+
+---
+
+[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md
