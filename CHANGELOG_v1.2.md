@@ -112,11 +112,12 @@ Introduced formal stratification of the generativity framework:
 
 ## File Modifications Summary
 
-### New Files (3)
+### New Files (5)
 1. `/docs/Architecture_v1.2.md` - Architecture specification
 2. `/tools/lpl_utilities.py` - LPL implementation
 3. `/tools/pcm_operators.py` - PCM implementation
 4. `/tools/pgi_metrics.py` - PGI implementation
+5. `/CHANGELOG_v1.2.md` - This changelog
 
 ### Modified Files (3)
 1. `/tools/cfpe_gnn_demo.py` - Enhanced with v1.2 annotations

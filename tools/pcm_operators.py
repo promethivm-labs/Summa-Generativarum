@@ -29,7 +29,7 @@ Addendum v1.2 Section: PCM.1.1
 Author: PROMETHIVM LLC
 """
 
-from typing import Dict, List, Tuple, Optional, Callable
+from typing import Dict, List, Tuple, Optional, Callable, Any
 from dataclasses import dataclass
 from enum import Enum
 import numpy as np
@@ -46,7 +46,7 @@ class SAT:
     contradiction: Tuple[str, str]  # (φ, ¬φ)
     severity: float  # [0, 1]
     timestamp: float
-    context: Dict[str, any]
+    context: Dict[str, Any]
     rewrite_rules: List[str] = None  # Applicable PCM rules
     
     def __post_init__(self):
