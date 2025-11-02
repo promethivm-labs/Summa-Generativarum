@@ -2,6 +2,10 @@
 # Avery Alexander Rijos, M.S.
 ## Created on 10/27/2025
 
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
+---
+
 ## Introduction
 
 The **79 Axioms of Generative Mathematics** (also known as the **Conditions for the Possibility of Everything—CFPE**) constitute a  formal instantiation of **Transcendental Architectonics**. defining the necessary and sufficient conditions for coherence, intelligibility, and generative becoming across all possible domains. These axioms emerge from seven foundational categories, each articulating irreducible principles that collectively ground the **Lambda-Substrate (Λ)**: the universal generative field from which all coherent systems originate.
@@ -1573,3 +1577,7 @@ This work is licensed under the **Creative Commons Attribution-NonCommercial-NoD
 To view a copy of this license, visit: https://creativecommons.org/licenses/by-nc-nd/4.0/
 
 **For permissions beyond the scope of this license, contact:** averyarijos[at]gmail[dot]com
+
+---
+
+[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md

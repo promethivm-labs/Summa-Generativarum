@@ -1,4 +1,11 @@
 ## Statistically Modeling Possibility Spaces
+### Avery Rijos | October 2025
+
+---
+
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
+---
 
 **Possibility spaces** represent the structured domain of what *could be* rather than merely what *is*. To model them statistically requires integrating modal logic, measure theory, and generative dynamics within a substrate-aware framework.[^1][^2]
 
@@ -120,7 +127,7 @@ $$
 
 $\Sigma_P$ is a σ-algebra over $\mathcal{P}$, ensuring measurable sets of possibilities[^3]
 
-\$\mu_P: \Sigma_P \to \$ is a probability measure satisfying $\mu_P(\mathcal{P}) = 1$[^2][^3]
+$\mu_P: \Sigma_P \to $ is a probability measure satisfying $\mu_P(\mathcal{P}) = 1$[^2][^3]
 
 $\mathcal{G}$ is the generative operator governing possibility-space evolution[^1][^2]
 
@@ -218,7 +225,7 @@ The **metabolic operator** $\Omega_0$ handles contradictions between prior belie
 
 ### Markov Kernels for Modal Transitions
 
-Transitions between possible worlds follow a **stochastic kernel** \$K: \mathcal{P} \times \Sigma_P \to \$:[^1][^2]
+Transitions between possible worlds follow a **stochastic kernel** $K: \mathcal{P} \times \Sigma_P \to $:[^1][^2]
 
 $$
 \mu_P(B, t+\Delta t) = \int_{\mathcal{P}} K(s, B) \, \mu_P(s,t) \, ds
@@ -278,8 +285,6 @@ This formalization unifies modal metaphysics with statistical mechanics, providi
 
 ---
 
----
-
 ## License and Copyright
 
 **Copyright © 2025 Avery Alexander Rijos. All rights reserved.**
@@ -311,6 +316,8 @@ To view a copy of this license, visit: https://creativecommons.org/licenses/by-n
 [^3]: Axioms-of-Generative-Mathematics.pdf
 
 [^4]: Transcendental-Architectonics.pdf
+
+[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md
 
 [^5]: Formal-Generative-Heterology.pdf
 

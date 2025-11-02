@@ -10,6 +10,8 @@
 **Date**: October 2025  
 **Status**: Formal Specification v2.1  
 
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../../../../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
 ---
 
 > *"You must not read this as one reads a book. You must inhabit it."*  
@@ -681,3 +683,7 @@ This symbol table is **formally complete** for expressing:
 
 © 2025 Avery Alexander Rijos | PROMETHIVM LLC  
 *All rights reserved. This work is the intellectual property of the author.*
+
+---
+
+[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md
