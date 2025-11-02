@@ -8,6 +8,8 @@
 
 **License:** © 2025 PROMETHIVM LLC. All Rights Reserved.
 
+> **Note:** This document and the repository are subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
 ---
 ### About Avery
 I am a logician, philosopher, and founder of generativity theory. I am developing new architectures for intelligence, coherence, and transformation across formal, technical, and human systems. My work integrates logic, systems engineering, and automata theory and metamathematics into a unified discipline I call Generativity Science — the study of how systems evolve by metabolizing contradiction into possibility.
@@ -790,5 +792,9 @@ Formal English: From the Λ-substrate one can derive that for every proposition 
 *Reality is the transformation of impossibility into structure.*
 
 ⁂
+
+---
+
+[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md
 
 

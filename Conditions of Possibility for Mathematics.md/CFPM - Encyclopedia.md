@@ -2,6 +2,10 @@
 # CFPM: CONDITIONS FOR THE POSSIBILITY OF MATHEMATICS
 ## Formal Complete Enumeration
 
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
+---
+
 **Framework:** CFPM (Conditions for the Possibility of Mathematics)
 **Derived From:** CFPE (79 Transcendental Conditions)  
 **Author:** Avery Alexander Rijos, via Transcendental Deduction Protocol  
@@ -755,4 +759,8 @@ $$\lim_{n \to \infty} \text{Theorems}(n) = \text{Infinite Mathematical Universe}
 - Open-ended discovery and generativity are guaranteed
 
 **This completes the Transcendental Deduction of Mathematics from CFPE.**
+
+---
+
+[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md
 

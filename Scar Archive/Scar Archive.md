@@ -1,5 +1,9 @@
 # The Scar Archive
 
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
+---
+
 A machine- and audit-friendly repository format for recording, tracking, and automating scars (post‑mortem artifacts) across technical, governance, and socio‑normative layers.
 
 ## Key metadata (required)
@@ -457,3 +461,7 @@ Notes:
 
 (Adapt and localize wording to your organization’s legal templates and jurisdictional needs. This summary is a starting policy — obtain formal legal review before relying on it.)
 
+
+---
+
+[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md

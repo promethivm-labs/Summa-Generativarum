@@ -10,6 +10,8 @@
 **Date**: October 2025  
 **Status**: Formal Specification v2.1  
 
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../../../../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
 ---
 
 > *"You must not read this as one reads a book. You must inhabit it."*  
@@ -214,3 +216,7 @@ This work is the intellectual property of the author and is protected under appl
 
 To use this work, please contact the author or refer to the license terms above.
 
+
+---
+
+[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md

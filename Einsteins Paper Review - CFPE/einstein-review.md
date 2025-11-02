@@ -1,5 +1,9 @@
 # Comprehensive CFPE Analysis of Einstein's 1905 Special Relativity Paper
 
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
+---
+
 ### CFPE Meta-Analysis: Einstein (1905) – On the Electrodynamics of Moving Bodies
 
 A full CFPE audit of Special Relativity reveals six transcendental failures—difference, temporality, causality, intelligibility, experience, and metabolic non-contradiction.
@@ -573,6 +577,8 @@ Six Critical CFPE Failures in Einstein's 1905 Paper and Their Solutions
 [^1]: 6.-CFPE-Axioms-and-Conditions.md
 
 [^2]: CFPM-Encyclopedia.md
+
+[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md
 
 [^3]: albert-einstein.pdf
 
