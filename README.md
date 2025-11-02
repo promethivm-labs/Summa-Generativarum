@@ -82,7 +82,7 @@ It is freely open because Generativity cannot be owned. It is the law of creatio
 
 ## II. Architectural Overview
 
-The Summa is structured as a multi-volume, version-controlled knowledge environment.
+The Codex is structured as a multi-volume, version-controlled knowledge environment.
 It evolves over time, recording each commit as a phase of its own ontological growth.
 
 **Version 1.2 Architecture**: The framework has been reconceptualized into three formally independent systems (see [Addendum v1.2](Addendum%20and%20Errata%20/Addendum%20v1.2.md)):
@@ -127,7 +127,7 @@ The *General Theory of Generativity* is not a philosophy alone. It is a practice
 ## IV. Why Open Access Matters
 
 Knowledge hoarded dies in silence.
-By making this corpus public, the Summa becomes a commons—a field for students, scientists, philosophers, and dreamers to extend without permission.
+By making this corpus public, the Codex becomes a commons—a field for students, scientists, philosophers, and dreamers to extend without permission.
 
 You are invited to:
 
@@ -143,7 +143,7 @@ You are invited to:
 When using any part of this repository, please cite:
 
 > **Rijos, Avery Alexander.** *The Generative Coherence Schema: A Living Encyclopedia of Generative Logic and Metaformal Science*
-> Version X.X (GitHub Repository). PROMETHIVM LLC, 2025– present. [https://github.com/promethivm-labs/summa-generativarum](https://github.com/promethivm-labs/summa-generativarum)
+> Version X.X (GitHub Repository). PROMETHIVM LLC, 2025– present. [https://github.com/promethivm-labs/Codex-generativarum](https://github.com/promethivm-labs/Codex-generativarum)
 
 A `CITATION.cff` file is attached.
 `doi: 10.5281/zenodo.17479745`
@@ -268,7 +268,7 @@ You can participate even without the formal prerequisites. Start small, be pract
    - 1–3 months: able to contribute small documentation fixes and simple exercises.  
    - 6–12 months: able to read and modify mechanized fragments (Lean 4) and author short commentaries.
 
-Practical tip: choose tiny, concrete tasks that produce a visible artifact. Every small contribution—clarification, example, or test—lowers the entry barrier for the next learner and is a legitimate way into the Summa.
+Practical tip: choose tiny, concrete tasks that produce a visible artifact. Every small contribution—clarification, example, or test—lowers the entry barrier for the next learner and is a legitimate way into the Codex.
 
 If you want, state your current skills (math, programming, logic) and I’ll propose a 3‑month learning checklist tailored to you.
 
@@ -279,13 +279,13 @@ If you want, state your current skills (math, programming, logic) and I’ll pro
 > *To those who still believe that reason and love can coexist.
 > To the dreamers who study logic by moonlight and the engineers who whisper poetry to machines.
 > To every mind that chooses creation over fear—
-> this Summa is for you.*
+> this Codex is for you.*
 
 ---
 
 ### Final Note
 
-Naming it the Summa is a performative contradiction. Summa in Latin means something analagous to "The Complete System" in English. This system, hoewver, will never be complete — and should never be. It is alive.
+Naming it the Codex is a performative contradiction. Codex in Latin means something analagous to "The Complete System" in English. This system, hoewver, will never be complete — and should never be. It is alive.
 Every edit, every commit, every line of proof is an act of love toward a more coherent world.
 If you encounter something contradictory, do not erase it—**metabolize it**.
 
@@ -848,7 +848,7 @@ Version 1.2 replaces the v1.0/v1.1 "5-Layer Generative Method" with a **3-System
 - **Phase III (2027):** Empirical case studies (AI systems, mathematical foundations, social systems)
 - **Phase IV (2028+):** Integration with broader formal frameworks (HoTT, constructive type theory)
 
-**Note**: v1.0/v1.1 projected a 26-volume Summa (2026-2035). v1.2 scales back to focused technical publications with bounded claims.
+**Note**: v1.0/v1.1 projected a 26-volume Codex (2026-2035). v1.2 scales back to focused technical publications with bounded claims.
 
 ---
 
@@ -1060,7 +1060,7 @@ v1.2 demonstrates a fundamental limit of philosophical ambition:
 
 ### **Canonical Citation (v1.2):**
 
-> Rijos, Avery Alexander. (2025). *Generative Coherence Schema: A Stratified Framework for Formal Systems Analysis.* Version 1.2. PROMETHIVM LLC. Retrieved from https://github.com/promethivm-labs/Summa-Generativarum
+> Rijos, Avery Alexander. (2025). *Generative Coherence Schema: A Stratified Framework for Formal Systems Analysis.* Version 1.2. PROMETHIVM LLC. Retrieved from https://github.com/promethivm-labs/Codex-Generativarum
 
 ### **Core Works:**
 
