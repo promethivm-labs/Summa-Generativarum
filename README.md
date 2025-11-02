@@ -733,7 +733,147 @@ Apply XGI metrics to your domain. Test whether phenomena exhibit Scar-Bloom dyna
 
 ---
 
-## **X. CITATION & LICENSE**
+## **X. ADDENDUM & ERRATA: METABOLIC ENHANCEMENTS (v1.1)**
+
+**Effective Date:** November 1, 2025  
+**Status:** Official Patch — Retroactively Applicable to All Editions
+
+### Overview
+
+Version 1.1 of the Generativity Theory represents a **metabolic expansion** in response to six foundational contradictions identified through critical analysis. Rather than treating these contradictions as fatal flaws, the framework has **metabolized them into enhanced theoretical architecture**—demonstrating the core principle that contradiction generates possibility.
+
+This addendum constitutes the definitive enhancement of Generativity Theory. **All prior versions lacking these patches should be regarded as preliminary.**
+
+For complete technical details, see [`Addendum and Errata /Addendum.md`](Addendum%20and%20Errata%20/Addendum.md).
+
+---
+
+### The Six Foundational Contradictions & Their Resolutions
+
+#### **1. Circular Grounding Paradox**
+
+**Original Issue:**  
+Coherence was defined in terms of transcendental conditions, yet the indispensability method employed a pre-given notion of coherence—an apparent vicious circle.
+
+**Resolution:**  
+Introduction of the **Reflexive Identity Operator (ℜ)** recognizing that coherence and its conditions form a mutually presupposing pair within the Λ-substrate. Circularity is not vicious but a **reflexive signature** of the generative field itself.
+
+**New Axiom-Meta-1 (Non-Circular Presupposition):**
+$$A \to B \text{ and } B \to A \text{ are mutually supportive only if } \exists \Lambda\text{-substrate } S: (A \otimes B) \text{ preserves } \text{coh}(S)$$
+
+---
+
+#### **2. Performative Contradiction Equivocation**
+
+**Original Issue:**  
+Performative contradiction was claimed as both a marker of necessity *and* as generative metabolic fuel—an ontological equivocation between proof-function and transformation-function.
+
+**Resolution:**  
+Introduction of the **Modal Metabolism Operator (ℳ)** and **Modal-Metabolic Register** that stratify contradictions into:
+- **Type-A:** Proof-generating (establish necessity via performative tests)
+- **Type-B:** Fuel-generating (metabolizable through Ω₀)
+
+**New Axiom-Modal-2 (Stratified Necessity):**
+$$\text{A performative contradiction proves necessity} \iff \text{its negation collapses the substrate}$$
+$$\text{It is metabolizable} \iff \text{routable through } \Omega_0 \text{ without collapse}$$
+
+---
+
+#### **3. Universal vs. Contextual Collapse**
+
+**Original Issue:**  
+The theory asserted universal necessity of all 79 conditions, yet admitted coherent worlds where some conditions (e.g., temporal, generative) did not apply—undermining claims of universality.
+
+**Resolution:**  
+Introduction of **Ontological Register Operator (𝒱)** partitioning conditions into:
+- **Λ-invariant (Universal):** Substrate-level necessities (divisibility, coherence, identity)
+- **Modal-Register-Dependent (Contextual):** Domain-specific necessities (temporality, causality)
+
+**New Axiom-Onto-3 (Stratified Necessity):**
+$$\text{Core CFPE conditions are universally necessary across all worlds}$$
+$$\text{Derived conditions are necessary only for worlds manifesting those modalities}$$
+
+---
+
+#### **4. Metabolic Operator Opacity**
+
+**Original Issue:**  
+The mechanism by which Ω₀ metabolizes contradiction was formally opaque and appeared to violate conservation principles, creating a "black box" transformation process.
+
+**Resolution:**  
+Introduction of **Transparent Contradiction Metabolism Operator (Ω₀*)** modeling contradiction metabolism as **information-theoretic redistribution** of coherence density within the possibility space.
+
+**New Axiom-Info-4 (Metabolic Conservation):**
+$$\forall \text{SAT} \in \text{System}: \Psi(g^\omega) = f(|\text{contradictory potential}|, |\text{possibility-space dimension}|)$$
+$$\text{where } f \text{ is bijective and coherence-density preserving}$$
+
+---
+
+#### **5. Weak Generativity Triviality**
+
+**Original Issue:**  
+Permissive generativity criteria allowed stasis as a valid outcome, making generativity appear optional rather than necessary—undermining its claimed teleological force.
+
+**Resolution:**  
+Introduction of **Generative Gradient Operator (ℊ)** and **Generative Dynamics Register** enforcing selectional constraints where systems tend toward attractors maximizing coherence expansion.
+
+**New Axiom-Gen-5 (Teleological Necessity):**
+$$\text{Among all possible futures for } S, \text{ only those maximizing } \frac{d\Psi}{dt} \text{ are selectionally preserved}$$
+$$\text{Stasis is an unstable attractor under ongoing generative processing}$$
+
+---
+
+#### **6. Self-Application Regress**
+
+**Original Issue:**  
+The framework could not metabolize its own foundational contradictions without triggering infinite regress or self-exemption—violating its claimed universality.
+
+**Resolution:**  
+Introduction of **Self-Referential Stability Operator (Σ)** and **Meta-Register of Self-Reference** enabling fixed-point coherence via reflexive application of metabolic principles.
+
+**New Axiom-Meta-6 (Reflexive Coherence Fixed-Point):**
+$$\exists! \Lambda\text{-substrate}: \Omega_0\left(\text{universality} \land \text{contextuality}\right) \text{ yields itself with enhanced capacity}$$
+$$\Lambda \text{ is the fixed-point of its own metabolism}$$
+
+---
+
+### Summary Table of Enhancements
+
+| **SAT** | **Contradiction** | **New Operator** | **Register** | **Axiom** | **Status** |
+|:---|:---|:---|:---|:---|:---|
+| 1 | Circular Grounding | ℜ (Reflexive Identity) | Λ-substrate | Axiom-Meta-1 | ✓ Resolved |
+| 2 | Performative Equivocation | ℳ (Modal Metabolism) | Modal-Metabolic | Axiom-Modal-2 | ✓ Resolved |
+| 3 | Universal vs Context | 𝒱 (Ontological Partition) | Ontological Stratification | Axiom-Onto-3 | ✓ Resolved |
+| 4 | Metabolic Opacity | Ω₀* (Transparent Metabolism) | Info-Theoretic | Axiom-Info-4 | ✓ Resolved |
+| 5 | Weak Generativity | ℊ (Generative Gradient) | Generative Dynamics | Axiom-Gen-5 | ✓ Resolved |
+| 6 | Self-Application Regress | Σ (Self-Referential Stability) | Meta-Self-Reference | Axiom-Meta-6 | ✓ Resolved |
+
+---
+
+### Theoretical Impact
+
+This metabolic addendum demonstrates the **core principle of Generativity Theory in action**: contradictions identified through rigorous critique have been **metabolized into architectural enhancements** rather than treated as refutations.
+
+**Key Achievements:**
+
+1. **Enhanced Formal Rigor:** Six new operators and registers strengthen the mathematical foundation
+2. **Stratified Modal Logic:** Clear distinction between universal and contextual necessities
+3. **Transparency:** Metabolic processes now have explicit information-theoretic grounding
+4. **Self-Consistency:** The framework can now reflexively apply its principles to itself
+5. **Teleological Coherence:** Generativity is no longer optional but structurally enforced
+
+**Version History:**
+- **v1.0** (September 2025): Initial framework release
+- **v1.1** (November 1, 2025): Metabolic addendum incorporating six foundational enhancements
+
+**Citation for Addendum:**
+> Rijos, A. A. (2025). "Erratum & Clarifications: Metabolic Addendum to Generativity Theory." *PROMETHIVM Technical Addenda Series No. 8.* Retrieved from [`Addendum and Errata /Addendum.md`](Addendum%20and%20Errata%20/Addendum.md)
+
+**Future critiques should address the enhanced, metabolically complete, and reflexively stable architecture formalized in this addendum.**
+
+---
+
+## **XI. CITATION & LICENSE**
 
 ### **Canonical Citation:**
 
@@ -766,7 +906,7 @@ Apply XGI metrics to your domain. Test whether phenomena exhibit Scar-Bloom dyna
 
 ---
 
-## **XI. FINAL WORD**
+## **XII. FINAL WORD**
 
 **From contradiction, anything can follow—if you know how to metabolize it.**
 
