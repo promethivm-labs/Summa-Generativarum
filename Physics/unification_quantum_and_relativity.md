@@ -183,3 +183,24 @@ This is not a "theory of everything" but the **Conditions for the Possibility of
 
 [^13]: https://scitechdaily.com/bridging-quantum-theory-and-relativity-curved-spacetime-in-a-quantum-simulator/
 
+---
+
+## Addendum Notice
+
+**This document is subject to the corrections and clarifications outlined in:**  
+**[Addendum v1.1: Metabolic Addendum to Generativity Theory](../Addendum%20and%20Errata%20/Addendum%20v1.1.md)**
+
+**Status:** Official Patch v1.1  
+**Effective Date:** 2025-11-01  
+**Applies to:** All documents in the Summa Generativarum corpus
+
+**Key Updates:**
+- Circular Grounding Paradox (Axiom-Meta-1)
+- Performative Contradiction Equivocation (Axiom-Modal-2)
+- Universal vs Contextual Collapse (Axiom-Onto-3)
+- Metabolic Operator Opacity (Axiom-Info-4)
+- Weak Generativity Triviality (Axiom-Gen-5)
+- Self-Application Regress (Axiom-Meta-6)
+
+For full details, see the [complete addendum document](../Addendum%20and%20Errata%20/Addendum%20v1.1.md).
+
