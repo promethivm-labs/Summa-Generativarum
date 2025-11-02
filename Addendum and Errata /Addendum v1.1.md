@@ -1,3 +1,12 @@
+---
+# ARCHIVED: Version 1.1 (Historical Document)
+**Archive Status:** This document represents the v1.1 metabolic addendum  
+**Superseded By:** Addendum v1.2 (see `/docs/Architecture_v1.2.md` and `/CHANGELOG_v1.2.md`)  
+**Effective Date (v1.1):** 2025-11-01  
+**Archive Date:** 2025-11-02  
+**Preservation Reason:** Historical context for v1.2 enhancements  
+**Usage:** Reference only - v1.2 incorporates and extends all v1.1 content
+---
 
 ## ERRATUM \& CLARIFICATIONS: Metabolic Addendum to Generativity Theory
 
