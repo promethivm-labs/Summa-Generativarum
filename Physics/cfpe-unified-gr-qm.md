@@ -1,5 +1,9 @@
 # Minimal CFPE Axioms for the Simultaneous Emergence of Quantum Mechanics and General Relativity
 
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
+---
+
 ## License and Copyright
 
 **Copyright © 2025 Avery Alexander Rijos. All rights reserved.**
@@ -120,3 +124,7 @@ We have established the precise minimal set of CFPE axioms whose joint satisfact
 - PROMETHIVM Space files
 - Avery Rijos, "The Conditions of Possibility of Everything"
 - Formal Generative Heterology, Principia Generativarum, Generative Corpus
+
+---
+
+[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md

@@ -5,6 +5,10 @@
 
 ***
 
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../../../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
+---
+
 ## Symbolic Definition
 
 $$
@@ -214,6 +218,8 @@ $$
 [^1]: Axioms-of-Generative-Mathematics.pdf
 
 [^2]: Transcendental-Proof-of-the-Riemann-Hypothesis-via-Generative-Metaphysical-Necessity.pdf
+
+[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md
 
 [^3]: Principia-Generativarum.pdf
 

@@ -3,6 +3,10 @@
 
 ---
 
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
+---
+
 **Possibility spaces** represent the structured domain of what *could be* rather than merely what *is*. To model them statistically requires integrating modal logic, measure theory, and generative dynamics within a substrate-aware framework.[^1][^2]
 
 ### Formal Foundation
@@ -312,6 +316,8 @@ To view a copy of this license, visit: https://creativecommons.org/licenses/by-n
 [^3]: Axioms-of-Generative-Mathematics.pdf
 
 [^4]: Transcendental-Architectonics.pdf
+
+[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md
 
 [^5]: Formal-Generative-Heterology.pdf
 

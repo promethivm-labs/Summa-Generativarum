@@ -2,6 +2,10 @@
 
 # October 2025
 
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
+---
+
 ## **Abstract**
 
 The classical paradigm of *evolution*—anchored in Darwinian selection and the fitness landscape—has long provided the dominant explanatory framework for biological and systemic novelty. Yet, as **Generative Logic** reveals, evolution remains structurally bounded by its substrate and operational logic: it can explore possibility but not transform it. Evolution optimizes *within* fixed parameters; **Generativity** rewrites those parameters. This paper formalizes that distinction, demonstrating that generativity represents a *metaformal architecture* capable of metabolizing contradiction, transforming its own conditions of possibility, and sustaining open-ended emergence beyond equilibrium. Where evolution eliminates contradiction, generativity metabolizes it; where evolution explores a landscape, generativity transforms the landscape itself. The argument culminates in the articulation of **Contradiction Metabolism** ($\Omega_0$), the **Bloom Operator** ($\mathcal{B}$), and **Scar–Bloom Recursion**, which together define the reflexive engine of generative transformation. Evolution ends where generativity begins.
@@ -247,3 +251,7 @@ This work is licensed under the **Creative Commons Attribution-NonCommercial-NoD
 To view a copy of this license, visit: https://creativecommons.org/licenses/by-nc-nd/4.0/
 
 **For permissions beyond the scope of this license, contact:** averyarijos[at]gmail[dot]com
+
+---
+
+[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md

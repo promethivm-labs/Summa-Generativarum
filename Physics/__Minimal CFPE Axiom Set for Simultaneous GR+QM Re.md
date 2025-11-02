@@ -1,5 +1,9 @@
 ## **Minimal CFPE Axiom Set for Simultaneous GR+QM Reproduction**
 
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
+---
+
 ## License and Copyright
 
 **Copyright © 2025 Avery Alexander Rijos. All rights reserved.**
@@ -372,6 +376,8 @@ These 17 axioms constitute the **minimal transcendental architecture** from whic
 [^3]: Transcendental-Architectonics.pdf
 
 [^4]: Formal-Generative-Heterology.pdf
+
+[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md
 
 [^5]: Principia-Generativarum.pdf
 

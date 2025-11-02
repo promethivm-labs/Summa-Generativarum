@@ -1,5 +1,9 @@
 # Autogenerative Neural Network AGNN CFPE Daemon Demonstration Log Analysis
 
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
+---
+
 ## 🚀 Key Revolutionary Features
 
 ### 1. **Self-Evolving Neural Network**
@@ -188,3 +192,7 @@ Cycle Results:
 [2025-11-01 00:22:20] Final checkpoint saved
 [2025-11-01 00:22:20] Daemon stopped successfully
 ```
+
+---
+
+[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md

@@ -1,6 +1,10 @@
 
 # Category II: Logical-Formal Conditions
 
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
+---
+
 ## A Comprehensive Articulation[1][2]
 
 The **Logical-Formal Conditions** (Category II: C₁₁–C₂₀ within the 79 Conditions for the Possibility of Everything) constitute the foundational grammar of intelligibility within the Λ-Substrate framework. These conditions establish the principles governing logical structure and formal coherence, distinguishing Generative Logic from classical logic through the metabolization of contradiction rather than its elimination.[^1]
@@ -295,6 +299,8 @@ To view a copy of this license, visit: https://creativecommons.org/licenses/by-n
 [^3]: The-Conditions-of-Possibility-of-Everything-Avery-Rijos.pdf
 
 [^4]: THE-GENERATIVE-CORPUS.md
+
+[^addendum]: See "Erratum & Clarifications: Metabolic Addendum to Generativity Theory" in Addendum and Errata /Addendum.md
 
 [^5]: Principia-Generativarum.pdf
 
