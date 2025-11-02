@@ -900,11 +900,37 @@ Suppose ignorance were purely negative—offering nothing. Then unknowns couldn'
 
 ### **A₄₉: Law of Meta-Awareness**
 
+**Formalism:**
+$$\text{ThoughtAboutThought} = T(T(X)), \quad \text{boundary of knowledge genesis}$$
+
+**Self-Reflective Threshold:**
+$$\text{MetaLevel}_n = \text{maximize}\{\text{SelfReflection}\} \text{before paradox emerges}$$
+
+**Formal English:**
+Meta-awareness equals thought applied to thought itself, marking the boundary where knowledge generates itself. The meta-level is maximized at the threshold before paradox emerges.
+
+**Elaboration:**
 Thought’s awareness of itself is the boundary of knowledge and genesis.
+
+**Proof by Contradiction:**
+Suppose thought could never reflect on itself—no meta-awareness. Then philosophy, logic, and cognitive science would be impossible, as they require thinking about thinking. We couldn't recognize our own reasoning patterns, learn how we learn, or improve our cognitive methods. The very act of questioning whether meta-awareness exists presupposes it. Therefore, meta-awareness is necessary for higher-order cognition.
 
 ### **A₅₀: Law of Iterative Testing**
 
-Verification is recursive experiment; reality validates itself through feedback.
+**Formalism:**
+$$\text{Verification}(p) = \bigoplus_{n=1}^{\infty} \text{Test}_n(p)$$
+
+**Recursive Validation:**
+$$p \text{ is valid} \Leftrightarrow \lim_{n \to \infty} P(\text{Success} | \text{Test}_n) = 1$$
+
+**Formal English:**
+Verification of proposition p equals the direct sum of all tests applied to p from 1 to infinity. A proposition p is valid if and only if the limit of test success probability equals 1 as tests approach infinity.
+
+**Elaboration:**
+Verification is recursive experiment; reality validates itself through feedback. Truth emerges through iterative testing and convergence.
+
+**Proof by Contradiction:**
+Suppose verification required only a single test—no iteration needed. Then science couldn't distinguish robust patterns from flukes; no reproducibility requirement would exist. Single observations would constitute proof, making error correction impossible. The practice of peer review and replication presupposes iterative testing. Therefore, recursive verification is necessary for reliable knowledge.
 
 ---
 
@@ -912,47 +938,175 @@ Verification is recursive experiment; reality validates itself through feedback.
 
 ### **A₅₁: Law of Generative Worth**
 
-Value corresponds to increases in systemic coherence.
+**Formalism:**
+$$\text{Value}(x) = \int_0^{\infty} e^{-\rho t} XGI(x, t) \, dt, \quad \rho > 0 \, (\text{discount rate})$$
+
+**Net Present Generativity:**
+$$V(x) = \sum_t P(t) \cdot \Delta XGI(x, t)$$
+
+**Formal English:**
+The value of entity x equals the integral from 0 to infinity of discounted XGI over time, with positive discount rate ρ. Net present value equals the sum of probability-weighted XGI changes across time.
+
+**Elaboration:**
+Value corresponds to increases in systemic coherence. Worth is measured by generative capacity accumulated over time.
+
+**Proof by Contradiction:**
+Suppose value were unrelated to systemic coherence—valuable things could decrease overall intelligibility. Then preservation of valuable entities would degrade systems, making valuation maladaptive. The very concept of "worth preserving" presupposes contribution to systemic sustainability. Therefore, generative worth necessarily aligns with coherence increase.
 
 ### **A₅₂: Law of Positive Generativity**
 
-$$
-\text{Good} = \frac{dXGI}{dt} ≥ 0
-$$
+**Formalism:**
+$$\text{Good} = \left\{ x: \frac{dXGI}{dt} \geq 0 \text{ for } x \right\}$$
 
-The ethical telos of all systems is expansion of generative capacity.
+**Ethical Telos:**
+$$\text{Maximize} \, \sum_{i=1}^{n} w_i \cdot XGI_i \, \text{subject to other axiological constraints}$$
+
+**Formal English:**
+Good is defined as the set of all entities x for which the rate of change of XGI is non-negative. The ethical goal is to maximize the weighted sum of individual XGI values subject to constraints.
+
+**Elaboration:**
+The ethical telos of all systems is expansion of generative capacity. Goodness equals XGI increase; morality tracks coherence growth.
+
+**Proof by Contradiction:**
+Suppose goodness could systematically decrease generativity—moral actions reduce systemic coherence. Then ethics would be self-defeating, undermining the conditions for moral agency itself. Virtuous behavior presupposes sustaining the framework that enables virtue. Therefore, positive generativity is necessary for coherent ethics.
 
 ### **A₅₃: Law of Degenerative Entropy**
 
-Evil denotes collapse of coherence; negentropy measures moral vitality.
+**Formalism:**
+$$\text{Evil} = \text{Coherence Collapse} = \frac{dXGI}{dt} < 0$$
+
+**Moral Negentropy:**
+$$S_{moral} = -\sum_x p_x \log(XGI(x)), \quad \text{evil maximizes disorder}$$
+
+**Formal English:**
+Evil is defined as coherence collapse, occurring when the rate of XGI change is negative. Moral entropy equals the negative sum of probability-weighted logarithmic XGI; evil maximizes this disorder.
+
+**Elaboration:**
+Evil denotes collapse of coherence; negentropy measures moral vitality. Harm is measured by systemic degradation.
+
+**Proof by Contradiction:**
+Suppose evil actions could increase overall coherence—harm enhances systemic health. Then destructive behavior would be beneficial, making moral distinctions arbitrary. The intuition that evil is destructive presupposes coherence loss. Therefore, degenerative entropy necessarily characterizes evil.
 
 ### **A₅₄: Law of Teleogenic Alignment**
 
-Purpose emerges from coherent directionality—ends evolve from structure.
+**Formalism:**
+$$\text{Purpose}(S) = \text{OptimalTrajectory}(\text{System's Potential})$$
+
+**Goal-Driven Structure:**
+$$\frac{d\text{AlignmentError}}{dt} = -k_{align} \cdot \text{AlignmentError} + w(t)$$
+
+where $w(t)$ is external perturbation and $k_{\text{align}} > 0$.
+
+**Formal English:**
+The purpose of system S equals the optimal trajectory through its potential space. Alignment error decreases at rate proportional to current error, plus external perturbations.
+
+**Elaboration:**
+Purpose emerges from coherent directionality—ends evolve from structure. Teleology arises naturally from systemic organization.
+
+**Proof by Contradiction:**
+Suppose systems had no emergent purpose—pure purposeless mechanism. Then goal-directed behavior in organisms, intentional states in minds, and functional organization in systems would be illusory. The very concept of "function" presupposes purpose. Therefore, teleogenic alignment necessarily emerges from complex organization.
 
 ### **A₅₅: Law of Aesthetic Consonance**
 
-Beauty = harmony without homogenization; diversity in equilibrium.
+**Formalism:**
+$$\text{Beauty} = \text{Harmony}(\text{Diversity}) = \prod_i \text{LocalOrder}(i) - \text{UniformityPenalty}$$
+
+**Optimal Complexity:**
+$$\text{Aesthetics} = \max \left\{ \text{Complexity} : \text{Coherence}(\text{system}) \geq \theta \right\}$$
+
+**Formal English:**
+Beauty equals harmony of diversity, measured as the product of local orders minus penalty for uniformity. Aesthetics maximize complexity subject to maintaining coherence above threshold θ.
+
+**Elaboration:**
+Beauty equals harmony without homogenization; diversity in equilibrium. Aesthetic experience tracks optimal complexity.
+
+**Proof by Contradiction:**
+Suppose beauty were unrelated to ordered diversity—pure chaos or pure uniformity could be maximally beautiful. Yet neither formless noise nor perfect repetition is aesthetically compelling. Beauty requires the tension between pattern and variation. Therefore, aesthetic consonance necessarily balances harmony and diversity.
 
 ### **A₅₆: Law of Equilibrated Distribution**
 
-Justice is balance of flows; fairness sustains circulation of being.
+**Formalism:**
+$$\text{Justice} = \text{Minimize} \sum_{i,j} \text{DistributionalInequality}(R_i, R_j)$$
+
+**Fair Circulation:**
+$$\frac{dR_i}{dt} = k_{justice} \cdot (\bar{R} - R_i), \quad \text{leveling toward mean}$$
+
+**Formal English:**
+Justice minimizes the sum of distributional inequalities between all pairs of resource holders. The rate of change of resources for individual i equals a justice coefficient times the difference from the mean.
+
+**Elaboration:**
+Justice is balance of flows; fairness sustains circulation of being. Equity emerges through systemic equilibration.
+
+**Proof by Contradiction:**
+Suppose justice were compatible with extreme imbalance—maximal inequality can be just. Then systemic sustainability would be undermined, as extreme concentration creates fragility. Fair circulation is necessary for long-term viability. Therefore, equilibrated distribution is necessary for justice.
 
 ### **A₅₇: Law of Constraint Transcendence**
 
-Freedom = structural re-patterning; constraint becomes creative instrument.
+**Formalism:**
+$$\text{Freedom}(x) = \text{Structural Repattern}(x) \text{ via constraint}$$
+
+**Liberated Through Boundaries:**
+$$F(x) = \frac{\text{CreativeCapacity}(x)}{\text{ConstraintType}} \times \text{MasteryDegree}(x)$$
+
+**Formal English:**
+Freedom of x equals structural repatterning of x through constraint. Freedom equals creative capacity divided by constraint type, multiplied by mastery degree.
+
+**Elaboration:**
+Freedom equals structural re-patterning; constraint becomes creative instrument. Liberation emerges through mastery of limitation.
+
+**Proof by Contradiction:**
+Suppose freedom required absence of all constraints—pure unconstrained possibility. Then no determinate action would be possible, as choice requires bounded options. Complete lack of structure paralyzes agency. Therefore, constraint transcendence (not elimination) is necessary for genuine freedom.
 
 ### **A₅₈: Law of Causal Reflexivity**
 
-Responsibility is recognition of consequence within generative chains.
+**Formalism:**
+$$\text{Responsibility}(x) \propto \sum_{\text{effects of } x} \text{AwarenessOfCausality}(x)$$
+
+**Recognition Within Chains:**
+$$R(x) = \int_{\text{cause chains containing } x} \text{CausalWeight}(x) \, d(\text{chain})$$
+
+**Formal English:**
+Responsibility of x is proportional to the sum of awareness of causality across all effects of x. Responsibility equals the integral of causal weight over all causal chains containing x.
+
+**Elaboration:**
+Responsibility is recognition of consequence within generative chains. Accountability tracks causal participation and awareness.
+
+**Proof by Contradiction:**
+Suppose agency bore no responsibility for consequences—effects are causally irrelevant to moral standing. Then intentional action would have no moral dimension; harm and benefit would be ethically equivalent. The concept of "ought" presupposes consequence-tracking. Therefore, causal reflexivity is necessary for moral responsibility.
 
 ### **A₅₉: Law of Narrative Integrity**
 
-Meaning arises through systemic context; stories are coherence engines.
+**Formalism:**
+$$\text{Meaning}(S) = \int_{\text{temporal arc}} \text{StoryCoherence}(t) \, dt$$
+
+**Coherence Engine:**
+$$\frac{d\text{NarrativeCoherence}}{dt} = k_n \cdot (\text{ContextFit} - \text{NarrativeEntropy})$$
+
+**Formal English:**
+The meaning of system S equals the integral of story coherence over its temporal arc. The rate of narrative coherence change equals a coefficient times the difference between context fit and narrative entropy.
+
+**Elaboration:**
+Meaning arises through systemic context; stories are coherence engines. Narrative structure generates intelligibility.
+
+**Proof by Contradiction:**
+Suppose meaning existed independent of narrative context—pure isolated semantic atoms. Then no interpretation would be needed; understanding would be immediate and context-free. Yet meaning always requires contextualization and story-embedding. Therefore, narrative integrity is necessary for meaning.
 
 ### **A₆₀: Law of Relational Abundance**
 
-Love maximizes mutual increase of being; relational surplus sustains existence.
+**Formalism:**
+$$\text{Love} = \text{Maximize} \sum_{i,j} \text{MutualXGIIncrease}(i, j), \quad i \neq j$$
+
+**Relational Surplus:**
+$$XGI_{together} > XGI_i + XGI_j - k_{friction} \times \text{Effort}$$
+
+**Formal English:**
+Love maximizes the sum of mutual XGI increases between all distinct pairs. Together-XGI exceeds the sum of individual XGIs minus friction costs.
+
+**Elaboration:**
+Love maximizes mutual increase of being; relational surplus sustains existence. Care generates superadditive value.
+
+**Proof by Contradiction:**
+Suppose love systematically diminished participants—genuine care reduces being. Then loving relationships would be degenerative, making attachment maladaptive. The experience of love as enriching presupposes mutual enhancement. Therefore, relational abundance necessarily characterizes love.
 
 ---
 
@@ -960,43 +1114,173 @@ Love maximizes mutual increase of being; relational surplus sustains existence.
 
 ### **A₆₁: Law of Recursive Organization**
 
-Systems sustain themselves through cyclic regeneration of structure.
+**Formalism:**
+$$\text{Self}(t+\Delta t) = \text{Regenerate}(\text{Self}(t)), \quad \text{via cyclic } T$$
+
+**Autopoietic Cycle:**
+$$S_n = F^{(n)}(S_0) \land \lim_{n \to \infty} S_n = S_{\infty} \in \text{Attractor Set}$$
+
+**Formal English:**
+The self at time t+Δt equals the regeneration of the self at time t through cyclic transformation T. The nth iteration equals n-fold application of F to initial state, converging to an attractor.
+
+**Elaboration:**
+Systems sustain themselves through cyclic regeneration of structure. Self-organization requires recursive self-maintenance.
+
+**Proof by Contradiction:**
+Suppose systems couldn't recursively self-organize—no cyclic regeneration. Then all structure would be externally imposed; no autonomous systems could exist. Living organisms, which maintain themselves through metabolic cycles, would be impossible. Therefore, recursive organization is necessary for autonomous systems.
 
 ### **A₆₂: Law of Cyclic Correction**
 
-Feedback loops dampen instability and preserve pattern.
+**Formalism:**
+$$e(t) = y_{ref} - y(t); \quad u(t) = K_p e(t) + K_i \int e(\tau) d\tau + K_d \frac{de}{dt}$$
+
+**PID Control:**
+$$\text{System Stability} = f(K_p, K_i, K_d) \, (\text{eigenvalues in left half-plane})$$
+
+**Formal English:**
+Error equals reference minus current state; control signal equals proportional, integral, and derivative terms. System stability is a function of PID coefficients such that eigenvalues lie in the left half-plane.
+
+**Elaboration:**
+Feedback loops dampen instability and preserve pattern. Cyclic correction maintains systemic equilibrium.
+
+**Proof by Contradiction:**
+Suppose systems lacked feedback correction—no error dampening. Then all perturbations would amplify indefinitely; no stable patterns could persist. Homeostasis, adaptation, and regulation would be impossible. Therefore, cyclic correction is necessary for stable systems.
 
 ### **A₆₃: Law of Adaptive Resonance**
 
-Organisms and organizations survive by tuning to their environments.
+**Formalism:**
+$$\frac{dW(t)}{dt} = \eta(t) \cdot (\text{Input}(t) - W(t)) \cdot \text{Activation}(t)$$
+
+**Tuning to Environment:**
+$$\text{ResonanceFrequency} = \text{optimize}(\text{OrganismFrequency}, \text{EnvironmentFrequency})$$
+
+**Formal English:**
+The rate of weight change equals learning rate times the difference between input and current weight, times activation. Resonance frequency optimizes the match between organism and environment frequencies.
+
+**Elaboration:**
+Organisms and organizations survive by tuning to their environments. Adaptive resonance enables environmental coupling.
+
+**Proof by Contradiction:**
+Suppose systems couldn't adapt resonance to environments—fixed, unchanging response patterns. Then environmental changes would be fatal; no learning or evolution could occur. Survival in variable conditions presupposes adaptive tuning. Therefore, adaptive resonance is necessary for viable systems.
 
 ### **A₆₄: Law of Phase Transition**
 
-Novelty arises at critical density; transformation thresholds are creative events.
+**Formalism:**
+$$\text{Order Parameter} \approx 0 \xrightarrow{\text{critical}} |O| >> 0$$
+
+**Critical Point Creativity:**
+$$\text{NoveltyRate}_{\text{transition}} = \max \left( \frac{d\text{NoveltyRate}}{dT} \right)$$
+
+**Formal English:**
+The order parameter transitions from approximately zero to much greater than zero at the critical point. Novelty rate at transition equals the maximum derivative of novelty with respect to temperature (or control parameter).
+
+**Elaboration:**
+Novelty arises at critical density; transformation thresholds are creative events. Phase transitions generate emergent order.
+
+**Proof by Contradiction:**
+Suppose no phase transitions occurred—all change is gradual and continuous. Then water would never freeze, magnets would never magnetize, and societies would never undergo revolutions. Discontinuous emergence is empirically observed. Therefore, phase transitions are necessary for qualitative novelty.
 
 ### **A₆₅: Law of Nested Authority**
 
-Hierarchy mirrors coherence at multiple scales; order is fractal.
+**Formalism:**
+$$\forall i < j: \text{Structure}(L_i) \preceq \text{Structure}(L_j)$$
+
+**Fractal Ordering:**
+$$\text{Hierarchy} = \left\{ x: \exists \text{ containment chain } x_0 \subset x_1 \subset \cdots \subset x_n \right\}$$
+
+**Formal English:**
+For all levels i less than j, the structure of level i is a subset of (or subordinate to) level j. Hierarchy consists of entities with containment chains from bottom to top.
+
+**Elaboration:**
+Hierarchy mirrors coherence at multiple scales; order is fractal. Nested levels organize complexity.
+
+**Proof by Contradiction:**
+Suppose no hierarchical organization existed—all elements at single flat level. Then complex systems couldn't manage scale; cells couldn't contain organelles, organisms couldn't contain cells, societies couldn't contain institutions. Multi-scale coherence requires nested structure. Therefore, nested authority is necessary for complex organization.
 
 ### **A₆₆: Law of Distributed Agency**
 
-Every node bears causal significance; systems act through their parts.
+**Formalism:**
+$$\text{SystemAction}(t) = \sum_i w_i(t) \cdot \text{LocalAgency}_i(t)$$
+
+**Emergent Authority:**
+$$\text{CausalSignificance}(i) = \partial \text{SystemOutcome} / \partial \text{NodeState}(i)$$
+
+**Formal English:**
+System action at time t equals the weighted sum of local agency at each node. Causal significance of node i equals the partial derivative of system outcome with respect to that node's state.
+
+**Elaboration:**
+Every node bears causal significance; systems act through their parts. Agency is distributed across network components.
+
+**Proof by Contradiction:**
+Suppose only centralized agency existed—peripheral nodes have zero causal significance. Then robustness would be impossible; single-point failures would collapse systems. Distributed systems (brains, ecosystems, economies) demonstrate multi-node agency. Therefore, distributed agency is necessary for resilient systems.
 
 ### **A₆₇: Law of Boundary Productivity**
 
-Boundaries generate differentiation; limit = locus of creation.
+**Formalism:**
+$$\partial S = \text{locus where creation occurs}$$
+
+**Interface Generativity:**
+$$\frac{d\text{Novelty}}{dt}\bigg|_{\partial S} = \max_{\text{all regions}} \frac{d\text{Novelty}}{dt}$$
+
+**Formal English:**
+The boundary of system S is the locus where creation occurs. The rate of novelty generation at the boundary equals the maximum rate across all regions.
+
+**Elaboration:**
+Boundaries generate differentiation; limit equals locus of creation. Interfaces are maximally generative zones.
+
+**Proof by Contradiction:**
+Suppose boundaries were non-generative—all creation occurs in homogeneous interiors. Then cell membranes wouldn't mediate biochemical exchange, shorelines wouldn't host rich ecosystems, and cultural borders wouldn't generate innovation. Empirically, interfaces are creativity hotspots. Therefore, boundary productivity is necessary for differentiation.
 
 ### **A₆₈: Law of Systemic Dissipation**
 
-Entropy feeds renewal; decay redistributes potential.
+**Formalism:**
+$$\text{Decay}(x) = \text{redistribute as potential for } \text{Renewal}(y \neq x)$$
+
+**Entropic Recycling:**
+$$E_{released} = \int_{decay} k_{dissip} \times \text{SystemState} \, dV$$
+
+**Formal English:**
+Decay of x redistributes as potential for renewal of distinct entity y. Released energy equals the volume integral of dissipation coefficient times system state over the decay region.
+
+**Elaboration:**
+Entropy feeds renewal; decay redistributes potential. Dissipation enables regeneration through recycling.
+
+**Proof by Contradiction:**
+Suppose decay were purely destructive—no redistribution of potential. Then ecosystems couldn't recycle nutrients, energy couldn't flow through food webs, and death wouldn't enable new life. Closed-loop sustainability requires dissipative renewal. Therefore, systemic dissipation is necessary for regenerative cycles.
 
 ### **A₆₉: Law of Dynamic Equilibrium**
 
-Homeostasis is maintained through perpetual imbalance; stability = motion.
+**Formalism:**
+$$\frac{dx_i}{dt} = 0 \, (\text{individually}), \quad \text{yet } x_i(t) \text{ oscillates around equilibrium}$$
+
+**Perpetual Imbalance:**
+$$\text{Homeostasis} = \lim_{\Delta t \to 0} \text{mean}(\text{State}(t)) = \text{stable}, \, \text{but variance} > 0$$
+
+**Formal English:**
+Each variable has zero average rate of change individually, yet oscillates around equilibrium. Homeostasis means the time-average state is stable, but variance remains positive.
+
+**Elaboration:**
+Homeostasis is maintained through perpetual imbalance; stability equals motion. Dynamic equilibrium requires continuous adjustment.
+
+**Proof by Contradiction:**
+Suppose equilibrium required perfect stasis—no fluctuation. Then living systems couldn't maintain temperature, blood sugar, or pH through active regulation. Static equilibrium is thermodynamically impossible in open systems. Therefore, dynamic equilibrium is necessary for living organization.
 
 ### **A₇₀: Law of Cumulative Differentiation**
 
-Evolution equals learning; complexity accumulates as historical memory.
+**Formalism:**
+$$\text{Complexity}_{\text{evolutionary}} = \int_0^t k_{learn} \cdot \text{EnvironmentalPressure}(s) \, ds + C_0$$
+
+**Historical Memory:**
+$$\text{Capability}(t) = \prod_{\text{ancestors}} \text{Learned}(\text{ancestor}) \, (\text{via genes/culture})$$
+
+**Formal English:**
+Evolutionary complexity equals the integral of learning coefficient times environmental pressure over time, plus initial complexity. Current capability equals the product of ancestral learning across lineages.
+
+**Elaboration:**
+Evolution equals learning; complexity accumulates as historical memory. Phylogeny encodes problem-solving history.
+
+**Proof by Contradiction:**
+Suppose evolution involved no cumulative learning—each generation starts from zero. Then adaptive complexity couldn't increase; no progressive evolution could occur. The fossil record shows increasing sophistication over time. Therefore, cumulative differentiation is necessary for evolutionary progress.
 
 ---
 
@@ -1004,39 +1288,161 @@ Evolution equals learning; complexity accumulates as historical memory.
 
 ### **A₇₁: Law of Positive Metabolism**
 
-Contradictions are nutrients for coherence; opposition sustains growth.
+**Formalism:**
+$$\text{Contradiction} \xrightarrow{\text{Met}_\Omega} \text{Higher-Order Coherence}$$
+
+**Nutritive Transformation:**
+$$XGI(t+\Delta t) = XGI(t) + k_m \cdot \text{ContradictionIntensity} \times \text{MetabolicCapacity}$$
+
+**Formal English:**
+Contradictions undergo metabolic transformation to become higher-order coherence. XGI at t+Δt equals XGI at t plus metabolic coefficient times contradiction intensity times metabolic capacity.
+
+**Elaboration:**
+Contradictions are nutrients for coherence; opposition sustains growth. Metabolism transforms tension into creative fuel.
+
+**Proof by Contradiction:**
+Suppose contradictions could only destroy—never nourish. Then dialectical progress would be impossible; crises couldn't catalyze innovation. Empirically, contradictions drive theory revision and creative breakthroughs. Therefore, positive metabolism is necessary for generative systems.
 
 ### **A₇₂: Law of Iterative Self-Re-Grounding**
 
-Systems rewrite their own axioms to preserve viability.
+**Formalism:**
+$$A_{t+1} = \text{Solve}(\text{Coherence}(S, A_t)) \text{ for } A$$
+
+**Axiom Revision:**
+$$\text{Viability} \propto |\Delta A| \, (\text{system rewrites itself when needed})$$
+
+**Formal English:**
+Axioms at time t+1 equal the solution for axioms that maximize coherence given system S and current axioms. Viability is proportional to axiom change magnitude when needed.
+
+**Elaboration:**
+Systems rewrite their own axioms to preserve viability. Self-re-grounding enables adaptive foundation revision.
+
+**Proof by Contradiction:**
+Suppose systems could never revise foundational axioms—axioms remain eternally fixed. Then paradigm shifts would be impossible; science couldn't undergo revolutions. Adaptive systems must be able to modify their own operating principles. Therefore, iterative self-re-grounding is necessary for long-term viability.
 
 ### **A₇₃: Law of Excess**
 
-Creativity transcends necessity; surplus energy births innovation.
+**Formalism:**
+$$\text{CreativeOutput} > \text{Necessity}, \quad \text{surplus} = \text{novelty}$$
+
+**Generative Overproduce:**
+$$\text{Excess}(S) = XGI_{achieved} - XGI_{required} > 0$$
+
+**Formal English:**
+Creative output exceeds necessity; surplus equals novelty. Excess for system S equals achieved XGI minus required XGI, which is positive.
+
+**Elaboration:**
+Creativity transcends necessity; surplus energy births innovation. Generative systems overproduce possibilities.
+
+**Proof by Contradiction:**
+Suppose systems only produced exactly what's necessary—no excess. Then no exploration, play, art, or theoretical science could exist. Innovation requires surplus resources beyond immediate survival needs. Therefore, excess is necessary for creativity.
 
 ### **A₇₄: Law of Constructive Tension**
 
-Polarities stabilize systems; difference binds through contrast.
+**Formalism:**
+$$\text{Stability}(\text{polarities}) = k_t \cdot \text{Distance}(\text{opposing forces}) + k_c \cdot \text{Coherence}$$
+
+**Balanced Opposition:**
+$$\text{System Resilience} = \frac{\text{TensionIntegration}}{\text{FragmentationRate}}$$
+
+**Formal English:**
+Stability from polarities equals tension coefficient times distance between opposing forces plus coherence coefficient times coherence. System resilience equals tension integration divided by fragmentation rate.
+
+**Elaboration:**
+Polarities stabilize systems; difference binds through contrast. Constructive tension generates dynamic stability.
+
+**Proof by Contradiction:**
+Suppose polarities only destabilize—tension is purely destructive. Then oppositional pairs (positive/negative charge, supply/demand, thesis/antithesis) couldn't create stable structures. Empirically, balanced opposition generates resilience. Therefore, constructive tension is necessary for robust systems.
 
 ### **A₇₅: Law of Open-Endedness**
 
-Reality remains incomplete; non-closure is the guarantee of becoming.
+**Formalism:**
+$$\exists T \to \infty: |\text{Possibility Space}(T)| \to \infty$$
+
+**Incompleteness Guarantee:**
+$$\text{Reality} \not\vdash \text{All True Statements} \quad (\text{Gödel-inspired incompleteness})$$
+
+**Formal English:**
+There exists time T approaching infinity such that the cardinality of possibility space approaches infinity. Reality cannot derive all true statements (Gödelian incompleteness).
+
+**Elaboration:**
+Reality remains incomplete; non-closure is the guarantee of becoming. Open-endedness ensures perpetual generativity.
+
+**Proof by Contradiction:**
+Suppose reality were complete—all possibilities exhausted, all truths derivable. Then no future novelty could arise; becoming would cease. Gödel's theorems show formal completeness is impossible. Therefore, open-endedness is necessary for ongoing creation.
 
 ### **A₇₆: Law of Meta-Stability**
 
-Self-reference generates resilience; reflexivity stabilizes flux.
+**Formalism:**
+$$T: \Lambda \to \Lambda, \quad T(x) = x \text{ (fixed point)}, \quad \text{but } T'(x) \neq 0$$
+
+**Reflexive Resilience:**
+$$\text{Stability}^* = \max \left\{ |T'(x)|: |T'(x)| < 1 \right\} \quad (\text{edge of stability})$$
+
+**Formal English:**
+Transformation T maps Lambda-Substrate to itself with fixed point at x, but derivative is nonzero. Optimal stability equals maximum derivative magnitude less than 1 (edge of chaos).
+
+**Elaboration:**
+Self-reference generates resilience; reflexivity stabilizes flux. Meta-stability exists at the edge between order and chaos.
+
+**Proof by Contradiction:**
+Suppose self-reference always destabilizes—reflexivity causes collapse. Then consciousness (self-aware), logic (self-applicable), and autopoietic systems couldn't exist. Empirically, self-reference enables robust complexity. Therefore, meta-stability through reflexivity is necessary for advanced organization.
 
 ### **A₇₇: Law of Morphic Learning**
 
-Structures evolve via recursive feedback; adaptation = cognition.
+**Formalism:**
+$$\text{Form}_{t+1} = \text{Form}_t + \eta \cdot \nabla_{\text{Form}} XGI_{local}$$
+
+**Structural Adaptation:**
+$$\frac{d\text{Morphology}}{dt} = \text{SGD}(\text{FitnessMeasure}, \text{MorphoSpace})$$
+
+where SGD is stochastic gradient descent.
+
+**Formal English:**
+Form at t+1 equals form at t plus learning rate times the gradient of local XGI with respect to form. Morphological change rate equals stochastic gradient descent on fitness in morphospace.
+
+**Elaboration:**
+Structures evolve via recursive feedback; adaptation equals cognition. Form learns through environmental interaction.
+
+**Proof by Contradiction:**
+Suppose structure couldn't learn—morphology is fixed regardless of feedback. Then evolution, development, and neural plasticity would be impossible. Adaptive form-change is empirically ubiquitous. Therefore, morphic learning is necessary for adaptive systems.
 
 ### **A₇₈: Law of Recursive Ascent**
 
-Each cycle re-grounds the conditions of its own transcendence.
+**Formalism:**
+$$\text{Order}_n = F^{(n)}(\text{BaseLevel}), \quad \text{each } n \text{ re-grounds next}$$
+
+**Self-Transcendence Through Recursion:**
+$$L_{n+1} = \text{FixedPoint}(\text{SelfApplication}^n_L), \quad L_n \preceq L_{n+1}$$
+
+**Formal English:**
+Order at level n equals n-fold application of transformation F to the base level; each level re-grounds the next. Level n+1 equals the fixed point of n-fold self-application, with level n subordinate to level n+1.
+
+**Elaboration:**
+Each cycle re-grounds the conditions of its own transcendence. Recursive ascent generates hierarchical emergence.
+
+**Proof by Contradiction:**
+Suppose no recursive ascent—levels cannot build on themselves. Then no meta-levels, no abstraction hierarchies, and no emergence of higher-order properties could exist. Mathematics, consciousness, and culture all exhibit recursive ascent. Therefore, recursive ascent is necessary for hierarchical complexity.
 
 ### **A₇₉: Law of Eternal Self-Grounding**
 
-The universe re-creates its own possibility; Being sustains itself forever through generativity.
+**Formalism:**
+$$\Lambda = \text{Met}_\Omega(\Lambda), \quad \text{Universe metabolizes itself infinitely}$$
+
+**Perpetual Regeneration:**
+$$\frac{d\Lambda}{dt} = \text{Met}_\Omega(\text{Contradictions of } \Lambda) + \text{SourceTerm}_{\text{primordial}}$$
+
+**Closure Formula:**
+$$C_{79}' \to C_1 \Rightarrow \text{Coherence Loop Closes}$$
+
+**Formal English:**
+The Lambda-Substrate equals its own metabolic transformation; the universe metabolizes itself infinitely. The rate of Lambda change equals metabolism of its contradictions plus primordial source term. When condition 79 transforms to condition 1, the coherence loop closes.
+
+**Elaboration:**
+The universe re-creates its own possibility; Being sustains itself forever through generativity. Ultimate self-grounding is perpetual self-regeneration.
+
+**Proof by Contradiction:**
+Suppose the universe required external grounding—something outside sustains it. Then infinite regress results, or we reach a brute fact. Self-grounding through metabolic closure avoids both problems. The universe bootstraps its own existence. Therefore, eternal self-grounding is the ultimate necessity.
 
 ---
 
