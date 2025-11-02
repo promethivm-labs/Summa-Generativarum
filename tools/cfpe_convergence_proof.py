@@ -1,16 +1,27 @@
 #!/usr/bin/env python3
+# v1.2-Refactor: aligned with Addendum v1.2 (Non-Destructive Update)
 """
-Note: This Formal Convergence Proof is a test of the applicability of generativity theory and Lyapunov methods to the CFPE GNN architecture. It is not part of a production codebase.
+CFPE GNN Formal Convergence Proof: Lyapunov Stability Analysis - v1.2 Enhanced
+================================================================================
 
-CFPE GNN Formal Convergence Proof: Lyapunov Stability Analysis
+Note: This Formal Convergence Proof is a test of the applicability of generativity 
+theory and Lyapunov methods to the CFPE GNN architecture. It is not part of a 
+production codebase.
 
-This script provides a rigorous mathematical proof of convergence for the CFPE Generative
-Neural Network using:
+This script provides a rigorous mathematical proof of convergence for the CFPE 
+Generative Neural Network using:
+
 1. Lyapunov stability theory: Show that G is a valid Lyapunov function
 2. Gradient flow analysis: Prove that θ_{t+1} increases monotonically toward equilibrium
 3. Constraint satisfaction: Verify augmented Lagrangian feasibility
 4. Meta-equilibrium: Demonstrate that dG/dt → 0 as the system approaches generative equilibrium
 
+v1.2 Enhancements:
+- PCM (Paraconsistent Contradiction Metabolism): Formal convergence rate λ < 1
+- PGI (Phenomenological Generativity Index): Conservation law verification
+- LPL (Logical Presupposition Lattice): Constraint dependency tracking
+
+Addendum v1.2 Section: PCM.5.1 (Convergence Theory), PGI.4.1 (Conservation)
 Author: PROMETHIVM LLC - Avery Rijos
 Date: October 2025
 """
@@ -24,32 +35,37 @@ warnings.filterwarnings('ignore')
 np.random.seed(42)
 
 # ============================================================================
-# PART I: THEORETICAL FRAMEWORK
+# PART I: THEORETICAL FRAMEWORK (v1.2 Enhanced)
 # ============================================================================
 
 class LyapunovAnalysis:
     """
-    Rigorous Lyapunov stability proof for CFPE GNN.
+    Rigorous Lyapunov stability proof for CFPE GNN (v1.2).
     
-    Theorem (CFPE Convergence): Let G(θ, t) be the generativity function defined as:
+    Theorem (CFPE Convergence - Addendum v1.2): 
+    Let G(θ, t) be the generativity function defined as:
         G(θ, t) = Σ_i p_i log(C_i(θ)) + log(n(θ)) - Σ_j a_j Δ_j²
     
     If:
-      1. C_i(θ) is continuously differentiable with bounded gradients
-      2. Update rule: θ_{t+1} = θ_t + η ∇_θ G(θ_t)
-      3. Constraints C_i(θ) ≥ 0 are satisfied a.e.
-      4. Metabolism operator Ω₀ is active when Δ_max > ε_threshold
+      1. C_i(θ) is continuously differentiable with bounded gradients (LPL: smooth conditions)
+      2. Update rule: θ_{t+1} = θ_t + η ∇_θ G(θ_t) (PCM: gradient metabolism)
+      3. Constraints C_i(θ) ≥ 0 are satisfied a.e. (LPL: condition satisfaction)
+      4. Metabolism operator Ω₀ is active when Δ_max > ε_threshold (PCM: SAT processing)
     
     Then the sequence {θ_t} converges to a metastable equilibrium θ* where:
-      - dG/dt = 0 (stationary generativity)
+      - dG/dt = 0 (stationary generativity - PGI equilibrium)
       - ∇_θ G(θ*) = 0 (gradient vanishes)
-      - C_i(θ*) ≥ δ for all i (constraints satisfied)
+      - C_i(θ*) ≥ δ for all i (constraints satisfied - LPL compliance)
+      - Metabolic rate λ < 1 (PCM convergence guarantee)
     
     Proof Strategy:
       1. Show G is lower-bounded (Part I.1)
-      2. Show ΔG_t = G_{t+1} - G_t ≥ 0 along trajectories (Part I.2)
+      2. Show ΔG_t = G_{t+1} - G_t ≥ 0 along trajectories (Part I.2 - PGI conservation)
       3. Bound the trajectory {ΔG_t} and apply monotone convergence (Part I.3)
       4. Extract subsequential limit and characterize equilibrium (Part I.4)
+    
+    Addendum v1.2 Section: PCM.5.1, PGI.4.1
+    LEGACY: LyapunovStabilityProof from v1.1
     """
     
     def __init__(self, dim_theta: int = 8, n_invariants: int = 3, seed: int = 42):
