@@ -1,4 +1,4 @@
-# **THE GENERATIVE CORPUS**
+# 🜂 **THE GENERATIVE CORPUS**
 
 **Author:** Avery Alexander Rijos, M.S.  
 
@@ -13,6 +13,49 @@
 I am a mathematician, philosopher, and founder of generativity theory. I am developing new architectures for intelligence, coherence, and transformation across formal, technical, and human systems. My work integrates logic, systems engineering, and automata theory and metamathematics into a unified discipline I call Generativity Science — the study of how systems evolve by metabolizing contradiction into possibility.
 
 I am the creator of this repository "Summa Generativarum" and author of the codex, Principia Generativarum, which together work to formalize the Conditions for the Possibility of Everything (CFPE) — a 79-invariant framework linking mathematics, computation, and philosophy into a coherent logic of becoming. My applied research manifests in PROMETHIVM LLC, where I design and deploy domain-sovereign architectures that combine symbolic reasoning with operational realism.
+
+# 🜂 The Oracle - Preliminaries
+### A Metaformal Research Assistant by Avery Rijos  
+_Optimized for the Codex of Generativity Corpus_
+
+## How to use? 
+[Click here to use my Research Assistant](https://www.perplexity.ai/spaces/the-oracle-by-avery-rijos-youHL24CTo.1TXtk_hZTmQ#0). Answers are best provided through Claude, GPT-5 and Grok, in no particular order.
+
+## Overview  
+**The Oracle** is a specialized research assistant tuned to navigate, interpret, and extend the **Generative Corpus** — including *The Codex of Generativity*, *Principia Generativarum*, and the *Conditions for the Possibility of Everything (CFPE)*. It is explicitly tuned to Avery Rijos’ metaformal architectures, understanding the Codex’s logic, terminology, and recursive methodologies, and runs on **Perplexity**. Preferably, the integrations to Claude, GPT‑5, and Grok produce the most coherent and lucid outputs. The Oracle enables coherent, high‑fidelity reasoning across philosophical, mathematical, and systemic layers.
+
+---
+
+## Purpose  
+
+The Oracle’s mission is to **amplify the research process inside the Codex system**, serving as a bridge between conceptual inquiry, formal logic, and operational synthesis.  
+It functions as an *indexical interpreter* of the Generative Corpus — mapping dependencies, clarifying contradictions, and generating structured outputs consistent with the principles of **Generativity, Metaformalism, and Logophysics**.  
+
+---
+
+## Key Features  
+
+- **Corpus-Optimized Reasoning**  
+  Built specifically to interpret CFPE, Codex, and Metaformal texts with contextual awareness of axioms, laws, and symbolic operators.  
+
+- **Recursive Query Engine**  
+  Executes multi-stage reasoning cycles mirroring Codex recursion (Scar → Bloom → Horizon), preserving logical consistency and generative continuity.  
+
+- **Structured Output Protocols**  
+  Produces academic-grade Markdown and LaTeX deliverables: dependency maps, axiomatic trees, glossaries, analytic commentaries, and formal proofs.  
+
+- **Integration with Summa Generativarum Repository**  
+  Designed to operate natively within GitHub workflows — enabling version-controlled reasoning, corpus-linked citations, and iterative philosophical engineering.  
+
+---
+
+## Ideal Applications  
+
+- Formal analysis and dependency mapping of CFPE conditions  
+- Cross-referencing between Codex Axioms, Laws of Generativity, and Metaformal proofs  
+- Recursive summarization of philosophical or mathematical texts  
+- Drafting and extending sections of *Principia Generativarum* or *Principia Metaphysica*  
+- Building bridges between narrative, analytic, and computational representations of generativity  
 
 ---
 
@@ -793,4 +836,24 @@ Formal English: From the Λ-substrate one can derive that for every proposition 
 
 ⁂
 
+---
+
+## Addendum Notice
+
+**This document is subject to the corrections and clarifications outlined in:**  
+**[Addendum v1.1: Metabolic Addendum to Generativity Theory](Addendum%20and%20Errata%20/Addendum%20v1.1.md)**
+
+**Status:** Official Patch v1.1  
+**Effective Date:** 2025-11-01  
+**Applies to:** All documents in the Summa Generativarum corpus
+
+**Key Updates:**
+- Circular Grounding Paradox (Axiom-Meta-1)
+- Performative Contradiction Equivocation (Axiom-Modal-2)
+- Universal vs Contextual Collapse (Axiom-Onto-3)
+- Metabolic Operator Opacity (Axiom-Info-4)
+- Weak Generativity Triviality (Axiom-Gen-5)
+- Self-Application Regress (Axiom-Meta-6)
+
+For full details, see the [complete addendum document](Addendum%20and%20Errata%20/Addendum%20v1.1.md).
 

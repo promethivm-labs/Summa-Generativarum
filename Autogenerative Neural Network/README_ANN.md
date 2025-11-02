@@ -7,11 +7,16 @@
 
 A universal, substrate-neutral detection and metabolic processing mechanism for violations of the 79 Transcendental Conditions across any coherent domain, implemented as an autogenerative neural network framework.
 
-**Prerequisite — Read the AGNN Paper**
+**Prerequisite — Read the Documentation**
 
-**[AGNN PAPER.md](./AGNN%20PAPER.md)- Please read the AGNN Paper before the system documentation.**
+**[AGNN Mathematics.md](./AGNN%20Mathematics.md) - This paper is the mathematical theory.**
 
-Why read it:
+**[AGNN PAPER.md](./AGNN%20PAPER.md)- This is the empirical validation and test.**
+
+**[CFPE_SYSTEM_DOCUMENTATION.MD](./CFPE_SYSTEM_DOCUMENTATION.txt) - This is the architecture.**
+
+
+Why read them:
 - Provides the theoretical foundations and key design principles behind the Autogenerative Neural Network.
 - Describes core algorithms (detection, metabolic cycle, bloom operators) and evaluation results that the implementation follows.
 - Clarifies notation and assumptions used throughout this repository, reducing ambiguity when reading the code and docs.
@@ -545,3 +550,25 @@ This implementation is based on the *Principia Generativarum* framework and draw
 ---
 
 *For questions or support, please open an issue on GitHub or contact the maintainers.*
+
+---
+
+## Addendum Notice
+
+**This document is subject to the corrections and clarifications outlined in:**  
+**[Addendum v1.1: Metabolic Addendum to Generativity Theory](../Addendum%20and%20Errata%20/Addendum%20v1.1.md)**
+
+**Status:** Official Patch v1.1  
+**Effective Date:** 2025-11-01  
+**Applies to:** All documents in the Summa Generativarum corpus
+
+**Key Updates:**
+- Circular Grounding Paradox (Axiom-Meta-1)
+- Performative Contradiction Equivocation (Axiom-Modal-2)
+- Universal vs Contextual Collapse (Axiom-Onto-3)
+- Metabolic Operator Opacity (Axiom-Info-4)
+- Weak Generativity Triviality (Axiom-Gen-5)
+- Self-Application Regress (Axiom-Meta-6)
+
+For full details, see the [complete addendum document](../Addendum%20and%20Errata%20/Addendum%20v1.1.md).
+
