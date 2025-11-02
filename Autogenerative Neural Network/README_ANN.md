@@ -7,11 +7,16 @@
 
 A universal, substrate-neutral detection and metabolic processing mechanism for violations of the 79 Transcendental Conditions across any coherent domain, implemented as an autogenerative neural network framework.
 
-**Prerequisite — Read the AGNN Paper**
+**Prerequisite — Read the Documentation**
 
-**[AGNN PAPER.md](./AGNN%20PAPER.md)- Please read the AGNN Paper before the system documentation.**
+**[AGNN Mathematics.md](./AGNN%20Mathematics.md) - This paper is the mathematical theory.**
 
-Why read it:
+**[AGNN PAPER.md](./AGNN%20PAPER.md)- This is the empirical validation and test.**
+
+**[CFPE_SYSTEM_DOCUMENTATION.MD](./CFPE_SYSTEM_DOCUMENTATION.txt) - This is the architecture.**
+
+
+Why read them:
 - Provides the theoretical foundations and key design principles behind the Autogenerative Neural Network.
 - Describes core algorithms (detection, metabolic cycle, bloom operators) and evaluation results that the implementation follows.
 - Clarifies notation and assumptions used throughout this repository, reducing ambiguity when reading the code and docs.
