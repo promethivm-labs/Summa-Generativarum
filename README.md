@@ -143,7 +143,7 @@ You are invited to:
 When using any part of this repository, please cite:
 
 > **Rijos, Avery Alexander.** *The Generative Coherence Schema: A Living Encyclopedia of Generative Logic and Metaformal Science*
-> Version X.X (GitHub Repository). PROMETHIVM LLC, 2025– present. [https://github.com/promethivm-labs/Codex-generativarum](https://github.com/promethivm-labs/Codex-generativarum)
+> Version X.X (GitHub Repository). PROMETHIVM LLC, 2025– present. [https://github.com/promethivm-labs/generative-coherence-schema](https://github.com/promethivm-labs/generative-coherence-schema)
 
 A `CITATION.cff` file is attached.
 `doi: 10.5281/zenodo.17479745`
