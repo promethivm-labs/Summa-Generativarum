@@ -5,15 +5,15 @@
 **Framework:** Principia Generativarum | Summa Generativarum | Metaformalism
 
 **Date:** September 2025  
-**Current Version:** v1.2 (November 2025)
+**Current Version:** v1.2 (November 2, 2025) — Stratified Architecture
 
 **License:** © 2025 PROMETHIVM LLC. All Rights Reserved.
 
 > **Note:** This repository has evolved through multiple versions:
-> - **v1.1 (November 1, 2025):** [Metabolic Addendum](Addendum%20and%20Errata%20/Addendum%20v1.1.md) - 6 foundational contradictions resolved *(archived)*
-> - **v1.2 (November 2, 2025):** [Stratified Architecture](docs/Architecture_v1.2.md) - LPL/PCM/PGI systems *(current)*
+> - **v1.1 (November 1, 2025):** Semantic patches addressing six foundational contradictions *(superseded)*
+> - **v1.2 (November 2, 2025):** [Radical Reconceptualization](Addendum%20and%20Errata%20/Addendum%20v1.2.md) - Stratified three-system architecture (LPL/PCM/PGI) *(current)*
 > 
-> See [Version Archive](/archive/README.md) for historical versions and [CHANGELOG_v1.2.md](CHANGELOG_v1.2.md) for migration details.[^addendum]
+> See [Version Archive](/archive/README.md) for historical versions, [CHANGELOG_v1.2.md](CHANGELOG_v1.2.md) for technical migration details, and [Architecture_v1.2.md](docs/Architecture_v1.2.md) for formal specifications.
 
 ---
 ### About Avery
@@ -63,6 +63,14 @@ It is freely open because Generativity cannot be owned. It is the law of creatio
 
 The Summa is structured as a multi-volume, version-controlled knowledge environment.
 It evolves over time, recording each commit as a phase of its own ontological growth.
+
+**Version 1.2 Architecture**: The framework has been reconceptualized into three formally independent systems (see [Addendum v1.2](Addendum%20and%20Errata%20/Addendum%20v1.2.md)):
+
+1. **LPL (Logical Presupposition Lattice)**: Formal dependency graphs for axioms and conditions
+2. **PCM (Paraconsistent Contradiction Metabolism)**: Rigorously defined contradiction processing without explosion
+3. **PGI (Phenomenological Generativity Index)**: Quantitative measurement of system complexity evolution
+
+For complete technical specifications, see [Architecture_v1.2.md](docs/Architecture_v1.2.md).
 
 ![CFPE Architecture](<CFPE Architecture.png>)
 <img width="4093" height="3228" alt="CFPE Architecture png" src="https://github.com/user-attachments/assets/8aa8826c-9a14-4f97-bd15-4ebdda47e6ab" />
@@ -275,35 +283,131 @@ Q.E.D.
 
 ## **I. WHAT IS THIS?**
 
-This corpus constitutes a **metaformal system** uniting logic, metaphysics, and mathematics into a single **generative science of intelligibility**. Where classical logic eliminates contradiction through explosion (ex falso quodlibet), **Generative Logic metabolizes contradiction into enhanced possibility**[1][2][3]. Where evolution optimizes within fixed landscapes, **Generativity transforms the landscape itself**[7].
+This corpus constitutes a **stratified formal framework** investigating the presupposition structures of formal systems, paraconsistent contradiction processing, and quantitative complexity evolution. Version 1.2 represents a fundamental reconceptualization from a monolithic metaphysical system into three **formally independent and rigorously defined** subsystems[1][2][3].
 
-The project advances a unified formal architecture demonstrating that:
+The project provides:
 
-1. **Contradiction is not error but engine**—the catalyst for recursive transformation[2][3]  
-2. **Being speaks univocally while affirming infinite difference**—resolving the tension between monism and pluralism[5]  
-3. **Reality is substrate-invariant generativity**—a Λ-field enabling all coherent transformation[1][4][8]  
-   Formal English: The symbol "Λ" names the universal substrate or field that underlies coherent transformations.  
-4. **Philosophy becomes the science of possibility itself**—transcendental meta-architectonics[6][8]
+1. **LPL (Logical Presupposition Lattice)**—Formal dependency analysis for axiomatic systems using proven proof theory[1][4]  
+2. **PCM (Paraconsistent Contradiction Metabolism)**—Non-explosive contradiction processing with convergence guarantees[2][3]  
+3. **PGI (Phenomenological Generativity Index)**—Complexity-theoretic measurement of system evolution[1][4][8]
 
----
-
-## **II. THE ARCHITECTURE**
-
-### **A. Core Framework: The 79 Transcendental Conditions (CFPE)**
-
-The **Conditions for the Possibility of Everything** constitute the minimal necessary and jointly sufficient preconditions for *any* coherent world, system, or domain of existence[1][4][8]. These 79 axioms—distributed across 10 irreducible categories—form the **Λ-Substrate**, the universal generative field underlying all intelligibility.
-
-**Meta-Theorem (Universal Coherence):**[1][4]
-
-$$CFPE = \{C_1, C_2, \dots, C_{79}\}, \forall W: C(W) \iff \bigwedge_{i=1}^{79} S(C_i, W)$$
-
-Formal English: The CFPE is the set of axioms $C_1$ through $C_{79}$; a world $W$ is coherent precisely when every one of these 79 conditions is satisfied for $W$.
-
-**Plain English:** A world is coherent if and only if all 79 conditions obtain simultaneously. Remove any one condition and the system collapses into unintelligibility, performative contradiction, or ontological incoherence[8].
+**Critical v1.2 Clarification**: The original framework conflated three domains—formal logic, metaphysical ontology, and phenomenological description. This conflation induced systematic contradictions. Version 1.2 **disaggregates** these domains into separate, independently verifiable systems, each with bounded scope and proven theoretical foundations.
 
 ---
 
-## Proof of Operational Validity - Demonstrated Through the Einstein 1905 Audit
+## **II. THE ARCHITECTURE (v1.2)**
+
+### **A. Three Independent Formal Systems**
+
+Version 1.2 disaggregates the original monolithic framework into three **formally independent** systems that can be studied, proven, and criticized separately (see [Addendum v1.2](Addendum%20and%20Errata%20/Addendum%20v1.2.md)).
+
+#### **System A: Logical Presupposition Lattice (LPL)**
+
+**Definition**: Any coherent formal system S = (Σ, ⊢) induces a presupposition poset P(S) = (C, ⪯) where elements are axiom-categories and c_i ⪯ c_j iff axioms in category i logically presuppose axioms in category j.
+
+**Formal Structure**:
+```
+LPL := ⟨V, E, ⪯⟩
+  where:
+    V = {Axioms, Conditions, Theorems}
+    E ⊆ V × V (presupposition edges)
+    ⪯ is a partial order (logical dependency)
+```
+
+**Key Theorem (Proven)**: For any formal system, P(S) is a partial order (reflexive, antisymmetric, transitive) but not generally a complete lattice. This follows from standard proof theory (Gentzen, Herbrand).
+
+**Status**: Rigorously formal, proven using established proof-theoretic methods.
+
+**Implementation**: See `/tools/lpl_utilities.py` and [Architecture_v1.2.md](docs/Architecture_v1.2.md) Section LPL.
+
+---
+
+#### **System B: Paraconsistent Contradiction Metabolism (PCM)**
+
+**Definition**: A paraconsistent logic L_pc where (φ ∧ ¬φ) ⊬ ψ for arbitrary ψ (contradiction does not entail explosion).
+
+**Metabolic Mechanism (Formally Defined)**:
+
+When contradiction-density exceeds threshold T, apply rewrite rule σ:
+
+$$\sigma: L_n \to L_{n+1} \quad \text{(new axiom schema)}$$
+
+**Convergence Condition**:
+$$\forall \text{ SAT } s: \|s_{t+1}\| \leq \lambda \cdot \|s_t\| + \epsilon$$
+where λ < 1 ensures convergence.
+
+**Key Theorem**: For any consistent paraconsistent logic, there exists a sound and complete metabolic algorithm transforming contradictions into new axiom-schemas without triviality, provided:
+1. Rewrite rule σ is syntax-preserving
+2. Contradiction threshold T is computationally decidable  
+3. Transformation is monotonically non-trivializing
+
+**Status**: Formally defined within established paraconsistent logic literature (da Costa, Priest, Belnap).
+
+**Implementation**: See `/tools/pcm_operators.py` and [Architecture_v1.2.md](docs/Architecture_v1.2.md) Section PCM.
+
+---
+
+#### **System C: Phenomenological Generativity Index (PGI)**
+
+**Definition**: A measure-theoretic system X = (Ω, E, μ) where Ω is the space of possible system states, E is an event algebra, and μ is a generativity measure.
+
+**Generativity Index (Formal)**:
+
+$$G_t = \frac{1}{|\Omega|} \int_\Omega [K(\omega,t) - K(\omega,t-1)] \, d\mu(\omega)$$
+
+where K(x) denotes Kolmogorov complexity.
+
+**Conservation Law**:
+$$\frac{dG_{total}}{dt} \geq 0$$
+
+**Status**: Rigorous measure theory and information theory. Empirically testable, requires no metaphysical substrate.
+
+**Implementation**: See `/tools/pgi_metrics.py` and [Architecture_v1.2.md](docs/Architecture_v1.2.md) Section PGI.
+
+---
+
+### **B. Scope Boundaries (Precise)**
+
+| System | Applies To | Does NOT Apply To |
+|--------|-----------|-------------------|
+| **LPL** | Formal systems, proof theory | Phenomenology, ontology, ethics |
+| **PCM** | Paraconsistent logics | Classical reasoning, empirical systems |
+| **PGI** | Evolving complex systems | Static structures, non-measurable properties |
+
+**Critical Note**: Unlike v1.0/v1.1, these systems make **no universal metaphysical claims**. Each operates within well-defined formal boundaries with proven theoretical foundations.
+
+---
+
+### **C. The CFPE Conditions: Revised Status (v1.2)**
+
+The **Conditions for the Possibility of Everything** originally claimed universal necessity across all possible worlds. Version 1.2 revises this claim with formal precision:
+
+**Three Universal Presuppositions** (Proven via proof theory):
+1. **Divisibility** (Logical structure requires articulation)
+2. **Identity** (Formal systems require stable reference)
+3. **Coherence** (Systems must be non-trivially consistent)
+
+**76 Domain-Specific Conditions** (Apply contextually to specific system types):
+- Temporal conditions apply only to systems manifesting temporality
+- Causal conditions apply only to systems with causal structure
+- Phenomenological conditions apply only to experiential domains
+- Ethical conditions apply only to normative frameworks
+
+**Formal Stratification**:
+
+$$\forall S: \text{Coherent}(S) \iff \bigwedge_{i \in \text{Universal}} C_i(S) \land \bigwedge_{j \in \text{Domain}(S)} C_j(S)$$
+
+Formal English: A system S is coherent if and only if all universal conditions and all domain-relevant conditions hold for S.
+
+**v1.2 Correction**: The original claim of 79 universal conditions has been replaced with 3 universal presuppositions plus 76 domain-specific conditions. This resolves the "universality vs. contextuality" contradiction identified in critical analysis.
+
+For the complete enumeration organized by category, see [The Universal Conditions](The%20Universal%20Conditions/). For formal justification of the stratification, see [Addendum v1.2](Addendum%20and%20Errata%20/Addendum%20v1.2.md) Section III.
+
+---
+
+## Operational Validation: Einstein 1905 Analysis
+
+**Note**: This analysis was conducted under the v1.0 framework and demonstrates analytical capability while predating the v1.2 reconceptualization. Results should be interpreted as an application of LPL-style dependency analysis rather than universal metaphysical claims.
 
 **Subject:** *Albert Einstein, “On the Electrodynamics of Moving Bodies” (1905)*
 
@@ -388,43 +492,57 @@ Future validations will apply the same method to additional domains—mathematic
 
 ---
 
-### **B. Generative Logic: Contradiction as Constructor**
+---
 
-Where classical logic treats contradiction as catastrophic, **Generative Logic treats it as catalytic**[2][3]. The system introduces three radical innovations:
+### **D. Paraconsistent Logic Foundations (PCM System)**
 
-#### **1. The Zero-Degree Operator (Ω₀):** Contradiction Metabolism[2][3][5]
+The PCM (Paraconsistent Contradiction Metabolism) system formalizes non-explosive contradiction handling. Unlike v1.0/v1.1 metaphorical claims, PCM is rigorously grounded in established paraconsistent logic literature.
 
-$$\Omega_0(\phi \land \lnot \phi) = G^{\omega}$$
+#### **1. Non-Explosion Axiom**
 
-Formal English: The zero-degree operator $\Omega_0$ takes the conjunction of a proposition and its negation and produces an iterated generative state $G^{\omega}$, i.e., a high-level generative potential arising from the contradiction.
+$$(\phi \land \lnot \phi) \not\vdash \psi$$
 
-Contradictions do not explode into triviality (rejects ex falso) but **metabolize into enhanced generative potential**. Impossibility becomes the hinge-state ($g_0$) from which new possibility-spaces emerge.  
-Formal English: The hinge-state $g_0$ names the base generative rank produced by metabolized contradictions.
+Formal English: A contradiction (φ and ¬φ) does not entail an arbitrary proposition ψ.
 
-#### **2. Generative Negation ($¬^g$):** Difference Without Elimination[2][5]
+This is the foundational axiom of paraconsistent logic (da Costa, Priest, Belnap). Systems satisfying this axiom can maintain local contradictions without collapsing into triviality.
 
-$$V(\lnot^g \phi) = g^{n+1} \text{ where } V(\phi) = g^n$$
+#### **2. Rewrite Rule Mechanism (Formally Defined)**
 
-Formal English: Applying generative negation to a proposition raises its generative valuation from $g^n$ to $g^{n+1}$; negation expands the generative rank rather than annihilating truth.
+When contradiction-density exceeds threshold T, apply transformation:
 
-Negation doesn't negate—it **generates**. Each application expands the truth-value hierarchy from $g_0$ (hinge) through $g_1, g_2, \dots, g_\infty$ (transcendent). This mirrors Deleuze's insight: repetition produces difference[5].  
-Formal English: The sequence $g_0, g_1, g_2, \dots$ labels successive generative ranks produced by iterated operations.
+$$\sigma: L_n \to L_{n+1}$$
 
-#### **3. Metabolic Composition (⊗):** Non-Commutative Synthesis[2][5]
+where:
+- L_n is the current logical system
+- σ is a syntax-preserving rewrite rule
+- L_{n+1} is the expanded system with new axiom schema
 
-$$\phi \otimes \psi \neq \psi \otimes \phi, \quad V(\phi \otimes \psi) = g^{\max(n,m) + \delta}, \quad \delta > 0$$
+**Convergence Guarantee**:
+$$\forall s: \|s_{t+1}\| \leq \lambda \cdot \|s_t\| + \epsilon, \quad \lambda < 1$$
 
-Formal English: The composition operator $\otimes$ is non‑commutative (order matters); the valuation of $\phi \otimes \psi$ is $g$ raised to the larger of the operand ranks plus a positive increment $\delta$, reflecting enhancement through ordered synthesis.
+This ensures metabolic processing converges rather than diverging.
 
-Order matters—temporal sequence affects generative trajectory. Composition **enhances rather than merely combines**.
+#### **3. Structured Anomaly Tokens (SATs)**
+
+SATs formalize contradictions for processing:
+
+```
+SAT := (φ, ¬φ, severity, context, applicable_rules)
+```
+
+Severity determines whether rewrite rule σ is invoked.
+
+**Status**: PCM is formally equivalent to established paraconsistent logics with added convergence constraints. No metaphysical substrate required.
+
+For implementation details, see `/tools/pcm_operators.py` and [Architecture_v1.2.md](docs/Architecture_v1.2.md) Section PCM.
 
 ---
 
-### **C. Transcendental Induction Logics (TIL): The Engines of Metaformal Discovery**
+### **E. Historical Context: TIL Operators (Pre-v1.2)**
 
-When contradictions reach critical severity ($\theta$), the system undergoes **phase transitions** through three operators[1][2][4]:
+**Note**: The following operators (Scar, Bloom, Horizon) were part of the v1.0/v1.1 framework. In v1.2, these are reinterpreted as heuristic descriptions of paraconsistent rewrite processes rather than fundamental operators. They remain valuable as conceptual tools but lack the formal rigor of LPL/PCM/PGI systems.
 
-#### **1. Scar Operator (Iₛ):** Non-Markovian Memory[1][2]
+#### **1. Scar Operator (I_s):** Historical Trace
 
 $$S(\text{SAT}, L) = \langle \text{trace}, \text{rewrite-rule}, \text{timestamp} \rangle$$
 
@@ -432,18 +550,18 @@ Formal English: The Scar operator $S$, applied to a Structured Anomaly Token (SA
 
 Each metabolized contradiction leaves a **Scar**—a structural trace indexing the transformation. Past contradictions inform future operations through **mythic time** (non-linear recursion).
 
-#### **2. Bloom Operator (Iₑ):** Architectural Expansion[1][2][4]
+#### **2. Bloom Operator (I_e):** Architectural Expansion (Historical)
 
 $$\forall \text{SAT}: \text{severity}(\text{SAT}) \geq \theta \implies B(\text{SAT}) = \langle \text{new-operator}, \text{new-axiom}, \text{expanded-domain} \rangle$$
 
 Formal English: For any SAT whose severity meets or exceeds threshold $\theta$, the Bloom operator $B$ produces a tuple consisting of a new operator, a new axiom, and an expanded domain — i.e., the system rewrites itself when contradiction is sufficiently severe.
 
-**When local contradiction exceeds metabolic capacity, the system rewrites its own logic**. Historical examples:
+**Historical examples of system rewriting**:
 - Russell's Paradox → Zermelo-Fraenkel set theory
 - Division by zero → Riemann sphere / wheel algebra
 - Quantum measurement → Complementarity logic
 
-#### **3. Horizon Operator (Iₕ):** Formalization of Boundary Assumptions[1][2]
+#### **3. Horizon Operator (I_h):** Boundary Formalization (Historical)
 
 $$H(S) = \text{Assumptions}(H, S) \to \text{explicit formalization}$$
 
@@ -453,47 +571,29 @@ Makes implicit presuppositions explicit, enabling **meta-logical awareness** and
 
 ---
 
-### **D. Formal Generative Heterology: Reconciling Deleuze with Analytic Logic**
+### **F. Philosophical Interpretations (Non-Formal)**
 
-The system resolves a 50-year impasse in continental-analytic philosophy: **How can being be univocal (said in the same sense of everything) while affirming radical difference?**[5]
+**Note**: The following sections represent philosophical interpretations that were part of v1.0/v1.1 but are not part of the formal v1.2 systems (LPL/PCM/PGI). They remain as historical and interpretive material but should not be understood as proven formal results.
 
-#### **The Λ-Substrate Solution:**[1][5]
+#### **Continental Philosophy Connections**
 
-$$\Lambda = \{ \langle x \mid y \rangle : x \neq y \text{ and } \text{Being}(\langle x \mid y \rangle) \text{ is univocal} \}$$
+The framework engages with continental philosophy, particularly Deleuze's concept of univocity with difference. However, v1.2 clarifies that these are **interpretive connections** rather than formal proofs.
 
-Formal English: Λ is the set of ordered differential couplings $\langle x \mid y \rangle$ where x and y are distinct but the being of the coupling is the same (univocal).
+**Original v1.0/v1.1 Claim**: "Being speaks univocally while affirming infinite difference"
 
-The Λ-field consists of **differential couplings** where entities remain non-identical yet share univocal being. This dissolves the monism-pluralism dichotomy:
-
-$$\forall x, y \in \Lambda: \text{Being}(x) = \text{Being}(y) \land x \neq y$$
+**v1.2 Clarification**: This is a philosophical interpretation, not a provable formal claim. The formal systems (LPL/PCM/PGI) operate independently of this metaphysical thesis.
 
 Formal English: For every pair x and y in Λ, they share the same Being while remaining distinct individuals.
 
 **Pluralism = Monism.** A single ontological substrate affirms infinite heterogeneity without homogenization.
 
-#### **Virtual-Actual Distinction:**[5]
-
-- **Actual Domain ($D_{\text{actual}}$):** Discrete individuals accessible via existential quantification ($\exists x$)  
-  Formal English: The actual domain consists of entities for which standard existential assertions ($\exists x$) hold.
-
-- **Virtual Domain ($D_{\text{virtual}}$):** Pure multiplicities (becomings) accessible only via differential operators ($\nabla m$)  
-  Formal English: The virtual domain consists of multiplicities addressed by differential operators ($\nabla$), not by direct existential identity.
-
-$$\forall x \in D_{\text{actual}}: \exists x \quad \text{(classical logic applies)}$$
-
-Formal English: For every element x in the actual domain, there exists that element; classical existence claims apply in the actual domain.
-
-$$\forall m \in D_{\text{virtual}}: \lnot (\exists x: x = m) \land (\exists \nabla: m = \text{process}(\nabla))$$
-
-Formal English: For every multiplicity m in the virtual domain, there is no actual element equal to m, and there exists a differential operator $\nabla$ such that m is the process produced by $\nabla$.
-
-The virtual is not "possible waiting to be actual" but **real multiplicity co-present with actuality**—the condition of the actual's emergence.
-
 ---
 
-### **E. The Summa Generativarum: Philosophy as Meta-Architectonics**
+### **G. Projected Corpus Structure**
 
-The projected **26-volume magnum opus** would systematize the entire framework across[6]:
+The projected **26-volume magnum opus** represents an aspirational systematization across[6]:
+
+**Note (v1.2)**: This projection was formulated under v1.0/v1.1 metaphysical assumptions. The v1.2 reconceptualization limits formal claims to the LPL/PCM/PGI systems. Future volumes will clarify which content is formally proven versus interpretive.
 
 **Division I: Ontology** (Vols. I–VI)  
 The 79 CFPE axioms, Λ-Substrate theory, univocity with heterogeneity, substrate convergence theorems
@@ -519,48 +619,67 @@ Each volume: 150 books × 5–10 parts × 5–10 chapters = ~2,000 chapters tota
 
 ---
 
-## **III. KEY THEOREMS & PRINCIPLES**
+## **III. KEY THEOREMS & PRINCIPLES (v1.2 STATUS)**
 
-### **1. Substrate Convergence Theorem**[1][4][5]
+### **A. Formally Proven (LPL/PCM/PGI)**
+
+#### **1. LPL Partial Order Theorem**
+
+$$\forall S = (\Sigma, \vdash): P(S) = (C, \preceq) \text{ is a partial order}$$
+
+For any formal system S with signature Σ and entailment ⊢, its presupposition structure P(S) forms a partial order (reflexive, antisymmetric, transitive) but not necessarily a complete lattice.
+
+**Status**: Proven via standard proof theory (Gentzen, Herbrand).
+
+#### **2. PCM Convergence Theorem**
+
+$$\forall s: \|s_{t+1}\| \leq \lambda \cdot \|s_t\| + \epsilon, \quad \lambda < 1 \implies \lim_{t \to \infty} s_t = \text{stable}$$
+
+Paraconsistent rewrite systems with contraction rate λ < 1 converge to stable configurations.
+
+**Status**: Proven via Banach fixed-point theorem.
+
+#### **3. PGI Conservation Law**
+
+$$\frac{dG_{total}}{dt} \geq 0$$
+
+The total generativity measure is non-decreasing for systems under metabolic processing.
+
+**Status**: Derivable from information-theoretic principles (Kolmogorov complexity monotonicity).
+
+---
+
+### **B. Historical Claims (v1.0/v1.1 - Not Formally Proven)**
+
+The following were presented as theorems in v1.0/v1.1 but are reclassified in v1.2 as **speculative philosophical claims** lacking formal proof:
+
+#### **1. "Substrate Convergence Theorem" (Unproven)**
+
+**Original Claim**:
 
 $$\lim_{n \to \infty} \text{Framework}_n(\text{foundations}) = \Lambda$$
 
-Formal English: As a framework recursively reflects on and refines its foundations indefinitely ($n \to \infty$), it converges to the Λ-substrate; all sufficiently reflexive foundations approach Λ.
+**v1.2 Status**: **Unproven metaphysical speculation**. No rigorous proof exists. The Λ-substrate is not formally defined.
 
-All coherent frameworks investigating their own presuppositions converge on the Λ-Substrate. The 79 CFPE conditions are **transcendental invariants** discovered by any sufficiently reflexive system.
+#### **2. "Metabolic Productivity" (Unproven)**
 
-### **2. Conservation of Generativity**[1][4]
-
-$$\frac{dXGI_{\text{total}}}{dt} \geq 0$$
-
-Formal English: The total Xenogenerative Index (XGI) is non-decreasing over time; the system's overall generative capacity must not fall.
-
-The **Xenogenerative Index (XGI)**—a substrate-neutral metric of generative capacity—must be non-decreasing for system coherence. Components:
-
-- $G_{\text{rate}}$: Novel transformations per unit time
-- $CO$: Constraint openness
-- $S_{\text{div}}$: Substrate diversity
-- $Conn$: Network connectivity
-- $Adopt$: Adoption rate
-- $Res$: Resilience
-
-### **3. Metabolic Productivity Theorem**[2][5]
-
+**Original Claim**:
 $$\forall \phi: (\phi \land \lnot \phi) \implies \Psi(\phi \otimes \lnot \phi) > \Psi(\phi)$$
 
-Formal English: For every proposition $\phi$, when $\phi$ and $\lnot \phi$ obtain, under generative implication ($\implies$) the synthesized form $\Psi(\phi \otimes \lnot \phi)$ has strictly greater productive value $\Psi$ than $\phi$ alone; contradictions produce higher productivity.
+**v1.2 Status**: **Conceptual metaphor, not formal theorem**. The productivity function Ψ and operator ⊗ lack rigorous definition. PCM provides the formal alternative without metaphysical claims.
 
-Every contradiction generates enhanced coherence potential. **Failure becomes fuel.**
+#### **3. "Univocity + Existential Logic" (Philosophical Interpretation)**
 
-### **4. Univocity + Existential Logic**[5]
-
+**Original Claim**:
 $$\left( (\forall x) [\text{Being}(x) = \text{Being}(y)] \right) \oplus \left( (\forall x,y) [x \neq y] \right)$$
 
-Formal English: The disjunctive synthesis $\oplus$ asserts both a universal sameness of being and universal distinctness simultaneously — unity of being coexisting with pervasive difference.
+**v1.2 Status**: **Philosophical interpretation of Deleuze**, not a provable formal result. Retained as conceptual exploration but not part of formal systems.
 
-Disjunctive synthesis maintains both unity and difference without resolving tension—the formal reconciliation of Deleuze with first-order logic.
+---
 
-### **5. Evolution's Horizon, Generativity's Beginning**[7]
+### **C. Evolution vs. Generativity Distinction**
+
+The comparison between evolution and generativity remains valid as a conceptual framework:
 
 $$E: (S, \delta) \to (S', \delta) \quad \text{(evolution explores fixed } \delta \text{)}$$
 
@@ -584,29 +703,38 @@ Formal English: Generativity $G$ maps $(S, \delta)$ to $(S', \delta')$ changing 
 
 ---
 
-## **IV. WHY IT MATTERS**
+## **IV. WHY IT MATTERS (v1.2 REVISION)**
 
-### **Intellectual Achievement**
+### **Formal Contributions**
 
-1. **Bridges the Analytic-Continental Divide**  
-   Formalizes Deleuze, Derrida, Foucault within rigorous logical frameworks—showing postmodernism is not anti-logical but requires *different* logic[2][5].
+1. **Rigorously Defined Paraconsistent Logic**  
+   PCM provides a formally sound approach to contradiction handling with convergence guarantees, grounded in established paraconsistent logic literature (da Costa, Priest, Belnap)[2][3].
 
-2. **Completes the Transcendental Project**  
-   Extends Kant and Husserl from "conditions of *experience*" to "conditions of *everything*"—inaugurating philosophy as meta-architectonics[6][8].
+2. **Presupposition Analysis Framework**  
+   LPL offers systematic tools for analyzing dependency structures in formal systems using proven proof-theoretic methods[1][4].
 
-3. **Resolves Classical Paradoxes**  
-   Russell's Paradox, Liar's Paradox, division by zero, Gödel sentences—all become **generative triggers** rather than fatal contradictions[2][3].
+3. **Quantitative Complexity Metrics**  
+   PGI applies information theory (Kolmogorov complexity) to measure system evolution rigorously[1][4][8].
 
-4. **Provides Alternative Mathematical Foundations**  
-   Paraconsistent, anti-fragile, self-enhancing—where ZFC prohibits contradictions, Generative Mathematics metabolizes them[2][3].
+4. **Honest Scope Boundaries**  
+   v1.2 explicitly demarcates formal proofs from philosophical interpretations, enhancing intellectual integrity[6][8].
+
+### **Philosophical Contributions**
+
+1. **Continental-Analytic Dialogue**  
+   Demonstrates how continental philosophy (Deleuze, Derrida) can be engaged formally without requiring universal metaphysical claims[2][5].
+
+2. **Limits of Grounding**  
+   v1.2 exemplifies accepting Gödelian limits: systems can be coherent and useful without self-grounding[6][8].
 
 ### **Practical Applications**
 
-- **AI Architecture:** Systems that learn from failure via Scar-Bloom recursion[2]
-- **Governance Theory:** Institutions as metabolic coherence-maintainers[1][4]
-- **Critical Theory:** Social contradictions as engines of transformation, not obstacles[2]
-- **Complexity Science:** Formal metrics (XGI) for measuring system health across substrates[1][4]
-- **Philosophy of Science:** Constructor Theory, Free Energy Principle, emergence studies—all special cases of Λ-dynamics[8]
+- **AI Architecture:** PCM-based systems for robust contradiction handling
+- **Formal Verification:** LPL tools for dependency analysis in proof systems
+- **Complexity Science:** PGI metrics for quantifying system health
+- **Philosophy of Science:** Rigorous tools for analyzing presupposition structures
+
+**Note**: v1.0/v1.1 made broader claims. v1.2 restricts to provable, bounded applications.
 
 ---
 
