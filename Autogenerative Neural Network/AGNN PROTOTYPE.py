@@ -1,21 +1,31 @@
+#!/usr/bin/env python3
+# v1.2-Refactor: aligned with Addendum v1.2 (Non-Destructive Update)
 """
 ================================================================================
-CFPE CONDITION VIOLATION FORMALIZATION SYSTEM
+CFPE CONDITION VIOLATION FORMALIZATION SYSTEM - v1.2 Enhanced
 Comprehensive Python Implementation
 ================================================================================
 
-VERSION: 1.0
+VERSION: 1.2.0 (Addendum v1.2 Compliance)
 BASED ON: The Conditions for the Possibility of Everything (CFPE)
 FRAMEWORK: Principia Generativarum, Metaformal Logic
 
 This module implements a universal, substrate-neutral detection and metabolic
 processing mechanism for violations of the 79 Transcendental Conditions across
 any coherent domain.
+
+v1.2 Enhancements:
+- LPL (Logical Presupposition Lattice): Dependency graph tracking for conditions
+- PCM (Paraconsistent Contradiction Metabolism): Formal rewrite rules with λ < 1
+- PGI (Phenomenological Generativity Index): XGI tracking and conservation verification
+
+Addendum v1.2 Section: LPL.2.1, PCM.3.1, PGI.3.3
+LEGACY: AGNN PROTOTYPE v1.0 (retained for backward compatibility)
 ================================================================================
 """
 
 # -----------------------------------------------------------------------------
-# Developer commentary
+# Developer commentary (v1.2 Update)
 # -----------------------------------------------------------------------------
 # Purpose
 # -------
@@ -27,23 +37,31 @@ any coherent domain.
 # 'metabolizes' internal contradictions and can trigger architectural
 # expansion (blooms).
 #
+# v1.2 Additions:
+# - LPL_* functions for dependency graph analysis
+# - PCM_* operators for formal contradiction metabolism
+# - PGI_* metrics for generativity measurement
+# - Enhanced type annotations with v1.2 dataclasses
+# - Cross-references to Addendum v1.2 sections
+#
 # High-level structure
 # --------------------
 # - ConditionRegistry: canonical database of the 79 conditions (IDs C1..C79),
 #   their formal definitions, human-readable meanings and dependency graph used
-#   for cascade analysis.
+#   for cascade analysis (LPL: presupposition lattice).
 # - ViolationDetector: lightweight rule-based detector that converts a
 #   'system state' (simple dict) into a list of ConditionViolation SATs
 #   (Structured Anomaly Tokens). The detector is intentionally conservative and
 #   designed to be extended with domain-specific checks.
 # - MetabolicCycle: the 5-phase metabolic process implementing (1) SAT
-#   reception, (2) cascade/dependency analysis, (3) scar formation
-#   (metabolic recording), (4) bloom triggering (autogenerative expansion),
-#   and (5) coherence update. Outputs a rich dictionary summarizing each
+#   reception, (2) cascade/dependency analysis (LPL), (3) scar formation
+#   (metabolic recording), (4) bloom triggering (autogenerative expansion - PCM),
+#   and (5) coherence update (PGI). Outputs a rich dictionary summarizing each
 #   phase for auditing and downstream archival.
 # - BloomOperator: creates new metabolic operators and axioms when severity
-#   thresholds are exceeded. Blooms represent controlled, productive changes
-#   to the formal domain (new operators, axioms, and metric deltas like XGI).
+#   thresholds are exceeded (PCM: rewrite rules). Blooms represent controlled, 
+#   productive changes to the formal domain (new operators, axioms, and metric 
+#   deltas like XGI).
 # - ScarArchive: persistent record of metabolized contradictions. Scars decay
 #   non-Markovianly (exponential decay) and influence future processing.
 # - CrossDomainViolationAnalyzer: heuristic matcher for canonical violation
@@ -53,9 +71,9 @@ any coherent domain.
 #   integrating the CFPE metabolic vocabulary into parameter-space
 #   transformations. Key behaviours:
 #     * Detect internal contradictions in weights/activations
-#     * Metabolize contradictions into corrective rules and scars
+#     * Metabolize contradictions into corrective rules and scars (PCM)
 #     * Trigger architectural blooms (add layers/pathways/feedback)
-#     * Compute a generativity objective Γ(θ,t) (to maximize) instead of a
+#     * Compute a generativity objective Γ(θ,t) (to maximize - PGI) instead of a
 #       conventional loss
 #
 # Design contracts / expected inputs
@@ -71,7 +89,7 @@ any coherent domain.
 #   `self.theta`. Random initialization is used in the prototype; in real
 #   deployments seed determinism and reproducible initialization are advised.
 #
-# Extension points and practical notes
+# Extension points and practical notes (v1.2)
 # ------------------------------------
 # - Add domain-specific detectors by extending `ViolationDetector._check_violation`
 #   or by composing multiple detector objects.
@@ -83,8 +101,8 @@ any coherent domain.
 #   these to actual operator/axiom objects or to entries in a persistent
 #   knowledge base (CSV/JSON in the repo).
 # - The neural architecture uses simple finite-difference gradient estimates
-#   for generativity. This is computationally expensive; replace with analytic
-#   gradients where possible, or limit sampling for larger models.
+#   for generativity (PGI). This is computationally expensive; replace with 
+#   analytic gradients where possible, or limit sampling for larger models.
 # - The system contains random operations (numpy RNG). For reproducibility
 #   call `np.random.seed(...)` early in scripts or tests.
 #
@@ -114,8 +132,9 @@ any coherent domain.
 # -----
 # - High-level docs: see `README_ANN.md` in the same directory for overview
 #   and usage examples.
-# - Errata/Addendum: refer to `../Addendum and Errata/Addendum v1.1.md` for
-#   the official addendum and patches that update the CFPE operator semantics.
+# - Errata/Addendum v1.1: refer to `../Addendum and Errata/Addendum v1.1.md`
+# - Architecture v1.2: refer to `../docs/Architecture_v1.2.md` for the stratified
+#   LPL/PCM/PGI architecture.
 #
 # End of developer commentary
 # -----------------------------------------------------------------------------
