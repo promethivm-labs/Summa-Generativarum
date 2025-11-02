@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: Summa-Generativarum
+title: Generative-Coherence-Schema
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -8,9 +8,9 @@ authors:
   - given-names: Avery Rijos
     family-name: Rijos
     email: averyarijos@gmail.com
-repository-code: 'https://github.com/promethivm-labs/Summa-Generativarum'
+repository-code: 'https://github.com/promethivm-labs/Generative-Coherence-Schema'
 abstract: >-
-  Summa-Generativarum is a comprehensive philosophical framework exploring the
+  Generative-Coherence-Schema is a comprehensive philosophical framework exploring the
   foundations of generative systems through the integration of AI, mathematics,
   logic, and systems theory. Drawing inspiration from classical philosophical
   systematization, it develops a computational approach to metaphysics and
@@ -19,7 +19,6 @@ abstract: >-
   computational methods to investigate fundamental questions about generation,
   emergence, and systemic organization.
 keywords:
-  - summa generativarum
   - philosophy
   - AI
   - mathematics
