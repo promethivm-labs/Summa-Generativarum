@@ -93,10 +93,6 @@ It evolves over time, recording each commit as a phase of its own ontological gr
 
 For complete technical specifications, see [Architecture_v1.2.md](docs/Architecture_v1.2.md).
 
-![GCS Architecture](<GCS Architecture.png>)
-<img width="4093" height="3228" alt="GCS Architecture png" src="https://github.com/user-attachments/assets/8aa8826c-9a14-4f97-bd15-4ebdda47e6ab" />
-
-
 * **Corpus Root (`/Corpus`)** – Primary texts, axioms, and laws.
 * **Volumes I-XIII (In Progress)** – Philosophical, logical, mathematical, and computational treatises.
 * **GCS (Conditions for the Possibility of Everything)** – Framework of presuppositional conditions (v1.2: 3 universal + 76 domain-specific).
