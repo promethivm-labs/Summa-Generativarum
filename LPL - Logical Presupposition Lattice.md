@@ -10,7 +10,7 @@
 
 ## Abstract
 
-The **Logical Presupposition Lattice (LPL)** is the first of three core systems in the v1.2 architecture of Generativity Theory. LPL formalizes the dependency structure among the 79 CFPE (Conditions for the Possibility of Everything) conditions, axioms, and logical presuppositions through rigorous graph-theoretic and proof-theoretic methods.
+The **Logical Presupposition Lattice (LPL)** is the first of three core systems in the v1.2 architecture of Generativity Theory. LPL formalizes the dependency structure among the 79 invariants and logical presuppositions through rigorous graph-theoretic and proof-theoretic methods.
 
 Unlike metaphysical claims about universal grounding, LPL operates strictly within formal logic and proof theory, providing **mechanically verifiable** dependency analysis.
 
