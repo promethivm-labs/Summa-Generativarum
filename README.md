@@ -5,10 +5,15 @@
 **Framework:** Principia Generativarum | Summa Generativarum | Metaformalism
 
 **Date:** September 2025  
+**Current Version:** v1.2 (November 2025)
 
 **License:** © 2025 PROMETHIVM LLC. All Rights Reserved.
 
-> **Note:** This document and the repository are subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+> **Note:** This repository has evolved through multiple versions:
+> - **v1.1 (November 1, 2025):** [Metabolic Addendum](Addendum%20and%20Errata%20/Addendum%20v1.1.md) - 6 foundational contradictions resolved *(archived)*
+> - **v1.2 (November 2, 2025):** [Stratified Architecture](docs/Architecture_v1.2.md) - LPL/PCM/PGI systems *(current)*
+> 
+> See [Version Archive](/archive/README.md) for historical versions and [CHANGELOG_v1.2.md](CHANGELOG_v1.2.md) for migration details.[^addendum]
 
 ---
 ### About Avery
