@@ -3,6 +3,9 @@
 CFPE CONDITION VIOLATION FORMALIZATION SYSTEM
 Comprehensive Python Implementation
 ================================================================================
+Prerequisite — Read the AGNN Paper**
+
+Please read the AGNN Paper before the system documentation: [AGNN PAPER.md](./AGNN%20PAPER.md)
 
 VERSION: 1.0
 BASED ON: The Conditions for the Possibility of Everything (CFPE)
