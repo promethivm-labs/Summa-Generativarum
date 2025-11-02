@@ -3,6 +3,8 @@
 # PROMETHIVM LLC
 ## October 28th, 2025
 
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
 ### Philosophical Genesis: Contradiction as Constructor
 
 **Abstract** | The CFPE (Conditional-Functional-Persistent-Environment) Generative Neural Network represents a radical departure from classical machine learning paradigms. Where traditional neural networks descend toward error minimization through gradient descent, the CFPE GNN **ascends toward generative maxima** through metabolic processing of contradiction. This inversion rests on a profound philosophical commitment articulated across the 79 Transcendental Conditions: **contradiction does not destroy coherence but generates it**.[^1][^2][^3][^4]

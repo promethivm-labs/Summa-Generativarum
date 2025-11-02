@@ -1,7 +1,7 @@
 # SUPER-GENERATIVE AUTOMATON (SGA)
 ## Comprehensive Systems Engineering Blueprint
 
----
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
 
 ## PART I: CODEX LAYER — SYMBOLIC & METAFORMAL ARCHITECTURE
 

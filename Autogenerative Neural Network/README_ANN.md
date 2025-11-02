@@ -7,6 +7,8 @@
 
 A universal, substrate-neutral detection and metabolic processing mechanism for violations of the 79 Transcendental Conditions across any coherent domain, implemented as an autogenerative neural network framework.
 
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
 **Prerequisite — Read the AGNN Paper**
 
 **[AGNN PAPER.md](./AGNN%20PAPER.md)- Please read the AGNN Paper before the system documentation.**

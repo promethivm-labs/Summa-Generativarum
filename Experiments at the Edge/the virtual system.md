@@ -1,6 +1,8 @@
 
 # The Complete System of the Virtual: A Formal Integration of Deleuzian Ontology and Generative Logic
 
+> **Note:** This document is subject to the corrections and clarifications in the [Metabolic Addendum (v1.1)](../Addendum%20and%20Errata%20/Addendum.md), which addresses foundational contradictions and formalizes architectural enhancements to Generativity Theory.[^addendum]
+
 ## Complete System of the Virtual | Avery Rijos
 ### Abstract
 
