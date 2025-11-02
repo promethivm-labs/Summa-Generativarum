@@ -78,9 +78,9 @@ For complete technical specifications, see [Architecture_v1.2.md](docs/Architect
 
 * **Corpus Root (`/Corpus`)** – Primary texts, axioms, and laws.
 * **Volumes I-XIII (In Progress)** – Philosophical, logical, mathematical, and computational treatises.
-* **CFPE (Conditions for the Possibility of Everything)** – Seventy-nine transcendental invariants defining the Λ-substrate of coherent existence.
-* **Metaformal Logics** – Transcendental Induction Logic (TIL), Universal Truth Protocol (UTP), and Generative Negation (¬ᵍ).
-* **PROMETHIVM System** – Applied implementation of Generativity in organizational, technical, and ethical design.
+* **CFPE (Conditions for the Possibility of Everything)** – Framework of presuppositional conditions (v1.2: 3 universal + 76 domain-specific).
+* **Formal Systems (v1.2)** – LPL (Logical Presupposition Lattice), PCM (Paraconsistent Contradiction Metabolism), PGI (Phenomenological Generativity Index).
+* **PROMETHIVM System** – Applied implementation of generativity in organizational, technical, and ethical design.
 * **Archive and Scars** – Historical and symbolic records of critical contradictions and transformations.
 
 Every folder, line, and equation is a node in a living graph of understanding.
