@@ -672,7 +672,8 @@ This work establishes a **rigorous mathematical foundation** for transcendental 
 
 ## Appendix A: Complete Dependency Graph
 
-[See attached CSV file: `79_conditions_topology.csv`]
+[See attached CSV file on Github: `79_conditions_topology.csv`]
+Github: https://github.com/promethivm-labs/Generative-Coherence-Schema
 
 ---
 
