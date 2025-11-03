@@ -49,7 +49,7 @@
 ---
 
 ### About Avery
-I am a logician, philosopher, and founder of generativity theory. I am developing new architectures for intelligence, coherence, and transformation across formal, technical, and human systems. My work integrates logic, systems engineering, and automata theory and metamathematics into a unified discipline I call Generativity Science — the study of how systems evolve by metabolizing contradiction into possibility.
+I am a logician, mathematics researcher, and founder of generativity theory. I am developing new architectures for intelligence, coherence, and transformation across formal, technical, and human systems. My work integrates logic, systems engineering, and automata theory and metamathematics into a unified discipline I call Generativity Science — the study of how systems evolve by metabolizing contradiction into possibility.
 
 I am the creator of this repository "Generative Coherence Schema" and author of the codex, Principia Generativarum, which together work to formalize the Conditions for the Possibility of Everything (GCS) — a 79-invariant framework linking mathematics, computation, and philosophy into a coherent logic of becoming. My applied research manifests in PROMETHIVM LLC, where I design and deploy domain-sovereign architectures that combine symbolic reasoning with operational realism.
 
@@ -105,7 +105,7 @@ It evolves over time, recording each commit as a phase of its own ontological gr
 For complete technical specifications, see [Architecture_v1.2.md](docs/Architecture_v1.2.md).
 
 ## **Version 2.1 Research (Work in Progress)**
-[Current Research - Recursive Structures and Generative Topology](Research - Recursive Structures and Generative Topology.md) paper represents a radical metaformalist advance:
+[Current Research - Recursive Structures and Generative Topology](https://github.com/promethivm-labs/Generative-Coherence-Schema/blob/48c019e12176786eba5a2923443f048946a4667d/Research%20-%20Recursive%20Structures%20and%20Generative%20Topology.md) paper represents a radical metaformalist advance:
 
 **Key Achievements (November 3, 2025):**
 - **ℛ-Operator Formalization:** Complete transformation rule set (ρ₀-ρₖ) for substrate recursion from ∅ → {C₁, C₂, C₃} → full 79-condition topology
