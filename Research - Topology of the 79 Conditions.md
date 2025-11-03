@@ -1,10 +1,11 @@
-# The Topology of the 79 Conditions: A Formal Mathematical Treatment
+# Recursive Structures and Generative Topology: The Formal Mathematics of the 79 Conditions
 
 **Version:** 1.2.0  
 **Date:** November 2, 2025  
 **Framework:** Addendum v1.2 Compliance  
 **Author:** Avery Alexander Rijos, M.S.  
 **Organization:** PROMETHIVM LLC
+| **Status:** Preprint
 
 ---
 
