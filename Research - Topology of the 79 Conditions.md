@@ -642,19 +642,43 @@ The topological structure of the 79 conditions reveals:
 
 ## XIII. Conclusion
 
-We have formalized the **topology of the 79 conditions** as:
+### 13.1 Summary
 
-1. A **finite acyclic DAG** under presupposition with 11-tier stratification
-2. A **closure system** via Moore operator $\Psi$, with $\{C_1, C_2, C_3\}$ as minimal generators
-3. A **contradiction-metabolizing network** (PCM) transforming paradoxes into generativity
-4. A **quantifiable system** (PGI) with growth dynamics: $\frac{d(\text{OGI})}{dt} \geq 0$
-5. A **categorical structure** mapping to formal logic via functor $F$
+This work formalizes the topology of the 79 Conditions (CFPE) as a finite, acyclic presupposition DAG stratified into 11 tiers, and integrates three operational subsystems: the Logical Presupposition Lattice (LPL) with Moore closure Ψ, the Paraconsistent Contradiction Metabolism (PCM) that converts certain contradictions into productive extensions, and the Phenomenological Generativity Index (PGI) that quantifies system growth (OGI) with non‑decreasing dynamics. A categorical rendering via the presupposition category and functor F to formula spaces links the topology to proof‑theoretic practice.
 
-All components pass the **four Codex validation gates** (COH, ADEQ, SAFE, GEN) and comply with Addendum v1.2 scope limitations.
+### 13.2 Core Contributions
 
-This work establishes a **rigorous mathematical foundation** for transcendental analysis, uniting proof theory, paraconsistent logic, and generativity metrics into a coherent framework.
+- Formal demonstration that (C, ▷) is a finite poset/DAG admitting a well‑defined tier function τ and topological sorting.  
+- Construction of Ψ as a Moore closure operator with a unique minimal generating base {C1, C2, C3}.  
+- Specification of PCM rewrite principles showing how localized contradictions can induce disciplined system expansion rather than explosion.  
+- Definition of PGI/OGI as operational metrics tying structural centrality and metabolic dynamics to generativity rates.  
+- A categorical framing (Cond_DAG, F) that preserves compositional presupposition structure and accommodates mechanization.
 
-**Status:** ✓ Formally Defined | ✓ Philosophically Grounded | ✓ Computationally Implemented
+### 13.3 Practical and Philosophical Implications
+
+- Practical: Provides concrete data structures and algorithms (tier computation, closure) for encoding dependency scaffolds, detecting hubs, and simulating generativity. This supports tooling for language design, knowledge representation, and system validation.  
+- Philosophical: Shows how transcendental-style conditions can be rendered mathematically precise without collapsing into mere formalism—preserving normative insight while enabling empirical and mechanized verification.  
+- Normative: Identifies minimal coherence requirements (Existence, Coherence, Identity) and frames generativity as an ethical‑design objective (C65) constrained by safety checks (Four Codex Gates).
+
+### 13.4 Limitations and Open Directions
+
+- Model‑theoretic completeness of the tiered semantics (Theorem 8.1) remains conjectural and invites rigorous semantic proofs.  
+- PGI calibration, empirical validation, and computational complexity analyses (e.g., closure and SAT severity) require targeted experiments and benchmarking.  
+- Formal mechanization (Lean4, Coq) of LPL/PCM/PGI is proposed as the next engineering step to eliminate residual informal reasoning.
+
+### 13.5 Next Steps
+
+Recommended immediate tasks:
+- Publish the dependency CSV and code artifacts with reproducible examples and unit tests.  
+- Formalize PCM rewrite rules and prove preservation properties (consistency gains, generative monotonicity).  
+- Prototype Lean4 formalization of core theorems (DAG property, Moore operator, minimal generator uniqueness).  
+- Design PGI calibration studies using domain case studies (formal languages, distributed protocols, ethical frameworks).
+
+### 13.6 Closing Remark
+
+The topology of the 79 Conditions yields a compact, actionable scaffold for both theoretical inquiry and system design: it identifies a minimal axiomatic core, characterizes structured dependency growth, and supplies formal mechanisms for turning paradox into productive extension. With mechanization and empirical calibration, the framework aims to become a practical foundation for constructing coherent, extensible, and generative systems.
+
+Status: ✓ Formally Defined | ✓ Philosophically Grounded | ✓ Computationally Implemented
 
 ---
 
