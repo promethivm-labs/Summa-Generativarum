@@ -5,13 +5,15 @@
 **Framework:** Principia Generativarum | Generative Coherence Schema | Metaformalism
 
 **Date:** September 2025  
-**Current Version:** v1.2 (November 2, 2025) — Stratified Architecture
+**Current Version:** v1.2 (November 2, 2025) — Stratified Architecture  
+**Latest Research:** v2.1 Metaformalist Topology (November 3, 2025) — **Work in Progress**
 
 **License:** © 2025 PROMETHIVM LLC. All Rights Reserved.
 
 > **Note:** This repository has evolved through multiple versions:
 > - **v1.1 (November 1, 2025):** Semantic patches addressing six foundational contradictions *(superseded)*
-> - **v1.2 (November 2, 2025):** [Radical Reconceptualization](Addendum%20and%20Errata%20/Addendum%20v1.2.md) - Stratified three-system architecture (LPL/PCM/PGI) *(current)*
+> - **v1.2 (November 2, 2025):** [Radical Reconceptualization](Addendum%20and%20Errata%20/Addendum%20v1.2.md) - Stratified three-system architecture (LPL/PCM/PGI) *(current stable)*
+> - **v2.1 (November 3, 2025):** Metaformalist CFPE Topology with operational ℛ-operator, σ-bifurcation policy, and Lean4 mechanization *(work in progress)*
 > 
 > See [Version Archive](/archive/README.md) for historical versions, [CHANGELOG_v1.2.md](CHANGELOG_v1.2.md) for technical migration details, and [Architecture_v1.2.md](docs/Architecture_v1.2.md) for formal specifications.
 
@@ -30,7 +32,16 @@
 2. **[PCM - Paraconsistent Contradiction Metabolism](PCM%20-%20Paraconsistent%20Contradiction%20Metabolism.md)** - Formal contradiction handling
 3. **[PGI - Phenomenological Generativity Index](PGI%20-%20Phenomenological%20Generativity%20Index.md)** - Generativity measurement
 
-### 📚 Supporting Documentation
+### � Advanced Research (Work in Progress)
+- **[Research - Topology of the 79 Conditions](Research%20-%20Topology%20of%20the%2079%20Conditions.md)** - **v2.1 Metaformalist Formalization** *(Nov 3, 2025)*
+  - Complete ℛ-operator transformation rule set (Definition 2.1.0a)
+  - σ-policy bifurcation selection mechanism (Definition 6.1.2)
+  - Lean4 mechanization framework (Appendix D: ~296 lines of proof scripts)
+  - Full 2-categorical autogenic category theory
+  - 18-month roadmap to operational completeness (Q1 2026 - Q2 2027)
+  - **Status:** Pre-publication research, active development
+
+### �📚 Supporting Documentation
 - **[Architecture v1.2](docs/Architecture_v1.2.md)** - Technical specification
 - **[Addendum v1.2](Addendum%20and%20Errata%20/Addendum%20v1.2.md)** - Theoretical reconceptualization
 - **[CHANGELOG v1.2](CHANGELOG_v1.2.md)** - Version history and changes
@@ -92,6 +103,23 @@ It evolves over time, recording each commit as a phase of its own ontological gr
 3. **PGI (Phenomenological Generativity Index)**: Quantitative measurement of system complexity evolution
 
 For complete technical specifications, see [Architecture_v1.2.md](docs/Architecture_v1.2.md).
+
+**Version 2.1 Research (Work in Progress)**: The [Research - Topology of the 79 Conditions](Research%20-%20Topology%20of%20the%2079%20Conditions.md) paper represents a radical metaformalist advance:
+
+**Key Achievements (November 3, 2025):**
+- **ℛ-Operator Formalization:** Complete transformation rule set (ρ₀-ρₖ) for substrate recursion from ∅ → {C₁, C₂, C₃} → full 79-condition topology
+- **σ-Bifurcation Policy:** Explicit 4-phase algorithm for contradiction-driven branching with coherence preservation and generativity maximization
+- **Lean4 Mechanization:** ~296 lines of working proof scripts demonstrating mechanization of core theorems (DAG structure, bifurcation expansion, autogenic composition, OGI monotonicity)
+- **Full Category Theory:** Strict 2-category **AutCat** with autogenic functors, coherence conditions (AC1-AC3), and bifurcation-stable limits
+- **18-Month Roadmap:** Concrete path to operational completeness (Q1 2026 - Q2 2027) with quarterly milestones
+
+**Philosophical Shift:**
+- Eliminates Platonic "discovered invariants" → **Recursive substrate generation**
+- Redefines contradiction: not anomaly to tolerate → **Primary generative engine** (bifurcation operator 𝓑)
+- Makes category theory self-modifying → **Autogenic structures** that rewrite their own morphisms
+- Derives generativity metrics from recursion mechanics → OGI = ∫₀ⁿ 𝓖_Λ(Λᵏ) dk
+
+**Status:** Pre-publication research. Document expanded from 1,692 → 2,128 lines (+25.8%). All major theoretical components complete; implementation phase begins Q1 2026.
 
 * **Corpus Root (`/Corpus`)** – Primary texts, axioms, and laws.
 * **Volumes I-XIII (In Progress)** – Philosophical, logical, mathematical, and computational treatises.
