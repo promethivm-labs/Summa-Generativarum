@@ -10,7 +10,7 @@
 
 ## Abstract
 
-The **79 Invariants for Intelligibility** (also known as the **Conditions for the Possibility of Everything — CFPE**) constitute the **transcendental conditions** that must hold for any coherent world, system, or domain of existence.
+The **79 Invariants for Intelligibility** (also formerly known as the **Conditions for the Possibility of Everything — CFPE**) constitute the **transcendental conditions** that must hold for any coherent world, system, or domain of existence.
 
 Following Addendum v1.2's reconceptualization, these conditions are stratified:
 - **3 Universal Invariants** (C₁, C₂, C₃): Necessary across all formal systems
