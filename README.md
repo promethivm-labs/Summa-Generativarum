@@ -33,7 +33,7 @@
 3. **[PGI - Phenomenological Generativity Index](PGI%20-%20Phenomenological%20Generativity%20Index.md)** - Generativity measurement
 
 ### � Advanced Research (Work in Progress)
-- **[Research - Topology of the 79 Conditions](Research%20-%20Topology%20of%20the%2079%20Conditions.md)** - **v2.1 Metaformalist Formalization** *(Nov 3, 2025)*
+- **[Research - Recursive Structures and Generative Topology](Research - Recursive Structures and Generative Topology.md)** - **v2.1 Metaformalist Formalization** *(Nov 3, 2025)*
   - Complete ℛ-operator transformation rule set (Definition 2.1.0a)
   - σ-policy bifurcation selection mechanism (Definition 6.1.2)
   - Lean4 mechanization framework (Appendix D: ~296 lines of proof scripts)
