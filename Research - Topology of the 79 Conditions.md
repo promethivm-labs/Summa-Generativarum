@@ -698,7 +698,10 @@ Status: ✓ Formally Defined | ✓ Philosophically Grounded | ✓ Computationall
 ## Appendix A: Complete Dependency Graph
 
 [See attached CSV file on Github: `79_conditions_topology.csv`]
-Github: https://github.com/promethivm-labs/Generative-Coherence-Schema
+
+See Github file containing all 79 Conditions: `The 79 Invariants for Intelligibility.md`
+
+Link: https://github.com/promethivm-labs/Generative-Coherence-Schema
 
 ---
 
