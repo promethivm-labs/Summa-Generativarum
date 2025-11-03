@@ -104,7 +104,8 @@ It evolves over time, recording each commit as a phase of its own ontological gr
 
 For complete technical specifications, see [Architecture_v1.2.md](docs/Architecture_v1.2.md).
 
-**Version 2.1 Research (Work in Progress)**: The [Research - Topology of the 79 Conditions](Research%20-%20Topology%20of%20the%2079%20Conditions.md) paper represents a radical metaformalist advance:
+## **Version 2.1 Research (Work in Progress)**
+[Current Research - Recursive Structures and Generative Topology](Research - Recursive Structures and Generative Topology.md) paper represents a radical metaformalist advance:
 
 **Key Achievements (November 3, 2025):**
 - **ℛ-Operator Formalization:** Complete transformation rule set (ρ₀-ρₖ) for substrate recursion from ∅ → {C₁, C₂, C₃} → full 79-condition topology
