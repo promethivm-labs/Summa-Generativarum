@@ -8,6 +8,41 @@
 
 ---
 
+### Logic of the Fixed‑Point Generativity Proof
+
+- Core idea: treat "truth" (or a condition C) as a fixed point of a substrate iteration operator ℜ. A condition is generatively true when any attempt to deny it leads the substrate iteration away from convergence, so the denial cannot be a fixed point.
+- Proof template (uniform for each C_i):
+   1. Assume ¬C_i.
+   2. Apply ℜ iteratively to ¬C_i and analyze the asymptotic behavior ℜ^n(¬C_i).
+   3. Show iteration diverges, oscillates, or yields paradoxical explosion (no contraction/attractor).
+   4. Conclude ¬C_i cannot be a stable fixed point; therefore C_i must belong to any attractor (generatively true).
+- Mathematical support: when ℜ is a contraction (Banach setting) fixed points are unique and attractive; showing ¬C_i violates contraction (or stability/closure properties) forces C_i into the invariant set.
+
+### Structural Methodology
+
+- Local proofs are conditional: many C_i are proven relative to a presupposition set P(C_i); the presupposition DAG (LPL) orders proofs so dependencies terminate at base universals {C₁,C₂,C₃}.
+- Inductive/constructive proof: topological ordering on the DAG yields a well-founded induction—no circularity.
+- Failure modes considered include undefined operator application, contradiction explosion, loss of coherence, loss of identity, unbounded state–space exploration, and architectural collapse.
+
+### What the Proofs Imply (Concise Consequences)
+
+- Necessity is structural, not metaphysical: each C_i is necessary for the existence of coherent fixed points under the specified substrate dynamics and domain assumptions.
+- Contextuality: some conditions are universal (domain‑independent) while others are necessary only within well‑scoped domains (temporal, logical, epistemic, etc.).
+- Mechanizability and verification: because presuppositions form an acyclic graph and the proof pattern is uniform, mechanical verification and formal checking are tractable in principle.
+- System design corollary: engineering stable generative systems requires ensuring the proved conditions (or their analogues) to avoid collapse, triviality, or explosion—e.g., coherence, constraints, feedback, capacity for bloom.
+- Limits and humility: proofs rely on model assumptions (choice of ℜ, topology, modal structure). They do not claim metaphysical inevitability beyond those formal choices, nor do they substitute for empirical validation when modeling real-world substrates.
+
+### Practical reading
+
+- Use the proof template as a checklist when analyzing a substrate: (i) identify denial dynamics, (ii) test contraction/stability, (iii) inspect presupposition closure, (iv) decide whether architectural blooms (C₇₉) are required to resolve contradictions.
+- Interpret "generative truth" operationally: a necessary structural invariant of the dynamical system whose absence prevents stable attractors.
+
+### Short summary
+
+The entire collection of proofs shows that, under the chosen iterative substrate semantics and scoped presuppositions, the 79 conditions are the minimal structural invariants required for coherent, generative fixed points. They provide both a diagnostic framework (what breaks systems) and prescriptive constraints (what must be present to sustain generativity).
+
+---
+
 ## I. THEORETICAL FRAMEWORK
 
 ### Definition: Generative Truth
