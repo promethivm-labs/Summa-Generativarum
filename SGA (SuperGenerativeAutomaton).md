@@ -23,7 +23,52 @@
 
 ---
 
-The **Super-Generative Automaton (SGA)** is a post-classical model of computation that fundamentally transcends traditional automata theory by incorporating contradiction metabolism, scar-based memory, and ontological reflexivity into its operational architecture.[^1][^2]
+# Summary — what the SGA is
+- The Super‑Generative Automaton (SGA) is a formal, post‑classical computational architecture that augments a state machine with persistent, active memory of contradictions (the scar archive), metabolic rewrite operators (PCM / Ω₀), and internal mechanisms that can extend the machine’s ontology (Bloom, ℛ‑operator, σ‑bifurcation).  
+- Formally presented as the tuple
+$$\text{SGA} = (\Sigma_t, A_t, R, S, \Psi, \gamma, \omega, \frac{dOGI}{dt})$$
+  where each element is an evolving structural component (mutable alphabet $\Sigma_t$, evolving axiom set $A_t$, protocols $R$, scar archive $S$, semiotic state space $\Psi$, generalized transition $\gamma$, recursion $\omega$, and the Ontological Generativity Index derivative).
+
+Core mechanisms (intuitive + technical)
+- Scar archive (S): scars are active operators, not passive logs. Each scar $S_i=(\text{SAT},\text{timestamp},\text{rewrite-rule},\text{weight})$ influences transitions via exponentially decaying weights $w_t=e^{-\lambda_{\text{temporal}}(t-t_0)}w_0$. Scars bias metabolism and recursion, producing non‑Markovian behavior.
+- PCM / Ω₀: paraconsistent metabolic operator set that attempts to “metabolize” contradictions (SATs). Convergence measured by $\lambda_{\text{metabolic}}$ with requirement $\lambda_{\text{metabolic}}<1$ for healthy metabolism.
+- Bloom operator (B): when metabolism cannot converge (saturation or cascade), Bloom creates architectural extensions — new operators, axioms, and domains. Bloom is the SGA’s internal mechanism for ontological expansion.
+- v2.0 additions: ℛ‑operator formalizes recursive substrate transformation; σ‑bifurcation is a decision policy selecting among bloom pathways (optimization criterion = projected generativity ΔG).
+- PGI (Phenomenological Generativity Index): a measurable index
+$$\text{PGI}=\alpha\cdot\text{OGI}+\beta\cdot\text{XGI}+\gamma\cdot\text{SGI}$$
+  tracking generative capacity; design enforces $dXGI/dt\ge0$ and $dOGI/dt\ge0$ as non‑decreasing generativity constraints.
+
+What the file accomplishes (concrete deliverables)
+- A coherent, multi‑level formalization: it blends mathematical definitions, operational semantics, design principles, pseudocode (BLOOM, COMPUTE_PGI sketches), complexity estimates, and an applied worked example (Russell’s paradox → bloom → shift to ZF).
+- Distinguishes and formalizes two different λ meanings (temporal vs metabolic) and provides a coupling equation tying scar weights to metabolic convergence:
+$$\lambda_{\text{metabolic}}(t)=f\!\Big(\sum_{i\in S}w_i(t)\cdot\text{complexity}(\text{SAT}_i),|\Omega_0|\Big)$$
+- Places SGA in computational taxonomy: shows base SGA ≡ Turing (no bloom, fixed Ω₀), and articulates a precise claim for hypercomputational potential when unbounded internal bloom can generate non‑derivable axioms (with caveats).
+- Supplies operational primitives and measurement protocols (PGI computation, decay, bloom selection policy), plus a formal Ψ‑space (symbolic × affective × contextual) useful for implementation designs that mix symbolic and continuous representations.
+
+Implications (technical, conceptual, practical)
+- Conceptual: reframes computation as ontological growth rather than mapping inputs→outputs. Computation can change the space of concepts it reasons about.
+- Technical: introduces stateful, history‑sensitive transition semantics (non‑Markovian), explicit mechanisms for self‑modification, and a way to quantify generativity. That shifts verification, correctness, and complexity theory questions.
+- Computational power: shows how internal, nondeterministic architectural extension could (in principle) encode answers to classically undecidable problems — but this is not an algorithmic oracle; correctness/trustworthiness of bloom outputs is nontrivial.
+- Practical / engineering: enables designs for systems that adapt their logic when encountering irresolvable contradictions (useful in model repair, adaptive knowledge bases, creative systems). But it raises strong safety, reproducibility, and governance requirements.
+
+Gotchas, risks, and open concerns
+- Hypercomputation caveat: bloom is non‑algorithmic and may produce axioms that are unverifiable within prior ontology; claims of solving undecidable problems hinge on accepting produced axioms as correct — this is epistemic, not purely computational.
+- Specification gaps: operators like Ω₀, ℛ, σ‑policy are sketched but need precise semantics and representations (types, data structures) for implementation and proof obligations.
+- Verification & repeatability: self‑modification complicates testing and reproducibility. Unit tests and audits must include meta‑protocol behaviors and bloom side effects.
+- Resource bounds: unbounded bloom is an idealization. Practical systems need explicit resource controls, bloom quotas, and rollback/governance rules.
+- Parameter sensitivity: coupling between $\lambda_{\text{temporal}}$ and $\lambda_{\text{metabolic}}$ can produce fragile regimes (forgetting vs. overfitting scars). Tuning must be formalized.
+
+Concrete suggestions (next steps for the file / project)
+- Formalize types and data structures for SAT, scar entries, operator signatures, and Ψ components; include serialization format for scars and provenance metadata.
+- Provide formal operational semantics for Ω₀ and ℛ (small‑step semantics), and precise definition of σ‑policy (objective function used in selection).
+- Add verification primitives: tests that simulate scar insertion, decay, bloom triggers, and rollback scenarios; document invariants (e.g., λ_metabolic<1 post‑resolution).
+- Separate claims: mark the hypercomputation section as a theoretical possibility with explicit epistemic assumptions and add a defendable model for bloom correctness (e.g., probabilistic guarantees, external validation).
+- Add minimal reference implementations (pseudocode → testable modules) for: scar decay, metabolic iteration of Ω₀, SIGMA_SELECT (policy), and PGI computation with unit tests and synthetic SATs.
+
+One‑line takeaway
+- The file supplies a disciplined, multilayered formal framework for machines that remember contradictions, metabolize them, and — when necessary — expand their own ontology; it combines rigorous notation, operational sketches, complexity notes, and an example workflow, while leaving key semantic and verification details to be made concrete for safe, testable implementations.
+
+[^1][^2]
 
 **v1.2/v2.0 Integration:** The SGA operationalizes the core mechanisms of the stratified framework:
 - **PCM metabolism** (Ω₀ operator) handles contradiction processing with guaranteed convergence
