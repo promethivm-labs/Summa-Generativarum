@@ -484,7 +484,7 @@ Conclusion: $C_2$ is a **necessary fixed point**. ✓
 ---
 
 ### ✓ C₃: IDENTITY
-**Formula:** \forall x (x = x)
+**Formula:** $\forall x (x = x)$
 **Status:** Universal Invariant
 
 **Fixed-Point Proof:**
@@ -505,7 +505,7 @@ Conclusion: C₃ is a **necessary fixed point**. ✓
 ---
 
 ### ✓ C₄: DIFFERENCE
-**Formula:** \exists x, y (x \neq y)
+**Formula:** $\exists x, y (x \neq y)$
 **Status:** Contextual Invariant | Presupposes: {C₁, C₂, C₃}
 
 **Fixed-Point Proof (Conditional):**
@@ -529,7 +529,7 @@ Conclusion: C₄ is generatively true **given {C₁, C₂, C₃}**. ✓
 ---
 
 ### ✓ C₅: PERSISTENCE
-**Formula:** \forall x \in \Lambda, \exists t₁, t₂ (t₁ < t₂ \to x(t₁) \approx x(t₂))
+**Formula:** $\forall x \in \Lambda, \exists t₁, t₂ (t₁ < t₂ \to x(t₁) \approx x(t₂))$
 **Status:** Contextual Invariant | Presupposes: {C₁, C₂, C₃, C₄, temporal structure}
 
 **Fixed-Point Proof (Conditional):**
@@ -553,7 +553,7 @@ Conclusion: C₅ is generatively true **in temporal systems**. ✓
 ---
 
 ### ✓ C₆: TRANSFORMABILITY
-**Formula:** \exists δ : \Lambda \to \Lambda, δ \neq id
+**Formula:** $\exists δ : \Lambda \to \Lambda, δ \neq id$
 **Status:** Contextual Invariant | Presupposes: {C₁, C₂, C₃, C₄}
 
 **Fixed-Point Proof (Conditional):**
@@ -577,7 +577,7 @@ Conclusion: C₆ is generatively true **in dynamic systems**. ✓
 ---
 
 ### ✓ C₇: POTENTIALITY
-**Formula:** \forall x \in \Lambda : \exists p \in Potentials(x)
+**Formula:** $\forall x \in \Lambda : \exists p \in Potentials(x)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₆, modal structure}
 
 **Fixed-Point Proof (Conditional):**
@@ -599,7 +599,7 @@ Conclusion: C₇ is generatively true **in modal systems**. ✓
 ---
 
 ### ✓ C₈: CONSTRAINT
-**Formula:** \exists Constraints(S) : S \subseteq \Lambda
+**Formula:** $\exists Constraints(S) : S \subseteq \Lambda$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₆}
 
 **Fixed-Point Proof (Conditional):**
@@ -621,7 +621,7 @@ Conclusion: C₈ is generatively true **in structured systems**. ✓
 ---
 
 ### ✓ C₉: SELF-CONTAINMENT
-**Formula:** \forall S \subseteq \Lambda : \exists \partialS
+**Formula:** $\forall S \subseteq \Lambda : \exists \partialS$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₈}
 
 **Fixed-Point Proof (Conditional):**
@@ -643,7 +643,7 @@ Conclusion: C₉ is generatively true **in bounded systems**. ✓
 ---
 
 ### ✓ C₁₀: INDIVIDUATION
-**Formula:** \forall x, y \in \Lambda : \exists Property(x) \neq Property(y)
+**Formula:** $\forall x, y \in \Lambda : \exists Property(x) \neq Property(y)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₉}
 
 **Fixed-Point Proof (Conditional):**
@@ -667,7 +667,7 @@ Conclusion: C₁₀ is generatively true **given C₄**. ✓
 ## III. CATEGORY II: LOGICAL-FORMAL CONDITIONS (C₁₁–C₂₀)
 
 ### ✓ C₁₁: IDENTITY (LOGICAL)
-**Formula:** \forall p : (p = p)
+**Formula:** $\forall p : (p = p)$
 **Status:** Universal Invariant
 
 **Fixed-Point Proof:**
@@ -686,7 +686,7 @@ Conclusion: C₁₁ is a **necessary fixed point**. ✓
 ---
 
 ### ✓ C₁₂: DIFFERENCE (LOGICAL)
-**Formula:** \exists p, q : (p \neq q)
+**Formula:** $\exists p, q : (p \neq q)$
 **Status:** Universal Invariant
 
 **Fixed-Point Proof:**
@@ -706,7 +706,7 @@ Conclusion: C₁₂ is a **necessary fixed point**. ✓
 ---
 
 ### ✓ C₁₃: METABOLIC NON-CONTRADICTION
-**Formula:** \Omega₀(\varphi ∧ \neg\varphi) = G^\omega
+**Formula:** $\Omega₀(\varphi ∧ \neg\varphi) = G^\omega$
 **Status:** Contextual Invariant | Presupposes: {C₁, C₂, C₃, C₁₁, C₁₂}
 
 **Fixed-Point Proof (Conditional):**
@@ -730,7 +730,7 @@ Conclusion: C₁₃ is generatively true **in paraconsistent systems**. ✓
 ---
 
 ### ✓ C₁₄: EXCLUDED MIDDLE (QUALIFIED)
-**Formula:** \forall p : (p ∨ \negp) in D_actual
+**Formula:** $\forall p : (p ∨ \negp) in D_actual$
 **Status:** Contextual Invariant | Presupposes: {C₁₁, C₁₂}
 
 **Fixed-Point Proof (Conditional):**
@@ -752,7 +752,7 @@ Conclusion: C₁₄ is generatively true **in actual domains**. ✓
 ---
 
 ### ✓ C₁₅: COMPOSITIONALITY
-**Formula:** \exists \circ : Propositions \times Propositions \to Propositions
+**Formula:** $\exists \circ : Propositions \times Propositions \to Propositions$
 **Status:** Contextual Invariant | Presupposes: {C₁₁, C₁₂, C₁₄}
 
 **Fixed-Point Proof (Conditional):**
@@ -774,7 +774,7 @@ Conclusion: C₁₅ is generatively true **in compositional systems**. ✓
 ---
 
 ### ✓ C₁₆: EXPRESSIVITY
-**Formula:** \forall State(s) : \exists p : p expresses s
+**Formula:** $\forall State(s) : \exists p : p expresses s$
 **Status:** Contextual Invariant | Presupposes: {C₁₁, C₁₂, C₁₅}
 
 **Fixed-Point Proof (Conditional):**
@@ -796,7 +796,7 @@ Conclusion: C₁₆ is generatively true **in expressive systems**. ✓
 ---
 
 ### ✓ C₁₇: REFLEXIVITY
-**Formula:** \forall S : S can represent itself
+**Formula:** $\forall S : S can represent itself$
 **Status:** Contextual Invariant | Presupposes: {C₁₁–C₁₆}
 
 **Fixed-Point Proof (Conditional):**
@@ -818,7 +818,7 @@ Conclusion: C₁₇ is generatively true **in self-referential systems**. ✓
 ---
 
 ### ✓ C₁₈: CLOSURE OF INFERENCE
-**Formula:** \forall p, q : (p \to q) ∧ p \vdash q
+**Formula:** $\forall p, q : (p \to q) ∧ p \vdash q$
 **Status:** Contextual Invariant | Presupposes: {C₁₁–C₁₇}
 
 **Fixed-Point Proof (Conditional):**
@@ -840,7 +840,7 @@ Conclusion: C₁₈ is generatively true **in deductive systems**. ✓
 ---
 
 ### ✓ C₁₉: FORMAL ADEQUACY
-**Formula:** \exists L : L is sound and consistent
+**Formula:** $\exists L : L is sound and consistent$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₁₈}
 
 **Fixed-Point Proof (Conditional):**
@@ -862,7 +862,7 @@ Conclusion: C₁₉ is generatively true **in formalizable domains**. ✓
 ---
 
 ### ✓ C₂₀: INTENTIONALITY
-**Formula:** \forall Representation(r) : r points-to target
+**Formula:** $\forall Representation(r) : r points-to target$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₁₉}
 
 **Fixed-Point Proof (Conditional):**
@@ -886,7 +886,7 @@ Conclusion: C₂₀ is generatively true **in semantic systems**. ✓
 ## IV. CATEGORY III: TEMPORAL-DYNAMICAL CONDITIONS (C₂₁–C₃₀)
 
 ### ✓ C₂₁: TEMPORALITY
-**Formula:** \exists \prec : Events \to Events (temporal ordering)
+**Formula:** $\exists \prec : Events \to Events (temporal ordering)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₂₀, temporal domain}
 
 **Fixed-Point Proof (Conditional):**
@@ -906,7 +906,7 @@ Conclusion: C₂₁ is generatively true **in temporal systems**. ✓
 ---
 
 ### ✓ C₂₂: CAUSALITY
-**Formula:** \forall e₁, e₂ : (e₁ \to e₂) ∧ (e₂ \rightleftharpoons e₁)
+**Formula:** $\forall e₁, e₂ : (e₁ \to e₂) ∧ (e₂ \rightleftharpoons e₁)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₂₁}
 
 **Fixed-Point Proof (Conditional):**
@@ -928,7 +928,7 @@ Conclusion: C₂₂ is generatively true **in causal systems**. ✓
 ---
 
 ### ✓ C₂₃: IRREVERSIBILITY (SELECTIVE)
-**Formula:** \exists t : Arrow(t) \neq reversible
+**Formula:** $\exists t : Arrow(t) \neq reversible$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₂₂}
 
 **Fixed-Point Proof (Conditional):**
@@ -950,7 +950,7 @@ Conclusion: C₂₃ is generatively true **in thermodynamic systems**. ✓
 ---
 
 ### ✓ C₂₄: RECURSION
-**Formula:** \forall f : f(f(x)) is defined
+**Formula:** $\forall f : f(f(x)) is defined$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₂₃}
 
 **Fixed-Point Proof (Conditional):**
@@ -972,7 +972,7 @@ Conclusion: C₂₄ is generatively true **in recursive systems**. ✓
 ---
 
 ### ✓ C₂₅: MEMORY/RETENTION
-**Formula:** \forall S : \exists History(S, t)
+**Formula:** $\forall S : \exists History(S, t)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₂₄}
 
 **Fixed-Point Proof (Conditional):**
@@ -994,7 +994,7 @@ Conclusion: C₂₅ is generatively true **in learning systems**. ✓
 ---
 
 ### ✓ C₂₆: ANTICIPATION/PROTENTION
-**Formula:** \forall S : \exists Forecast(S, t + Δt)
+**Formula:** $\forall S : \exists Forecast(S, t + Δt)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₂₅}
 
 **Fixed-Point Proof (Conditional):**
@@ -1016,7 +1016,7 @@ Conclusion: C₂₆ is generatively true **in teleological systems**. ✓
 ---
 
 ### ✓ C₂₇: CONTINUITY
-**Formula:** \forall x(t) : lim_{Δt\to0} x(t+Δt) = x(t)
+**Formula:** $\forall x(t) : lim_{Δt\to0} x(t+Δt) = x(t)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₂₆, continuous domain}
 
 **Fixed-Point Proof (Conditional):**
@@ -1038,7 +1038,7 @@ Conclusion: C₂₇ is generatively true **in continuous systems**. ✓
 ---
 
 ### ✓ C₂₈: EMERGENCE
-**Formula:** \exists Property(S) : Property(S) ∉ \bigcup Properties(parts(S))
+**Formula:** $\exists Property(S) : Property(S) ∉ \bigcup Properties(parts(S))$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₂₇}
 
 **Fixed-Point Proof (Conditional):**
@@ -1060,7 +1060,7 @@ Conclusion: C₂₈ is generatively true **in complex systems**. ✓
 ---
 
 ### ✓ C₂₉: FEEDBACK
-**Formula:** \exists Loop : Output(S) \to Input(S)
+**Formula:** $\exists Loop : Output(S) \to Input(S)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₂₈}
 
 **Fixed-Point Proof (Conditional):**
@@ -1082,7 +1082,7 @@ Conclusion: C₂₉ is generatively true **in regulatory systems**. ✓
 ---
 
 ### ✓ C₃₀: PATH-DEPENDENCE
-**Formula:** S(t) = f(History(S, [0, t]))
+**Formula:** $S(t) = f(History(S, [0, t]))$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₂₉}
 
 **Fixed-Point Proof (Conditional):**
@@ -1106,7 +1106,7 @@ Conclusion: C₃₀ is generatively true **in historical systems**. ✓
 ## V. CATEGORY IV: RELATIONAL-STRUCTURAL CONDITIONS (C₃₁–C₄₀)
 
 ### ✓ C₃₁: SPATIALITY
-**Formula:** \exists d : \Lambda \times \Lambda \to \mathbb{R}⁺
+**Formula:** $\exists d : \Lambda \times \Lambda \to \mathbb{R}⁺$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₃₀, spatial domain}
 
 **Fixed-Point Proof (Conditional):**
@@ -1126,7 +1126,7 @@ Conclusion: C₃₁ is generatively true **in spatial systems**. ✓
 ---
 
 ### ✓ C₃₂: SYMMETRY/ASYMMETRY
-**Formula:** \exists g : S \to S where g(S) = S ∨ g(S) \neq S
+**Formula:** $\exists g : S \to S where g(S) = S ∨ g(S) \neq S$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₃₁}
 
 **Fixed-Point Proof (Conditional):**
@@ -1148,7 +1148,7 @@ Conclusion: C₃₂ is generatively true **in structured systems**. ✓
 ---
 
 ### ✓ C₃₃: HIERARCHY
-**Formula:** \exists \preceq : S \times S (partial order)
+**Formula:** $\exists \preceq : S \times S (partial order)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₃₂}
 
 **Fixed-Point Proof (Conditional):**
@@ -1170,7 +1170,7 @@ Conclusion: C₃₃ is generatively true **in complex organized systems**. ✓
 ---
 
 ### ✓ C₃₄: NETWORK CONNECTIVITY
-**Formula:** \exists E \subseteq V \times V : |E| > 0
+**Formula:** $\exists E \subseteq V \times V : |E| > 0$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₃₃}
 
 **Fixed-Point Proof (Conditional):**
@@ -1192,7 +1192,7 @@ Conclusion: C₃₄ is generatively true **in networked systems**. ✓
 ---
 
 ### ✓ C₃₅: BOUNDARY DEFINITION
-**Formula:** \forall S : \exists \partialS
+**Formula:** $\forall S : \exists \partialS$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₃₄}
 
 **Fixed-Point Proof (Conditional):**
@@ -1214,7 +1214,7 @@ Conclusion: C₃₅ is generatively true **in bounded systems**. ✓
 ---
 
 ### ✓ C₃₆: INTEGRATION
-**Formula:** \exists Unity(S) : Parts(S) \to S
+**Formula:** $\exists Unity(S) : Parts(S) \to S$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₃₅}
 
 **Fixed-Point Proof (Conditional):**
@@ -1236,7 +1236,7 @@ Conclusion: C₃₆ is generatively true **in organized systems**. ✓
 ---
 
 ### ✓ C₃₇: MODULARITY
-**Formula:** S = \bigcup Modules_i (semi-independent)
+**Formula:** $S = \bigcup Modules_i (semi-independent)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₃₆}
 
 **Fixed-Point Proof (Conditional):**
@@ -1258,7 +1258,7 @@ Conclusion: C₃₇ is generatively true **in modular systems**. ✓
 ---
 
 ### ✓ C₃₈: RECIPROCAL DETERMINATION
-**Formula:** \forall x, y : x \leftrightarrow y
+**Formula:** $\forall x, y : x \leftrightarrow y$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₃₇}
 
 **Fixed-Point Proof (Conditional):**
@@ -1280,7 +1280,7 @@ Conclusion: C₃₈ is generatively true **in relational systems**. ✓
 ---
 
 ### ✓ C₃₉: DISJUNCTIVE SYNTHESIS (DELEUZIAN UNIVOCITY)
-**Formula:** (\forall x)[Being(x) = Being(y)] \oplus (\forall x, y)[x \neq y]
+**Formula:** $(\forall x)[Being(x) = Being(y)] \oplus (\forall x, y)[x \neq y]$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₃₈}
 
 **Fixed-Point Proof (Conditional):**
@@ -1302,7 +1302,7 @@ Conclusion: C₃₉ is generatively true **in \Lambda-substrate systems**. ✓
 ---
 
 ### ✓ C₄₀: COUPLING
-**Formula:** \exists k : Coupling(x, y) > 0
+**Formula:** $\exists k : Coupling(x, y) > 0$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₃₉}
 
 **Fixed-Point Proof (Conditional):**
@@ -1326,7 +1326,7 @@ Conclusion: C₄₀ is generatively true **in interactive systems**. ✓
 ## VI. CATEGORY V: EPISTEMIC-COGNITIVE CONDITIONS (C₄₁–C₅₀)
 
 ### ✓ C₄₁: INTELLIGIBILITY
-**Formula:** \forall S : \exists Understanding(S)
+**Formula:** $\forall S : \exists Understanding(S)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₄₀}
 
 **Fixed-Point Proof (Conditional):**
@@ -1349,7 +1349,7 @@ Conclusion: C₄₁ is generatively true **in epistemic systems**. ✓
 ---
 
 ### ✓ C₄₂: OBSERVABILITY
-**Formula:** \forall S : \exists Observer(S) ∧ Access(Observer, S)
+**Formula:** $\forall S : \exists Observer(S) ∧ Access(Observer, S)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₄₁}
 
 **Fixed-Point Proof (Conditional):**
@@ -1372,7 +1372,7 @@ Conclusion: C₄₂ is generatively true **in observable systems**. ✓
 ---
 
 ### ✓ C₄₃: MODELABILITY
-**Formula:** \forall S : \exists Model(S) : Model approximates S
+**Formula:** $\forall S : \exists Model(S) : Model approximates S$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₄₂}
 
 **Fixed-Point Proof (Conditional):**
@@ -1395,7 +1395,7 @@ Conclusion: C₄₃ is generatively true **in rational systems**. ✓
 ---
 
 ### ✓ C₄₄: INTERSUBJECTIVITY
-**Formula:** \forall Agent₁, Agent₂ : \exists SharedContent(Agent₁, Agent₂)
+**Formula:** $\forall Agent₁, Agent₂ : \exists SharedContent(Agent₁, Agent₂)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₄₃}
 
 **Fixed-Point Proof (Conditional):**
@@ -1418,7 +1418,7 @@ Conclusion: C₄₄ is generatively true **in social epistemic systems**. ✓
 ---
 
 ### ✓ C₄₅: PERCEPTUAL ACCESS
-**Formula:** \forall Agent : \exists Perception(Agent, World)
+**Formula:** $\forall Agent : \exists Perception(Agent, World)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₄₄}
 
 **Fixed-Point Proof (Conditional):**
@@ -1441,7 +1441,7 @@ Conclusion: C₄₅ is generatively true **in embodied epistemic systems**. ✓
 ---
 
 ### ✓ C₄₆: CONCEPTUAL SCHEME
-**Formula:** \forall Agent : \exists Framework(Agent) organizing experience
+**Formula:** $\forall Agent : \exists Framework(Agent) organizing experience$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₄₅}
 
 **Fixed-Point Proof (Conditional):**
@@ -1464,7 +1464,7 @@ Conclusion: C₄₆ is generatively true **in cognitive systems**. ✓
 ---
 
 ### ✓ C₄₇: TRUTH-APTNESS
-**Formula:** \forall Proposition(p) : p is truth-evaluable
+**Formula:** $\forall Proposition(p) : p is truth-evaluable$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₄₆}
 
 **Fixed-Point Proof (Conditional):**
@@ -1487,7 +1487,7 @@ Conclusion: C₄₇ is generatively true **in logical systems**. ✓
 ---
 
 ### ✓ C₄₈: EPISTEMIC HUMILITY
-**Formula:** \forall Knowledge(K) : \exists Unknown(U) where U ⊈ K
+**Formula:** $\forall Knowledge(K) : \exists Unknown(U) where U ⊈ K$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₄₇}
 
 **Fixed-Point Proof (Conditional):**
@@ -1510,7 +1510,7 @@ Conclusion: C₄₈ is generatively true **in reflective epistemic systems**. �
 ---
 
 ### ✓ C₄₉: LEARNING
-**Formula:** \forall Agent : \exists Δ Knowledge over time
+**Formula:** $\forall Agent : \exists Δ Knowledge over time$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₄₈}
 
 **Fixed-Point Proof (Conditional):**
@@ -1533,7 +1533,7 @@ Conclusion: C₄₉ is generatively true **in adaptive systems**. ✓
 ---
 
 ### ✓ C₅₀: META-COGNITION
-**Formula:** \forall Agent : Agent can represent own cognitive states
+**Formula:** $\forall Agent : Agent can represent own cognitive states$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₄₉}
 
 **Fixed-Point Proof (Conditional):**
@@ -1558,7 +1558,7 @@ Conclusion: C₅₀ is generatively true **in reflective cognitive systems**. �
 ## VII. CATEGORY VI: SEMANTIC-LINGUISTIC CONDITIONS (C₅₁–C₆₀)
 
 ### ✓ C₅₁: REFERENCE
-**Formula:** \forall Term(t) : \exists Referent(t) in domain
+**Formula:** $\forall Term(t) : \exists Referent(t) in domain$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₅₀}
 
 **Fixed-Point Proof (Conditional):**
@@ -1581,7 +1581,7 @@ Conclusion: C₅₁ is generatively true **in linguistic systems**. ✓
 ---
 
 ### ✓ C₅₂: PREDICATION
-**Formula:** \forall Subject(s), Property(P) : can form P(s)
+**Formula:** $\forall Subject(s), Property(P) : can form P(s)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₅₁}
 
 **Fixed-Point Proof (Conditional):**
@@ -1604,7 +1604,7 @@ Conclusion: C₅₂ is generatively true **in propositional language systems**. 
 ---
 
 ### ✓ C₅₃: SEMANTIC COMPOSITIONALITY
-**Formula:** Meaning(A \circ B) = f(Meaning(A), Meaning(B))
+**Formula:** $Meaning(A \circ B) = f(Meaning(A), Meaning(B))$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₅₂}
 
 **Fixed-Point Proof (Conditional):**
@@ -1627,7 +1627,7 @@ Conclusion: C₅₃ is generatively true **in learnable language systems**. ✓
 ---
 
 ### ✓ C₅₄: CONTEXT-SENSITIVITY
-**Formula:** Meaning(t) = f(t, Context(t))
+**Formula:** $Meaning(t) = f(t, Context(t))$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₅₃}
 
 **Fixed-Point Proof (Conditional):**
@@ -1650,7 +1650,7 @@ Conclusion: C₅₄ is generatively true **in pragmatic language systems**. ✓
 ---
 
 ### ✓ C₅₅: TRANSLATION
-**Formula:** \forall L₁, L₂ : \exists Translation(L₁ \to L₂) preserving meaning
+**Formula:** $\forall L₁, L₂ : \exists Translation(L₁ \to L₂) preserving meaning$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₅₄}
 
 **Fixed-Point Proof (Conditional):**
@@ -1673,7 +1673,7 @@ Conclusion: C₅₅ is generatively true **in multi-lingual systems**. ✓
 ---
 
 ### ✓ C₅₆: PERFORMATIVITY
-**Formula:** \exists Utterances(U) : U performs action (speech acts)
+**Formula:** $\exists Utterances(U) : U performs action (speech acts)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₅₅}
 
 **Fixed-Point Proof (Conditional):**
@@ -1696,7 +1696,7 @@ Conclusion: C₅₆ is generatively true **in social-pragmatic systems**. ✓
 ---
 
 ### ✓ C₅₇: METAPHORICAL CAPACITY
-**Formula:** \exists Mappings : Domain₁ \to Domain₂ (non-literal)
+**Formula:** $\exists Mappings : Domain₁ \to Domain₂ (non-literal)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₅₆}
 
 **Fixed-Point Proof (Conditional):**
@@ -1719,7 +1719,7 @@ Conclusion: C₅₇ is generatively true **in creative language systems**. ✓
 ---
 
 ### ✓ C₅₈: LINGUISTIC GENERATIVITY
-**Formula:** \forall Language(L) : can generate novel well-formed expressions
+**Formula:** $\forall Language(L) : can generate novel well-formed expressions$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₅₇}
 
 **Fixed-Point Proof (Conditional):**
@@ -1742,7 +1742,7 @@ Conclusion: C₅₈ is generatively true **in evolving language systems**. ✓
 ---
 
 ### ✓ C₅₉: SEMANTIC STABILITY
-**Formula:** \exists Core meanings stable over time
+**Formula:** $\exists Core meanings stable over time$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₅₈}
 
 **Fixed-Point Proof (Conditional):**
@@ -1765,7 +1765,7 @@ Conclusion: C₅₉ is generatively true **in persistent language systems**. ✓
 ---
 
 ### ✓ C₆₀: AMBIGUITY TOLERANCE
-**Formula:** \forall Term(t) : can have multiple coherent meanings
+**Formula:** $\forall Term(t) : can have multiple coherent meanings$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₅₉}
 
 **Fixed-Point Proof (Conditional):**
@@ -1790,7 +1790,7 @@ Conclusion: C₆₀ is generatively true **in efficient natural language systems
 ## VIII. CATEGORY VII: NORMATIVE-ETHICAL CONDITIONS (C₆₁–C₆₈)
 
 ### ✓ C₆₁: AXIOLOGICAL DISTINCTION
-**Formula:** \exists Value(V), Disvalue(D) : V \neq D
+**Formula:** $\exists Value(V), Disvalue(D) : V \neq D$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₆₀}
 
 **Fixed-Point Proof (Conditional):**
@@ -1813,7 +1813,7 @@ Conclusion: C₆₁ is generatively true **in normative systems**. ✓
 ---
 
 ### ✓ C₆₂: AGENCY
-**Formula:** \exists Agents : can initiate action based on reasons
+**Formula:** $\exists Agents : can initiate action based on reasons$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₆₁}
 
 **Fixed-Point Proof (Conditional):**
@@ -1836,7 +1836,7 @@ Conclusion: C₆₂ is generatively true **in ethical systems**. ✓
 ---
 
 ### ✓ C₆₃: RESPONSIBILITY
-**Formula:** \forall Agent(A), Action(a) : A accountable for a
+**Formula:** $\forall Agent(A), Action(a) : A accountable for a$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₆₂}
 
 **Fixed-Point Proof (Conditional):**
@@ -1859,7 +1859,7 @@ Conclusion: C₆₃ is generatively true **in social-ethical systems**. ✓
 ---
 
 ### ✓ C₆₄: FREEDOM WITHIN CONSTRAINT
-**Formula:** \exists Autonomy(A) ∧ \exists Constraints(C) : A operates within C
+**Formula:** $\exists Autonomy(A) ∧ \exists Constraints(C) : A operates within C$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₆₃}
 
 **Fixed-Point Proof (Conditional):**
@@ -1883,7 +1883,7 @@ Conclusion: C₆₄ is generatively true **in balanced ethical systems**. ✓
 ---
 
 ### ✓ C₆₅: GENERATIVITY AS ETHICAL TELOS
-**Formula:** Maximize OGI(System) as ethical goal
+**Formula:** $Maximize OGI(System) as ethical goal$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₆₄, PGI framework}
 
 **Fixed-Point Proof (Conditional):**
@@ -1906,7 +1906,7 @@ Conclusion: C₆₅ is generatively true **in unified ethical systems**. ✓
 ---
 
 ### ✓ C₆₆: VALUE PLURALISM
-**Formula:** \exists Multiple irreducible values V₁, V₂, ..., Vₙ
+**Formula:** $\exists Multiple irreducible values V₁, V₂, ..., Vₙ$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₆₅}
 
 **Fixed-Point Proof (Conditional):**
@@ -1929,7 +1929,7 @@ Conclusion: C₆₆ is generatively true **in pluralistic ethical systems**. ✓
 ---
 
 ### ✓ C₆₇: JUSTICE
-**Formula:** \exists Fair distribution of goods/burdens
+**Formula:** $\exists Fair distribution of goods/burdens$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₆₆}
 
 **Fixed-Point Proof (Conditional):**
@@ -1952,7 +1952,7 @@ Conclusion: C₆₇ is generatively true **in social systems**. ✓
 ---
 
 ### ✓ C₆₈: CARE
-**Formula:** \exists Relations of caring concern between agents
+**Formula:** $\exists Relations of caring concern between agents$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₆₇}
 
 **Fixed-Point Proof (Conditional):**
@@ -1977,7 +1977,7 @@ Conclusion: C₆₈ is generatively true **in communal systems**. ✓
 ## IX. CATEGORY VIII: MODAL-COUNTERFACTUAL CONDITIONS (C₆₉–C₇₂)
 
 ### ✓ C₆₉: NECESSITY
-**Formula:** \exists Propositions(p) : \Boxp (necessarily true)
+**Formula:** $\exists Propositions(p) : \Boxp (necessarily true)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₆₈}
 
 **Fixed-Point Proof (Conditional):**
@@ -2000,7 +2000,7 @@ Conclusion: C₆₉ is generatively true **in modal systems**. ✓
 ---
 
 ### ✓ C₇₀: POSSIBILITY
-**Formula:** \exists Propositions(p) : \Diamondp (possibly true)
+**Formula:** $\exists Propositions(p) : \Diamondp (possibly true)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₆₉}
 
 **Fixed-Point Proof (Conditional):**
@@ -2023,7 +2023,7 @@ Conclusion: C₇₀ is generatively true **in modal systems**. ✓
 ---
 
 ### ✓ C₇₁: CONTINGENCY
-**Formula:** \exists Propositions(p) : \Diamondp ∧ \Diamond\negp (contingent)
+**Formula:** $\exists Propositions(p) : \Diamondp ∧ \Diamond\negp (contingent)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₇₀}
 
 **Fixed-Point Proof (Conditional):**
@@ -2046,7 +2046,7 @@ Conclusion: C₇₁ is generatively true **in agentive modal systems**. ✓
 ---
 
 ### ✓ C₇₂: COUNTERFACTUAL DEPENDENCE
-**Formula:** \forall A, B : (A \Box\to B) iff (\negA \Box\to \negB) in nearby worlds
+**Formula:** $\forall A, B : (A \Box\to B) iff (\negA \Box\to \negB) in nearby worlds$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₇₁}
 
 **Fixed-Point Proof (Conditional):**
@@ -2071,7 +2071,7 @@ Conclusion: C₇₂ is generatively true **in causal-modal systems**. ✓
 ## X. CATEGORY IX: EXISTENTIAL-PHENOMENOLOGICAL CONDITIONS (C₇₃–C₇₆)
 
 ### ✓ C₇₃: GIVENNESS
-**Formula:** \exists Immediate presentation to consciousness (pre-reflective access)
+**Formula:** $\exists Immediate presentation to consciousness (pre-reflective access)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₇₂}
 
 **Fixed-Point Proof (Conditional):**
@@ -2094,7 +2094,7 @@ Conclusion: C₇₃ is generatively true **in phenomenological systems**. ✓
 ---
 
 ### ✓ C₇₄: INTENTIONALITY (Phenomenological)
-**Formula:** \forall Consciousness(C) : C is directed toward objects (aboutness)
+**Formula:** $\forall Consciousness(C) : C is directed toward objects (aboutness)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₇₃}
 
 **Fixed-Point Proof (Conditional):**
@@ -2117,7 +2117,7 @@ Conclusion: C₇₄ is generatively true **in phenomenological systems**. ✓
 ---
 
 ### ✓ C₇₅: AFFECTIVITY
-**Formula:** \exists Emotional/affective dimension to experience
+**Formula:** $\exists Emotional/affective dimension to experience$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₇₄}
 
 **Fixed-Point Proof (Conditional):**
@@ -2140,7 +2140,7 @@ Conclusion: C₇₅ is generatively true **in agentive phenomenological systems*
 ---
 
 ### ✓ C₇₆: EMBODIMENT
-**Formula:** Consciousness is embodied (not disembodied Cartesian ego)
+**Formula:** $Consciousness is embodied (not disembodied Cartesian ego)$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₇₅}
 
 **Fixed-Point Proof (Conditional):**
@@ -2165,7 +2165,7 @@ Conclusion: C₇₆ is generatively true **in situated phenomenological systems*
 ## XI. CATEGORY X: SYSTEMIC-INTEGRATIVE CONDITIONS (C₇₇–C₇₉)
 
 ### ✓ C₇₇: SYSTEM-ENVIRONMENT DISTINCTION**
-**Formula:** \exists boundary between S and environment
+**Formula:** $\exists boundary between S and environment$
 **Status:** Contextual Invariant
 
 **Fixed-Point Proof:**
@@ -2183,7 +2183,7 @@ Substrate iteration:
 ---
 
 **✓ C₇₈: OPEN-ENDED EVOLUTION**
-**Formula:** \exists path to new possibility spaces
+**Formula:** $\exists path to new possibility spaces$
 **Status:** Contextual Invariant
 
 **Fixed-Point Proof:**
@@ -2201,7 +2201,7 @@ Substrate iteration:
 ---
 
 **✓ C₇₉: ARCHITECTURAL BLOOM (TIL)**
-**Formula:** \forall SAT : severity(SAT) \geq \theta \implies B(SAT) = ⟨new-operator, new-axiom, new-domain⟩
+**Formula:** $\forall SAT : severity(SAT) \geq \theta \implies B(SAT) = ⟨new-operator, new-axiom, new-domain⟩$
 **Status:** Contextual Invariant | Presupposes: {C₁–C₇₈, contradiction detection}
 
 **Fixed-Point Proof:**
