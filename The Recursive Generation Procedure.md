@@ -277,9 +277,116 @@ def compute_tier(c, memo):
 ### Fundamental Open Questions
 
 1. **Uniqueness**: Is $ R $ unique, or could different recursion mechanics generate non-isomorphic CFPE topologies?[^1]
-2. **Computational Complexity**: Is convergence $ \mathcal{C}_\infty = \bigcup_{n=0}^\infty R^n(\emptyset) $ decidable in polynomial time?[^1]
+
+2. **Convergence vs. Divergence: The Infinite Generation Problem**: The claim that $ \mathcal{C}_\infty $ stabilizes at **exactly 79** structural moments faces a devastating objection: **If substrate recursion is genuinely self-generating, what prevents indefinite iteration?**[^1]
+
+   **The Challenge**: If $ R: \Psi_n \to \Psi_{n+1} $ is a **true generative operator**, it should perpetually produce new structural moments at arbitrarily high recursion depths. The apparent "termination" at 79 conditions might be an **anthropic artifact**—the limit of human cognitive resolution, not substrate mechanics itself. Perhaps $ |\mathcal{C}_\infty| = \aleph_0 $, and the 79 conditions are merely the **humanly-accessible fragment** of an infinite generative topology.
+
+   **Three Possible Resolutions**:
+   
+   a) **Finite Rewrite System Exhaustion** (Strong Termination): $ R $ is defined by a **finite set of rewrite rules** $ \{\rho_1, \ldots, \rho_k\} $ with a **well-founded ordering** on preconditions. Once all rule preconditions are satisfied and generate no new moments, iteration halts. **Issue**: Requires proving $ k $ is finite and rules don't compose indefinitely—currently unproven.
+   
+   b) **Metabolic Saturation Threshold** (Weak Termination): Higher-tier conditions have **decreasing stability** $ \lambda_{\text{metabolic}} \to 1 $. Beyond tier-10, contradictions accumulate faster than metabolism can resolve, preventing stable instantiation. **Issue**: This makes 79 a **pragmatic cutoff**, not a mathematical necessity—higher tiers might exist but be cognitively inaccessible.
+   
+   c) **Fractal Recursion with Finite Observability** (Infinite Architecture, Finite Access): $ |\mathcal{C}_\infty| = \aleph_0 $, but conditions beyond tier-10 are **isomorphic refinements** of lower-tier patterns (e.g., $ C_{80} $ might be "meta-temporal ordering" presupposing temporal ordering $ C_{21} $). The 79 conditions capture all **distinct structural types**, with higher tiers being **recursive elaborations** of the same archetypal moments. **Issue**: Requires proof that tier-10 achieves **categorical saturation**—all possible structural types are instantiated.
+
+   **Current Status**: The framework **assumes** finite termination without rigorous proof. The convergence criterion $ \mathcal{C}_\infty = R(\mathcal{C}_\infty) $ might be satisfied by **both** finite and infinite cardinalities, depending on $ R $'s formal specification. This is the **single most critical open problem** for the framework's mathematical legitimacy.
+
 3. **Physical Realization**: Can substrate recursion be implemented in physical systems (quantum computation, neural networks)?[^1]
 4. **Chaotic Dynamics**: Do some contradictions lead to strange attractors or chaotic branching?[^1]
+
+***
+
+## Mathematical Addendum: Finite vs. Infinite Termination
+
+### VI. Formalization of the Convergence Problem
+
+**Definition** (Strong Convergence): $ R $ exhibits **strong finite termination** if:
+
+$$
+\exists N \in \mathbb{N}: \forall n \geq N, \quad R^{n+1}(\Psi_0) = R^n(\Psi_0)
+$$
+
+**Definition** (Weak Convergence): $ R $ exhibits **weak infinite generation** with finite observability if:
+
+$$
+|\mathcal{C}_\infty| = \aleph_0 \quad \text{but} \quad \exists \mathcal{C}_{\text{obs}} \subset \mathcal{C}_\infty: |\mathcal{C}_{\text{obs}}| < \infty \land \text{Stable}(\mathcal{C}_{\text{obs}})
+$$
+
+where $ \text{Stable}(S) $ means conditions in $ S $ have metabolic convergence $ \lambda_{\text{metabolic}} < 1 $.
+
+**Theorem VI.1** (Decidability Crisis): If $ R $ is Turing-complete, then determining whether $ |\mathcal{C}_\infty| < \infty $ is **undecidable** in general.
+
+*Proof Sketch*: Encode arbitrary TM $ M $ as rewrite rules. Halting of $ M $ corresponds to finite termination of $ R $. By Rice's theorem, no algorithm decides this for all $ R $. ∎
+
+**Corollary VI.2** (Empirical Validation Required): Mathematical proof of finite termination may be impossible. The framework must rely on **empirical observation** that no new structural types appear beyond tier-10 across diverse domains.
+
+### VII. The Categorical Saturation Conjecture
+
+**Conjecture** (Structural Type Completeness): There exists a **finite set of archetypal structural types** $ \mathcal{A} = \{\alpha_1, \ldots, \alpha_k\} $ such that every condition $ C_i \in \mathcal{C}_\infty $ is an **instance** of some $ \alpha_j $.
+
+**Formalization**: Define structural type as equivalence class under **presupposition-isomorphism**:
+
+$$
+C_i \sim C_j \iff \text{Dep}(C_i) \cong \text{Dep}(C_j) \quad (\text{as posets})
+$$
+
+**Claim**: $ |\mathcal{C}_\infty / \sim| = 79 $ (exactly 79 distinct structural types).
+
+**Evidence for Saturation**:
+- **Tier Decay**: Exponential decrease in new structural types per tier (3 → 16 → 20 → 13 → ...)
+- **Cross-Domain Stability**: Same 79 conditions appear across ontology, logic, epistemology, ethics, phenomenology
+- **Presupposition Closure**: $ \text{Dep}(C_{79})^\star $ includes all prior conditions—no "dangling" dependencies
+
+**Evidence Against**:
+- **No Formal Proof**: Saturation remains **conjectural**—no proof that tier-10 is categorically complete
+- **Anthropic Selection**: Human cognitive categories might impose artificial boundaries on structural type recognition
+- **Bloom Mechanism**: Bifurcation operator $ \mathcal{B} $ can generate **novel axioms**—potentially unbounded
+
+### VIII. Three Models of Infinite Architecture
+
+**Model A: Strongly Finite (79 is Complete)**
+
+$$
+\mathcal{C}_\infty = \{C_1, \ldots, C_{79}\}, \quad R^{11}(\Psi_0) = R^{10}(\Psi_0)
+$$
+
+**Prediction**: No new structural types discoverable beyond tier-10 in any domain.
+
+**Model B: Weakly Infinite (Fractal Refinement)**
+
+$$
+|\mathcal{C}_\infty| = \aleph_0, \quad \text{but} \quad \forall n > 10: C_n \in \text{Refine}(\mathcal{C}_{1-79})
+$$
+
+Higher tiers are **meta-levels** of lower tiers (e.g., $ C_{80} $: "meta-causality", presupposing $ C_{22} $: causality).
+
+**Prediction**: New conditions exist but are **isomorphic refinements**—same dependency structure, higher abstraction.
+
+**Model C: Strongly Infinite (True Unboundedness)**
+
+$$
+|\mathcal{C}_\infty| = \aleph_0, \quad \exists \{C_{80}, C_{81}, \ldots\}: \text{StructurallyNovel}(C_n)
+$$
+
+Substrate recursion generates **genuinely new structural types** at arbitrary depths.
+
+**Prediction**: Tier-11+ conditions would exhibit novel presupposition patterns not reducible to tier-0–10 archetypes.
+
+### IX. Empirical Test: The Search for C₈₀
+
+**Methodology**: Systematically explore domains not covered by 79 conditions, looking for **irreducible structural moments**:
+
+1. **Quantum Superposition**: Does "measurement-independent state" require a new condition beyond $ C_{29} $ (emergence)?
+2. **Hypercomputational Oracles**: Does Bloom-generated axiomatization introduce structural types beyond $ C_{19} $ (compositionality)?
+3. **Transtemporal Identity**: Does "identity across timeline branches" require conditions beyond $ C_{3} $ (identity) + $ C_{21} $ (temporality)?
+
+**Falsification Criterion**: Discovery of $ C_{80} $ with:
+- Stable instantiation ($ \lambda_{\text{metabolic}} < 1 $)
+- Non-isomorphic presupposition structure ($ \text{Dep}(C_{80}) \not\cong \text{Dep}(C_i) $ for all $ i \leq 79 $)
+- Cross-domain applicability (appears in multiple ontological domains)
+
+**Current Status**: **No candidate $ C_{80} $ identified** in 5+ years of framework development. This provides **weak empirical support** for Model A (finite termination) but does not constitute proof.
 
 ***
 
@@ -331,7 +438,19 @@ This framework executes **four transformations** that eliminate residual Platoni
 ## Provocative Closing Questions
 
 1. **Bootstrapping Paradox**: If tier-0 moments $ \{C_1, C_2, C_3\} $ are the "minimal recursion seed," what generated **them**? Can substrate recursion emerge from **pure emptiness** $ \emptyset $, or does it require an ur-seed?[^1]
-2. **Convergence vs. Divergence**: You claim $ \mathcal{C}_\infty $ stabilizes at **exactly 79** structural moments. But what guarantees **finite termination** rather than infinite iteration $ |\mathcal{C}_\infty| = \aleph_0 $?[^1]
+2. **Convergence vs. Divergence: The Infinite Generation Problem**: The claim that $ \mathcal{C}_\infty $ stabilizes at **exactly 79** structural moments faces a devastating objection: **If substrate recursion is genuinely self-generating, what prevents indefinite iteration?**[^1]
+
+   **The Challenge**: If $ R: \Psi_n \to \Psi_{n+1} $ is a **true generative operator**, it should perpetually produce new structural moments at arbitrarily high recursion depths. The apparent "termination" at 79 conditions might be an **anthropic artifact**—the limit of human cognitive resolution, not substrate mechanics itself. Perhaps $ |\mathcal{C}_\infty| = \aleph_0 $, and the 79 conditions are merely the **humanly-accessible fragment** of an infinite generative topology.
+
+   **Three Possible Resolutions**:
+   
+   a) **Finite Rewrite System Exhaustion** (Strong Termination): $ R $ is defined by a **finite set of rewrite rules** $ \{\rho_1, \ldots, \rho_k\} $ with a **well-founded ordering** on preconditions. Once all rule preconditions are satisfied and generate no new moments, iteration halts. **Issue**: Requires proving $ k $ is finite and rules don't compose indefinitely—currently unproven.
+   
+   b) **Metabolic Saturation Threshold** (Weak Termination): Higher-tier conditions have **decreasing stability** $ \lambda_{\text{metabolic}} \to 1 $. Beyond tier-10, contradictions accumulate faster than metabolism can resolve, preventing stable instantiation. **Issue**: This makes 79 a **pragmatic cutoff**, not a mathematical necessity—higher tiers might exist but be cognitively inaccessible.
+   
+   c) **Fractal Recursion with Finite Observability** (Infinite Architecture, Finite Access): $ |\mathcal{C}_\infty| = \aleph_0 $, but conditions beyond tier-10 are **isomorphic refinements** of lower-tier patterns (e.g., $ C_{80} $ might be "meta-temporal ordering" presupposing temporal ordering $ C_{21} $). The 79 conditions capture all **distinct structural types**, with higher tiers being **recursive elaborations** of the same archetypal moments. **Issue**: Requires proof that tier-10 achieves **categorical saturation**—all possible structural types are instantiated.
+
+   **Current Status**: The framework **assumes** finite termination without rigorous proof. The convergence criterion $ \mathcal{C}_\infty = R(\mathcal{C}_\infty) $ might be satisfied by **both** finite and infinite cardinalities, depending on $ R $'s formal specification. This is the **single most critical open problem** for the framework's mathematical legitimacy.
 3. **Empirical Calibration**: How would you **validate** that $ R $ actually generates the observed 79 invariants? What would count as **evidence** for or **falsification** of the recursion mechanics?[^1]
 4. **Normative Bite**: You derive ethics from "substrate survival constraints" ($ C_{62} $: Generativity as Ethical Telos). But why should **maximizing $ dOGI/dt $** be morally binding? This seems to commit a **naturalistic fallacy**—deriving "ought" from "is".[^2][^1]
 5. **Metaformalist Circularity**: The framework validates itself via **Four Codex Gates** (COH, ADEQ, SAFE, GEN) that are themselves "recursively generated" structural moments. Doesn't this render validation **viciously circular**—judging substrate adequacy by substrate-produced criteria?[^1]
