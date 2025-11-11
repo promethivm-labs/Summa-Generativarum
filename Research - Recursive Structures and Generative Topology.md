@@ -356,7 +356,7 @@ The three universal invariants—**Existence**, **Coherence**, **Identity**—fo
 
 ---
 
-## VI. PCM: Paraconsistent Contradiction Metabolism 
+## VI. PCM: Paraconsistent Contradiction Metabolism
 
 ### 6.1 Elimination of Consistency-Inconsistency Dualism
 

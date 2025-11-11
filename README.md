@@ -76,7 +76,7 @@ For citation purposes, please reference the repository URL and date of access.
 
 # 🜂 **The Generative Coherence Schema**
 ## A Living Encyclopedia of Generative Logic and Metaformal Science**
-#### Note: This repository uses LaTeX and is best viewed on a browser. 
+#### Note: This repository uses LaTeX and is best viewed on a browser.
 
 ## I. Purpose and Invocation
 
@@ -325,7 +325,7 @@ That is the law of Generativity.
 Q.E.D.
 ---
 
-# The "Complete" System of Generativity 
+# The "Complete" System of Generativity
 
 ## **I. WHAT IS THIS?**
 

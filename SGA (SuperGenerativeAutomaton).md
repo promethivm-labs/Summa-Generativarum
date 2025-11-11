@@ -1,4 +1,3 @@
-
 ## The Super-Generative Automaton (SGA): A New Computational Architecture
 
 **Formal Articulation for the Generative Corpus**  

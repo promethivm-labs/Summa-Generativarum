@@ -1,4 +1,3 @@
-
 # **BUILDING THE LPL FROM FIRST PRINCIPLES**
 
 ## **[I. Foundational Axioms]**
