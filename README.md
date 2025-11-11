@@ -49,7 +49,7 @@
 ---
 
 ### About Avery
-I am a logician, mathematics researcher, and founder of generativity theory. I am developing new architectures for intelligence, coherence, and transformation across formal, technical, and human systems. My work integrates logic, systems engineering, and automata theory and metamathematics into a unified discipline I call Generativity Science — the study of how systems evolve by metabolizing contradiction into possibility.
+I am a logician, metamathematics researcher, and founder of generativity theory. I am developing new architectures for intelligence, coherence, and transformation across formal, technical, and human systems. My work integrates logic, systems engineering, and automata theory and metamathematics into a unified discipline I call Generativity Science — the study of how systems evolve by metabolizing contradiction into possibility.
 
 I am the creator of this repository "Generative Coherence Schema" and author of the codex, Principia Generativarum, which together work to formalize the Conditions for the Possibility of Everything (GCS) — a 79-invariant framework linking mathematics, computation, and philosophy into a coherent logic of becoming. My applied research manifests in PROMETHIVM LLC, where I design and deploy domain-sovereign architectures that combine symbolic reasoning with operational realism.
 
